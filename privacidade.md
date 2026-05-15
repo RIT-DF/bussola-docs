@@ -7,7 +7,7 @@
 
 ## 1. Quem somos
 
-O **Bússola Financeira** é uma plataforma de gestão financeira desenvolvida e operada pela **RIT — Rede de Inovação e Transformação** (CNPJ: a preencher), com sede em Brasília – DF.
+O **Bússola Financeira** é uma plataforma de gestão financeira desenvolvida e operada pela **RIT — Rede de Inovação e Transformação** (CNPJ: 59.905.202/0001-25), com sede em SMPW Qd. 25, Conjunto 4, Lote 10, Unidade C – Park Way – Brasília – DF – CEP 71745-504.
 
 O Bússola é disponibilizado a organizações da sociedade civil (OSCs) mediante cadastro. A **RIT** atua como controladora dos dados de infraestrutura, acesso e operação da plataforma. Cada **OSC** atua como controladora dos dados financeiros e operacionais dos seus próprios membros e atividades. Ambas compartilham responsabilidades conforme detalhado nesta política.
 
@@ -140,4 +140,4 @@ Esta política é regida pela **Lei Geral de Proteção de Dados Pessoais (LGPD 
 
 ---
 
-*RIT — Rede de Inovação e Transformação · dpo@rit.org.br*
+*RIT — Rede de Inovação e Transformação · CNPJ 59.905.202/0001-25 · dpo@rit.org.br · [rit.org.br](https://rit.org.br)*
