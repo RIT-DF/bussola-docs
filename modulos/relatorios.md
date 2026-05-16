@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: section
 title: Relatórios
 permalink: /modulos/relatorios/
 ---

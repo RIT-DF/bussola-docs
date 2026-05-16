@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: section
 title: "Configurações — Categorias"
 permalink: /configuracoes/categorias/
 ---
