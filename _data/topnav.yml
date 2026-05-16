@@ -1,0 +1,19 @@
+- title: Início
+  url: /
+- title: Primeiros Passos
+  url: /primeiros-passos/
+- title: Módulos
+  url: /modulos/painel/
+  prefix: /modulos/
+- title: Configurações
+  url: /configuracoes/perfil/
+  prefix: /configuracoes/
+- title: Papéis
+  url: /papeis/
+- title: FAQ
+  url: /faq/
+- title: Changelog
+  url: /changelog/
+- title: Legal
+  url: /privacidade/
+  prefix: /privacidade/

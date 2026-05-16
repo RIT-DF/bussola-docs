@@ -1,0 +1,51 @@
+- title: Início
+  url: /
+
+- title: Primeiros Passos
+  url: /primeiros-passos/
+
+- title: Módulos
+  children:
+    - title: Painel
+      url: /modulos/painel/
+    - title: Movimentações
+      url: /modulos/movimentacoes/
+    - title: Reembolsos
+      url: /modulos/reembolsos/
+    - title: Pedidos de Pagamento
+      url: /modulos/pedidos-pagamento/
+    - title: Projetos
+      url: /modulos/projetos/
+    - title: Relatórios
+      url: /modulos/relatorios/
+
+- title: Configurações
+  children:
+    - title: Perfil
+      url: /configuracoes/perfil/
+    - title: Usuários
+      url: /configuracoes/usuarios/
+    - title: Organização
+      url: /configuracoes/organizacao/
+    - title: Contas Financeiras
+      url: /configuracoes/contas/
+    - title: Categorias
+      url: /configuracoes/categorias/
+    - title: Fluxo de Aprovação
+      url: /configuracoes/workflow/
+
+- title: Papéis e Permissões
+  url: /papeis/
+
+- title: FAQ
+  url: /faq/
+
+- title: Changelog
+  url: /changelog/
+
+- title: Legal
+  children:
+    - title: Privacidade
+      url: /privacidade/
+    - title: Termos de Uso
+      url: /termos/

@@ -1,3 +1,9 @@
+---
+layout: docs
+title: Política de Privacidade
+permalink: /privacidade/
+---
+
 # Política de Privacidade — Bússola Financeira
 
 **Vigência:** 15 de maio de 2026

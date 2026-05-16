@@ -1,3 +1,9 @@
+---
+layout: docs
+title: Termos de Uso
+permalink: /termos/
+---
+
 # Termos de Uso — Bússola Financeira
 
 **Vigência:** 15 de maio de 2026
