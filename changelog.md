@@ -13,6 +13,15 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ## [Não lançado]
 
+### Adicionado (Documentação pública — 2026-05-15)
+- **Site de documentação multi-página** em `https://rit-df.github.io/bussola-docs/`: substituído o manual em página única por site Jekyll com navegação por abas (Início, Primeiros Passos, Módulos, Configurações, Papéis, FAQ, Changelog, Legal); cada módulo e aba de configurações tem página dedicada
+- **Sub-navegação por seção**: pills de navegação abaixo do título em todas as páginas de Módulos, Configurações e Legal, permitindo navegar entre páginas da seção sem sair da tela
+- **Screenshots de configurações** sem dados pessoais: Organização, Contas, Categorias, Fluxo de Aprovação — imagens capturadas com dados fictícios; abas Perfil e Usuários sem screenshot (dados reais visíveis)
+
+### Corrigido (Documentação pública — 2026-05-15)
+- **Links absolutos quebrados no GitHub Pages**: 10 links com caminhos absolutos (`/configuracoes/perfil/` etc.) geravam 404; convertidos para caminhos relativos em 8 arquivos
+- **Screenshot de perfil com dados pessoais reais**: `manual-09-config-perfil.png` continha telefone, e-mail e CPF reais; arquivo removido e referência eliminada da página de perfil
+
 ### Adicionado (Onda 4 — Pedidos de Pagamento)
 - **Módulo de Pedidos de Pagamento**: novo módulo completo para solicitação formal de pagamentos a fornecedores e prestadores externos, com fluxo de aprovação configurável e lançamento automático em `financial_movements`; tabelas `purchase_orders`, `purchase_order_approvals`, `purchase_order_attachments`; EFs `submit_purchase_order`, `reject_purchase_order`, `approve_purchase_order`, `pay_purchase_order`; `movement_origin` estendido com valor `purchase_order`
 - **Página `/pagamentos` unificada**: abas "Pedidos de pagamento" e "Reembolsos" (aba de reembolsos reutiliza componente existente sem alteração); sub-abas por status (Todos / Rascunho / Aguardando aprovação / Aprovado / Rejeitado / Pago); cards-resumo condicionais ao papel (aprovador, tesoureiro, todos); coluna Ações com botões Aprovar / Reprovar condicionais ao papel e status; ícone "Marcar como pago" não aparece na lista — pagamento é confirmado via `/movimentacoes` (igual a Reembolsos)
