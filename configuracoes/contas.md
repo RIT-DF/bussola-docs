@@ -6,7 +6,7 @@ permalink: /configuracoes/contas/
 
 > Disponível apenas para o papel **Presidente (admin)**.
 
-[![Configurações — Contas](../../assets/screenshots/manual-09d-config-contas.png)](../../assets/screenshots/manual-09d-config-contas.png)
+[![Configurações — Contas](../../assets/screenshots/config-contas.png)](../../assets/screenshots/config-contas.png)
 *Configurações — Contas financeiras — v0.10 (beta)*
 
 Lista as contas bancárias e financeiras da organização com saldo atual, tipo e status.

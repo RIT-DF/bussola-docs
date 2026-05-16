@@ -6,7 +6,7 @@ permalink: /configuracoes/organizacao/
 
 > Disponível apenas para o papel **Presidente (admin)**.
 
-[![Configurações — Organização](../../assets/screenshots/manual-09c-config-organizacao.png)](../../assets/screenshots/manual-09c-config-organizacao.png)
+[![Configurações — Organização](../../assets/screenshots/config-organizacao.png)](../../assets/screenshots/config-organizacao.png)
 *Configurações — Dados da organização — v0.10 (beta)*
 
 ## Identidade da OSC

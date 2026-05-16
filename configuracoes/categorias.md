@@ -6,7 +6,7 @@ permalink: /configuracoes/categorias/
 
 > Disponível apenas para o papel **Presidente (admin)**.
 
-[![Configurações — Categorias](../../assets/screenshots/manual-09e-config-categorias.png)](../../assets/screenshots/manual-09e-config-categorias.png)
+[![Configurações — Categorias](../../assets/screenshots/config-categorias.png)](../../assets/screenshots/config-categorias.png)
 *Configurações — Categorias — v0.10 (beta)*
 
 Organize as categorias de receita, despesa e centros de custo da organização.
