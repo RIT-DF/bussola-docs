@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 title: "Configurações — Usuários"
 permalink: /configuracoes/usuarios/
 ---

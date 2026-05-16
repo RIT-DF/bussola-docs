@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 title: "Configurações — Fluxo de Aprovação"
 permalink: /configuracoes/workflow/
 ---

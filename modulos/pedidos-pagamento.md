@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 title: Pedidos de Pagamento
 permalink: /modulos/pedidos-pagamento/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 title: Primeiros Passos
 permalink: /primeiros-passos/
 ---

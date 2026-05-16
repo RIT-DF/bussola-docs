@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 title: Perguntas Frequentes
 permalink: /faq/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 title: Movimentações Financeiras
 permalink: /modulos/movimentacoes/
 ---

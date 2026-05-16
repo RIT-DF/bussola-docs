@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 title: Termos de Uso
 permalink: /termos/
 ---

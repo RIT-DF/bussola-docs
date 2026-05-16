@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 title: "Configurações — Contas Financeiras"
 permalink: /configuracoes/contas/
 ---

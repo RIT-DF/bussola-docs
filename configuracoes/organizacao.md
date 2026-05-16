@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 title: "Configurações — Organização"
 permalink: /configuracoes/organizacao/
 ---

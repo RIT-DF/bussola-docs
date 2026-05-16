@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 title: Política de Privacidade
 permalink: /privacidade/
 ---

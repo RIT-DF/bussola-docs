@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 title: Painel
 permalink: /modulos/painel/
 ---
