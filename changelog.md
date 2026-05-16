@@ -1,5 +1,7 @@
 ---
----
+layout: page
+title: Changelog
+permalink: /changelog/
 ---
 
 # Changelog — Bússola Financeira
