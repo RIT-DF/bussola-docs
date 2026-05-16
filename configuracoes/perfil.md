@@ -6,9 +6,6 @@ permalink: /configuracoes/perfil/
 
 Disponível para todos os usuários. Acesse pelo menu **Configurações → Perfil**.
 
-[![Configurações — Perfil](../../assets/screenshots/manual-09-config-perfil.png)](../../assets/screenshots/manual-09-config-perfil.png)
-*Configurações — Perfil pessoal — v0.10 (beta)*
-
 ## Identificação
 
 - **Foto de perfil** — JPG, PNG ou WebP, até 2 MB
