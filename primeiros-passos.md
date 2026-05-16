@@ -49,4 +49,4 @@ No canto superior direito ficam: o botão de **Feedback**, o seletor de **organi
 
 ## O que cada papel pode fazer
 
-Veja a página [Papéis e Permissões](/papeis/) para entender o que cada papel de usuário pode acessar e fazer na plataforma.
+Veja a página [Papéis e Permissões](../papeis/) para entender o que cada papel de usuário pode acessar e fazer na plataforma.

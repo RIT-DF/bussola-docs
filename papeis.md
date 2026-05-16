@@ -22,8 +22,8 @@ O Bússola tem quatro papéis de usuário dentro de uma organização:
 
 ## Quem aprova reembolsos e pedidos?
 
-O fluxo de aprovação é configurável pelo administrador em [Configurações → Fluxo de Aprovação](/configuracoes/workflow/). Por padrão, Presidente e Tesoureiro são os aprovadores elegíveis.
+O fluxo de aprovação é configurável pelo administrador em [Configurações → Fluxo de Aprovação](../configuracoes/workflow/). Por padrão, Presidente e Tesoureiro são os aprovadores elegíveis.
 
 ## Alterar o papel de um usuário
 
-Apenas o Presidente pode alterar papéis. Acesse [Configurações → Usuários](/configuracoes/usuarios/), localize o membro e use o menu de ações para alterar o papel.
+Apenas o Presidente pode alterar papéis. Acesse [Configurações → Usuários](../configuracoes/usuarios/), localize o membro e use o menu de ações para alterar o papel.

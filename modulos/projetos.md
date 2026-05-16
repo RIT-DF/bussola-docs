@@ -13,4 +13,4 @@ O módulo de **Projetos** está em construção e estará disponível em breve.
 
 **Projetos** permitirá vincular movimentações, reembolsos e pedidos de pagamento a projetos específicos da organização — campanhas, eventos, atividades — facilitando a prestação de contas por projeto.
 
-Fique de olho nas atualizações no [Changelog](/changelog/).
+Fique de olho nas atualizações no [Changelog](../../changelog/).

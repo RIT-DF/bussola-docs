@@ -38,7 +38,7 @@ O sistema gera automaticamente uma movimentação financeira de despesa vinculad
 
 ## Onde configuro minha chave PIX para receber reembolsos?
 
-Em [Configurações → Perfil](/configuracoes/perfil/), na seção **Dados para reembolso**. Configure lá uma vez; o formulário de nova solicitação de reembolso vai preencher automaticamente na próxima vez.
+Em [Configurações → Perfil](../configuracoes/perfil/), na seção **Dados para reembolso**. Configure lá uma vez; o formulário de nova solicitação de reembolso vai preencher automaticamente na próxima vez.
 
 ## Tenho uma sugestão ou encontrei um erro. Como informo?
 

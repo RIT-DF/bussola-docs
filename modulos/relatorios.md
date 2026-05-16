@@ -13,4 +13,4 @@ O módulo de **Relatórios** está em construção e estará disponível em brev
 
 **Relatórios** trará análises financeiras consolidadas, gráficos de evolução e relatórios prontos para prestação de contas a financiadores, conselhos e assembleias.
 
-Fique de olho nas atualizações no [Changelog](/changelog/).
+Fique de olho nas atualizações no [Changelog](../../changelog/).

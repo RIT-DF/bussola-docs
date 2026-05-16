@@ -22,4 +22,4 @@ Mostra todos os membros da organização com nome, e-mail, papel, status e últi
 
 Clique em **+ Adicionar usuário**, informe o e-mail e o papel desejado. O sistema envia automaticamente um e-mail de convite com o link de primeiro acesso.
 
-Para entender as diferenças entre os papéis disponíveis, veja a página [Papéis e Permissões](/papeis/).
+Para entender as diferenças entre os papéis disponíveis, veja a página [Papéis e Permissões](../../papeis/).

@@ -9,7 +9,7 @@ permalink: /configuracoes/workflow/
 [![Configurações — Fluxo de Aprovação](../../assets/screenshots/config-workflow.png)](../../assets/screenshots/config-workflow.png)
 *Configurações — Fluxo de aprovação — v0.10 (beta)*
 
-Configure quem pode aprovar [reembolsos](/modulos/reembolsos/) e [pedidos de pagamento](/modulos/pedidos-pagamento/).
+Configure quem pode aprovar [reembolsos](../../modulos/reembolsos/) e [pedidos de pagamento](../../modulos/pedidos-pagamento/).
 
 ## Aprovações necessárias
 

@@ -32,4 +32,4 @@ Disponível para todos os usuários. Acesse pelo menu **Configurações → Perf
 
 ## Dados para reembolso
 
-Configure sua chave PIX ou dados bancários aqui. O formulário de [nova solicitação de reembolso](/modulos/reembolsos/) vai preencher automaticamente esses dados, poupando tempo.
+Configure sua chave PIX ou dados bancários aqui. O formulário de [nova solicitação de reembolso](../../modulos/reembolsos/) vai preencher automaticamente esses dados, poupando tempo.

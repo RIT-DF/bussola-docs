@@ -74,7 +74,7 @@ Clique em **+ Nova solicitação** para abrir o formulário.
 
 **Campos opcionais:** Categoria, Projeto, Centro de custo, Observações.
 
-> **Dica:** Os dados de pagamento são preenchidos automaticamente se você configurou seu **Método de pagamento padrão** em [Configurações → Perfil](/configuracoes/perfil/).
+> **Dica:** Os dados de pagamento são preenchidos automaticamente se você configurou seu **Método de pagamento padrão** em [Configurações → Perfil](../../configuracoes/perfil/).
 
 **Botões de ação:**
 - **Salvar rascunho** — salva sem enviar; você pode editar e enviar depois
