@@ -13,6 +13,22 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ## [Pré-teste em andamento]
 
+## [0.11.0] — 2026-05-18
+
+### Adicionado
+- **Pedidos de pagamento recorrentes** (BK-155): agora é possível solicitar pagamentos que se repetem ao longo do tempo (ex: conta de energia, internet, mensalidade). Ao criar uma solicitação, o usuário escolhe entre três tipos — único, recorrente ou parcelado — e configura a frequência (mensal, semanal, quinzenal, bimestral, trimestral, semestral, anual) e a duração (data final, quantidade de ocorrências ou indefinido até cancelar). A aprovação cria a série inteira e o tesoureiro paga ocorrência a ocorrência via Movimentações.
+- **Pedidos de pagamento parcelados** (BK-155): solicitação parcelada (ex: compra em 6×) com aprovação única; cada parcela vira um lançamento pendente com data e valor ajustáveis individualmente no momento da criação. Útil para compras de equipamentos ou contratos divididos em prestações.
+- **Movimentações recorrentes com duração indefinida** (BK-155): admin e tesoureiro agora podem criar lançamentos recorrentes diretos sem precisar definir data final ou quantidade — opção "Indefinido até cancelar" no fim da série. Gera lote inicial de 12 ocorrências; renovação manual fica como tech debt explícito.
+- **Detalhe do pedido recorrente/parcelado com seção "Ocorrências"** (BK-155): lista todas as ocorrências geradas com data prevista, valor estimado, valor real, status individual, conta e data de pagamento. Cada linha tem ações contextuais (Marcar como paga, Ver movimento, Cancelar esta ocorrência) conforme status e papel do usuário.
+- **Cancelamento de série com 3 escopos** (BK-155): admin e tesoureiro podem cancelar uma ocorrência específica, todas as ocorrências futuras a partir de uma data, ou a série inteira. Ocorrências já pagas não podem ser canceladas (apenas estornadas via Movimentações).
+- **Link cruzado entre lançamentos e pedidos** (BK-155): o detalhe de uma movimentação que veio de um pedido de pagamento aprovado exibe link "Ver pedido de pagamento" para navegação direta ao detalhe da solicitação original.
+- **Lista de Pagamentos type-aware** (BK-155): cada linha exibe indicador discreto do tipo (Recorrente · mensal, Parcelado · 6×) e a coluna de valor mostra a representação adequada (R$ X/mês · est. R$ Y para recorrente; R$ X/parcela · total R$ Y para parcelado).
+- **Paleta semântica de badges de status** (parte de BK-155): badges de status passaram a usar cores semânticas distintas — teal sólido para pago/aprovado, laranja para pendente/aguardando, vermelho para atrasado/rejeitado, roxo para estornado, cinza para cancelado/rascunho. Facilita leitura rápida das listagens.
+
+### Corrigido
+- **Anexos obrigatórios para envio de pedido** (BK-155): submeter um pedido de pagamento para aprovação sem nenhum comprovante anexado passa a ser bloqueado, com mensagem clara. Salvar como rascunho continua sem essa exigência. Validação reforçada tanto no formulário quanto na função de servidor.
+- **Solicitante não vê mais Aprovar/Reprovar no próprio pedido** (BK-155): no detalhe e na lista de pedidos, o autor da solicitação não vê mais os botões de aprovação ou reprovação na própria solicitação — comportamento alinhado com o já existente em Reembolsos.
+
 ## [0.10.8] — 2026-05-18
 
 ### Adicionado
