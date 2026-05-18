@@ -2,6 +2,7 @@
 layout: section
 title: Política de Privacidade
 permalink: /privacidade/
+version: "1.0"
 ---
 
 # Política de Privacidade — Bússola Financeira

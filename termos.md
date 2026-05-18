@@ -2,6 +2,7 @@
 layout: section
 title: Termos de Uso
 permalink: /termos/
+version: "1.0"
 ---
 
 # Termos de Uso — Bússola Financeira
