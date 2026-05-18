@@ -13,6 +13,37 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ## [Pré-teste em andamento]
 
+## [0.10.8] — 2026-05-18
+
+### Adicionado
+- **Histórico de auditoria na página de detalhe do lançamento** (BK-161): a página de detalhe em `/movimentacoes` foi reorganizada em duas colunas — conteúdo principal à esquerda e um card "Auditoria" à direita com a timeline de eventos do lançamento (quem criou, marcou como pago, estornou, cancelou, etc.), com nome do responsável e data/hora de cada ação. Em mobile as colunas empilham verticalmente. A seção "Criado em / Criado por" anterior foi removida — a informação agora aparece na timeline. Lançamentos sem eventos registrados exibem mensagem de fallback.
+
+## [0.10.7] — 2026-05-18
+
+### Adicionado
+- **Contagem de itens nas abas de `/reembolsos`** (BK-097, conclusão): abas de `/reembolsos` passam a exibir contagem entre parênteses, completando a implementação iniciada na v0.10.6. A query passou a carregar todos os reembolsos da OSC de uma vez; filtragem por aba e contagens são derivadas client-side via `useMemo`. O recorte por papel do usuário continua transparente via RLS.
+
+## [0.10.6] — 2026-05-18
+
+### Adicionado
+- **Contagem de itens nas abas de listagem** (BK-097, parcial): as abas de status em `/movimentacoes`, `/pagamentos` e `/superadmin/organizacoes` passam a exibir o total de itens entre parênteses ao lado do rótulo — ex: "Pendente (5)", "Pago (30)". As contagens são derivadas dos dados já carregados no cliente, sem queries adicionais. Em `/movimentacoes` a contagem considera os filtros de período e busca ativos.
+
+### Corrigido
+- **Tipo de organização exibido como snake_case em `/superadmin/organizacoes`** (BK-097): a coluna Tipo agora exibe labels legíveis (`grupo_escoteiro` → "Grupo Escoteiro", `associacao` → "Associação", etc.) com fallback para titlecase em valores desconhecidos.
+
+## [0.10.5] — 2026-05-18
+
+### Adicionado
+- **Flag de auditoria para auto-aprovações** (BK-105): quando o solicitante aprova o próprio pedido por ser o único aprovador elegível — situação permitida pelo sistema — as EFs `approve_reimbursement` e `approve_purchase_order` passam a gravar uma linha adicional no `audit_log` com `metadata.self_approved = true`. Aprovações normais seguem sem essa marca. Facilita a revisão pela comissão fiscal sem necessidade de cruzar manualmente os dados de solicitante e aprovador.
+
+## [0.10.4] — 2026-05-18
+
+### Corrigido
+- **Auto-aprovação em pedidos de pagamento** (BK-127): confirmado que a EF `approve_purchase_order` já valida a elegibilidade antes de qualquer gravação no banco — a auto-aprovação é bloqueada quando existem outros aprovadores elegíveis, e permitida quando o solicitante é o único. Comportamento idêntico ao módulo de reembolsos. Nenhuma alteração de código necessária; bump de versão para registrar a validação.
+- **Link "Meu perfil" no menu do avatar** (BK-162): o menu dropdown do avatar no menu superior agora exibe "Meu perfil" (navega para Configurações → Perfil) além de "Sair".
+- **Título da aba de workflow de aprovação** (BK-147): rótulo corrigido de "Workflow de aprovação de reembolsos" para "Fluxo de aprovação de pagamentos e reembolsos", refletindo que a aba controla o fluxo de ambos os módulos.
+- **Fotos de usuários na lista de Configurações → Usuários** (BK-163): avatares na listagem de membros passam a exibir a foto cadastrada; iniciais continuam como fallback quando não há foto. Mesma correção já aplicada ao avatar do menu superior na v0.10.1.
+
 ## [0.10.3] — 2026-05-18
 
 ### Adicionado
