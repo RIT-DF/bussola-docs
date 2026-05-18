@@ -13,6 +13,19 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ## [Pré-teste em andamento]
 
+## [0.12.0] — 2026-05-18
+
+### Adicionado
+- **Perfil do usuário em rota própria** (BK-154 + BK-139): a tela de perfil foi separada de Configurações e ganhou rota standalone `/perfil`, acessível a qualquer usuário autenticado pelo item "Meu perfil" no menu do avatar. Quatro boxes consolidados — **Identificação** (foto, nome completo, telefone, data de nascimento, CPF, RG), **Dados para Reembolso**, **Notificações** e **Ações de Conta** — cada um com seu próprio botão de salvar interno (exceto Ações de Conta, com botões por ação).
+- **Configurações da organização via ícone de engrenagem na TopNav** (BK-139): o item de texto "Configurações" da TopNav foi substituído por um ícone de engrenagem próximo ao sino de notificações, visível apenas para administradores e tesoureiros (e superadmin). Libera espaço horizontal na barra e torna explícito que Configurações é restrita por papel.
+- **Sub-nav de Configurações reorganizada** (BK-154): nova ordem e nomenclatura — Organização → Usuários → **Contas Bancárias** (renomeada de "Contas") → Categorias → **Fluxo de Aprovações** (renomeada de "Pagamentos e Reembolsos"). A URL antiga `/configuracoes/reembolsos` passa a ser `/configuracoes/aprovacoes`. A sub-nav filtra itens pelo papel: tesoureiro vê 3 (Contas Bancárias, Categorias, Fluxo de Aprovações); admin/superadmin veem todos os 5.
+- **Matriz granular de preferências de notificação por usuário** (BK-154): novo bloco na seção "Notificações" do perfil com matriz de 10 eventos × 3 canais (e-mail, WhatsApp, Telegram). Eventos cobertos: 5 de reembolso (submetido, aprovação parcial, aprovado, rejeitado, pago) e 5 de pedidos de pagamento (mesmos estados). Default: tudo ligado. Quando o usuário não tem WhatsApp ou Telegram cadastrado, a coluna correspondente aparece desabilitada visualmente com orientação para cadastrar o contato. As notificações disparadas por reembolsos e pedidos de pagamento agora respeitam estritamente essas preferências — silenciam exatamente os pares `(evento, canal)` desligados pelo usuário.
+- **Redirects automáticos preservando query params**: bookmarks e links antigos `/configuracoes/perfil?qs` redirecionam para `/perfil?qs`, e `/configuracoes/reembolsos?qs` para `/configuracoes/aprovacoes?qs` — query string e fragmento são preservados.
+
+### Corrigido
+- **Race condition no guard de Configurações** (descoberto em QA pós-implementação): acessar qualquer subrota de `/configuracoes/*` por URL direta (refresh, bookmark, link colado no navegador) bloqueava admin e tesoureiro com toast "Acesso restrito" mesmo tendo permissão. O guard agora aguarda o carregamento dos papéis do usuário antes de avaliar — array vazio durante loading não dispara mais redirect indevido.
+- **Falha silenciosa ao salvar Notificações com WhatsApp vazio** (descoberto em QA pós-implementação): salvar a seção Notificações sem número de WhatsApp cadastrado falhava silenciosamente no servidor (a matriz salvava, a chamada de contato dava erro 400 invisível ao usuário). A função de preferências passou a tratar valor nulo como remoção da chave; o formulário só envia a chamada de contato quando o valor de fato muda.
+
 ## [0.11.0] — 2026-05-18
 
 ### Adicionado
