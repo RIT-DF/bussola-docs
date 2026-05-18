@@ -11,7 +11,43 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
-## [Não lançado]
+## [Pré-teste em andamento]
+
+## [0.10.3] — 2026-05-18
+
+### Adicionado
+- **Atalhos de período no filtro de Movimentações** (BK-145): além de escolher datas customizadas, o filtro agora oferece atalhos contábeis em um clique — Mês atual, Mês anterior, Trimestre atual, Trimestre anterior, Semestre atual, Ano atual (YTD), Ano anterior, Personalizado e Todos. Cálculo baseado em trimestres e semestres calendário (T1: jan-mar, T2: abr-jun, etc.). Selecionar um atalho preenche as datas automaticamente; editar manualmente as datas troca o filtro para "Personalizado".
+
+### Modificado
+- **Filtro de Movimentações abre por padrão em "Mês atual"** em vez de "Todos" — visão operacional do dia a dia é mais comum no fluxo do tesoureiro.
+
+## [0.10.2] — 2026-05-18
+
+### Corrigido
+- **Badge "Estornado" volta a aparecer também no lançamento contrário** (BK-160, regressão da v0.10.1): a release anterior introduziu o badge no lançamento original mas a regra de detecção não cobria o lançamento contrário gerado pelo estorno; agora ambos exibem o badge corretamente.
+
+## [0.10.1] — 2026-05-18
+
+Primeira release versionada após a transição de `v0.10 (beta)` para semver puro. Consolida correções de UX no módulo de Movimentações, melhorias no menu superior, publicação dos documentos legais e do manual em domínio próprio, e a primeira preparação do fluxo Google em `/setup` para auto-conclusão (validação E2E pendente). A partir desta versão, marcadores como "(beta)" não fazem mais parte da string da versão.
+
+### Adicionado
+- **Avatar do usuário no menu superior** (BK-141): a foto cadastrada em Configurações → Perfil agora aparece no avatar do menu superior em qualquer cenário em que a tela de perfil também exibe a foto; ao trocar a foto, o menu superior atualiza imediatamente sem precisar de F5. Iniciais continuam como fallback quando não há foto.
+- **Badge "Recorrente" em lançamentos recorrentes** (BK-158): movimentos pertencentes a uma série recorrente não-parcelada passam a exibir um badge "Recorrente" ao lado do título, em `/movimentacoes` (lista e detalhe). Visibilidade rápida do contexto sem precisar abrir o detalhe.
+- **Manual do Usuário publicado** (BK-137): novo manual público em `https://docs.bf.rit.org.br/` cobrindo primeiros passos, movimentações, reembolsos, pagamentos, configurações da OSC, papéis e FAQ. Link no rodapé da aplicação.
+- **Política de Privacidade e Termos de Uso publicados** (BK-094): documentos legais publicados em `https://docs.bf.rit.org.br/privacidade/` e `/termos/`. Links discretos no rodapé da aplicação.
+- **Documentação em domínio próprio** (BK-153): substituído o domínio padrão do GitHub Pages por `docs.bf.rit.org.br` (Cloudflare DNS + custom domain + HTTPS ativo). Links de Política, Termos e Manual no rodapé já apontam para o novo domínio.
+
+### Corrigido
+- **Troca de OSC pelo seletor agora atualiza a tela automaticamente** (BK-151): selecionar outra OSC no menu superior recarrega imediatamente todas as páginas (painel, movimentações, reembolsos, pagamentos, configurações) sem precisar de F5. Antes, a página atual mantinha os dados da OSC anterior até refresh manual.
+- **Badge "Parcela X de N" voltou a aparecer** (BK-157): em lançamentos parcelados, o badge "Parcela X de N" deixou de ser exibido em algum refactor recente; foi restaurado. Causa raiz: a fonte de dados parou de expor a informação da série parcelada.
+- **Badge "Estornado" agora aparece em ambos os lançamentos** (BK-156): ao estornar um pagamento, tanto o lançamento original quanto o contrário (gerado pelo estorno) passam a exibir o badge "Estornado". Antes só o contrário recebia o badge, dando a falsa impressão de que o original ainda estava "pago" sem indicação. O status no banco do lançamento original permanece "pago" — só a visualização ganha o badge adicional.
+- **"Continuar com Google" em `/setup` redireciona corretamente para o painel** (BK-144): no fluxo de configuração inicial via convite, o usuário que escolhia "Continuar com Google" voltava para o formulário de senha em vez de seguir para o painel; agora o cadastro é concluído automaticamente com o nome e a foto do perfil Google e o usuário entra direto no painel. **Validação E2E com convite real pendente em BK-152 antes de declarar verificado.**
+- **Link "Manual do Usuário" no rodapé** apontava para `/manual` (404); corrigido para apontar para a raiz do site de docs.
+
+### Modificado
+- **Formato da string da versão**: passou de `v0.10 (beta)` para `v0.10.1`. Padronizado em semver puro (MAJOR.MINOR.PATCH); marcadores como "(beta)" não fazem mais parte da string da versão exibida no rodapé e nos feedbacks. A natureza piloto/beta do projeto passa a ser sinalizada (quando necessário) fora da string da versão.
+
+---
 
 ### Adicionado (Documentação pública — 2026-05-15)
 - **Site de documentação multi-página** em `https://rit-df.github.io/bussola-docs/`: substituído o manual em página única por site Jekyll com navegação por abas (Início, Primeiros Passos, Módulos, Configurações, Papéis, FAQ, Changelog, Legal); cada módulo e aba de configurações tem página dedicada
