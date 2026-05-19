@@ -25,7 +25,7 @@ Mesmo antes do módulo dedicado, **você já pode vincular lançamentos a um pro
 > ✓ **Dica · Comece a vincular hoje, colha amanhã**
 > Não espere o módulo de Projetos chegar para começar a usar o campo "Projeto" nos lançamentos. Defina um nome consistente ("Acampamento de Maio/2026") e use sempre o mesmo em todas as despesas e receitas da iniciativa. Quando o módulo lançar, sua OSC já tem 6 meses de dados organizados — vence quem começou cedo.
 
-Fique de olho nas atualizações no [Changelog](../../changelog/).
+Fique de olho nas atualizações no [Changelog](/changelog/).
 
 ## Por onde seguir
 

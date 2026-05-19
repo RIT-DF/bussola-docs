@@ -31,7 +31,7 @@ O Bússola tem **quatro papéis** que um usuário pode ocupar dentro de uma orga
 
 ## Quem aprova reembolsos e pedidos?
 
-O fluxo de aprovação é **configurável** pelo Presidente em [Configurações → Fluxo de Aprovações](configuracoes/workflow/). Default: Presidente e Tesoureiro são os aprovadores elegíveis, com quórum 1 (basta um voto positivo).
+O fluxo de aprovação é **configurável** pelo Presidente em [Configurações → Fluxo de Aprovações](/configuracoes/aprovacoes/). Default: Presidente e Tesoureiro são os aprovadores elegíveis, com quórum 1 (basta um voto positivo).
 
 A configuração permite:
 
@@ -41,7 +41,7 @@ A configuração permite:
 
 ## Alterar o papel de um usuário
 
-Apenas o **Presidente** pode alterar papéis. Acesse [Configurações → Usuários](configuracoes/usuarios/), localize o membro, use o menu de ações da linha e selecione **Alterar papel**.
+Apenas o **Presidente** pode alterar papéis. Acesse [Configurações → Usuários](/configuracoes/usuarios/), localize o membro, use o menu de ações da linha e selecione **Alterar papel**.
 
 > ⚠️ **Atenção · Mudança de papel é mudança de poder**
 > Promover alguém para Tesoureiro dá acesso à aprovação de despesas — pense bem antes de ampliar. Conversão "voluntário ↔ tesoureiro" deve passar pela diretoria, não ser unilateral. Em OSC com governança formal (estatuto, assembleia), a mudança pode até ter requisito formal de ata ou eleição. O sistema não bloqueia a mudança, mas ela fica registrada no audit log.

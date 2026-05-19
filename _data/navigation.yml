@@ -19,26 +19,30 @@
     - title: Relatórios
       url: /modulos/relatorios/
 
-- title: Configurações
+- title: Meu Perfil
+  url: /configuracoes/perfil/
+
+- title: Configurações da Organização
   children:
-    - title: Perfil
-      url: /configuracoes/perfil/
-    - title: Usuários
-      url: /configuracoes/usuarios/
     - title: Organização
       url: /configuracoes/organizacao/
-    - title: Contas Financeiras
+    - title: Usuários
+      url: /configuracoes/usuarios/
+    - title: Contas Bancárias
       url: /configuracoes/contas/
     - title: Categorias
       url: /configuracoes/categorias/
-    - title: Fluxo de Aprovação
-      url: /configuracoes/workflow/
+    - title: Fluxo de Aprovações
+      url: /configuracoes/aprovacoes/
 
 - title: Papéis e Permissões
   url: /papeis/
 
 - title: FAQ
   url: /faq/
+
+- title: Roadmap
+  url: /roadmap/
 
 - title: Changelog
   url: /changelog/

@@ -6,7 +6,7 @@ permalink: /primeiros-passos/
 
 Bem-vindo ao **Bússola Financeira**. Esta página te leva do "primeiro e-mail de convite" até "operando o sistema com segurança" em poucos minutos.
 
-[![Tela de login](assets/screenshots/manual-00-login.png)](assets/screenshots/manual-00-login.png)
+[![Tela de login](/assets/screenshots/manual-00-login.png)](/assets/screenshots/manual-00-login.png)
 *Tela de login do Bússola Financeira*
 
 > 💡 **Por que isso importa**
@@ -82,7 +82,7 @@ A barra de navegação no topo é o seu mapa:
 
 ## O que cada papel pode fazer
 
-A explicação detalhada de papéis e permissões está em [Papéis e Permissões](papeis/). Resumo rápido:
+A explicação detalhada de papéis e permissões está em [Papéis e Permissões](/papeis/). Resumo rápido:
 
 - **Presidente (admin)** — tudo: configurações, usuários, aprovações, lançamentos
 - **Tesoureiro** — lançamentos, aprovações, confirmação de pagamentos, parte da configuração organizacional
@@ -93,5 +93,5 @@ A explicação detalhada de papéis e permissões está em [Papéis e Permissõe
 
 - **Botão Feedback** dentro do Bússola — envia mensagem direto para a equipe RIT
 - **Este manual em `docs.bf.rit.org.br`** — sempre tem a versão mais recente
-- **Changelog** ([changelog](changelog/)) — para saber o que foi adicionado em cada versão
+- **Changelog** ([changelog](/changelog/)) — para saber o que foi adicionado em cada versão
 - **E-mail dpo@rit.org.br** — para questões de privacidade ou LGPD

@@ -8,7 +8,7 @@ permalink: /configuracoes/aprovacoes/
 
 A página **Fluxo de Aprovações** define **quem pode aprovar** reembolsos e pedidos de pagamento da OSC, e **quantos votos são necessários** para aprovar. Acessada por **Configurações → Fluxo de Aprovações** (a URL é `/configuracoes/aprovacoes`).
 
-[![Configurações — Fluxo de Aprovações](../assets/screenshots/config-workflow.png)](../assets/screenshots/config-workflow.png)
+[![Configurações — Fluxo de Aprovações](/assets/screenshots/config-workflow.png)](/assets/screenshots/config-workflow.png)
 *Configurações — Fluxo de aprovações*
 
 > 💡 **Por que isso importa**

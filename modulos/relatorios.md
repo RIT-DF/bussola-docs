@@ -31,7 +31,7 @@ Algumas análises básicas já estão disponíveis na lista de **Movimentações
 
 Para análises mais sofisticadas, exporte em Excel e cruze no seu fluxo de planilha preferido — provisoriamente, até o módulo dedicado lançar.
 
-Fique de olho nas atualizações no [Changelog](../../changelog/).
+Fique de olho nas atualizações no [Changelog](/changelog/).
 
 ## Por onde seguir
 

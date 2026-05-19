@@ -8,7 +8,7 @@ permalink: /configuracoes/usuarios/
 
 A página **Usuários** é onde você gerencia quem tem acesso à sua OSC dentro do Bússola — convidar novos membros, alterar papéis, suspender acessos.
 
-[![Configurações — Usuários](../assets/screenshots/manual-09b-config-usuarios.png)](../assets/screenshots/manual-09b-config-usuarios.png)
+[![Configurações — Usuários](/assets/screenshots/manual-09b-config-usuarios.png)](/assets/screenshots/manual-09b-config-usuarios.png)
 *Configurações — Gerenciamento de usuários*
 
 > 💡 **Por que isso importa**

@@ -8,7 +8,7 @@ permalink: /configuracoes/organizacao/
 
 A página **Organização** centraliza os dados da sua OSC e as **integrações** com sistemas externos. Acessada pelo **ícone de engrenagem** no canto superior direito (a engrenagem só aparece para admin e tesoureiro) → Configurações → seção Organização.
 
-[![Configurações — Organização](../assets/screenshots/config-organizacao.png)](../assets/screenshots/config-organizacao.png)
+[![Configurações — Organização](/assets/screenshots/config-organizacao.png)](/assets/screenshots/config-organizacao.png)
 *Configurações — Dados da organização*
 
 > 💡 **Por que isso importa**
@@ -53,7 +53,7 @@ Integração permite que sistemas externos conversem com a Bússola — economiz
 
 ### WooCommerce
 
-[Saiba mais no manual de Movimentações → seção Importar lançamentos](../modulos/movimentacoes/#importar-lançamentos)
+[Saiba mais no manual de Movimentações → seção Importar lançamentos](/modulos/movimentacoes/#importar-lançamentos)
 
 Sincroniza pedidos pagos da sua loja online (WooCommerce) como receitas na Bússola. Cron diário automático + botão para importar sob demanda. Refunds no WooCommerce viram estornos automáticos na Bússola. Cada pedido importado tem badge "WooCommerce" clicável na lista de movimentações que abre o pedido original no admin do WC.
 

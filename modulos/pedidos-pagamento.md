@@ -41,7 +41,7 @@ O módulo de **Pedidos de Pagamento** é onde alguém da OSC **pede autorizaçã
 
 ## Lista de pedidos de pagamento
 
-[![Lista de pedidos](../../assets/screenshots/manual-07-pedidos-lista.png)](../../assets/screenshots/manual-07-pedidos-lista.png)
+[![Lista de pedidos](/assets/screenshots/manual-07-pedidos-lista.png)](/assets/screenshots/manual-07-pedidos-lista.png)
 *Lista de pedidos de pagamento*
 
 A lista exibe todos os pedidos com colunas Descrição, Destinatário, Valor, Data da despesa, Solicitante e Status.
@@ -67,7 +67,7 @@ Pedidos únicos aparecem sem badge adicional.
 
 ### Aguardando aprovação
 
-[![Pedido aguardando aprovação](../../assets/screenshots/manual-08-pedido-aguardando.png)](../../assets/screenshots/manual-08-pedido-aguardando.png)
+[![Pedido aguardando aprovação](/assets/screenshots/manual-08-pedido-aguardando.png)](/assets/screenshots/manual-08-pedido-aguardando.png)
 *Detalhe de pedido aguardando aprovação*
 
 - **Valor, Destinatário, Solicitante e Data da despesa** no topo
@@ -82,14 +82,14 @@ Pedidos recorrentes mostram aqui uma seção **Ocorrências** com a lista de cad
 
 ### Rejeitado
 
-[![Pedido rejeitado](../../assets/screenshots/manual-08b-pedido-rejeitado.png)](../../assets/screenshots/manual-08b-pedido-rejeitado.png)
+[![Pedido rejeitado](/assets/screenshots/manual-08b-pedido-rejeitado.png)](/assets/screenshots/manual-08b-pedido-rejeitado.png)
 *Detalhe de pedido rejeitado*
 
 O motivo da rejeição aparece em destaque no topo. O solicitante pode editar os campos e reenviar para nova rodada de aprovação.
 
 ### Aprovado, aguardando pagamento
 
-[![Pedido aprovado](../../assets/screenshots/manual-08c-pedido-aprovado.png)](../../assets/screenshots/manual-08c-pedido-aprovado.png)
+[![Pedido aprovado](/assets/screenshots/manual-08c-pedido-aprovado.png)](/assets/screenshots/manual-08c-pedido-aprovado.png)
 *Detalhe de pedido aprovado, aguardando pagamento*
 
 Painel de Ações mostra: **"Aprovado — aguardando confirmação de pagamento pelo tesoureiro."**
@@ -109,7 +109,7 @@ Ocorrências já pagas não podem ser canceladas (preservação de auditoria) �
 
 ## Novo pedido de pagamento
 
-[![Novo pedido](../../assets/screenshots/manual-08d-novo-pedido.png)](../../assets/screenshots/manual-08d-novo-pedido.png)
+[![Novo pedido](/assets/screenshots/manual-08d-novo-pedido.png)](/assets/screenshots/manual-08d-novo-pedido.png)
 *Formulário de novo pedido*
 
 Clique em **+ Nova solicitação** para abrir o formulário.

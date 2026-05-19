@@ -8,7 +8,7 @@ permalink: /configuracoes/contas/
 
 A página **Contas Bancárias** lista as contas financeiras da sua OSC e permite cadastrar novas, editar dados existentes e desativar contas que saíram de uso.
 
-[![Configurações — Contas](../assets/screenshots/config-contas.png)](../assets/screenshots/config-contas.png)
+[![Configurações — Contas](/assets/screenshots/config-contas.png)](/assets/screenshots/config-contas.png)
 *Configurações — Contas financeiras*
 
 > 💡 **Por que isso importa**

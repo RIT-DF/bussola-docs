@@ -84,7 +84,7 @@ Em **Meu Perfil → Dados para Reembolso**. Configure uma vez; o formulário de 
 
 ### Posso criar um Pedido de Pagamento recorrente para o aluguel?
 
-Sim. Ao criar um pedido, escolha tipo **Recorrente** e configure a frequência (mensal) e a duração (data final, quantidade de ocorrências ou indefinida até cancelar). A aprovação cria a série inteira; cada ocorrência é paga separadamente pelo tesoureiro. Veja a [seção de Pedidos de Pagamento](modulos/pedidos-pagamento/) para detalhes.
+Sim. Ao criar um pedido, escolha tipo **Recorrente** e configure a frequência (mensal) e a duração (data final, quantidade de ocorrências ou indefinida até cancelar). A aprovação cria a série inteira; cada ocorrência é paga separadamente pelo tesoureiro. Veja a [seção de Pedidos de Pagamento](/modulos/pedidos-pagamento/) para detalhes.
 
 ## Estornos
 
@@ -142,7 +142,7 @@ Use o botão **💬 Feedback** no menu superior. Está disponível para todos os
 
 ### Onde acompanho as novidades do Bússola?
 
-No [Changelog](changelog/) deste manual. Toda nova versão lançada é registrada lá com a lista de adições, correções e mudanças. As entregas significativas aparecem em destaque.
+No [Changelog](/changelog/) deste manual. Toda nova versão lançada é registrada lá com a lista de adições, correções e mudanças. As entregas significativas aparecem em destaque.
 
 ### Quero entender melhor um conceito que aparece no Bússola (fluxo de caixa, regime de caixa, estorno...). Onde leio?
 

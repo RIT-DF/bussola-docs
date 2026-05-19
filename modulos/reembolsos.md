@@ -35,7 +35,7 @@ O módulo de **Reembolsos** é onde voluntários, dirigentes e colaboradores **p
 
 ## Lista de reembolsos
 
-[![Lista de reembolsos](../../assets/screenshots/manual-05-reembolsos-lista.png)](../../assets/screenshots/manual-05-reembolsos-lista.png)
+[![Lista de reembolsos](/assets/screenshots/manual-05-reembolsos-lista.png)](/assets/screenshots/manual-05-reembolsos-lista.png)
 *Lista de reembolsos*
 
 A lista mostra todos os reembolsos da organização. Cada papel vê um recorte diferente:
@@ -60,7 +60,7 @@ Clique em qualquer linha para abrir o detalhe completo. A página tem todas as i
 
 ### Aguardando aprovação
 
-[![Reembolso aguardando aprovação](../../assets/screenshots/manual-06-reembolso-aguardando.png)](../../assets/screenshots/manual-06-reembolso-aguardando.png)
+[![Reembolso aguardando aprovação](/assets/screenshots/manual-06-reembolso-aguardando.png)](/assets/screenshots/manual-06-reembolso-aguardando.png)
 *Detalhe de reembolso aguardando aprovação*
 
 - **Valor, Solicitante e Data da despesa** no topo
@@ -76,7 +76,7 @@ Clique em qualquer linha para abrir o detalhe completo. A página tem todas as i
 
 ### Rejeitado
 
-[![Reembolso rejeitado](../../assets/screenshots/manual-06b-reembolso-rejeitado.png)](../../assets/screenshots/manual-06b-reembolso-rejeitado.png)
+[![Reembolso rejeitado](/assets/screenshots/manual-06b-reembolso-rejeitado.png)](/assets/screenshots/manual-06b-reembolso-rejeitado.png)
 *Detalhe de reembolso rejeitado*
 
 O motivo da rejeição aparece em destaque no topo da página. O solicitante (e somente o solicitante) vê o botão **Editar e reenviar** — clicando, os campos passam a ser editáveis na própria página, sem precisar criar um reembolso novo. Corrige o que foi apontado (valor errado, comprovante ausente, categoria trocada), reenvia, e o fluxo recomeça.
@@ -86,7 +86,7 @@ O motivo da rejeição aparece em destaque no topo da página. O solicitante (e 
 
 ### Aprovado, aguardando pagamento
 
-[![Reembolso aprovado](../../assets/screenshots/manual-06c-reembolso-aprovado.png)](../../assets/screenshots/manual-06c-reembolso-aprovado.png)
+[![Reembolso aprovado](/assets/screenshots/manual-06c-reembolso-aprovado.png)](/assets/screenshots/manual-06c-reembolso-aprovado.png)
 *Detalhe de reembolso aprovado, aguardando confirmação de pagamento*
 
 Painel de Ações mostra: **"Aprovado — aguardando confirmação de pagamento pelo tesoureiro."**
@@ -100,7 +100,7 @@ Quando o tesoureiro marca a movimentação financeira correspondente como paga, 
 
 ## Nova solicitação de reembolso
 
-[![Nova solicitação de reembolso](../../assets/screenshots/manual-06d-novo-reembolso.png)](../../assets/screenshots/manual-06d-novo-reembolso.png)
+[![Nova solicitação de reembolso](/assets/screenshots/manual-06d-novo-reembolso.png)](/assets/screenshots/manual-06d-novo-reembolso.png)
 *Formulário de nova solicitação*
 
 Clique em **+ Nova solicitação** para abrir o formulário.

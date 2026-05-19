@@ -32,7 +32,7 @@ Antes de entrar nos botões, vale firmar três conceitos que você vai ver em to
 
 ## Lista de movimentações
 
-[![Lista de movimentações](../../assets/screenshots/manual-02-movimentacoes-lista.png)](../../assets/screenshots/manual-02-movimentacoes-lista.png)
+[![Lista de movimentações](/assets/screenshots/manual-02-movimentacoes-lista.png)](/assets/screenshots/manual-02-movimentacoes-lista.png)
 *Lista de movimentações*
 
 A lista mostra todas as movimentações com as colunas **Vencimento**, **Pagamento**, **Lançamento** (título e beneficiário), **Conta**, **Categoria**, **Status** e **Valor**.
@@ -98,7 +98,7 @@ O botão **Exportar** permite exportar para:
 
 ## Detalhe de uma movimentação
 
-[![Detalhe de movimentação](../../assets/screenshots/manual-03-movimentacao-detalhe.png)](../../assets/screenshots/manual-03-movimentacao-detalhe.png)
+[![Detalhe de movimentação](/assets/screenshots/manual-03-movimentacao-detalhe.png)](/assets/screenshots/manual-03-movimentacao-detalhe.png)
 *Detalhe de uma despesa*
 
 Clique em qualquer linha da lista para abrir o detalhe completo, organizado em duas colunas no desktop:
@@ -124,7 +124,7 @@ Linha do tempo com todas as ações sobre o lançamento — quem criou, quem mar
 
 ## Registrar novo lançamento
 
-[![Formulário de novo lançamento](../../assets/screenshots/manual-04-novo-lancamento.png)](../../assets/screenshots/manual-04-novo-lancamento.png)
+[![Formulário de novo lançamento](/assets/screenshots/manual-04-novo-lancamento.png)](/assets/screenshots/manual-04-novo-lancamento.png)
 *Formulário de novo lançamento*
 
 Clique em **+ Novo lançamento** no topo da lista.
@@ -167,7 +167,7 @@ Você pode anexar arquivos (comprovantes, notas fiscais, contratos) ao lançamen
 
 ## Estornar um lançamento
 
-[![Dialog de estorno](../../assets/screenshots/manual-04c-estornar-dialog.png)](../../assets/screenshots/manual-04c-estornar-dialog.png)
+[![Dialog de estorno](/assets/screenshots/manual-04c-estornar-dialog.png)](/assets/screenshots/manual-04c-estornar-dialog.png)
 *Dialog de estorno — informe a razão antes de confirmar*
 
 Estornar é diferente de cancelar. Estorno é a forma contábil correta de reverter um lançamento **que já foi pago**.
@@ -182,7 +182,7 @@ Para estornar: vá no detalhe do lançamento → botão **Estornar** → informe
 
 ## Importar lançamentos
 
-[![Importar Lançamentos com 2 fontes](../../assets/screenshots/manual-04b-importar-lancamentos.png)](../../assets/screenshots/manual-04b-importar-lancamentos.png)
+[![Importar Lançamentos com 2 fontes](/assets/screenshots/manual-04b-importar-lancamentos.png)](/assets/screenshots/manual-04b-importar-lancamentos.png)
 *Importar Lançamentos — duas fontes disponíveis: CSV e WooCommerce*
 
 Em vez de digitar lançamento por lançamento, você pode importar de duas fontes:

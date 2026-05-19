@@ -8,7 +8,7 @@ permalink: /configuracoes/categorias/
 
 A página **Categorias** organiza as categorias contábeis e os centros de custo da OSC — o esqueleto da sua contabilidade gerencial.
 
-[![Configurações — Categorias](../assets/screenshots/config-categorias.png)](../assets/screenshots/config-categorias.png)
+[![Configurações — Categorias](/assets/screenshots/config-categorias.png)](/assets/screenshots/config-categorias.png)
 *Configurações — Categorias e centros de custo*
 
 > 💡 **Por que isso importa**

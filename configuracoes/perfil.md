@@ -6,7 +6,7 @@ permalink: /configuracoes/perfil/
 
 A página **Meu Perfil** concentra **seus** dados pessoais e preferências dentro do Bússola — não os dados da organização. Disponível para todos os usuários autenticados, acessada pelo menu do avatar (canto superior direito → **Meu perfil**) ou diretamente pela rota `/perfil`.
 
-[![Página Meu Perfil](../assets/screenshots/config-perfil.png)](../assets/screenshots/config-perfil.png)
+[![Página Meu Perfil](/assets/screenshots/config-perfil.png)](/assets/screenshots/config-perfil.png)
 *Página Meu Perfil — 4 boxes consolidados*
 
 > 💡 **Por que isso importa**

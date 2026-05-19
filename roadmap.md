@@ -4,130 +4,256 @@ title: Roadmap
 permalink: /roadmap/
 ---
 
-Esta página mostra **o que já existe**, **o que está em construção** e **o que está planejado** no Bússola Financeira. A ordem dentro de cada bloco é planejada — pode haver ajustes conforme aprendemos com OSCs no piloto.
+Esta página mostra **o estado de cada funcionalidade** do Bússola Financeira — o que já está em produção, o que está sendo desenvolvido agora, e o que está planejado para mais à frente.
 
 > 💡 **Por que esta página existe**
-> Toda OSC tem necessidades específicas, e queremos ser honestos sobre o que o Bússola entrega hoje e o que ainda está por vir. Antes de adotar o sistema, dá para conferir aqui se a funcionalidade que sua OSC precisa já está pronta, está perto ou vai demorar — sem suposição. Se algo importante para a sua OSC não está aqui, escreva pelo botão **💬 Feedback** dentro do sistema; ouvimos.
+> Toda OSC tem necessidades diferentes. Antes de adotar o sistema ou planejar como vai usar, dá para conferir aqui se a funcionalidade que você precisa **já está pronta, está perto ou ainda vai demorar** — sem suposição. Se algo importante para a sua OSC não está aqui, escreva pelo botão **💬 Feedback** dentro do Bússola; ouvimos.
 
-## Já disponível
+> ⚠️ **Sobre datas e ordem**
+> Esta página descreve **intenção e estado**, não datas firmes. O que está em **Em construção** está sendo trabalhado agora; o que está em **Planejado** vai chegar — mas a ordem pode mudar conforme as OSCs no piloto sinalizem necessidades urgentes. Cada nova versão entregue aparece no [Changelog](/changelog/) com os detalhes específicos.
 
-Funcionalidades operacionais e testadas no Bússola.
+---
 
-### Núcleo financeiro
+## 💸 Financeiro (Movimentações, Painel e Relatórios)
 
-- **Movimentações** — receitas, despesas, transferências, com filtros por período contábil, ordenação por coluna, exportação PDF/Excel
-- **Estornos** — reversão preservativa de lançamentos pagos
-- **Recorrentes e parcelados** — séries que se repetem automaticamente, com 3 escopos de cancelamento
-- **Importação CSV** — migração de planilhas históricas para o sistema
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Lançamento manual de receita, despesa e transferência | Registrar cada entrada e saída com data de vencimento, data de pagamento, conta, categoria, beneficiário, anexos | ✓ | | |
+| Atalhos contábeis no filtro de período | Mês atual, mês anterior, trimestre atual/anterior, semestre, ano YTD, ano anterior | ✓ | | |
+| Lançamentos recorrentes | Séries que se repetem automaticamente em frequência configurável; duração por data, contagem ou indefinida até cancelar | ✓ | | |
+| Lançamentos parcelados | Valor total dividido em N parcelas com datas e valores ajustáveis | ✓ | | |
+| Cancelamento de série em 3 escopos | Cancelar apenas uma ocorrência, esta e futuras, ou série inteira | ✓ | | |
+| Estorno preservativo | Reverter lançamento pago criando lançamento contrário automaticamente; histórico preservado | ✓ | | |
+| Auditoria por movimentação (timeline) | Registro de todas as ações no lançamento (criação, pagamento, estorno) com responsável e data/hora | ✓ | | |
+| Comprovantes anexáveis com pré-visualização inline | Anexar nota fiscal, recibo, foto; pré-visualizar imagem e PDF sem baixar | ✓ | | |
+| Distribuição entre múltiplas categorias | Dividir um valor único por mais de uma categoria contábil | ✓ | | |
+| Vinculação a projeto e centro de custo | Campo opcional em cada lançamento para análise gerencial | ✓ | | |
+| Importação por CSV | Migrar histórico de planilhas com validação linha a linha antes de criar | ✓ | | |
+| Importação automática do WooCommerce | Pedidos pagos da loja online viram receitas; refunds disparam estorno automático | ✓ | | |
+| Painel com saldos por conta e saldo consolidado | Tela inicial com cockpit financeiro | ✓ | | |
+| Resumo do mês corrente no Painel | Receitas, despesas e saldo do mês atual em destaque | ✓ | | |
+| Cards de pendências no Painel por papel | Reembolsos pendentes, pedidos aguardando aprovação, aprovados aguardando pagamento | ✓ | | |
+| Exportação em PDF e Excel | Lista filtrada exportável; PDF formatado com cabeçalho e totais, Excel com todas as colunas | ✓ | | |
+| Relatórios consolidados (módulo dedicado) | Fluxo de caixa, comparativo por categoria, evolução de saldo, comparativo período × período | | ✓ | |
+| Conciliação bancária | Importação OFX/CNAB com matching automático e resolução de divergências | | | ✓ |
+| OCR de comprovantes | Extração automática de valor, data e fornecedor a partir da foto da nota | | | ✓ |
+| Sugestão de categoria por IA | Categorização automática com base em descrição e histórico | | | ✓ |
 
-### Reembolsos e pedidos de pagamento
+---
 
-- **Reembolsos** — fluxo completo de solicitação, aprovação por quórum configurável, geração automática de movimentação, confirmação de pagamento
-- **Pedidos de Pagamento** — fluxo simétrico ao reembolso para despesas que ainda vão acontecer
-- **Pedidos recorrentes e parcelados** — aluguel mensal, compra em prestações, contratos fechados
-- **Estorno automático** em pedidos rejeitados após pagamento
+## 🔄 Reembolsos
 
-### Gestão de organização e usuários
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Solicitação de reembolso | Voluntário ou diretor registra despesa paga do bolso com comprovante | ✓ | | |
+| Aprovação com quórum configurável (1 ou 2 votos) | Quórum e papéis aprovadores definidos pela OSC | ✓ | | |
+| Aprovação ou rejeição inline na lista | Aprovar sem precisar entrar no detalhe | ✓ | | |
+| Edição inline pós-rejeição | Corrigir e reenviar na mesma página, sem criar nova solicitação | ✓ | | |
+| Pré-preenchimento de PIX/TED do perfil | Dados de pagamento configurados uma vez no perfil entram automaticamente nas solicitações | ✓ | | |
+| Geração automática de movimentação ao aprovar | Reembolso aprovado vira lançamento pendente para o tesoureiro confirmar pagamento | ✓ | | |
+| Link cruzado com a movimentação correspondente | Detalhe do movimento traz link "Ver pedido de reembolso" | ✓ | | |
+| Auto-aprovação rastreável | Quando solicitante é único aprovador, permitida mas marcada explicitamente no audit log | ✓ | | |
+| Reembolso parcial (aprovar valor diferente do solicitado) | Aprovador pode aprovar valor menor com justificativa | | | ✓ |
+| Atalhos contábeis de período na lista | Mesmos atalhos já existentes em Movimentações | | ✓ | |
 
-- **Multi-organização** — uma conta de usuário em várias OSCs, com seletor de organização
-- **Papéis** — Presidente, Tesoureiro, Coordenador, Voluntário, com permissões diferenciadas
-- **Fluxo de aprovações configurável** — quórum 1 ou 2, papéis aprovadores e pessoas individuais
-- **Convite por e-mail** com aceite formal, controle de acesso ativo/inativo
-- **Auto-aprovação rastreável** quando solicitante é único aprovador
+---
 
-### Perfil do usuário
+## 📋 Pedidos de Pagamento
 
-- **Identificação** com foto, telefone, CPF/RG cifrados
-- **Dados para reembolso** com pré-preenchimento automático nas solicitações
-- **Matriz granular de notificações** — 10 eventos × 3 canais (e-mail, WhatsApp, Telegram)
-- **Vinculação ao Telegram via bot oficial**
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Solicitação de pagamento a fornecedor | Autorizar despesa que ainda vai acontecer com dados do destinatário (PIX/TED/Boleto) | ✓ | | |
+| Pedido único, recorrente ou parcelado | Toggle no formulário escolhe entre os 3 tipos | ✓ | | |
+| Aprovação com quórum configurável | Mesma lógica de Reembolsos | ✓ | | |
+| Geração automática de movimentação ao aprovar | Cria movimentação pendente (ou várias, se série); tesoureiro confirma o pagamento | ✓ | | |
+| Cancelamento de série em 3 escopos | Cancelar uma ocorrência, esta e futuras, ou série inteira | ✓ | | |
+| Anexo obrigatório no envio para aprovação | Sem orçamento/nota anexo, sistema bloqueia envio | ✓ | | |
+| Atalhos contábeis de período na lista | Mesmos atalhos já existentes em Movimentações | | ✓ | |
+| Solicitação de compras com cotação | Fluxo com ≥ 1 fornecedores comparados antes da aprovação | | | ✓ |
 
-### Integrações
+---
 
-- **WooCommerce** — sincronização automática de pedidos pagos como receitas; estorno automático em refunds
-- **Auditoria completa** — timeline de eventos em cada movimentação, com nome do responsável e data/hora
+## 📁 Projetos
 
-### Infraestrutura
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Campo "Projeto" disponível nos formulários | Vincular movimentações, reembolsos e pedidos de pagamento a um projeto pelo nome | ✓ | | |
+| Cadastro de projetos com nome, descrição, período, orçamento, equipe | Módulo dedicado para registrar projetos com metadados completos | | ✓ | |
+| Vinculação automática entre projetos, categorias, centros de custo e lançamentos | A partir do cadastro do projeto, classificação ganha consistência cruzada | | ✓ | |
+| Visão consolidada por projeto (orçamento × realizado) | Painel específico do projeto com saldo previsto e gasto | | ✓ | |
+| Relatórios prontos por projeto | Prestação de contas formatada para financiadores e conselho | | ✓ | |
+| Templates de projeto reutilizáveis | Modelos pré-configurados (ex: "Acampamento escoteiro") | | | ✓ |
+| Cronograma visual (Gantt) | Visualização gráfica de tarefas e dependências | | | ✓ |
+| Dependências entre tarefas | "Tarefa B inicia quando A termina" com cálculo de caminho crítico | | | ✓ |
+| Inventário de recursos e materiais do projeto | Controle de empréstimo e agendamento de uso | | | ✓ |
 
-- **LGPD** — política de privacidade e termos de uso versionados; aceite formal; dados sensíveis cifrados; exclusão de dados sob demanda
-- **Documentação pública** — esta documentação que você está lendo, sempre atualizada
+---
 
-## Em construção (próximas entregas)
+## 👥 Voluntários e Associados
 
-Em ordem aproximada de chegada. Algumas podem mudar de prioridade conforme as OSCs no piloto sinalizem necessidades urgentes.
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Cadastro de voluntários (módulo básico) | Nome, contato, papel, vinculação a projetos, histórico de participação | | | ✓ |
+| Atividades, especialidades e progressão (módulo avançado) | Para OSCs com estrutura de progressão escoteira ou similar | | | ✓ |
+| Gestão de associados contribuintes | Cadastro de membros pagantes, planos de contribuição, vínculo financeiro | | | ✓ |
+| Portal do Associado (área pública por token) | Associado consulta situação financeira e histórico sem precisar de login | | | ✓ |
+| Acordos de trabalho e termos com voluntários | Registro de termos de participação, assinatura digital, histórico por voluntário | | | ✓ |
 
-### Próximos meses
+---
 
-- **Aceite combinado de privacidade e termos** — refinamento do fluxo de aceite com versionamento independente dos dois documentos legais
-- **Reorganização da tela de perfil** — quatro caixas consolidadas com botões internos padronizados *(parcialmente entregue)*
-- **Atalhos contábeis nas listas de reembolsos e pedidos** — atalhos de período (mês atual, trimestre etc.) replicando o que já existe em Movimentações
+## 🏪 Fornecedores
 
-### Onda 5 — Projetos
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Cadastro de fornecedores e prestadores | Nome, CNPJ/CPF, contato, dados de pagamento, histórico | | | ✓ |
+| Avaliação por OSC | Estrelas e comentários para recomendação interna entre OSCs da rede | | | ✓ |
+| Histórico de lançamentos por fornecedor | Todas as movimentações associadas, com filtros e exportação | | | ✓ |
 
-- **Cadastro de projetos** com nome, descrição, período, orçamento previsto, equipe responsável
-- **Vinculação automática** entre projetos e movimentações, reembolsos, pedidos de pagamento
-- **Visão consolidada por projeto** — orçamento previsto × realizado, lançamentos vinculados
-- **Relatórios prontos para prestação de contas** por projeto (financiadores, conselho)
+---
 
-### Onda 6 — Relatórios
+## 💰 Doações e Campanhas
 
-- **Fluxo de caixa** projetado e realizado
-- **Comparativos por categoria** — para onde o dinheiro vai e de onde vem
-- **Evolução do saldo** — gráficos mês a mês
-- **Comparativos período × período** — mês a mês, ano a ano
-- **Formatos prontos** para diretoria, conselho, assembleia, financiadores
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Doações via WooCommerce | "Doações" como produto na loja online sincronizam para Movimentações | ✓ | | |
+| Cadastro de doadores | Base de doadores com histórico, valor total, contato | | | ✓ |
+| Recibos de doação em PDF | Documento padronizado com dados da OSC e do doador | | | ✓ |
+| Campanhas de arrecadação | Página pública `/doe/<slug>` com meta, prazo e barra de progresso | | | ✓ |
+| Personalização da página pública de transparência | Configurar o que aparece — indicadores resumidos, gráficos, fotos | | | ✓ |
 
-### Onda 7 — Voluntários (módulo básico)
+---
 
-- **Cadastro de voluntários** com papel, vinculação a projetos, dados de contato
-- **Histórico de participação**
+## 🏢 Configurações da Organização
 
-### Onda 8 — Fornecedores
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Cadastro de dados da OSC | Nome, CNPJ, endereço, redes sociais, logo | ✓ | | |
+| Multi-organização (uma conta em várias OSCs) | Seletor de organização no topo da tela | ✓ | | |
+| Gestão de usuários e papéis | Adicionar membros, alterar papel, desativar acesso, reenviar convite | ✓ | | |
+| Convite por e-mail com aceite | Acesso só após aceite formal pelo destinatário | ✓ | | |
+| Acesso público de vínculo (opcional) | Link público permite solicitações espontâneas que admin aprova | ✓ | | |
+| Cadastro de contas bancárias | Corrente, poupança, dinheiro, cartão, outros; saldo em tempo real | ✓ | | |
+| Categorias de receita, despesa e centros de custo | Estrutura editável com templates iniciais por tipo de OSC | ✓ | | |
+| Hierarquia de categorias (mãe + filhas) | Subcategorias para organização contábil mais granular | ✓ | | |
+| Fluxo de aprovações configurável | Quórum 1 ou 2, papéis aprovadores, pessoas individuais como aprovadores | ✓ | | |
+| Status "Em estruturação → Em funcionamento" | Transição automática por critérios objetivos (membros, contas, etc.) | | | ✓ |
+| Status "Suspensa" para organizações | Acesso temporariamente bloqueado, dados preservados | | | ✓ |
+| Gestão de papéis customizável por OSC | Renomear papéis, criar papéis novos, matriz de permissões | | | ✓ |
+| Suporte a múltiplas lojas WooCommerce por OSC | Configuração de mais de uma loja online conectada | | | ✓ |
 
-- **Cadastro de fornecedores e prestadores** com dados completos
-- **Avaliação por OSC** (recomendação interna entre OSCs da rede)
-- **Histórico de lançamentos por fornecedor**
+---
 
-### Onda 9 — Plano de Contas Contábil
+## 👤 Meu Perfil
 
-- **PCG** — Plano de Contas Geral mapeado a partir das categorias operacionais
-- **Suporte a ECD/ECF** — formatos contábeis brasileiros oficiais
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Identificação completa | Foto, nome, telefone, data de nascimento, CPF, RG (cifrados em repouso) | ✓ | | |
+| Dados para reembolso (PIX/TED) | Pré-preenchimento automático nas solicitações de reembolso | ✓ | | |
+| Notificações granulares por evento e canal | Matriz 10 eventos × 3 canais (e-mail, WhatsApp, Telegram) com switches individuais | ✓ | | |
+| Vinculação ao Telegram via bot oficial | Bot `@BussolaBot` vincula contato automaticamente | ✓ | | |
+| Alteração de senha | Mudança autosserviço pelo próprio usuário | ✓ | | |
+| Encerramento de todas as sessões ativas | Útil em casos de perda de dispositivo ou suspeita de uso indevido | ✓ | | |
+| Solicitação de exclusão de dados (LGPD) | Fluxo de direito ao esquecimento previsto na LGPD | ✓ | | |
 
-### Onda 10 — Privacidade e LGPD avançado
+---
 
-- **Exportação de dados pessoais** sob demanda (direito de portabilidade)
-- **Anonimização automática** sob solicitação (direito ao esquecimento)
+## 🔌 Integrações Externas
 
-## V2 (médio prazo)
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| WooCommerce — sincronização de pedidos pagos | Cron diário automático + manual sob demanda; configuração por OSC | ✓ | | |
+| WooCommerce — mapeamento de categorias automático ou manual | Categoria-mãe + filhas auto-criadas, ou mapeamento explícito | ✓ | | |
+| WooCommerce — estorno automático em refunds | Pedido refundado dispara estorno na próxima sync | ✓ | | |
+| WooCommerce — badge clicável que abre o pedido no admin | Visual roxo na lista de movimentações | ✓ | | |
+| WhatsApp Business API | Envio oficial de notificações pela conta WhatsApp Business da OSC | | | ✓ |
+| Telegram para grupos e canais da OSC | Envio para grupo/canal além de usuário individual | | | ✓ |
+| Google Drive | Sincronização de anexos com Drive da OSC | | | ✓ |
+| Asaas como gateway primário | PIX, boleto e cartão recorrente com webhook | | | ✓ |
+| Múltiplos gateways de pagamento | Stripe, Cielo, PagSeguro, Mercado Pago | | | ✓ |
+| API pública REST (OpenAPI / Swagger) | Acesso programático aos dados da OSC, habilitado por OSC via superadmin | | | ✓ |
+| Plugin WordPress (WooCommerce + widget) | Shortcode `[bussola_doacoes]` e bloco Gutenberg | | | ✓ |
+| Integração com sistemas contábeis (NIBO, ContaAzul) | Exportação automática de lançamentos para o ERP contábil | | | ✓ |
+| Webhook em tempo real para WooCommerce | Sincronização instantânea ao invés de diária | | | ✓ |
+| Conciliação com extrato bancário (OFX/CNAB) | Importação de extrato com matching automático | | | ✓ |
 
-Funcionalidades planejadas para após o MVP completo. Algumas dependem de validação com piloto.
+---
 
-- **Monetização** — planos com período gratuito, OSCs RIT em plano Pro gratuito, OSCs fora da rede em plano pago, portal de cobrança
-- **Orçamento anual** — planejamento por categoria/projeto com controle de desvios
-- **Voluntários — módulo avançado** — ATVs escoteiras, especialidades, progressão
-- **Solicitação de compras com cotação** — ≥ 1 fornecedores, fluxo de aprovação, lançamento automático ao aprovar
-- **Gestão de associados** — contribuintes, planos de contribuição, vínculo financeiro
-- **Portal do Associado** — área pública sem senha, segunda via, histórico
-- **Doações e Campanhas** — recibos PDF, página pública `/doe/<slug>`, campanhas com meta e prazo
-- **IA — sugestão de categoria + OCR de comprovantes** — extração automática de valor/data/fornecedor; sugestão de categoria por LLM
-- **Auditoria visual** — viewer da audit_log com filtros e exportação
-- **Conciliação bancária** — importação OFX/CNAB, matching automático
+## 🏷️ Plano de Contas e Compliance Contábil
 
-## V3 (longo prazo)
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Plano de contas contábil formal (PCG) | Mapeamento das categorias operacionais para o Plano de Contas Geral | | | ✓ |
+| Suporte a ECF e ECD | Formatos contábeis brasileiros oficiais para Receita Federal | | | ✓ |
+| Orçamento anual com controle de desvios | Cadastro de orçamento por categoria/projeto/período, alertas por desvio | | | ✓ |
+| Hash chain na audit_log | Detecção forense de tampering | | | ✓ |
+| Imutabilidade real da audit_log | Revogação de UPDATE/DELETE no banco em produção | | | ✓ |
+| Certificado digital ICP-Brasil | Assinatura digital de documentos e relatórios | | | ✓ |
 
-Mais distante no horizonte.
+---
 
-- **Integração Asaas** — pagamentos PIX/boleto/cartão recorrente como gateway primário; webhook que atualiza `payment_date` automaticamente
-- **Inadimplência** — controle e régua de cobrança automática (D+7, D+15, D+30)
-- **Gateways avançados** — split de pagamento, múltiplos gateways
-- **Documentos institucionais** — atas, certidões, contratos com controle de validade
+## 🤖 Inteligência Artificial
 
-## Como acompanhar
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Sugestão automática de categoria | LLM sugere categoria com base em descrição e histórico | | | ✓ |
+| OCR de comprovantes | Extração de valor, data e fornecedor a partir da foto da nota | | | ✓ |
+| Relatório gerencial mensal gerado por IA | Resumo escrito em prosa do mês para diretoria | | | ✓ |
+| Plano pago com provedor LLM operado pela RIT | Para OSCs sem provedor próprio | | | ✓ |
 
-- **[Changelog](changelog/)** registra cada versão lançada com a lista detalhada de adições, correções e mudanças.
+---
+
+## 🔒 Acesso, Segurança e LGPD
+
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Login com e-mail e senha | Cadastro via convite, senha forte exigida | ✓ | | |
+| Login com Google | Continuar com Google na tela de login e no setup inicial | ✓ | | |
+| Aceite formal de política de privacidade | Versionada, registrada por usuário com data | ✓ | | |
+| Aceite formal de termos de uso | Versionada, registrada por usuário com data | ✓ | | |
+| Dados sensíveis cifrados em repouso | CPF e RG cifrados; chave gerenciada separadamente | ✓ | | |
+| Multi-tenancy por RLS (isolamento por OSC) | Cada OSC enxerga apenas seus próprios dados | ✓ | | |
+| Auditoria completa em todas as ações | Audit log de criação, edição, aprovação, pagamento, estorno | ✓ | | |
+| Aceite combinado privacy + terms | Fluxo único de aceite com versionamento independente dos dois | | ✓ | |
+| Exportação de dados pessoais sob demanda | Direito de portabilidade da LGPD | | | ✓ |
+| Anonimização automática | Direito ao esquecimento; PII vira placeholders mantendo integridade contábil | | | ✓ |
+| Login com Microsoft, Apple, Discord | Provedores adicionais além de Google | | | ✓ |
+| Web Application Firewall (Cloudflare) | Rate limiting, DDoS protection, regras customizadas | | | ✓ |
+| Penetration test antes de abertura ampla | Auditoria de segurança profissional antes da expansão | | | ✓ |
+
+---
+
+## 💵 Monetização e Cobrança
+
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Free trial de 30 dias | Acesso completo durante o período inicial | | | ✓ |
+| Plano Pro para OSCs RIT (gratuito) | Acesso completo mediante validação de vínculo | | | ✓ |
+| Plano Pro para OSCs fora da rede (pago) | Cobrança recorrente PIX/boleto/cartão | | | ✓ |
+| Régua de cobrança automática (inadimplência) | D+7, D+15, D+30; bloqueio configurável | | | ✓ |
+| Cota de armazenamento e usuários por plano | Limites configuráveis por nível de plano | | | ✓ |
+| Documentos institucionais com controle de validade | Atas, certidões, contratos; alertas de vencimento | | | ✓ |
+
+---
+
+## ⚙️ Operação e Suporte
+
+| Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
+|---|---|:---:|:---:|:---:|
+| Botão de Feedback dentro do app | Mensagem direto para a equipe RIT com versão e contexto | ✓ | | |
+| Manual público em `docs.bf.rit.org.br` | Esta documentação que você está lendo | ✓ | | |
+| Changelog versionado | Lista de alterações por versão; atualizado a cada release | ✓ | | |
+| Modo claro / escuro | Toggle de tema no perfil do usuário | | | ✓ |
+| Personalização de painel por usuário | Reorganização dos cards e indicadores | | | ✓ |
+| Cronograma automático de relatórios periódicos | Envio mensal/trimestral para destinatários configurados | | | ✓ |
+| Comparativos entre OSCs da rede RIT | Anonimizado por default; visão consolidada para superadmin | | | ✓ |
+| Dashboard de saúde da plataforma | Para a RIT: OSCs ativas, usuários, volume, uso de armazenamento | | | ✓ |
+| Monitoramento (Sentry, Logflare) | Captura de erros e logs estruturados | | | ✓ |
+| Disaster recovery documentado e testado | Procedimento anual de teste de recuperação | | | ✓ |
+| Internacionalização (i18n) | Suporte a idiomas além de pt-BR | | | ✓ |
+
+---
+
+## Acompanhe as entregas
+
+- **[Changelog](/changelog/)** lista cada versão lançada com adições, correções e mudanças específicas.
 - **Botão 💬 Feedback** dentro do Bússola — sua mensagem é lida pela equipe da RIT e pode acelerar a priorização de algo que você precisa.
-
-## Observação importante
-
-> ⚠️ **Roadmap não é compromisso de data**
-> Esta página descreve **intenção e ordem**, não datas firmes. Software se constrói no mundo real, com restrições reais (equipe, recursos, feedback de piloto). Alguns itens podem antecipar; outros podem atrasar. O que **garantimos** é que o Bússola continua sendo desenvolvido ativamente e que toda mudança fica registrada no [Changelog](changelog/).

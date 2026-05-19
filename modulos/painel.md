@@ -6,7 +6,7 @@ permalink: /modulos/painel/
 
 O **Painel** é a primeira tela após o login — a visão de cockpit da sua OSC. Em uma única página você vê quanto dinheiro tem disponível, o resumo do mês corrente e os atalhos para as pendências que precisam da sua atenção naquele momento, ajustados ao seu papel.
 
-[![Painel](../assets/screenshots/manual-01-dashboard.png)](../assets/screenshots/manual-01-dashboard.png)
+[![Painel](/assets/screenshots/manual-01-dashboard.png)](/assets/screenshots/manual-01-dashboard.png)
 *Painel principal*
 
 > 💡 **Por que isso importa**
