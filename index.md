@@ -20,7 +20,7 @@ permalink: /
 </style>
 
 <div class="home-intro">
-  <p>O <strong>Bússola Financeira</strong> é a plataforma de gestão financeira para Organizações da Sociedade Civil (OSCs) desenvolvida pela <a href="https://rit.org.br">RIT — Rede de Inovação e Transformação</a>. Acesse o sistema em <a href="https://bf.rit.org.br">bf.rit.org.br</a>.</p>
+  <p>O <strong>Bússola Financeira</strong> é a plataforma de gestão financeira para Organizações da Sociedade Civil (OSCs) desenvolvida pela <a href="https://rit.org.br" target="_blank" rel="noopener noreferrer">RIT — Rede de Inovação e Transformação</a>. Acesse o sistema em <a href="https://bf.rit.org.br" target="_blank" rel="noopener noreferrer">bf.rit.org.br</a>.</p>
   <p>Esta documentação <strong>não é só um manual de botões</strong>: cada seção explica o porquê das funcionalidades, conceitos financeiros relevantes para OSC (fluxo de caixa, regime de caixa, estorno, quórum de aprovação) e boas práticas que vimos funcionarem na rede. Leia na ordem que quiser; comece pelos <a href="/primeiros-passos/">Primeiros Passos</a> se você acabou de chegar.</p>
 </div>
 
@@ -114,4 +114,4 @@ permalink: /
 <p>Dúvidas, sugestões ou problemas? Use o botão <strong>💬 Feedback</strong> dentro do Bússola — vai direto para a equipe da RIT, com a versão do app e o seu contexto. Para questões de privacidade ou LGPD, escreva para <a href="mailto:dpo@rit.org.br">dpo@rit.org.br</a>.</p>
 
 <hr>
-<p style="font-size:0.8rem; color:#888;">Bússola Financeira v0.13.0 · <a href="https://rit.org.br">RIT — Rede de Inovação e Transformação</a> · <a href="https://github.com/RIT-DF/bussola-docs">repositório público desta documentação</a></p>
+<p style="font-size:0.8rem; color:#888;">Bússola Financeira v0.13.0 · <a href="https://rit.org.br" target="_blank" rel="noopener noreferrer">RIT — Rede de Inovação e Transformação</a> · <a href="https://github.com/RIT-DF/bussola-docs" target="_blank" rel="noopener noreferrer">repositório público desta documentação</a></p>

@@ -37,7 +37,7 @@ Na tela de login você pode:
 - **E-mail e senha** — credenciais definidas no primeiro acesso
 - **Esqueci a senha** — se esqueceu, clique aqui e siga as instruções por e-mail
 
-Acesse em: [bf.rit.org.br](https://bf.rit.org.br)
+Acesse em: [bf.rit.org.br](https://bf.rit.org.br){:target="_blank" rel="noopener noreferrer"}
 
 > ⚠️ **Atenção · Senha forte, sempre**
 > O Bússola tem dados financeiros da sua OSC — conta bancária, CPFs, comprovantes, valores. **Use senha forte e única** (não reaproveite a do e-mail pessoal). Considere usar gerenciador de senhas. A Bússola usa criptografia em dados sensíveis (CPF, RG são cifrados em repouso), mas a primeira linha de defesa é o controle do seu acesso.
@@ -46,7 +46,7 @@ Acesse em: [bf.rit.org.br](https://bf.rit.org.br)
 
 Na primeira vez que você acessa, ou quando a política ou termos são atualizados, aparece uma tela solicitando o aceite. Este passo é obrigatório e a Bússola não libera o uso até que você aceite.
 
-Acompanhe atualizações em [docs.bf.rit.org.br/privacidade](https://docs.bf.rit.org.br/privacidade) e [docs.bf.rit.org.br/termos](https://docs.bf.rit.org.br/termos).
+Acompanhe atualizações em [Política de Privacidade](/privacidade/) e [Termos de Uso](/termos/).
 
 ## Navegação principal
 
