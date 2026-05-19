@@ -23,11 +23,44 @@ Clique em **+ Adicionar usuário**. Informe o **e-mail** e o **papel** desejado.
 > 📖 **Conceito · Convite vs acesso direto**
 > A Bússola usa **convite por e-mail** como mecanismo de entrada, não cadastro aberto. Isso protege a OSC de spam, garante que a pessoa convidada confirma o acesso pelo próprio e-mail, e permite mensagem personalizada no convite. O convite tem prazo de validade — se expirar, o admin pode reenviar pelo mesmo fluxo.
 
+## Importar usuários em lote (planilha CSV)
+
+[![Importar usuários — tela de upload](/assets/screenshots/manual-config-usuarios-importar.png)](/assets/screenshots/manual-config-usuarios-importar.png)
+*Importar usuários — instruções, download do template e área de upload*
+
+Para OSCs que estão migrando de outro sistema ou que precisam cadastrar muitos membros de uma vez, há a opção **Importar usuários** ao lado de "Adicionar usuário". O fluxo é o mesmo padrão do importador de movimentações.
+
+1. Clique em **Importar usuários** → abre uma tela dedicada.
+2. **Baixe o template** CSV. O arquivo já vem com o cabeçalho correto e algumas linhas de exemplo.
+3. Preencha sua planilha. Campos **obrigatórios**: nome completo, e-mail e papel. **Opcionais**: telefone, WhatsApp, Telegram, data de nascimento, CPF, RG.
+4. Faça **upload** do arquivo. A Bússola mostra uma **pré-visualização** com cada linha classificada por status:
+   - **Novo** — vai receber convite por e-mail
+   - **Já cadastrado** — usuário existente em outra OSC; cria vínculo direto sem convite
+   - **Vínculo ativo na OSC** — usuário que já é membro; perfil pode ser atualizado (campos vazios apenas)
+   - **Com erro** — linha que será pulada (motivo explícito ao lado)
+5. Clique em **Importar**. A Bússola dispara os convites por e-mail para os novos cadastros e atualiza os perfis dos demais.
+
+> 📖 **Conceito · Upsert seletivo**
+> Quando o e-mail da planilha já existe na sua OSC, a Bússola **só preenche os campos que estão vazios** no perfil atual. Nenhum dado existente é substituído. Útil para migrações onde você importa dados de uma planilha mestre sem o risco de sobrescrever informações que o membro já cadastrou no próprio perfil.
+
+> ⚠️ **Atenção · Multi-papel não entra via planilha**
+> Cada linha do CSV atribui exatamente um papel. Se o membro precisar acumular papéis (ex: Coordenador de Projeto + Comissão Fiscal), use o botão **Editar papéis** no menu de ações depois da importação. Isso é decisão pra evitar erros de digitação em CSV grande.
+
+> ⚠️ **Atenção · Dados de pagamento (PIX/conta) não vêm no CSV**
+> Por segurança e simplicidade, a planilha não importa dados de PIX, banco ou conta. Cada membro preenche isso depois no próprio perfil, em **Configurações → Perfil** (acessível por qualquer usuário). Mantém esse dado fora da planilha que circula entre administradores.
+
+> ⚠️ **Atenção · Senha não vem no CSV**
+> O fluxo é igual ao convite individual: para cada e-mail novo, a Bússola envia link de setup por e-mail. O usuário define a própria senha ao clicar no link. Admin nunca digita nem vê a senha de outro membro.
+
 ## Ações por membro
 
 Cada linha tem menu de ações que muda conforme o status:
 
 - **Editar papéis** — abre painel lateral com checkboxes para os 5 papéis disponíveis (Presidente, Tesoureiro, Coordenador de Projeto, Voluntário, Comissão Fiscal). Um usuário pode ter mais de um papel ao mesmo tempo — ver [Papéis e Permissões](/papeis/) para a regra de combinações.
+
+  [![Editar papéis — painel multi-select](/assets/screenshots/manual-config-usuarios-editar-papeis.png)](/assets/screenshots/manual-config-usuarios-editar-papeis.png)
+  *Editor de papéis — marque os papéis desejados; combinações proibidas ficam visualmente desabilitadas*
+
 - **Desativar acesso** — bloqueia entrada sem excluir histórico
 - **Reativar acesso** — restaura entrada de quem estava desativado
 - **Cancelar convite pendente** — remove convite que ainda não foi aceito

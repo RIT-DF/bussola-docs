@@ -13,6 +13,23 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ## [Pré-teste em andamento]
 
+## [0.16.0] — 2026-05-19
+
+### Adicionado
+- **Importação de usuários em lote por CSV** (BK-178): nova opção **Importar usuários** em **Configurações → Usuários**, ao lado de "Adicionar usuário". Admin pode trazer dezenas ou centenas de membros de uma vez a partir de uma planilha CSV — útil para OSCs migrando de outro sistema ou cadastrando todo o quadro associativo de uma vez.
+- **Template CSV pré-formatado** (BK-178): botão "Baixar template" entrega um arquivo com cabeçalho e exemplos. Campos obrigatórios: nome completo, e-mail e papel. Opcionais: telefone, WhatsApp, Telegram, data de nascimento, CPF e RG.
+- **Pré-visualização com classificação por status** (BK-178): após upload, a Bússola mostra cada linha como **novo** (vai receber convite), **já cadastrado** (cria vínculo direto), **vínculo ativo na OSC** (atualiza só campos vazios do perfil), ou **com erro** (será pulada, com motivo explícito). Botão "Importar" só fica ativo se houver linhas válidas.
+- **Convite por e-mail mantido para novos cadastros** (BK-178): cada e-mail novo recebe o mesmo template de convite usado quando o admin cadastra individualmente. Senha continua sendo definida pelo próprio usuário no link de setup — admin nunca vê nem digita senha alheia.
+- **Upsert seletivo de perfil** (BK-178): para e-mails já cadastrados, a Bússola preenche apenas os campos do perfil que estão vazios. Nenhum dado existente é substituído. Útil para enriquecer cadastros sem risco de sobrescrever dados que o membro já cadastrou no próprio perfil.
+- **CPF e RG via Vault** (BK-178): se a planilha incluir CPF/RG, esses dados vão para o cofre seguro (Vault) do Supabase, com a mesma proteção que o cadastro individual recebe. Nunca persistem em coluna clara.
+- **Resumo final por categoria** (BK-178): ao concluir, a Bússola mostra contagens por tipo (convites enviados, convites com e-mail pendente quando o envio falhou, vínculos novos, perfis atualizados, linhas com erro). Linhas com erro ficam disponíveis para download em CSV separado com coluna de motivo, facilitando correção.
+
+### Notas técnicas
+- Multi-papel não entra via planilha — cada linha atribui exatamente 1 papel. Para acumular papéis, usar **Editar papéis** no menu de ações do membro após importar.
+- Dados de pagamento (PIX/banco/conta) **não entram** na planilha por decisão de segurança e simplicidade. Cada membro preenche no próprio perfil.
+- Nova RPC `admin_set_user_profile_sensitive(p_user_id, p_org_id, p_cpf, p_rg)` com gate de admin **da OSC alvo** — bloqueio explícito de escrita cross-organizacional.
+- Audit log registra cada linha processada com ação correta (`invited`, `linked`, `profile_updated`, `invited_email_pending`, `skipped_error`).
+
 ## [0.15.0] — 2026-05-19
 
 ### Adicionado
