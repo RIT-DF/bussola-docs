@@ -132,6 +132,9 @@ Clique em **+ Nova solicitação** para abrir o formulário.
 > ✓ **Dica · Reembolso curto, comprovante claro**
 > A diferença entre reembolso aprovado no dia e reembolso que volta para correção: **descrição específica + comprovante legível**. Tire foto do recibo com boa luz, descreva no campo Descrição **o que** foi comprado e **para qual atividade** ("Lanche da reunião de planejamento dia 15"), e o aprovador resolve em 30 segundos sem nenhuma pergunta extra.
 
+> ✓ **Dica · Tire a foto pelo próprio app no celular**
+> Em mobile, o formulário oferece dois botões na seção **DOCUMENTOS**: **Tirar foto** e **Anexar arquivo**. **Tirar foto** abre a câmera traseira do celular direto, sem passar pela galeria; você enquadra o cupom, captura, vê a foto em tamanho grande e decide entre **Refazer** ou **Confirmar**. Útil para registrar a despesa no momento do gasto (no posto, na loja, na hora). A Bússola reduz automaticamente o tamanho da foto antes do envio — fica leve para subir mesmo em conexão móvel ruim, sem perder a legibilidade do cupom. Tipos aceitos pelo botão **Anexar arquivo**: imagens, PDF, XML (NFe) e ZIP.
+
 > ⚠️ **Atenção · Comprovante é obrigatório, sem exceção**
 > Reembolso sem comprovante é ponto de risco contábil e jurídico. Mesmo em compra pequena de R$ 10 — anexe o cupom fiscal ou ao menos uma foto da nota com data e estabelecimento. Reembolsos sem comprovação adequada são **a fonte número um de questionamento** em prestação de contas para financiadores e auditorias do terceiro setor.
 

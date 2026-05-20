@@ -167,10 +167,19 @@ A barra lateral direita também controla a repetição do lançamento:
 
 ### Anexos e comprovantes
 
-Você pode anexar arquivos (comprovantes, notas fiscais, contratos) ao lançamento. PDFs e imagens ganham pré-visualização inline no detalhe.
+Você pode anexar arquivos (comprovantes, notas fiscais, contratos) ao lançamento. Anexo é **opcional** — lançamento sem comprovante continua válido — mas é fortemente recomendado para qualquer movimentação que tenha origem em compra, serviço contratado ou pagamento de terceiro. PDFs e imagens ganham pré-visualização inline na página de detalhe.
+
+**Em mobile**, a seção **DOCUMENTOS** exibe dois botões: **Tirar foto** (abre a câmera traseira do celular direto, com preview **Refazer** ou **Confirmar** antes de subir) e **Anexar arquivo** (aceita imagens, PDF, XML de NFe e ZIP). A Bússola reduz a foto automaticamente antes do upload — fica leve mesmo em conexão móvel ruim, sem perder a legibilidade do cupom para auditoria humana ou para extração automática futura via IA.
+
+**Em desktop**, a seção mostra uma área para arrastar arquivos ou clicar para selecionar — o botão "Tirar foto" não aparece nesse contexto (webcam de laptop não serve para fotografar comprovante apoiado na mesa).
+
+**Em Novo Lançamento nos modos Recorrente e Parcelado**, a seção de anexo é ocultada na criação da série — não há um lançamento único ao qual associar o documento. Uma nota explicativa orienta a anexar individualmente em cada lançamento depois que a série for criada. Em **Editar Lançamento**, a seção funciona normalmente, pois você sempre edita um movimento individual.
 
 > ✓ **Dica · Anexe sempre, anexe na hora**
 > Comprovante anexado na criação do lançamento custa 10 segundos. Procurar um comprovante de 8 meses atrás na pasta de e-mails do diretor anterior custa horas e às vezes não dá certo. **Adote como regra: nenhum lançamento sem comprovante.** Sua diretoria, sua auditoria contábil e seu eu do futuro vão agradecer.
+
+> ✓ **Dica · Tesoureiro em campo, câmera direto no app**
+> Tesoureiro voluntário em viagem com o grupo, pagou combustível no posto: abre a Bússola instalada no celular, **Novo Lançamento → Tirar foto**, fotografa o cupom fiscal, confirma. Quatro toques contra os oito tradicionais de tirar foto pelo app de câmera, salvar na galeria, abrir o Bússola, navegar, selecionar.
 
 ## Estornar um lançamento
 

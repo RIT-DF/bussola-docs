@@ -142,6 +142,9 @@ Toggle no formulário escolhe entre os três tipos. Para **Recorrente** ou **Par
 > ⚠️ **Atenção · Anexo é obrigatório no envio**
 > Salvar como rascunho não exige anexo, mas **enviar para aprovação exige pelo menos 1 documento anexado**. A Bússola bloqueia o envio se faltar comprovante. Motivo: aprovação sem documento é aprovação no escuro — vira ponto de risco contábil. Sempre anexe a nota, contrato ou orçamento antes de enviar.
 
+> ✓ **Dica · Foto direto pelo celular no momento do pedido**
+> Em mobile, a seção **DOCUMENTOS** do formulário exibe dois botões: **Tirar foto** (abre a câmera traseira do celular direto, com preview **Refazer** ou **Confirmar** antes de subir) e **Anexar arquivo** (PDF, imagem, XML de NFe ou ZIP). A Bússola reduz a foto automaticamente antes do upload — fica leve mesmo em conexão ruim. Combina bem com o caso de uso de coordenador de projeto registrando o pedido de pagamento ainda no fornecedor, com o orçamento na mão.
+
 **Botões de ação:**
 
 - **Salvar rascunho** — guarda sem enviar
