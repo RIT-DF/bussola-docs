@@ -13,6 +13,21 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ## [Pré-teste em andamento]
 
+## [0.17.2] — 2026-05-19
+
+### Corrigido
+- **Abas de Movimentações no celular voltaram a ser acessíveis** (BK-197): as abas iniciais (**Todas** e **Receitas**) ficavam invisíveis à esquerda e o usuário não conseguia rolar a barra de abas para alcançá-las — só era possível rolar para a direita para ver as últimas. Agora a rolagem funciona em ambas as direções nas abas de **Movimentações**, **Pagamentos e Reembolsos**, **Relatórios** e demais telas que usam abas em mobile (8 telas mapeadas e corrigidas via componente compartilhado).
+- **Rótulo "Pag./Reemb." na navegação do celular** (BK-198): a barra inferior do app instalado mostrava só "Reemb." no terceiro botão, ocultando que o módulo cobre também Pedidos de Pagamento. Agora aparece **Pag./Reemb.** e leva para `/pagamentos` (a tela raiz do módulo).
+
+### Adicionado
+- **Troca de organização (OSC) agora disponível no celular** (BK-201): no celular, usuários com acesso a mais de uma OSC (superadmin, voluntários cross-OSC, contadores) não tinham como trocar de organização — o seletor existia só no cabeçalho desktop, escondido em mobile. Agora, no painel **Mais** (barra inferior), aparece no topo um bloco com a **OSC ativa** (logo + nome). Quando há múltiplas OSCs, tocar nesse bloco expande a lista de organizações disponíveis dentro do próprio painel; tocar em uma delas troca de OSC e fecha o painel. Se o usuário tem só uma OSC, o bloco aparece apenas como informação ("você está na OSC X").
+
+### Notas técnicas
+- Causa raiz do BK-197: combinação `inline-flex` + `max-w-full` + `overflow-x: auto` no `<TabsList>` shadcn cria container de scroll com largura *shrink-to-fit*, fazendo o navegador calcular origem do scroll de forma instável em mobile (filhos com `offsetLeft` negativo, inalcançáveis). Fix em 2 propriedades no shared `Code/src/components/ui/tabs.tsx`: `<TabsList>` `inline-flex max-w-full` → `flex w-full`; `<TabsTrigger>` ganhou `shrink-0`.
+- BK-201: novo bloco no `<MobileMoreSheet>` reusando `<OrgMark>` exportado do `<OrgSwitcher>` desktop (DRY). Expansão inline da lista de OSCs (não popover sobre o sheet, anti-pattern de modal sobre modal). `<SheetTitle>` mantido em `sr-only` para acessibilidade.
+
+---
+
 ## [0.17.1] — 2026-05-19
 
 ### Corrigido
