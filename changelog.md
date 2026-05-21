@@ -13,6 +13,30 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ## [Pré-teste em andamento]
 
+## [0.19.1] — 2026-05-21
+
+Versão dedicada à **estabilização da experiência no celular** e à correção de um bug crítico que estava impedindo as atualizações do app de chegarem aos usuários. Os 6 ajustes desta versão não trazem funcionalidade nova — refinam o que já existia para deixar a Bússola pronta para uso diário no smartphone.
+
+### Corrigido
+
+- **Atualizações do app agora chegam direito ao celular**: nas versões anteriores, quando uma nova versão era publicada e o aviso "Nova versão disponível" aparecia no celular, tocar em **Atualizar** não trocava de versão — só funcionava após limpar manualmente os dados do navegador (Configurações do Chrome → Privacidade e segurança → Limpar dados). Foi corrigido. A partir desta versão, tocar em "Atualizar" recarrega o app na versão nova automaticamente. **Importante:** este fix só passa a valer **a partir desta versão (v0.19.1)** — quem está em v0.19.0 ou anterior precisa, uma última vez, fazer aquele procedimento manual de limpar dados pra subir para v0.19.1 e ganhar o comportamento correto dali em diante.
+- **Filtros de status em Reembolsos**: tocar em "Rascunho", "Aguardando aprovação", "Aprovado", "Rejeitado" ou "Pago" dentro da aba **Reembolsos** estava levando o usuário pra aba **Pedidos de Pagamento**. Agora o filtro funciona dentro da própria aba Reembolsos.
+- **Cabeçalho de Movimentações no celular**: os botões "Exportar / Importar Lançamentos / Novo lançamento" no topo da página vazavam ligeiramente para fora da tela. Foram ajustados para caber certinho.
+
+### Modificado
+
+- **Listas de Pedidos e Reembolsos no celular agora aparecem como cartões**: em vez da tabela com colunas que precisavam de rolagem lateral, cada solicitação vira um cartão vertical com todos os campos visíveis sem precisar rolar — mesmo padrão que **Movimentações** já tinha desde a v0.18.0. Em desktop, a tabela tradicional continua sendo usada.
+- **Formulários de Nova Solicitação otimizados para celular**: nos formulários de **Novo Reembolso** e **Novo Pedido de Pagamento** (e nos modos de edição), a barra de ações ("Cancelar / Salvar rascunho / Enviar para aprovação") agora aparece em um rodapé fixo na parte de baixo da tela do celular, ao alcance do polegar — padrão familiar de apps nativos. Os campos também ganham mais espaço horizontal: em vez de 3 colunas apertadas (Categoria / Projeto / Centro de custo), passam a empilhar em coluna única no celular. Em desktop o visual continua exatamente como antes.
+- **Rodapé do app oculto no celular**: a barra de rodapé (versão do app + links de Política / Termos / Manual) só aparece em telas grandes. No celular, esses links continuam disponíveis pelo menu **Mais** da barra inferior.
+
+### Observações de uso
+
+- Esta versão é resultado de uma varredura sistemática pós-PWA: testamos as 12 rotas principais do app em viewport de 375px (smartphones pequenos como iPhone SE) para garantir zero conteúdo cortado e fluxo de toque consistente.
+- Quem usa o Bússola só no desktop não vai notar mudança nenhuma — todas as alterações desta versão são especificamente para refinar a experiência no celular.
+- Próximas versões voltam o foco para novas funcionalidades (em particular, aceite combinado da Política de Privacidade e Termos de Uso).
+
+---
+
 ## [0.19.0] — 2026-05-20
 
 Esta versão adiciona um novo canal de notificações: **push direto no celular ou no navegador**. Você passa a receber avisos da Bússola mesmo com o app fechado, como em qualquer aplicativo de banco — ao tocar no aviso, abre direto na tela relevante (reembolso aprovado, pedido pendente de seu voto, etc.). Push é o 4º canal da matriz de preferências, ao lado de E-mail, WhatsApp e Telegram.
