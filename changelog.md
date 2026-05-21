@@ -13,6 +13,41 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ## [Pré-teste em andamento]
 
+## [0.19.3] — 2026-05-21
+
+### Adicionado
+
+- **Superadministradores avisados em tempo real quando você envia um feedback** (BK-217): ao usar o botão **Feedback** no topo do app, todos os superadmins ativos recebem aviso imediato pelos canais que tiverem habilitado em **Meu Perfil → Notificações** (e-mail por padrão; push se a Bússola estiver instalada como app). Resposta administrativa fica muito mais ágil — antes, dependia do superadmin abrir a tela de feedbacks pra ver o que tinha de novo.
+
+### Observações de uso
+
+- A configuração desse aviso fica em **Meu Perfil → Notificações → seção Feedback → linha "Quando um usuário envia novo feedback"**. A linha aparece apenas para superadministradores. Defaults: e-mail e push ligados; WhatsApp e Telegram desligados (canais menos comuns para uso administrativo).
+
+---
+
+## [0.19.2] — 2026-05-21
+
+Bump consolidado de 6 entregas pós-piloto: 3 correções de bugs reportados pelos testadores, 2 melhorias de navegação e 1 nova funcionalidade administrativa.
+
+### Adicionado
+
+- **Resposta ao usuário quando seu feedback é resolvido** (BK-215): em **Superadmin → Feedbacks**, ao marcar um feedback como **Resolvido**, abre uma tela onde o administrador pode escrever uma mensagem opcional pro usuário que reportou. Se escolher enviar, a mensagem chega ao usuário pelo canal que ele tem habilitado em **Meu Perfil → Notificações** (e-mail por padrão). Se preferir só resolver sem enviar nada, basta o botão **Marcar como resolvido sem enviar**. A mensagem fica guardada na linha do feedback (ícone de envelope ao lado do status) pra histórico e revisão.
+- **Cards de saldos por conta na aba Movimentações** (BK-211): a página de Movimentações agora exibe, acima da lista de lançamentos, os cards com o saldo de cada conta (Consolidado + uma card por conta operacional ativa) — o mesmo bloco que já existia no Painel e em Relatórios. Saldos atualizam ao vivo, independente dos filtros que você aplicar na lista.
+- **Cards de aprovação clicáveis em Pedidos e Reembolsos** (BK-213): os 4 cards no topo das listas de **Pedidos de Pagamento** e **Reembolsos** ("Aguardando minha aprovação", "Aprovados aguardando pagamento", "Solicitado no período", "Pago no período") agora são clicáveis — clicar leva direto à sub-aba filtrada pelo status correspondente. Antes eram puramente informativos.
+
+### Corrigido
+
+- **Saldos no Painel não atualizavam após transferência entre contas** (BK-210): ao registrar uma transferência marcada como já efetivada (Data de pagamento preenchida no formulário), os cards de saldo do Painel, da página de Contas e do dropdown de seleção continuavam mostrando os valores antigos — só atualizavam após hard refresh (Ctrl+Shift+R) ou nova sessão. Foi corrigido. Agora qualquer transferência marcada como paga reflete imediatamente nos saldos em todas as telas. Transferências antigas que estavam contabilizadas errado também foram corrigidas retroativamente — o saldo total consolidado da OSC foi preservado (transferências não criam nem destroem dinheiro, só redistribuem entre as contas).
+- **Reprovação de pedidos de pagamento dava erro e não era registrada** (BK-214): ao tentar reprovar um pedido aguardando aprovação, o sistema retornava o erro técnico "Edge Function returned a non-2xx status code" e a reprovação não era registrada — o pedido ficava preso em "aguardando" sem possibilidade de avançar. Foi corrigido. Aprovadores agora conseguem reprovar com motivo e o pedido vai pra status "Rejeitado" normalmente, com a entrada visível no histórico de aprovações com a cor e o rótulo certos. Reprovação de reembolsos continuava funcionando — apenas o fluxo de pedidos estava afetado.
+- **Atualizações do app em desktop exigiam hard refresh em cada página** (BK-212): em navegador comum (não-PWA instalado), o aviso "Nova versão disponível" só aparecia depois de o tesoureiro fechar e reabrir a aba — quem deixava a Bússola aberta o dia inteiro nunca via o aviso e continuava na versão antiga. Foi corrigido. Agora o app verifica versão nova a cada minuto, quando você volta o foco pra aba da Bússola, e quando reconecta após perder rede. Quando você toca em **Atualizar**, todas as abas abertas se atualizam juntas.
+
+### Observações de uso
+
+- **Bootstrap chato (uma vez só):** quem está em v0.19.1 ainda precisa fazer um último hard refresh manual (Ctrl+Shift+R) para subir para v0.19.2 — depois disso o ciclo automático de atualização (BK-212) passa a valer e nenhum hard refresh será mais necessário.
+- Esta release fecha a fila de bugs e melhorias reportados pelos testadores na fase de pré-teste.
+
+---
+
 ## [0.19.1] — 2026-05-21
 
 Versão dedicada à **estabilização da experiência no celular** e à correção de um bug crítico que estava impedindo as atualizações do app de chegarem aos usuários. Os 6 ajustes desta versão não trazem funcionalidade nova — refinam o que já existia para deixar a Bússola pronta para uso diário no smartphone.
