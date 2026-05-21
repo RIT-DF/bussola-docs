@@ -36,7 +36,10 @@ O módulo de **Reembolsos** é onde voluntários, dirigentes e colaboradores **p
 ## Lista de reembolsos
 
 [![Lista de reembolsos](/assets/screenshots/manual-05-reembolsos-lista.png)](/assets/screenshots/manual-05-reembolsos-lista.png)
-*Lista de reembolsos*
+*Lista de reembolsos em desktop*
+
+[![Reembolsos no celular](/assets/screenshots/mobile-reembolsos.png)](/assets/screenshots/mobile-reembolsos.png)
+*Reembolsos no celular — cards de resumo em grade 2×2, sub-abas roláveis horizontalmente e lista em cards verticais*
 
 A lista mostra todos os reembolsos da organização. Cada papel vê um recorte diferente:
 
@@ -45,7 +48,21 @@ A lista mostra todos os reembolsos da organização. Cada papel vê um recorte d
 
 Cada aba mostra a contagem entre parênteses (ex: "Aguardando aprovação (3)") — útil para ver rapidamente o que está pendente.
 
-**Colunas:** Data da despesa, Descrição, Valor, Status, Solicitante, Ações.
+**Colunas (desktop):** Data da despesa, Descrição, Valor, Status, Solicitante, Ações.
+
+No **celular**, a lista vira **cards verticais** otimizados para toque, com toda a informação empilhada — descrição em destaque, valor à direita, data da despesa, solicitante, badge de status e botões de aprovar/reprovar quando aplicável. Sem precisar rolar lateralmente para ver o status ou as ações. Mesmo padrão usado em Movimentações e Pedidos de Pagamento.
+
+### Cards de resumo no topo
+
+Acima das abas de filtro de status, aparecem até quatro cards de resumo, **filtrados pelo seu papel** (diferente da contagem global das abas, que conta todos os reembolsos da OSC). Útil para responder de relance: "o que precisa da minha atenção agora?".
+
+- **Aguardando minha aprovação** — aparece para quem é aprovador elegível (Presidente, Tesoureiro e demais papéis configurados); conta quantos reembolsos esperam **seu** voto.
+- **Aprovados aguardando pagamento** — aparece para o Tesoureiro e Administrador; conta reembolsos com status Aprovado que ainda não viraram movimentação paga.
+- **Solicitado no período** — sempre visível; conta reembolsos submetidos no mês corrente.
+- **Pago no período** — sempre visível; conta reembolsos pagos no mês corrente.
+
+> ✓ **Dica · Diferente da contagem das abas**
+> As abas mostram o total da OSC ("Aguardando aprovação (3)" = todos os reembolsos pendentes da organização). Os cards de resumo mostram **a sua fatia** ("Aguardando minha aprovação: 1" = só os que **você** pode votar). Use o card para saber o que tem que fazer; use a aba para saber o que está no fluxo geral.
 
 ### Ações inline na lista
 
@@ -101,7 +118,10 @@ Quando o tesoureiro marca a movimentação financeira correspondente como paga, 
 ## Nova solicitação de reembolso
 
 [![Nova solicitação de reembolso](/assets/screenshots/manual-06d-novo-reembolso.png)](/assets/screenshots/manual-06d-novo-reembolso.png)
-*Formulário de nova solicitação*
+*Formulário de nova solicitação em desktop*
+
+[![Nova solicitação de reembolso no celular](/assets/screenshots/mobile-novo-reembolso.png)](/assets/screenshots/mobile-novo-reembolso.png)
+*Formulário no celular — destaque para o botão **Tirar foto** que abre a câmera traseira direto, e a barra de ações fixa no rodapé ("Cancelar / Salvar rascunho / Enviar para aprovação") ao alcance do polegar*
 
 Clique em **+ Nova solicitação** para abrir o formulário.
 
