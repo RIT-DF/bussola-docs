@@ -242,8 +242,8 @@ Esta página mostra **o estado de cada funcionalidade** do Bússola Financeira �
 | Cards de Movimentações em mobile | Em vez de tabela cortada, lista vertical de cards otimizada para toque (descrição, valor, data, contraparte, ações) | ✓ | | |
 | Cards de Pedidos e Reembolsos em mobile | Mesmo padrão dos cards de Movimentações aplicado às listas de Pedidos de Pagamento e Reembolsos | ✓ | | |
 | Cards de resumo no topo das listas em mobile | Em Pedidos e Reembolsos, KPIs filtrados pelo papel do usuário (Aguardando minha aprovação, Aprovados aguardando pagamento, Solicitado/Pago no período) ficam em grade 2×N acima das sub-tabs | ✓ | | |
-| Bottom nav fixa em mobile | Barra inferior fixa com Painel, Movim., +, Pag./Reemb., Mais — sempre acessível enquanto navega | ✓ | | |
-| Painel "Mais" com OrgSwitcher | Tap em **Mais** abre painel deslizante com troca de OSC (no topo), demais rotas (Projetos, Relatórios, Configurações, Perfil) e Sair | ✓ | | |
+| Bottom nav fixa em mobile | Barra inferior fixa com Painel, Movim., Pag./Reemb., Relatórios, Mais — sempre acessível enquanto navega | ✓ | | |
+| Painel "Mais" com OrgSwitcher | Tap em **Mais** abre painel deslizante com troca de OSC (no topo), rotas que não cabem na barra (Projetos, Configurações da organização, Meu perfil), links auxiliares (Manual, Privacidade, Termos) e Sair | ✓ | | |
 | Barra de ações fixa nos formulários em mobile | Em Novo Reembolso, Novo Pedido e Editar Pedido, os botões Cancelar / Salvar rascunho / Enviar para aprovação ficam em rodapé fixo ao alcance do polegar, padrão de apps nativos | ✓ | | |
 | Notificações push via Web Push | Eventos do app (reembolso aprovado, pedido aguardando aprovação, etc.) enviados como notificação push pelo celular ou navegador, com toggles por evento na matriz de notificações do perfil | ✓ | | |
 | Capturar comprovante com a câmera do celular | Anexar nota fiscal, cupom ou comprovante fotografando direto pelo celular no fluxo de Novo Lançamento, Novo Reembolso e Novo Pedido de Pagamento — câmera traseira aberta direto, sem passar pela galeria | ✓ | | |

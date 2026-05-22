@@ -13,6 +13,32 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ## [Pré-teste em andamento]
 
+## [0.19.4] — 2026-05-22
+
+Bump consolidado de 8 entregas focadas em **consistência visual em mobile/PWA**, **navegação inferior** e **estabilidade do ciclo de atualização do app**.
+
+### Adicionado
+
+- **Relatórios na barra inferior do app em mobile** (BK-219): a barra inferior agora tem 5 itens fixos — **Painel · Movim. · Pag./Reemb. · Relatórios · Mais**. O botão `+` central, que era circular e prometia abrir um novo lançamento mas não funcionava, foi removido. As ações de criar lançamento, reembolso e pedido continuam no botão **Novo** do header de cada lista.
+- **Manual, Privacidade e Termos no menu "Mais"** (BK-222): em mobile (onde o rodapé fica oculto pra dar espaço à barra inferior), o sheet aberto pelo botão **Mais** agora inclui links diretos para **Manual do Usuário**, **Política de Privacidade** e **Termos de Uso** — sempre acessíveis na palma da mão.
+
+### Corrigido
+
+- **Campo de valor em Reembolsos e Pedidos de Pagamento se comportava diferente de Movimentações** (BK-218): nas telas de Reembolsos e Pedidos, ao digitar `100` o campo exibia `R$ 1,00` (tratava cada dígito como centavo). Em Movimentações o mesmo `100` virava `R$ 100,00`. Foi corrigido. Agora todos os campos de valor do app se comportam igual: digitar números resulta no valor inteiro; centavos só são incluídos se você usar vírgula explicitamente (ex.: `100,50` → `R$ 100,50`). Cobre Reembolso novo/editar, Pedido novo/editar (modos único, recorrente e parcelado).
+- **Calibração automática de pontos de atenção falhava com erro técnico** (BK-224): em **Configurações → Regras de pontos de atenção**, clicar em **Calibrar pelo histórico** (disponível pra OSCs com 6+ meses de movimentação) disparava um erro técnico e o fluxo não completava. Foi corrigido. A calibração agora roda até o fim e propõe os novos limites pra cada regra com base no histórico real da OSC.
+- **App em mobile precisava limpar dados do navegador a cada nova versão** (BK-212 — 2ª iteração): o aviso "Nova versão disponível" aparecia, mas tocar em **Atualizar** não tinha efeito e o app continuava na versão antiga — a única forma de subir era ir nas configurações do Chrome, excluir todos os dados de site e refazer login. Foi corrigido. Agora tocar em **Atualizar** mostra rapidamente o aviso "Atualizando..." e recarrega o app já na versão nova, em mobile e desktop.
+
+### Melhorado
+
+- **Botões do header das listas em mobile** (BK-220, BK-223): nas telas de Reembolsos, Pedidos de Pagamento, Configurações (Contas, Categorias, Usuários, Relatórios), Superadmin (Organizações) e empty states, os botões de ação no topo agora exibem só ícones em mobile (em vez de texto longo que quebrava o layout em telas pequenas), com toque confortável e descrição acessível pra leitor de tela. Em desktop continua ícone + texto, como antes. A página de Configurações de Usuários ganhou outra simplificação no mobile: o bloco flutuante na parte de baixo da tela foi removido — os mesmos botões agora ficam só no topo, sem duplicação.
+- **Tabs internas de Configurações em mobile** (BK-221): as tabs **Organização**, **Usuários**, **Contas Bancárias**, **Categorias**, **Fluxo de Aprovações** e **Relatórios** passaram a exibir só ícone em mobile (antes alguns rótulos longos como "Contas Bancárias" quebravam em duas linhas e bagunçavam o layout). Em desktop continuam com ícone + texto.
+
+### Observações de uso
+
+- **Esta é a primeira release onde o ciclo de atualização do app funciona automaticamente em mobile e desktop.** Quem está em v0.19.3 vai receber o aviso "Nova versão disponível" e, ao tocar em **Atualizar**, o app subirá pra v0.19.4 sem precisar de hard refresh nem limpar cache. Daqui pra frente, esse passo é automático em toda nova versão.
+
+---
+
 ## [0.19.3] — 2026-05-21
 
 ### Adicionado
