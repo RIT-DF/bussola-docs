@@ -69,8 +69,6 @@ Estreia do **módulo de Projetos** — o maior incremento da plataforma até aqu
 
 ---
 
-## [Pré-teste em andamento]
-
 ## [0.19.4] — 2026-05-22
 
 Bump consolidado de 8 entregas focadas em **consistência visual em mobile/PWA**, **navegação inferior** e **estabilidade do ciclo de atualização do app**.
