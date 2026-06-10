@@ -11,6 +11,43 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.20.0] — 2026-06-10
+
+Estreia do **módulo de Projetos** — o maior incremento da plataforma até aqui. Agora a OSC planeja, executa, acompanha e encerra seus projetos dentro da Bússola, com financeiro vinculado, indicador de saúde e relatório de encerramento.
+
+### Adicionado
+
+- **Módulo de Projetos** (novo item no menu): crie e gerencie os projetos da OSC, cada um com seu coordenador e equipe. Cada pessoa tem um papel dentro do projeto e o acesso respeita esse papel. Os projetos passam por um ciclo de vida — da criação ao encerramento —, com uma etapa de **aprovação configurável** pela OSC.
+- **Criação guiada por assistente**: um passo a passo de 4 etapas (tipo e identidade · período · financeiro · coordenador) cria o projeto com as informações certas, adaptando-se ao tipo escolhido (Projeto, Evento ou Voluntário).
+- **Planejamento**: defina o **escopo**, monte a **equipe**, registre o **orçamento** previsto por categoria, planeje **marcos**, mapeie **riscos** (probabilidade × impacto) e cadastre **partes interessadas**.
+- **Execução**:
+  - **Tarefas** em lista e em quadro **Kanban**, com responsável, prazo e vínculo a marcos.
+  - **Mural de comunicação**: linha do tempo dos acontecimentos do projeto + comentários com menção a pessoas (`@`).
+  - **Status updates** do coordenador, com lembrete automático quando o projeto fica muito tempo sem atualização.
+  - **Evidências** (arquivos e vídeos) anexáveis ao projeto.
+- **Financeiro do projeto**:
+  - **Movimentações vinculadas** ao projeto, com visão de previsto × realizado.
+  - **Registrar despesa** do projeto abrindo um reembolso ou pedido de pagamento já vinculado, que segue o fluxo normal de aprovação da OSC.
+  - **Produtos do WooCommerce por projeto**: vincule produtos da loja a um projeto para que as vendas entrem como receita dele.
+  - **Calculadora de taxa de evento**: simule a taxa por participante considerando custos, fundo de reserva, isentos, voluntários e a regra de pagamento; adote uma taxa oficial ou marque o evento como gratuito.
+- **Acompanhamento**:
+  - **Indicador de saúde** (semáforo verde / amarelo / vermelho) por projeto — na lista e em um card no **Painel**.
+  - **Filtro por projeto nos Relatórios** e uma aba de **Relatório** dentro do próprio projeto.
+- **Encerramento do projeto**: assistente de avaliação (objetivos, critérios, engajamento), **relatório de encerramento** completo, exportação em **PDF**, registro de **lições aprendidas** e a opção de gerar um **relatório parcial** antes da finalização.
+
+### Melhorado
+
+- **Painel reorganizado**: a ordem das seções ficou mais coerente (resumo financeiro do mês → pendências de pagamento → projetos); **Pedidos de Pagamento** e **Reembolsos** agora aparecem lado a lado, cada um em um card único com suas pendências como linhas clicáveis; e cada seção ganhou um ícone e um detalhe de cor para facilitar a leitura.
+- **Lista de Projetos em tabela no computador**: no desktop a lista abre em formato de tabela (como os demais módulos), mantendo os cards no celular.
+- **Severidade de risco**: o card de cada risco passa a mostrar uma severidade calculada (probabilidade × impacto), ajudando a priorizar o que merece atenção.
+- **Pendências visíveis no financeiro do projeto**: reembolsos e pedidos ainda não aprovados aparecem em uma seção "Aguardando aprovação", evitando solicitar o mesmo pagamento duas vezes.
+
+### Corrigido
+
+- **Concordância de gênero na matriz de risco**: os níveis de **Impacto** agora aparecem no masculino (Alto / Médio / Baixo), enquanto a Probabilidade permanece no feminino.
+
+---
+
 ## [Pré-teste em andamento]
 
 ## [0.19.4] — 2026-05-22
