@@ -78,10 +78,13 @@ Esta página mostra **o estado de cada funcionalidade** do Bússola Financeira �
 | Funcionalidade | Descrição | Disponível | Em Construção | Planejado |
 |---|---|:---:|:---:|:---:|
 | Campo "Projeto" disponível nos formulários | Vincular movimentações, reembolsos e pedidos de pagamento a um projeto pelo nome | ✓ | | |
-| Cadastro de projetos com nome, descrição, período, orçamento, equipe | Módulo dedicado para registrar projetos com metadados completos | | ✓ | |
-| Vinculação automática entre projetos, categorias, centros de custo e lançamentos | A partir do cadastro do projeto, classificação ganha consistência cruzada | | ✓ | |
-| Visão consolidada por projeto (orçamento × realizado) | Painel específico do projeto com saldo previsto e gasto | | ✓ | |
-| Relatórios prontos por projeto | Prestação de contas formatada para financiadores e conselho | | ✓ | |
+| Cadastro de projetos (assistente, tipos, ciclo de vida, equipe) | Módulo dedicado com criação guiada, tipos de projeto e aprovação de abertura/encerramento | ✓ | | |
+| Planejamento (escopo, orçamento, marcos, riscos, partes interessadas) | Bloco completo de planejamento, com severidade de risco e marcos-modelo por tipo | ✓ | | |
+| Execução (tarefas em Kanban, mural, status updates, evidências) | Quadro de tarefas, linha do tempo com comentários/menções e anexos de evidência | ✓ | | |
+| Indicador de saúde do projeto (semáforo) | Saúde combinando prazo, orçamento e riscos — na lista e no Painel | ✓ | | |
+| Financeiro do projeto (orçamento × realizado, pendentes, vínculos) | Despesas/receitas vinculadas, pendentes de aprovação e calculadora de taxa de evento | ✓ | | |
+| Encerramento com avaliação, lições aprendidas e relatório em PDF | Assistente de avaliação + relatório consolidado exportável para prestação de contas | ✓ | | |
+| Relatórios filtrados por projeto | Recorte de receitas, despesas e gráficos por iniciativa | ✓ | | |
 | Templates de projeto reutilizáveis | Modelos pré-configurados (ex: "Acampamento escoteiro") | | | ✓ |
 | Cronograma visual (Gantt) | Visualização gráfica de tarefas e dependências | | | ✓ |
 | Dependências entre tarefas | "Tarefa B inicia quando A termina" com cálculo de caminho crítico | | | ✓ |

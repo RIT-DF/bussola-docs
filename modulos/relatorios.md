@@ -30,7 +30,10 @@ Acesso a Relatórios é restrito a três papéis:
 - **Tesoureiro** — visão completa
 - **Comissão Fiscal** — visão completa (consulta; sem operação)
 
-Voluntários e Coordenadores de Projeto **não acessam** Relatórios no momento. Quando o módulo de Projetos chegar, Coordenadores terão visão restrita aos próprios projetos.
+Voluntários e Coordenadores de Projeto têm acesso restrito a Relatórios no momento.
+
+> 💡 **Novidade · Filtro por projeto**
+> Com o módulo de [Projetos](/modulos/projetos/), os Relatórios ganharam um **filtro por projeto** no cabeçalho: selecione uma iniciativa e todas as abas passam a mostrar apenas receitas, despesas e gráficos daquele projeto — pronto para a prestação de contas específica de um financiador. Cada projeto também tem uma aba **Relatório** própria, com os mesmos números recortados.
 
 ## As cinco abas
 

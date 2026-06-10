@@ -50,7 +50,7 @@ permalink: /
   <a class="module-card" href="/modulos/projetos/">
     <div class="module-card-icon">📁</div>
     <div class="module-card-title">Projetos</div>
-    <div class="module-card-desc">Vincular lançamentos a projetos específicos <em>(em construção)</em></div>
+    <div class="module-card-desc">Planejar, executar, acompanhar a saúde e encerrar iniciativas da OSC</div>
   </a>
   <a class="module-card" href="/modulos/relatorios/">
     <div class="module-card-icon">📈</div>
