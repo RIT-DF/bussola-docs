@@ -11,6 +11,23 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.20.1] — 2026-06-10
+
+Correções e ajustes de acabamento logo após a estreia do módulo de Projetos.
+
+### Corrigido
+
+- **Produtos do WooCommerce nos projetos**: o bloco de produtos no financeiro do projeto voltou a carregar e a listar corretamente os produtos sincronizados da loja.
+- **Sincronização do catálogo WooCommerce**: a data da última sincronização do catálogo agora permanece visível ao recarregar a página ou navegar entre telas.
+- **Aceite da Política de Privacidade**: corrigido um caso em que o aceite podia ser registrado mais de uma vez e gerar um aviso no carregamento inicial do app.
+- **Troca de organização**: ao trocar de OSC enquanto visualizava o detalhe de uma movimentação, reembolso, pedido de pagamento ou projeto, o app agora abre automaticamente a lista correta da nova organização — sem precisar recarregar a página.
+
+### Melhorado
+
+- **Produtos do WooCommerce no projeto**: o bloco de produtos passou a aparecer na visão geral do financeiro do projeto (antes ficava só dentro de "Calcular taxa"), tornando mais simples associar produtos da loja ao projeto.
+
+---
+
 ## [0.20.0] — 2026-06-10
 
 Estreia do **módulo de Projetos** — o maior incremento da plataforma até aqui. Agora a OSC planeja, executa, acompanha e encerra seus projetos dentro da Bússola, com financeiro vinculado, indicador de saúde e relatório de encerramento.
