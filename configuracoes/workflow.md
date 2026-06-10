@@ -14,7 +14,7 @@ A página **Fluxo de Aprovações** define **quem pode aprovar** reembolsos e pe
 > 💡 **Por que isso importa**
 > Em OSC sem regra clara de aprovação, ou ninguém aprova nada (e despesas acontecem por inércia, sem controle) ou todo mundo aprova tudo (e a aprovação vira carimbo automático, sem real avaliação). **O fluxo bem configurado** define exatamente quem tem mandato para autorizar saída de dinheiro, quantos precisam concordar, e como o sistema lida com casos atípicos (auto-aprovação, situações onde o solicitante é também aprovador). Isso protege a OSC de gastos não autorizados e protege os aprovadores de questionamento futuro.
 
-A página tem dois blocos: configuração de reembolsos e configuração de pedidos de pagamento (cada um com regras próprias, mas mesma lógica).
+A página tem **duas abas**: **Pagamentos e Reembolsos** (reembolsos e pedidos de pagamento, com regras próprias mas a mesma lógica) e **Projetos** (aprovação de abertura e encerramento de projetos). As seções abaixo descrevem a aba de Pagamentos e Reembolsos; a aba de Projetos é descrita no fim.
 
 ## Aprovações necessárias (quórum)
 
@@ -52,6 +52,20 @@ Voluntários não podem criar pedidos de pagamento (só reembolsos), por princí
 > 📖 **Conceito · Solicitante nunca aprova o próprio pedido**
 > Independentemente da configuração de papéis aprovadores, a Bússola **bloqueia automaticamente** o solicitante de votar no próprio reembolso ou pedido — a aprovação é gesto de controle externo, faz sentido apenas se alguém **diferente** do solicitante revisa. A exceção é quando o solicitante é o único aprovador elegível (OSC muito pequena); aí a Bússola permite a auto-aprovação mas **marca explicitamente** no audit log como `self_approved` para revisão futura.
 
+## Aprovação de projetos (aba Projetos)
+
+[![Fluxo de aprovação de projetos](/assets/screenshots/manual-config-aprovacoes-projetos.png)](/assets/screenshots/manual-config-aprovacoes-projetos.png)
+*Aba Projetos — quem aprova a abertura e o encerramento de projetos*
+
+A aba **Projetos** define **quem pode aprovar a abertura e o encerramento** de um projeto — os dois "portões" do ciclo de vida do módulo de [Projetos](/modulos/projetos/). Diferente de pagamentos e reembolsos, aqui **não há quórum** (a aprovação é de uma pessoa elegível); você define:
+
+- **Papéis elegíveis para aprovar projetos** — default: Presidente e Tesoureiro.
+- **Pessoas específicas como aprovadores** — membros individuais, independentemente do papel. Membros **somente leitura** no módulo (Comissão Fiscal, Dirigente) **não podem** ser aprovadores de projeto.
+- **Permitir auto-aprovação** — quando ligado, o próprio solicitante pode aprovar a abertura ou o encerramento **apenas se for o único aprovador elegível** da OSC (mesma lógica conservadora dos demais fluxos: a auto-aprovação fica registrada na auditoria).
+
+> 💡 **Por que isso importa**
+> Os dois portões dão governança ao projeto sem engessar o dia a dia: aprovar a **abertura** é a diretoria concordando com o escopo e o orçamento; aprovar o **encerramento** é reconhecer que o projeto acabou, com aquele resultado e aquela prestação de contas. Entre os dois, a equipe trabalha com autonomia.
+
 ## Boas práticas
 
 > ✓ **Dica · Comece simples, complique conforme cresce**
@@ -64,4 +78,5 @@ Voluntários não podem criar pedidos de pagamento (só reembolsos), por princí
 
 - **Configurações → Usuários** — onde os papéis são atribuídos aos membros.
 - **Reembolsos** e **Pedidos de Pagamento** — onde o fluxo configurado aqui é aplicado.
+- **Projetos** — onde a aprovação de abertura e encerramento configurada na aba Projetos é aplicada.
 - **Papéis e Permissões** — para visão geral de quem pode fazer o quê.

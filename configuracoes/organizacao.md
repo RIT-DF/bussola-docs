@@ -47,6 +47,17 @@ Upload da logo da OSC (JPG, PNG ou WebP, até 2 MB). A imagem é redimensionada 
 > ⚠️ **Atenção · Acesso público é compartilhamento controlado**
 > "Aceitar solicitações públicas de vínculo" não dá acesso automático — ainda passa pelo admin. Mas com o link público, qualquer pessoa pode pedir entrada na sua OSC. Use quando você quiser receber inscrições espontâneas (ex: novos voluntários, novos associados); desligue quando preferir só convidar manualmente.
 
+## Regras padrão para projetos
+
+Valores iniciais que o módulo de [Projetos](/modulos/projetos/) usa ao planejar — em especial na **calculadora de taxa de eventos**. São apenas o **ponto de partida**: cada projeto pode ajustar conforme o caso.
+
+- **Fundo de reserva padrão (%)** — uma folga de segurança sobre os custos previstos ao planejar o orçamento de um evento (default 10%). Entra como reserva no cálculo da taxa de inscrição.
+- **Regra padrão de pagamento de voluntários** — como os voluntários entram na conta da taxa: **rateados** (não pagam; o custo deles é dividido entre os pagantes), **pagam taxa cheia**, **OSC paga** pelos voluntários, ou **com desconto** (quando aplicável, com o percentual de desconto).
+- **Permitir que cada projeto sobrescreva esta regra** — se ligado, um projeto específico pode escolher uma regra de pagamento de voluntários diferente da padrão da OSC.
+
+> 💡 **Por que isso importa**
+> Definir essas regras uma vez, no nível da OSC, evita reconfigurar a calculadora de taxa a cada evento — e mantém coerência entre os projetos (todos partem do mesmo fundo de reserva e da mesma política de voluntários). Quando um evento for exceção, o projeto sobrescreve pontualmente, sem mudar o padrão da organização.
+
 ## Integrações
 
 Integração permite que sistemas externos conversem com a Bússola — economizando trabalho manual de transferir dados de um sistema para outro.
