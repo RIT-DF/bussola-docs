@@ -31,6 +31,9 @@ O erro mais comum em OSC é começar a executar antes de combinar o que, de fato
 >
 > [![Planejamento do projeto](/assets/screenshots/manual-projetos-03-planejamento.png)](/assets/screenshots/manual-projetos-03-planejamento.png)
 
+> ✓ **Dica · Risco bom é risco escrito antes**
+> Ainda no planejamento, liste os 3 ou 4 riscos óbvios, cada um com uma mitigação combinada ("Fornecedor pode atrasar → confirmar prazo por escrito e ter um reserva"). Revise-os durante a execução conforme o projeto anda. Vale mais que dez reuniões de pânico depois que o risco virou problema.
+
 ## 3. Gestão de prazo — marcos, não só uma data final
 
 Prazo não se controla com uma única "data de entrega". Controla-se com **marcos** ao longo do caminho, que avisam cedo quando algo está atrasando.
@@ -50,12 +53,17 @@ O orçamento do projeto não é uma "caixinha à parte": é o dinheiro da OSC, *
 
 - Acompanhe **previsto × realizado** — não deixe para descobrir o estouro no fim.
 - Vincule cada despesa ao projeto **na hora**, não semanas depois.
-- Guarde comprovantes; eles são a base da prestação de contas ao financiador.
+- Guarde os **comprovantes** de cada despesa — são a base da prestação de contas ao financiador. Melhor ainda: anexe a nota **na hora**, antes que o papel se perca.
 
 > 🧭 **Como o Bússola ajuda · Financeiro do projeto incorporado**
 > O Bússola tem a **gestão financeira do projeto embutida**: receitas dedicadas, despesas vinculadas, orçamento previsto × realizado por categoria e (em eventos) a calculadora de taxa de participação — tudo no próprio projeto, sem planilha paralela.
 >
 > [![Financeiro do projeto](/assets/screenshots/manual-projetos-05-financeiro.png)](/assets/screenshots/manual-projetos-05-financeiro.png)
+
+> 🧭 **Como o Bússola ajuda · Comprovante na hora, direto do celular**
+> Toda movimentação financeira aceita **anexos** — e, no celular, dá para **fotografar a nota fiscal na hora**, direto pela câmera, sem precisar escanear ou transferir o arquivo depois. O comprovante já fica vinculado à despesa, pronto para a prestação de contas. É a diferença entre ter a documentação completa no encerramento e caçar papel perdido meses depois.
+>
+> [![Anexar comprovante pelo celular](/assets/screenshots/manual-mov-anexo-comprovante.png)](/assets/screenshots/manual-mov-anexo-comprovante.png)
 
 ## 5. Gestão de pessoas — voluntário não é funcionário
 
@@ -78,8 +86,10 @@ Em OSC a equipe muda: voluntário entra, coordenador sai, a diretoria roda. O qu
 - Registre decisões importantes e o porquê delas.
 - Trate o registro como a **memória do projeto** — vale ouro na prestação de contas e no próximo projeto parecido.
 
-> ✓ **Dica · Risco bom é risco escrito antes**
-> Liste no planejamento os 3 ou 4 riscos óbvios, cada um com uma mitigação combinada ("Fornecedor pode atrasar → confirmar prazo por escrito e ter um reserva"). Vale mais que dez reuniões de pânico depois que o risco virou problema.
+> 🧭 **Como o Bússola ajuda · Mural do projeto**
+> Cada projeto tem um **Mural** — a linha do tempo onde a equipe troca mensagens, registra decisões e comentários, menciona pessoas com `@` (que são notificadas) e acompanha os eventos automáticos do projeto (mudou de status, tarefa concluída, alguém entrou na equipe), com filtros por tipo. É a **memória viva** do projeto: quem decidiu o quê, quando e por quê, tudo no mesmo lugar — o que vale ouro quando a equipe muda ou na hora de prestar contas.
+>
+> [![Mural do projeto](/assets/screenshots/manual-projetos-mural.png)](/assets/screenshots/manual-projetos-mural.png)
 
 ## 7. Encerramento — fechar de verdade e aprender
 

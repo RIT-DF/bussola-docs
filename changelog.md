@@ -11,6 +11,16 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.25.2] — 2026-06-11
+
+A tela de Lições Aprendidas fica mais compacta e fácil de percorrer.
+
+### Melhorado
+
+- **Lições Aprendidas em lista:** o acervo passa a ser exibido como tabela (no computador) e linhas compactas (no celular), no lugar dos cards — mais lições visíveis de uma vez, mantendo a categoria, o texto integral, o projeto e a data, além da busca e dos filtros.
+
+---
+
 ## [0.25.1] — 2026-06-11
 
 Orientações e exemplos ajudam a preencher melhor a avaliação de encerramento de projetos.
