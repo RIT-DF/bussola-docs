@@ -41,6 +41,11 @@
 - title: Papéis e Permissões
   url: /papeis/
 
+- title: Guias por Papel
+  children:
+    - title: Coordenador de Projetos
+      url: /guias/coordenador-projetos/
+
 - title: FAQ
   url: /faq/
 

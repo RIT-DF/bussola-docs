@@ -11,6 +11,16 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.25.1] — 2026-06-11
+
+Orientações e exemplos ajudam a preencher melhor a avaliação de encerramento de projetos.
+
+### Melhorado
+
+- **Orientação no encerramento de projetos:** cada campo de texto da avaliação de encerramento — objetivos, critérios de sucesso, engajamento, imprevistos, pontos altos, pontos a melhorar, lição mais importante e recomendação — passa a mostrar uma orientação curta e um exemplo, ajudando a coordenação a registrar aprendizados mais úteis para a organização (e que alimentam o acervo de Lições Aprendidas).
+
+---
+
 ## [0.25.0] — 2026-06-11
 
 Nova tela de Lições Aprendidas reúne, em um só lugar, os aprendizados de todos os projetos encerrados da organização.
