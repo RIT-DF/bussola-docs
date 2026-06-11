@@ -11,6 +11,16 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.24.7] — 2026-06-11
+
+Rotinas automáticas de projetos e a sincronização diária voltam a rodar nos horários programados.
+
+### Corrigido
+
+- **Avisos e rotinas automáticas:** os lembretes e avisos automáticos de projetos (atualização de status, tarefas e marcos atrasados) e a sincronização diária com a loja (WooCommerce) passam a ser executados de forma confiável nos horários programados.
+
+---
+
 ## [0.24.5] — 2026-06-11
 
 Valores financeiros se ajustam melhor à tela no celular.
