@@ -11,6 +11,17 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.25.0] — 2026-06-11
+
+Nova tela de Lições Aprendidas reúne, em um só lugar, os aprendizados de todos os projetos encerrados da organização.
+
+### Adicionado
+
+- **Lições Aprendidas da organização:** uma nova tela, dentro de Projetos, reúne as lições e boas práticas registradas no encerramento de todos os projetos da organização — acessível a qualquer membro. Dá para filtrar por tipo de projeto e por categoria (boa prática, lição, ponto a melhorar, recomendação) e buscar pelo texto.
+- **Sugestão de lições ao criar um projeto:** ao escolher o tipo de projeto no começo da criação, o sistema mostra quantas lições já existem para projetos daquele tipo e oferece um atalho para consultá-las — ajudando a aproveitar a experiência de projetos anteriores.
+
+---
+
 ## [0.24.7] — 2026-06-11
 
 Rotinas automáticas de projetos e a sincronização diária voltam a rodar nos horários programados.
