@@ -29,6 +29,17 @@ A entrada no Bússola é por **convite**, não por cadastro aberto. Isso garante
 
 Após o primeiro acesso, você cai direto no **Painel** da sua organização.
 
+## Criar conta por conta própria
+
+Além do convite, é possível iniciar uma conta por conta própria pelo link **"Criar agora"** na tela de login (por exemplo, para propor o cadastro da sua OSC ou pedir vínculo a uma organização existente). Nesse caminho, antes de definir a senha:
+
+1. Informe seu **e-mail**.
+2. No passo **"Confirme seu e-mail"**, clique para enviar o **código de 6 dígitos** que chega na sua caixa de entrada e digite-o (há botão para **reenviar**, com uma breve espera entre envios). Confira a caixa de spam se não chegar.
+3. Defina **nome** e **senha**, aceite a Política de Privacidade e conclua.
+
+> 🔒 **Por que o código?**
+> A confirmação por e-mail garante que só quem realmente controla aquele endereço cria a conta e define a senha. **Se você já tem conta**, o sistema te direciona para o **login** em vez de criar outra — use "Esqueci a senha" se precisar.
+
 ## Entrar na plataforma depois disso
 
 Na tela de login você pode:

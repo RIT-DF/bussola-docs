@@ -11,6 +11,20 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.24.0] — 2026-06-11
+
+Reforço de segurança no cadastro feito por conta própria.
+
+### Adicionado
+
+- **Confirmação de e-mail no cadastro:** ao criar a própria conta (link "Criar agora" na tela de login), você recebe um **código de 6 dígitos por e-mail** e o informa para concluir o cadastro — com opção de reenviar o código. Quem já tem conta é levado direto ao **login**, em vez de criar outra.
+
+### Segurança
+
+- Reforço no fluxo de criação de conta: a definição de senha agora exige a confirmação do e-mail por código.
+
+---
+
 ## [0.23.1] — 2026-06-11
 
 Correções de exibição e de permissões identificadas em testes por papel.
