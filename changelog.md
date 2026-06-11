@@ -11,6 +11,16 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.24.2] — 2026-06-11
+
+O saldo inicial de uma conta passa a ficar protegido depois que ela já tem lançamentos.
+
+### Corrigido
+
+- **Saldo inicial protegido após o primeiro lançamento:** ao editar uma conta que já possui lançamentos, o campo "Saldo inicial" fica bloqueado, evitando que uma alteração acidental distorça o saldo atual exibido. Os demais dados da conta continuam editáveis normalmente. Caso seja realmente necessário corrigir o saldo inicial nesse caso, isso pode ser feito pela Presidência.
+
+---
+
 ## [0.24.1] — 2026-06-11
 
 Digitação de valores em reais agora é igual em todo o sistema, com formatação automática.
