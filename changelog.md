@@ -11,6 +11,16 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.25.3] — 2026-06-11
+
+Ajuste visual no cadastro de movimentação pelo celular.
+
+### Corrigido
+
+- **Botões de tipo no celular:** na tela de novo lançamento, os botões Receita / Despesa / Transferência passam a exibir um ícone e a caber corretamente em telas pequenas, sem o texto de "Transferência" sair do lugar.
+
+---
+
 ## [0.25.2] — 2026-06-11
 
 A tela de Lições Aprendidas fica mais compacta e fácil de percorrer.
