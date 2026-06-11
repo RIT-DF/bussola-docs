@@ -11,6 +11,20 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.24.1] — 2026-06-11
+
+Digitação de valores em reais agora é igual em todo o sistema, com formatação automática.
+
+### Melhorado
+
+- **Campos de valor com formatação automática:** ao digitar qualquer valor em reais — em Movimentações, Reembolsos, Pedidos de pagamento, Parcelas, Contas e Projetos — o campo já mostra o número formatado enquanto você digita (por exemplo, `1.500,00`), do mesmo jeito em todas as telas.
+
+### Corrigido
+
+- **Orçamento de projeto não salva mais zerado por engano:** ao informar um valor com separador de milhar (como `1.500,00`), o orçamento passa a ser gravado com o valor correto, em vez de ser salvo como R$ 0 sem aviso. O mesmo cuidado vale agora para os campos de valor de Reembolsos e Pedidos de pagamento.
+
+---
+
 ## [0.24.0] — 2026-06-11
 
 Reforço de segurança no cadastro feito por conta própria.
