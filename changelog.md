@@ -11,6 +11,16 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.25.4] — 2026-06-11
+
+Mensagem mais clara ao vincular uma movimentação a um projeto.
+
+### Corrigido
+
+- **Vínculo de projeto na movimentação:** quando a organização não tem projetos abertos, o campo "Projeto" do lançamento passa a informar claramente que não há projetos a vincular, em vez de exibir "Em breve" — que dava a impressão equivocada de que a funcionalidade ainda não existia. Para organizações com projetos, o campo já funcionava normalmente.
+
+---
+
 ## [0.25.3] — 2026-06-11
 
 Ajuste visual no cadastro de movimentação pelo celular.
