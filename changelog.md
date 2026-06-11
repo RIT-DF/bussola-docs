@@ -11,6 +11,16 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.24.5] — 2026-06-11
+
+Valores financeiros se ajustam melhor à tela no celular.
+
+### Melhorado
+
+- **Números dos cards financeiros no celular:** em telas pequenas, os valores nos cards — saldos por conta, totais de movimentações, indicadores do painel e os resumos de Reembolsos e Pedidos de pagamento — passam a usar um tamanho de fonte que se ajusta à largura do card, evitando que valores altos "saiam" do card. No computador a aparência continua a mesma.
+
+---
+
 ## [0.24.3] — 2026-06-11
 
 A Tesouraria passa a acessar a calibração de Relatórios nas Configurações.
