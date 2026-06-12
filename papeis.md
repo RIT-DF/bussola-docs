@@ -7,6 +7,7 @@ permalink: /papeis/
 O Bússola tem **seis papéis** que um usuário pode ocupar dentro de uma organização. Cada papel define o que aquele usuário **pode ver e pode fazer** no sistema — sempre dentro da OSC à qual está vinculado. Um usuário pode acumular **mais de um papel** na mesma OSC (ver "Múltiplos papéis", abaixo).
 
 > 💡 **Por que isso importa**
+>
 > Em OSC, função financeira não é "tudo ou nada". O presidente quer ter visão geral, autorizar saídas grandes, mas não necessariamente lançar cada conta de luz. O tesoureiro precisa operacionalizar o financeiro mas talvez não tenha por que mexer no cadastro de papéis. O voluntário só quer registrar seu reembolso, não ver dados de outras pessoas. **Papéis bem desenhados protegem todo mundo**: o presidente delega sem perder controle, o tesoureiro opera sem ter responsabilidade por configurar a OSC, o voluntário pede reembolso sem expor dados financeiros que não são dele saber.
 
 ## Os seis papéis
@@ -58,9 +59,11 @@ Um usuário pode ter **mais de um papel** dentro da mesma OSC. As capacidades se
 - **Voluntário + Comissão Fiscal** — atua como voluntário regular e fiscaliza as contas (o papel de fiscal já cobre tudo que voluntário pode fazer).
 
 > ⚠️ **Restrição · Comissão Fiscal não acumula com Presidente ou Tesoureiro**
+>
 > Por princípio de fiscalização independente, **Comissão Fiscal não pode ser combinada com Presidente nem com Tesoureiro**. Quem opera o financeiro (Presidente, Tesoureiro) não pode fiscalizar a si mesmo. O sistema bloqueia essa combinação no editor de papéis e no backend.
 
 > 📖 **Conceito · Auto-aprovação quando solicitante é o único aprovador**
+>
 > Em OSC muito pequena, pode acontecer de o único aprovador elegível ser o próprio solicitante (ex: o presidente é também o único diretor financeiro e foi ele quem fez a compra). Nesses casos, a Bússola **permite a auto-aprovação para não travar o fluxo**, mas **marca explicitamente** no histórico de auditoria como `self_approved`. A diretoria e auditoria conseguem filtrar esses casos para revisão. Conforme a OSC cresce e mais papéis aprovadores são cadastrados, auto-aprovações naturalmente diminuem.
 
 ## Quem aprova reembolsos e pedidos?
@@ -78,6 +81,7 @@ A configuração permite:
 Apenas o **Presidente** pode alterar papéis. Acesse [Configurações → Usuários](/configuracoes/usuarios/), localize o membro, use o menu de ações da linha e selecione **Editar papéis**. Abrirá um painel lateral com checkboxes para os papéis disponíveis (Presidente, Tesoureiro, Diretor, Coordenador de Projeto, Comissão Fiscal e Voluntário). Marque os papéis desejados e clique em "Salvar". Pelo menos 1 papel é obrigatório.
 
 > ⚠️ **Atenção · Mudança de papel é mudança de poder**
+>
 > Promover alguém para Tesoureiro dá acesso à aprovação de despesas — pense bem antes de ampliar. Conversão "voluntário ↔ tesoureiro" deve passar pela diretoria, não ser unilateral. Em OSC com governança formal (estatuto, assembleia), a mudança pode até ter requisito formal de ata ou eleição. O sistema não bloqueia a mudança, mas ela fica registrada no audit log.
 
 ## Quando criar papel novo (Coordenador) faz sentido?

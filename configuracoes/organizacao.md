@@ -12,6 +12,7 @@ A página **Organização** centraliza os dados da sua OSC e as **integrações*
 *Configurações — Dados da organização*
 
 > 💡 **Por que isso importa**
+>
 > Os dados da OSC aqui aparecem em **todos os documentos gerados pela Bússola** (recibos, declarações, relatórios para financiadores, exportações em PDF). Manter atualizado é o que faz a marca da sua OSC aparecer profissional na prestação de contas. As **integrações** abrem porta para automação: WooCommerce sincroniza vendas, WhatsApp Business envia notificações, Google Drive armazena documentos.
 
 ## Identidade da OSC
@@ -28,6 +29,7 @@ A página **Organização** centraliza os dados da sua OSC e as **integrações*
 Endereço completo (CEP, logradouro, número, complemento, bairro, cidade, UF) e perfis em redes sociais (Instagram, Facebook, LinkedIn, YouTube).
 
 > ✓ **Dica · Preencha endereço completo para documentos formais**
+>
 > Recibos e declarações geradas pela Bússola usam o endereço daqui. OSC com endereço incompleto no sistema pode acabar com documentos que não passam em conferência de financiador ou contador.
 
 ## Logo da organização
@@ -45,6 +47,7 @@ Upload da logo da OSC (JPG, PNG ou WebP, até 2 MB). A imagem é redimensionada 
 - **Aceitar solicitações públicas de vínculo** — quando ativado, qualquer pessoa com o link público da OSC pode pedir vínculo (a OSC ainda precisa aprovar). Desligado por default.
 
 > ⚠️ **Atenção · Acesso público é compartilhamento controlado**
+>
 > "Aceitar solicitações públicas de vínculo" não dá acesso automático — ainda passa pelo admin. Mas com o link público, qualquer pessoa pode pedir entrada na sua OSC. Use quando você quiser receber inscrições espontâneas (ex: novos voluntários, novos associados); desligue quando preferir só convidar manualmente.
 
 ## Regras padrão para projetos
@@ -56,6 +59,7 @@ Valores iniciais que o módulo de [Projetos](/modulos/projetos/) usa ao planejar
 - **Permitir que cada projeto sobrescreva esta regra** — se ligado, um projeto específico pode escolher uma regra de pagamento de voluntários diferente da padrão da OSC.
 
 > 💡 **Por que isso importa**
+>
 > Definir essas regras uma vez, no nível da OSC, evita reconfigurar a calculadora de taxa a cada evento — e mantém coerência entre os projetos (todos partem do mesmo fundo de reserva e da mesma política de voluntários). Quando um evento for exceção, o projeto sobrescreve pontualmente, sem mudar o padrão da organização.
 
 ## Integrações

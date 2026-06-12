@@ -12,6 +12,7 @@ A página **Categorias** organiza as categorias contábeis e os centros de custo
 *Configurações — Categorias e centros de custo*
 
 > 💡 **Por que isso importa**
+>
 > Categoria é o que **faz o relatório financeiro fazer sentido**. Sem categoria, você tem 200 lançamentos no mês e nenhuma resposta sobre "para onde vai o dinheiro?". Com categoria ruim (inconsistente, duplicada, vaga), o relatório engana mais do que ajuda. Com categoria boa (enxuta, consistente, semântica), o relatório responde sozinho — você vê em 30 segundos quanto a OSC gastou com aluguel, quanto com material, quanto recebeu de doação, quanto de mensalidade. **Tempo investido em organizar categorias é o investimento de melhor retorno** que uma OSC pode fazer no Bússola.
 
 A página tem 3 abas: **Receitas**, **Despesas** e **Centros de custo**.
@@ -45,6 +46,7 @@ Categorias para classificar saídas. Exemplos:
 ## Centros de custo
 
 > 📖 **Conceito · Categoria vs Centro de custo**
+>
 > **Categoria** classifica a *natureza* do lançamento (o que foi gasto/recebido): "aluguel", "doação", "combustível". **Centro de custo** classifica a *origem ou destino organizacional*: "Sede", "Filial Norte", "Coordenação de Eventos", "Diretoria de Comunicação". Os dois são independentes — um lançamento pode ter categoria "Combustível" e centro de custo "Filial Norte" simultaneamente. Centro de custo é opcional na maioria dos lançamentos; categoria é (quase sempre) obrigatória.
 
 OSC pequena geralmente não precisa de centros de custo. OSC com **múltiplas frentes operacionais** (sede + filiais; várias coordenações; diretorias com orçamentos separados) ganha muito ao usar.
@@ -54,9 +56,11 @@ OSC pequena geralmente não precisa de centros de custo. OSC com **múltiplas fr
 Para começar rapidamente, clique em **Aplicar template**. A Bússola tem modelos prontos por tipo de OSC — por exemplo, o template "Padrão Grupo Escoteiro 2026" traz categorias típicas de grupos escoteiros. Aplicar template importa as categorias do modelo para a sua OSC, sem apagar o que você já tinha.
 
 > ✓ **Dica · Comece com template, depois afine**
+>
 > Você nunca acerta a lista perfeita de categorias na primeira tentativa. Comece com um template próximo ao perfil da sua OSC, opere por 1-2 meses, e ajuste o que **não bater** com sua realidade: renomeie categorias confusas, una categorias que viraram redundantes, crie categoria nova quando 5+ lançamentos foram para "Outros". Lista enxuta vence lista exaustiva — categoria que aparece 2× no ano não vale ter como categoria separada.
 
 > ⚠️ **Atenção · Cuidado ao renomear categoria em uso**
+>
 > Renomear uma categoria atinge **retroativamente** todos os lançamentos que já a usavam — eles passam a aparecer com o novo nome em relatórios e listagens. Geralmente isso é o que você quer (ajustou o nome para algo mais claro), mas pense duas vezes antes de renomear uma categoria que já foi referenciada em prestação de contas externa.
 
 ## Hierarquia de categorias

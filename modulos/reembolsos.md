@@ -9,20 +9,25 @@ O módulo de **Reembolsos** é onde voluntários, dirigentes e colaboradores **p
 > Acesse pelo menu **Pagamentos e Reembolsos → aba Reembolsos**.
 
 > 💡 **Por que isso importa**
+>
 > Reembolso parece uma operação simples — "fulano gastou, OSC paga de volta" — mas é o ponto onde **mais coisas dão errado em OSC sem controle**: gente que reembolsou e ninguém anotou, comprovante que sumiu, valor que ficou maior do que combinado, dirigente que aprovou para si mesmo sem registro. O módulo de Reembolsos resolve isso com um fluxo simples: **quem pediu, quem aprovou, quanto, com qual comprovante, e quando foi pago — tudo registrado, com auditoria**. Resultado: voluntário recebe rápido, a OSC tem transparência, a diretoria dorme em paz.
 
 ## Conceitos essenciais
 
 > 📖 **Conceito · Reembolso ≠ Pedido de Pagamento**
+>
 > **Reembolso** é para despesa que **já aconteceu**: alguém gastou do bolso e quer receber de volta. **Pedido de Pagamento** é para despesa que **vai acontecer**: a OSC vai pagar uma conta de luz, um fornecedor, um boleto. Os dois fluxos têm aprovação, mas a lógica é diferente: no reembolso o dinheiro entrou no caixa de quem pagou, ele só quer ser ressarcido; no pedido o dinheiro ainda está na OSC, e a aprovação autoriza a saída. Use **Reembolso** quando a nota fiscal está em nome de uma pessoa física e o pagamento já aconteceu. Use **Pedido de Pagamento** quando o pagamento ainda vai ser feito (geralmente em nome da OSC).
 
 > 📖 **Conceito · Quórum e papéis aprovadores**
+>
 > A OSC configura em **Configurações → Fluxo de Aprovações** quantos votos são necessários para aprovar um reembolso (1 ou 2) e quais papéis podem votar (Presidente, Diretor de Finanças, etc.) — opcionalmente também pessoas específicas além do papel. Com quórum **1**, o primeiro aprovador elegível que vota define a decisão. Com quórum **2**, são necessários dois votos positivos; se um aprova e outro rejeita, prevalece a rejeição. Solicitantes não votam nos próprios reembolsos (a Bússola bloqueia automaticamente quando há outros elegíveis).
 
 > 📖 **Conceito · Auto-aprovação**
+>
 > Em OSCs pequenas, pode acontecer de o único aprovador elegível ser o próprio solicitante (ex: o presidente é também o único diretor financeiro e foi ele quem fez a compra). Nesses casos, a Bússola **permite a auto-aprovação** — caso contrário o fluxo trava — mas **marca explicitamente o evento** no histórico de auditoria como `self_approved`. A diretoria e auditoria conseguem identificar essas situações com filtro e responder se houve abuso. Conforme a OSC cresce, novos papéis aprovadores são cadastrados e auto-aprovações naturalmente diminuem.
 
 > 📖 **Conceito · Status do reembolso**
+>
 > O ciclo de vida normal é **Rascunho → Aguardando aprovação → Aprovado → Pago**. **Rejeitado** é desvio do caminho aprovado — mas o solicitante pode editar e reenviar quantas vezes precisar.
 
 | Status | Significado |
@@ -62,6 +67,7 @@ Acima das abas de filtro de status, aparecem até quatro cards de resumo, **filt
 - **Pago no período** — sempre visível; conta reembolsos pagos no mês corrente.
 
 > ✓ **Dica · Diferente da contagem das abas**
+>
 > As abas mostram o total da OSC ("Aguardando aprovação (3)" = todos os reembolsos pendentes da organização). Os cards de resumo mostram **a sua fatia** ("Aguardando minha aprovação: 1" = só os que **você** pode votar). Use o card para saber o que tem que fazer; use a aba para saber o que está no fluxo geral.
 
 ### Ações inline na lista
@@ -69,6 +75,7 @@ Acima das abas de filtro de status, aparecem até quatro cards de resumo, **filt
 Nas linhas com status "Aguardando aprovação", aprovadores elegíveis veem os botões ✓ **Aprovar** e ✕ **Rejeitar** diretamente na linha — para resolver pendências rápidas sem entrar no detalhe. O dialog de cada ação pede um campo: opcional para aprovar (comentário), obrigatório para rejeitar (motivo).
 
 > ✓ **Dica · Use a aba "Aguardando aprovação" como caixa de entrada**
+>
 > Se você é aprovador, faça da aba "Aguardando aprovação" sua rotina diária de 5 minutos. Reembolso aprovado rápido é diferencial de OSC bem gerida — voluntário não fica de pires na mão esperando duas semanas para receber R$ 60 de combustível.
 
 ## Detalhe do reembolso
@@ -89,6 +96,7 @@ Clique em qualquer linha para abrir o detalhe completo. A página tem todas as i
 - **Ações**: ✓ Aprovar / ✕ Rejeitar (somente para aprovadores; nunca para o próprio solicitante)
 
 > 💡 **Por que isso importa**
+>
 > A timeline de aprovações é mais que registro contábil. É **proteção institucional**: meses depois, se alguém questionar "quem aprovou esse reembolso de R$ 800 do diretor?", a resposta está lá — quem votou, em qual data, com qual comentário. Em OSC com mudança rotativa de diretoria (eleição anual, troca de tesoureiro), esse registro é a diferença entre passagem de bastão tranquila e arenas de acusação.
 
 ### Rejeitado
@@ -99,6 +107,7 @@ Clique em qualquer linha para abrir o detalhe completo. A página tem todas as i
 O motivo da rejeição aparece em destaque no topo da página. O solicitante (e somente o solicitante) vê o botão **Editar e reenviar** — clicando, os campos passam a ser editáveis na própria página, sem precisar criar um reembolso novo. Corrige o que foi apontado (valor errado, comprovante ausente, categoria trocada), reenvia, e o fluxo recomeça.
 
 > ⚠️ **Atenção · Rejeição não é punição**
+>
 > Os motivos mais comuns de rejeição em OSC bem geridas são **práticos**, não pessoais: comprovante ilegível, valor sem nota, categoria que não bate. Quando rejeitar, **escreva motivo concreto e instrucional** ("anexar nota fiscal", "ajustar categoria para Combustível"), não vago ("revisar"). O solicitante reedita e reenvia em 2 minutos; conflito desnecessário evitado.
 
 ### Aprovado, aguardando pagamento
@@ -109,6 +118,7 @@ O motivo da rejeição aparece em destaque no topo da página. O solicitante (e 
 Painel de Ações mostra: **"Aprovado — aguardando confirmação de pagamento pelo tesoureiro."**
 
 > 📖 **Conceito · Aprovado vira movimentação pendente automaticamente**
+>
 > No momento em que o reembolso é aprovado, a Bússola cria automaticamente uma **movimentação financeira pendente** em Movimentações com origem `reimbursement` (origem reembolso), valor e categoria corretos, ainda sem conta financeira definida. Cabe ao tesoureiro entrar em Movimentações, clicar nessa linha, escolher a conta de onde o dinheiro vai sair e marcar como paga. O ciclo só fecha quando essa confirmação acontece. Na lista de Movimentações, o lançamento traz um link **"Ver pedido de reembolso →"** que volta direto ao detalhe original — útil para conferir comprovante antes de pagar.
 
 ### Pago
@@ -140,6 +150,7 @@ Clique em **+ Nova solicitação** para abrir o formulário.
 - **Observações** — contexto adicional para o aprovador
 
 > ✓ **Dica · Configure dados de pagamento no perfil**
+>
 > Os dados de pagamento (PIX/TED) são pré-preenchidos automaticamente se você configurou o **Método de pagamento padrão** em **Meu Perfil → Dados para Reembolso**. Configura uma vez, todo reembolso futuro já vem com chave correta — você não erra e não precisa redigitar.
 
 **Botões de ação:**
@@ -150,18 +161,23 @@ Clique em **+ Nova solicitação** para abrir o formulário.
 ## Boas práticas
 
 > ✓ **Dica · Reembolso curto, comprovante claro**
+>
 > A diferença entre reembolso aprovado no dia e reembolso que volta para correção: **descrição específica + comprovante legível**. Tire foto do recibo com boa luz, descreva no campo Descrição **o que** foi comprado e **para qual atividade** ("Lanche da reunião de planejamento dia 15"), e o aprovador resolve em 30 segundos sem nenhuma pergunta extra.
 
 > ✓ **Dica · Tire a foto pelo próprio app no celular**
+>
 > Em mobile, o formulário oferece dois botões na seção **DOCUMENTOS**: **Tirar foto** e **Anexar arquivo**. **Tirar foto** abre a câmera traseira do celular direto, sem passar pela galeria; você enquadra o cupom, captura, vê a foto em tamanho grande e decide entre **Refazer** ou **Confirmar**. Útil para registrar a despesa no momento do gasto (no posto, na loja, na hora). A Bússola reduz automaticamente o tamanho da foto antes do envio — fica leve para subir mesmo em conexão móvel ruim, sem perder a legibilidade do cupom. Tipos aceitos pelo botão **Anexar arquivo**: imagens, PDF, XML (NFe) e ZIP.
 
 > ⚠️ **Atenção · Comprovante é obrigatório, sem exceção**
+>
 > Reembolso sem comprovante é ponto de risco contábil e jurídico. Mesmo em compra pequena de R$ 10 — anexe o cupom fiscal ou ao menos uma foto da nota com data e estabelecimento. Reembolsos sem comprovação adequada são **a fonte número um de questionamento** em prestação de contas para financiadores e auditorias do terceiro setor.
 
 > ⚠️ **Atenção · Não reembolse despesa de terceiro**
+>
 > O reembolso é para a pessoa que **pagou de verdade**. Se você levou um voluntário ao posto e ele pagou, o reembolso é dele, não seu. Reembolsar despesa de terceiro vira "doação disfarçada" — confunde a contabilidade, viola dever fiduciário, prejudica auditoria. Quando você não puder reembolsar a pessoa certa diretamente (ela não tem conta bancária, etc.), use um **Pedido de Pagamento** em nome dela como prestador, com seu CPF.
 
 > ✓ **Dica · Aprovador, leia os comprovantes**
+>
 > A Bússola mostra os comprovantes em pré-visualização inline justamente para que o aprovador veja antes de votar — sem precisar baixar ou abrir programa externo. Aprovar sem ver o comprovante anula a função do controle. Reserve os 30 segundos para conferir; depois aprove com tranquilidade.
 
 ## Notificações dos eventos de reembolso

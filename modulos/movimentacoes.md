@@ -7,6 +7,7 @@ permalink: /modulos/movimentacoes/
 O módulo de **Movimentações** é onde sua OSC registra cada entrada e saída de dinheiro — doação recebida, conta de luz paga, repasse entre contas, reembolso de combustível do voluntário. É o coração do sistema porque todos os outros módulos (Reembolsos, Pedidos de Pagamento, Relatórios, Conciliação) acabam alimentando ou se apoiando nessa lista.
 
 > 💡 **Por que isso importa**
+>
 > Uma OSC que registra suas movimentações com disciplina **sabe a qualquer momento quanto tem em caixa, para onde o dinheiro está indo e quais despesas estão por vencer**. Sem esse registro, você descobre que o dinheiro acabou só quando o banco recusa o boleto — geralmente perto do fim do mês, sem tempo para resolver. Movimentações registradas em dia são a base para fluxo de caixa, relatórios para a diretoria, prestação de contas para financiadores e tranquilidade no fechamento contábil anual.
 
 ## Conceitos essenciais
@@ -14,12 +15,15 @@ O módulo de **Movimentações** é onde sua OSC registra cada entrada e saída 
 Antes de entrar nos botões, vale firmar três conceitos que você vai ver em toda a Bússola.
 
 > 📖 **Conceito · Receita, despesa e transferência**
+>
 > **Receita** é todo dinheiro que entra na OSC (doação, venda da lojinha, mensalidade de associado, repasse de edital). **Despesa** é todo dinheiro que sai (aluguel, conta de luz, compra de material, reembolso para voluntário). **Transferência** é movimento *interno* entre contas da própria OSC (do banco para a poupança, do dinheiro do caixinha para a conta corrente) — não é nem receita nem despesa, porque o dinheiro continua sendo seu, só muda de lugar. A distinção parece óbvia, mas misturá-las nas categorias é a fonte número um de relatórios financeiros distorcidos.
 
 > 📖 **Conceito · Regime de caixa**
+>
 > A Bússola opera por **regime de caixa**: o que vale para o seu saldo e seus relatórios é a *data em que o dinheiro entrou ou saiu da conta*, não a data em que você assinou o contrato ou recebeu a fatura. Por isso a movimentação tem dois campos de data: **vencimento** (quando *deveria* acontecer) e **pagamento** (quando *aconteceu de fato*). Enquanto a data de pagamento não estiver preenchida, o dinheiro ainda não mexeu no seu saldo — ele está "previsto", não "realizado". Esse é o jeito mais simples e direto de acompanhar uma OSC e bate com a forma como a maioria das prestações de contas é feita.
 
 > 📖 **Conceito · Status do lançamento**
+>
 > Cada movimentação tem um status que conta sua história. O ciclo de vida normal é **Pendente → Pago**. Quando o vencimento passa e nada foi pago, vira **Atrasado**. Quando uma movimentação não vai mais acontecer (ex: cancelaram o evento que pagaria o aluguel do salão), você a **Cancela**. Quando ela já estava paga mas precisa ser desfeita (ex: depósito caiu duplicado e o banco devolveu o segundo), você a **Estorna** — a Bússola cria um lançamento contrário automaticamente para preservar a história.
 
 | Status | Significado | Quando aparece |
@@ -56,6 +60,7 @@ Você pode filtrar por:
 - **Status**
 
 > 💡 **Por que isso importa**
+>
 > Atalhos contábeis (trimestre, semestre, ano) parecem detalhe, mas eles existem porque **prestação de contas e análise gerencial seguem esses recortes**, não os meses corridos. Quando a diretoria pergunta "como foi o primeiro trimestre?", você seleciona "Trimestre anterior" e o relatório está pronto — sem precisar configurar datas no calendário toda vez.
 
 Quando há filtros ativos, uma linha "Filtrado por: …" aparece abaixo dos totais. O botão **Limpar filtros** remove todos de uma vez.
@@ -90,6 +95,7 @@ Cada linha tem ícones de ação que mudam conforme o status:
 - 🗑 **Excluir** — disponível apenas para canceladas e estornadas
 
 > ⚠️ **Atenção · Cancelar não é a mesma coisa que excluir**
+>
 > **Cancelar** marca o lançamento como anulado mas mantém o histórico — útil quando algo registrado não vai mais acontecer (evento desmarcado, fornecedor desistiu) e você quer rastreabilidade. **Excluir** apaga o lançamento de vez. A Bússola só permite excluir quem já foi cancelada ou estornada justamente para evitar perda acidental. Para auditoria limpa, prefira sempre **cancelar** a excluir.
 
 ### Seleção em lote
@@ -127,6 +133,7 @@ Clique em qualquer linha da lista para abrir o detalhe completo, organizado em d
 Linha do tempo com todas as ações sobre o lançamento — quem criou, quem marcou como pago, quem estornou, quando, em qual ordem. Cada evento mostra ícone, nome do responsável e data/hora.
 
 > 💡 **Por que isso importa**
+>
 > A timeline de auditoria não é firula. Em OSC, é comum a função financeira ser rotativa (passa de um voluntário para outro a cada ano) e questões surgem meses ou anos depois — *"essa despesa foi paga ou não?", "quem autorizou esse estorno?"*. A linha do tempo responde sem ambiguidade e protege todo mundo: o tesoureiro atual, o anterior, a diretoria que vai prestar contas.
 
 ## Registrar novo lançamento
@@ -152,6 +159,7 @@ Clique em **+ Novo lançamento** no topo da lista.
 - **Distribuir valor entre categorias** — divide um único valor por várias categorias (ex: uma compra de R$ 500 que vai 60% para "Material didático" e 40% para "Manutenção")
 
 > ✓ **Dica · Categorias consistentes valem ouro nos relatórios**
+>
 > Categoria é o que faz seus relatórios mensais e anuais terem sentido. Se metade dos lançamentos de combustível foi para "Transporte" e a outra metade para "Combustível", o relatório vai mostrar dois grupos pequenos em vez de um grupo real. Defina as categorias da sua OSC com cuidado em **Configurações → Categorias**, deixe a lista enxuta, e treine quem registra para usar sempre a mesma.
 
 ### Tipo de repetição
@@ -163,6 +171,7 @@ A barra lateral direita também controla a repetição do lançamento:
 - **Recorrente** — cria uma série que se repete automaticamente em intervalo regular (semanal, quinzenal, mensal, bimestral, trimestral, semestral, anual). A duração pode ser **por data final**, **por quantidade de ocorrências** ou **indefinida até cancelar**.
 
 > 📖 **Conceito · Parcelado × Recorrente — qual usar?**
+>
 > Use **Parcelado** quando você sabe o valor total e quantas vezes vai pagar (compra de notebook em 6×, contrato fechado em 12 prestações). Use **Recorrente** quando o lançamento se repete por tempo indeterminado ou até segunda ordem (aluguel mensal, mensalidade de internet, doação fixa do mantenedor). A diferença é mais que cosmética: parcelas dividem **um valor único**, enquanto recorrências são **lançamentos independentes que repetem**. Cancelar uma recorrência para no mês escolhido; cancelar uma parcela cria uma pendência no plano de pagamento.
 
 ### Anexos e comprovantes
@@ -176,9 +185,11 @@ Você pode anexar arquivos (comprovantes, notas fiscais, contratos) ao lançamen
 **Em Novo Lançamento nos modos Recorrente e Parcelado**, a seção de anexo é ocultada na criação da série — não há um lançamento único ao qual associar o documento. Uma nota explicativa orienta a anexar individualmente em cada lançamento depois que a série for criada. Em **Editar Lançamento**, a seção funciona normalmente, pois você sempre edita um movimento individual.
 
 > ✓ **Dica · Anexe sempre, anexe na hora**
+>
 > Comprovante anexado na criação do lançamento custa 10 segundos. Procurar um comprovante de 8 meses atrás na pasta de e-mails do diretor anterior custa horas e às vezes não dá certo. **Adote como regra: nenhum lançamento sem comprovante.** Sua diretoria, sua auditoria contábil e seu eu do futuro vão agradecer.
 
 > ✓ **Dica · Tesoureiro em campo, câmera direto no app**
+>
 > Tesoureiro voluntário em viagem com o grupo, pagou combustível no posto: abre a Bússola instalada no celular, **Novo Lançamento → Tirar foto**, fotografa o cupom fiscal, confirma. Quatro toques contra os oito tradicionais de tirar foto pelo app de câmera, salvar na galeria, abrir o Bússola, navegar, selecionar.
 
 ## Estornar um lançamento
@@ -189,11 +200,13 @@ Você pode anexar arquivos (comprovantes, notas fiscais, contratos) ao lançamen
 Estornar é diferente de cancelar. Estorno é a forma contábil correta de reverter um lançamento **que já foi pago**.
 
 > 📖 **Conceito · O que acontece quando você estorna**
+>
 > A Bússola não apaga o lançamento original. Em vez disso, cria automaticamente um **lançamento contrário** com a mesma data, o mesmo valor e a categoria/conta espelhadas — uma receita estornada vira uma despesa de igual valor, e vice-versa. Os dois ficam vinculados na timeline e ambos exibem o badge "Estornado". O resultado no saldo é o mesmo que se nada tivesse acontecido, mas **a história fica preservada**: você consegue mostrar, anos depois, que aquele depósito chegou, foi estornado, e por quê.
 
 Para estornar: vá no detalhe do lançamento → botão **Estornar** → informe a razão. O lançamento contrário é criado e ambos ficam marcados na lista.
 
 > ⚠️ **Atenção · Estorno preserva, exclusão apaga**
+>
 > Estornos podem ser feitos por motivos legítimos — devolução bancária, depósito duplicado, doação devolvida. Em todos esses casos, **estornar é o caminho correto, não excluir**. Excluir um lançamento pago não é nem permitido pela Bússola justamente para preservar a integridade da prestação de contas.
 
 ## Importar lançamentos
@@ -218,12 +231,15 @@ Mais detalhes na seção de configurações.
 ## Boas práticas
 
 > ✓ **Dica · Adote uma rotina semanal de 15 minutos**
+>
 > A maior dor de OSCs amadoras na função financeira é deixar tudo acumular para o fim do mês. Aí cada lançamento exige resgatar comprovante, lembrar contexto, perguntar para gente que já esqueceu. **Reserve 15 minutos uma vez por semana** (toda terça de manhã, por exemplo) para registrar a movimentação da semana. É a diferença entre ter a contabilidade da OSC sempre pronta e viver apagando incêndio no dia 25.
 
 > ✓ **Dica · Confira a lista contra o extrato bancário todo mês**
+>
 > No final do mês, abra o extrato do banco e a lista de movimentações da Bússola filtrada pelo mês. Cada linha do extrato deve ter um lançamento correspondente. Diferenças vão aparecer (taxa que você esqueceu, transferência que veio sem aviso) — corrigir essas diferenças mensalmente é mil vezes mais fácil do que descobrir 6 meses depois.
 
 > ⚠️ **Atenção · Cuidado com transferências entre contas**
+>
 > Quando você move R$ 5.000 do banco para a poupança, **não é despesa nem receita** — é transferência. Se você lançar errado como despesa em "Banco" e como receita em "Poupança", o relatório vai mostrar que sua OSC gastou R$ 5.000 e ganhou R$ 5.000 do nada. Sempre use o tipo **Transferência** nesses casos; ele preserva o saldo geral e mantém os relatórios limpos.
 
 ## Glossário rápido

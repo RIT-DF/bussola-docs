@@ -9,14 +9,17 @@ O módulo de **Pedidos de Pagamento** é onde alguém da OSC **pede autorizaçã
 > Acesse pelo menu **Pagamentos e Reembolsos → aba Pedidos de Pagamento**.
 
 > 💡 **Por que isso importa**
+>
 > Em OSC sem disciplina de pedido de pagamento, **acontece de gente sair pagando contas sem combinar com a diretoria** — desconfiando do saldo, criando despesas que nem todos sabiam, gerando o famoso "como? alguém pagou isso?". O pedido de pagamento resolve com fluxo simples: **antes de a OSC tirar dinheiro do caixa, alguém autoriza**. O autor da solicitação demonstra a despesa (descrição, fornecedor, comprovante), os aprovadores decidem com base em informação concreta, e o tesoureiro executa só o que foi autorizado. Resultado: controle sobre saídas, transparência, prevenção de despesas surpresa.
 
 ## Conceitos essenciais
 
 > 📖 **Conceito · Pedido de Pagamento ≠ Reembolso**
+>
 > **Pedido de Pagamento** é para despesa que **ainda vai acontecer**: o dinheiro está na OSC e a aprovação autoriza que saia. **Reembolso** é para despesa que **já aconteceu**: alguém pagou do bolso e quer receber de volta. Use Pedido de Pagamento quando você tem a conta a pagar (boleto, fatura, nota de fornecedor) e o pagamento ainda não foi feito; o destinatário do dinheiro é o fornecedor/prestador, não você. Use Reembolso quando você já desembolsou e a conta está paga pelo seu CPF.
 
 > 📖 **Conceito · Pedido único, recorrente ou parcelado**
+>
 > A Bússola permite três tipos de pedido de pagamento, escolhidos no momento da solicitação:
 >
 > - **Único** — pedido avulso, uma vez (o caso mais comum: pagar uma fatura, contratar um serviço pontual)
@@ -26,9 +29,11 @@ O módulo de **Pedidos de Pagamento** é onde alguém da OSC **pede autorizaçã
 > A duração de uma série recorrente pode ser **por data final**, **por quantidade de ocorrências** ou **indefinida até cancelar**.
 
 > 📖 **Conceito · Quórum e fluxo de aprovação**
+>
 > A OSC configura em **Configurações → Fluxo de Aprovações** quantos votos são necessários (1 ou 2) e quais papéis podem aprovar. O solicitante nunca aprova o próprio pedido quando há outros aprovadores elegíveis — a Bússola bloqueia automaticamente. Quando o solicitante é o único aprovador (caso de OSCs muito pequenas), a auto-aprovação é permitida mas explicitamente registrada no audit log como `self_approved`.
 
 > 📖 **Conceito · Status do pedido**
+>
 > O ciclo normal é **Rascunho → Aguardando aprovação → Aprovado → Pago**. **Rejeitado** é desvio do caminho aprovado — solicitante pode editar e reenviar.
 
 | Status | Significado |
@@ -100,6 +105,7 @@ O motivo da rejeição aparece em destaque no topo. O solicitante pode editar os
 Painel de Ações mostra: **"Aprovado — aguardando confirmação de pagamento pelo tesoureiro."**
 
 > 📖 **Conceito · Aprovado vira movimentação automaticamente**
+>
 > No momento da aprovação, a Bússola cria automaticamente a **movimentação financeira pendente** (ou várias, no caso de parcelado e recorrente) com origem `purchase_order` (pedido de pagamento). O tesoureiro entra em Movimentações, escolhe a conta de saída e marca como paga. Cada ocorrência de uma série recorrente gera um movimento individual no momento programado, pago separadamente. O lançamento em Movimentações tem o link **"Ver pedido de pagamento →"** que volta ao detalhe original para conferência.
 
 ### Cancelar série (recorrente / parcelado)
@@ -130,6 +136,7 @@ Clique em **+ Nova solicitação** para abrir o formulário.
 **Campos opcionais:** Categoria, Projeto, Centro de custo, Observações, Documentos (orçamento, nota fiscal, contrato).
 
 > ⚠️ **Atenção · Dados são do destinatário, não do solicitante**
+>
 > No reembolso, a chave PIX é a sua. No Pedido de Pagamento, é a do **fornecedor**. Não há pré-preenchimento automático — informe corretamente os dados do destinatário a cada solicitação (ou cadastre o fornecedor nos seus contatos e copie). Erro nesses dados significa transferência para destino errado.
 
 ### Tipo do pedido (Único / Recorrente / Parcelado)
@@ -140,9 +147,11 @@ Toggle no formulário escolhe entre os três tipos. Para **Recorrente** ou **Par
 - Parcelado: tabela editável com data e valor de cada parcela; valor total = soma das parcelas
 
 > ⚠️ **Atenção · Anexo é obrigatório no envio**
+>
 > Salvar como rascunho não exige anexo, mas **enviar para aprovação exige pelo menos 1 documento anexado**. A Bússola bloqueia o envio se faltar comprovante. Motivo: aprovação sem documento é aprovação no escuro — vira ponto de risco contábil. Sempre anexe a nota, contrato ou orçamento antes de enviar.
 
 > ✓ **Dica · Foto direto pelo celular no momento do pedido**
+>
 > Em mobile, a seção **DOCUMENTOS** do formulário exibe dois botões: **Tirar foto** (abre a câmera traseira do celular direto, com preview **Refazer** ou **Confirmar** antes de subir) e **Anexar arquivo** (PDF, imagem, XML de NFe ou ZIP). A Bússola reduz a foto automaticamente antes do upload — fica leve mesmo em conexão ruim. Combina bem com o caso de uso de coordenador de projeto registrando o pedido de pagamento ainda no fornecedor, com o orçamento na mão.
 
 **Botões de ação:**
@@ -153,12 +162,15 @@ Toggle no formulário escolhe entre os três tipos. Para **Recorrente** ou **Par
 ## Boas práticas
 
 > ✓ **Dica · Pedido com 1 mês de antecedência poupa noite mal dormida**
+>
 > Aluguel vence dia 5? Crie o Pedido de Pagamento no dia 20 do mês anterior. Aprovadores votam com calma, tesoureiro programa o pagamento, ninguém entra em pânico no último dia. **Recorrência é seu aliado** — cria pedido de aluguel mensal recorrente uma vez, todo mês cai pra aprovação automaticamente.
 
 > ✓ **Dica · Descrição clara economiza ida e volta**
+>
 > "Fornecedor X — Y" é vago. "Aluguel da quadra para treino dos novatos, mensal, contrato firmado em janeiro/2026" responde tudo. Aprovadores votam mais rápido quando a história está completa.
 
 > ⚠️ **Atenção · Pagou sem aprovar? Volta no fluxo**
+>
 > Se a urgência levou alguém a pagar antes de ter aprovação, **registre como reembolso retroativo** (a pessoa pagou do bolso) e justifique a urgência. Não tente "burlar" criando um pedido de pagamento de despesa que já foi paga em nome da pessoa. A confusão contábil que sai disso é maior que o ganho.
 
 ## Notificações dos eventos de pedidos

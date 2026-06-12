@@ -10,6 +10,7 @@ O **Painel** é a primeira tela após o login — a visão de cockpit da sua OSC
 *Painel principal — saldos, resumo do mês, pendências de pagamento e projetos*
 
 > 💡 **Por que isso importa**
+>
 > A maioria das ferramentas financeiras te despeja em uma lista enorme de lançamentos no login. O Painel inverte isso: **mostra primeiro o que importa para você decidir o próximo passo** — saldo, resumo, pendências por papel. Tesoureiro vê quantos reembolsos esperam pagamento; presidente vê pedidos aguardando aprovação; voluntário vê seus próprios reembolsos pendentes. Resultado: você gasta menos tempo procurando informação, mais tempo decidindo.
 
 ## Saldos por conta
@@ -17,6 +18,7 @@ O **Painel** é a primeira tela após o login — a visão de cockpit da sua OSC
 Bloco com cada conta financeira da OSC (corrente, poupança, cartão, caixa interno, etc.) e o **saldo atual** de cada uma. No rodapé, o **saldo consolidado** soma todas as contas ativas.
 
 > 📖 **Conceito · Como o saldo é calculado**
+>
 > O saldo é calculado em tempo real a partir das movimentações financeiras: soma de receitas pagas menos despesas pagas, considerando o saldo inicial da conta. **Movimentações pendentes não entram no saldo** — só somam quando você marca como pagas. Isso bate com a realidade do extrato bancário: o que você tem hoje é o que efetivamente entrou e ainda não saiu, não o que está previsto.
 
 ## Resumo do mês corrente
@@ -46,6 +48,7 @@ Logo abaixo do resumo, **Pedidos de Pagamento** e **Reembolsos** aparecem **lado
 - **Aguardando pagamento** — somente para o tesoureiro
 
 > 📖 **Conceito · O Painel se adapta ao seu papel**
+>
 > Cada linha respeita o que você pode resolver. Um voluntário vê só "Solicitado por mim" / "Meus reembolsos pendentes"; um aprovador vê as linhas de aprovação; o tesoureiro vê também o que está "aguardando pagamento". Se um dos cards não tiver nenhuma linha para o seu papel, ele simplesmente não aparece. Cada seção do Painel ganhou ainda um ícone e um detalhe de cor para você localizar a informação mais rápido.
 
 ## Projetos
@@ -53,6 +56,7 @@ Logo abaixo do resumo, **Pedidos de Pagamento** e **Reembolsos** aparecem **lado
 Quando a OSC usa o módulo de [Projetos](/modulos/projetos/), o Painel mostra, por último, um resumo: quantos **projetos ativos** existem, a **saúde dos ativos** (quantos saudáveis, em atenção e críticos) e um destaque para os que **precisam de atenção**. É a visão de portfólio em uma linha — para a diretoria saber, sem abrir projeto por projeto, se algo está pegando fogo.
 
 > ✓ **Dica · Use o Painel como rotina de manhã**
+>
 > 5 minutos no Painel todo dia (ou toda segunda de manhã) substituem 1 hora de garimpo no final do mês. **Olhe saldo, leia pendências, confira a saúde dos projetos, decida o que precisa decidir, fecha.** Em OSC bem gerida, o Painel não tem cards com números altos parados ali há semanas — pendência só fica parada quando ninguém olhou.
 
 ## Por onde seguir

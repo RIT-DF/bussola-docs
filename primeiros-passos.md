@@ -10,6 +10,7 @@ Bem-vindo ao **Bússola Financeira**. Esta página te leva do "primeiro e-mail d
 *Tela de login do Bússola Financeira*
 
 > 💡 **Por que isso importa**
+>
 > Em OSC, o início do uso de um sistema novo é o momento que mais gera atrito — gente abandona software por causa de configuração inicial confusa, mesmo quando o produto é bom. Estes primeiros passos foram desenhados para serem **simples, sem armadilha e sem decisão que dependa de conhecimento técnico**. Se algo não fizer sentido, abra um pedido de feedback (botão na navegação) — sua dúvida ajuda a melhorar este manual.
 
 ## Como funciona o acesso
@@ -17,6 +18,7 @@ Bem-vindo ao **Bússola Financeira**. Esta página te leva do "primeiro e-mail d
 A entrada no Bússola é por **convite**, não por cadastro aberto. Isso garante que sua OSC mantém controle de quem entra. Quando o administrador (geralmente o presidente da OSC) cadastra você no sistema, você recebe um e-mail com link de configuração da conta.
 
 > 📖 **Conceito · Múltiplas organizações na mesma conta**
+>
 > Sua conta no Bússola é **única e atrelada ao seu e-mail**, mas você pode ser membro de várias OSCs simultaneamente. Útil para quem é voluntário em mais de um grupo, contador que atende várias OSCs, dirigente que participa de federação e grupo local. Use o **seletor de organização** no topo da tela para alternar — a tela inteira reage à OSC ativa, mostrando os dados dela.
 
 ## Primeiro acesso (via convite)
@@ -38,6 +40,7 @@ Além do convite, é possível iniciar uma conta por conta própria pelo link **
 3. Defina **nome** e **senha**, aceite a Política de Privacidade e conclua.
 
 > 🔒 **Por que o código?**
+>
 > A confirmação por e-mail garante que só quem realmente controla aquele endereço cria a conta e define a senha. **Se você já tem conta**, o sistema te direciona para o **login** em vez de criar outra — use "Esqueci a senha" se precisar.
 
 ## Entrar na plataforma depois disso
@@ -51,6 +54,7 @@ Na tela de login você pode:
 Acesse em: [bf.rit.org.br](https://bf.rit.org.br){:target="_blank" rel="noopener noreferrer"}
 
 > ⚠️ **Atenção · Senha forte, sempre**
+>
 > O Bússola tem dados financeiros da sua OSC — conta bancária, CPFs, comprovantes, valores. **Use senha forte e única** (não reaproveite a do e-mail pessoal). Considere usar gerenciador de senhas. A Bússola usa criptografia em dados sensíveis (CPF, RG são cifrados em repouso), mas a primeira linha de defesa é o controle do seu acesso.
 
 ## Aceite da política e dos termos
@@ -80,6 +84,7 @@ A barra de navegação no topo é o seu mapa:
 - **Avatar do usuário** — menu com **Meu perfil** e **Sair**
 
 > 📖 **Conceito · Perfil x Configurações**
+>
 > Há uma distinção importante: **Perfil é seu** (dados pessoais, foto, dados para reembolso, preferências de notificação) — acessado pelo menu do avatar, na rota `/perfil`, disponível a qualquer usuário. **Configurações é da organização** (usuários, contas bancárias, categorias, fluxo de aprovações, integrações) — acessado pelo ícone de engrenagem, restrito a admin e tesoureiro. Não há confusão entre os dois.
 
 ## Seu roteiro recomendado nos primeiros 30 minutos

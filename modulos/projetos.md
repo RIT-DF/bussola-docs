@@ -7,6 +7,7 @@ permalink: /modulos/projetos/
 O módulo de **Projetos** é onde a OSC planeja, executa, acompanha e encerra suas iniciativas — um evento, uma obra, uma campanha, um edital, um serviço continuado. Cada projeto reúne, num só lugar, o **planejamento** (escopo, equipe, orçamento, marcos, riscos), a **execução** (tarefas, comunicação, evidências), o **financeiro vinculado** (despesas, receitas, pedidos e reembolsos do projeto) e o **encerramento** (avaliação, lições aprendidas e relatório final).
 
 > 💡 **Por que isso importa**
+>
 > OSC séria não trata "todo dinheiro como uma coisa só". Cada projeto tem orçamento próprio, um financiador que vai pedir prestação de contas específica, uma equipe responsável e um prazo. Misturar tudo no caixa geral cria dois problemas: (1) **a prestação de contas vira pesadelo**, porque você precisa recortar depois o que foi do projeto e o que não foi; e (2) **a decisão fica cega**, porque você não sabe se o projeto está dentro do orçamento e no prazo até o último mês. O módulo de Projetos resolve isso: você vincula cada despesa, tarefa e marco ao projeto desde o começo, e o sistema te mostra a qualquer momento como ele está de saúde.
 
 ## O que é gerir projetos numa OSC
@@ -22,6 +23,7 @@ Gerir um projeto é responder, ao longo do caminho, a três perguntas simples:
 Quem responde a essas perguntas *no fim do projeto* já chegou tarde. Quem responde *durante* consegue corrigir a rota — pedir mais prazo, remanejar orçamento, acionar um plano B. É exatamente para isso que serve este módulo.
 
 > 📖 **Conceito · Projeto × caixa geral da OSC**
+>
 > O financeiro do projeto **não é uma caixinha separada do banco**. O dinheiro continua sendo o da OSC, nas mesmas contas. O que o projeto faz é **rotular** as movimentações: "esta despesa de R$ 300 em material foi do Acampamento". Assim você vê o recorte do projeto sem deixar de ver o todo. Por padrão, um projeto é **custeado pelo caixa geral da OSC** — as despesas dele saem do caixa comum, e o projeto te diz quanto já consumiu do que foi previsto.
 
 ## O modelo de gestão de projetos da Bússola
@@ -43,6 +45,7 @@ Todo projeto caminha por uma sequência de status, com aprovações nos momentos
 | **Cancelado** | Encerrado sem conclusão (o projeto não vai mais acontecer). |
 
 > 📖 **Conceito · Por que pedir aprovação para iniciar e para encerrar**
+>
 > Os dois "portões" de aprovação (iniciar e encerrar) existem para dar **governança** sem burocratizar o resto. Aprovar a abertura significa: "a diretoria concorda com este escopo e este orçamento". Aprovar o encerramento significa: "a diretoria reconhece que este projeto acabou, com este resultado e esta prestação de contas". Entre os dois portões, a equipe trabalha com autonomia. Quem aprova é configurável pela OSC, como nos demais fluxos.
 
 ### As três fases de trabalho
@@ -64,14 +67,17 @@ A cada projeto a Bússola atribui um **indicador de saúde** — um semáforo (�
 - **Riscos** — há riscos materializados ou sem tratamento?
 
 > 💡 **Por que isso importa**
+>
 > O semáforo é o que transforma "uma porção de projetos" em **gestão de portfólio**. No Painel, a diretoria vê de relance quantos projetos estão saudáveis e quais pedem atenção — sem abrir um por um. É a diferença entre descobrir que um projeto estourou o orçamento *no dia da prestação de contas* e descobrir *a tempo de fazer algo*.
 
 ## Conceitos essenciais
 
 > 📖 **Conceito · Tipo do projeto**
+>
 > Ao criar, você escolhe o **tipo** (Projeto, Evento, Obra, Produto/Serviço, Voluntário…). O tipo adapta a experiência: um **Evento** ganha campo de número de participantes e a **calculadora de taxa de inscrição**; cada tipo já vem com uma sugestão de **marcos-modelo** adequada (uma Obra sugere "Início da execução / Conclusão da obra / Vistoria"; um Evento sugere "Divulgação / Evento realizado / Prestação de contas"). Você usa as sugestões que quiser e adiciona as suas.
 
 > 📖 **Conceito · Papel no projeto**
+>
 > Dentro de um projeto, cada pessoa tem um **papel no projeto**, que é diferente do papel dela na OSC. Quem conduz é o **Coordenador do projeto** — pode editar escopo, equipe, marcos e riscos, gerenciar tarefas e solicitar despesas. Demais integrantes **contribuem** (assumem tarefas, comentam, anexam evidências) mas não mudam o planejamento. Um voluntário comum da OSC pode ser coordenador de um projeto específico; um tesoureiro pode ser só integrante de outro. O acesso ao projeto respeita esse papel.
 
 ## A lista de projetos
@@ -108,6 +114,7 @@ O Planejamento reúne cinco blocos:
 - **Partes interessadas (stakeholders)** — pessoas e organizações externas relevantes (financiador, parceiro, poder público) e o canal de contato.
 
 > ✓ **Dica · Risco bom é risco escrito antes**
+>
 > O valor do bloco de riscos não está em prever o futuro — está em **combinar antecipadamente o que faremos se acontecer**. Um risco "Atraso na entrega do fornecedor — Probabilidade Média, Impacto Alto, mitigação: confirmar prazo por escrito e ter fornecedor reserva" vale mais do que dez reuniões de pânico depois que o fornecedor sumiu. Escreva os 3 ou 4 riscos óbvios logo no planejamento.
 
 ## A aba Execução
@@ -126,6 +133,7 @@ O Planejamento reúne cinco blocos:
 **Evidências.** Anexos que comprovam o que foi feito — fotos do evento, documentos, vídeos. Cada projeto tem um espaço próprio de armazenamento.
 
 > ✓ **Dica · O mural é a memória do projeto**
+>
 > Em OSC, a equipe muda: voluntário entra, coordenador sai, a diretoria roda. O mural preserva **a história contável e a história humana** do projeto no mesmo lugar — quem decidiu o quê, quando, e por quê. Na hora de prestar contas ou de fazer o próximo projeto parecido, ele vale ouro.
 
 ## A aba Financeiro
@@ -149,6 +157,7 @@ O Financeiro mostra o dinheiro do projeto sem tirar nada do caixa geral da OSC:
 Para um **Evento**, a aba Financeiro tem a sub-aba **Calcular taxa**, que ajuda a definir **quanto cobrar de inscrição** para o evento se pagar. Você informa os **custos previstos**, um **fundo de reserva** (%), um **custo por participante** (o gasto marginal por pessoa atendida — kit, alimentação, material), e quantos serão **pagantes**, **isentos** e **voluntários e/ou equipe de serviço**. A calculadora mostra, em tempo real, a **taxa por pagante**, a **receita prevista** e a sobra.
 
 > 📖 **Conceito · Quem não paga, alguém cobre**
+>
 > A lógica é simples e justa: os **pagantes** cobrem o custo fixo do evento **mais** o custo de cabeça de quem é atendido mas não paga a própria inscrição (isentos e, conforme a regra, voluntários). Por isso, ao aumentar o número de isentos, a taxa por pagante sobe — o custo deles foi redistribuído. A **regra de pagamento dos voluntários** (rateado, taxa cheia, com desconto, ou a OSC paga) muda como o voluntário entra nessa conta; a descrição da regra escolhida aparece logo abaixo do seletor. Com "custo por participante" igual a zero, a taxa volta a ser o simples rateio do custo entre os pagantes.
 
 Você pode **salvar** simulações no histórico, **adotar uma como taxa oficial** do evento ou **marcar o evento como gratuito**.
@@ -185,17 +194,21 @@ A qualidade do encerramento depende do que é escrito nos campos de texto — é
 A partir dessa avaliação e de tudo que o projeto registrou, a Bússola monta um **relatório de encerramento** consolidado — identificação, resumo financeiro, saúde final, marcos, tarefas, contribuição da equipe, riscos materializados, evidências, status updates, partes interessadas e a avaliação do coordenador. Esse relatório pode ser **exportado em PDF** para a prestação de contas. Antes de finalizar, é possível gerar um **relatório parcial** (marcado como rascunho); ao **finalizar**, a saúde e os números ficam "congelados" como o retrato final do projeto.
 
 > 💡 **Por que isso importa**
+>
 > A maioria das OSCs nunca **fecha** um projeto de verdade — o evento acaba, todo mundo vai embora cansado, e o aprendizado se perde. O encerramento estruturado obriga a parar 20 minutos e responder "deu certo? por quê? o que faríamos diferente?". As **lições aprendidas** viram patrimônio da OSC: o próximo coordenador de evento começa lendo o que o anterior aprendeu, em vez de repetir os mesmos tropeços. E o PDF resolve, de uma vez, a prestação de contas para o financiador.
 
 ## Boas práticas
 
 > ✓ **Dica · Comece pequeno: escopo, orçamento total e 3 marcos**
+>
 > Não trave o projeto tentando preencher tudo. Para começar, bastam: um **escopo** em uma frase, um **orçamento total**, três ou quatro **marcos** com data e os **riscos óbvios**. O resto você detalha conforme anda. Projeto bem gerido não é o mais preenchido — é o que você **olha toda semana**.
 
 > ✓ **Dica · Use o "Registrar despesa" de dentro do projeto**
+>
 > Quando a despesa é do projeto, peça o reembolso ou o pagamento **pelo botão do próprio projeto**, não pelo módulo geral. Assim ele já nasce vinculado, aparece nos pendentes do projeto e cai no orçamento certo — sem você precisar lembrar de marcar o projeto depois.
 
 > ⚠️ **Atenção · Pendente não é gasto**
+>
 > A seção "Aguardando aprovação" mostra o que foi **solicitado**, não o que foi **pago**. Esses valores **não** entram no realizado do projeto até serem aprovados. Use a seção para evitar pedir o mesmo pagamento duas vezes — mas lembre que o orçamento só é consumido quando a despesa é, de fato, aprovada e paga.
 
 ## Glossário rápido

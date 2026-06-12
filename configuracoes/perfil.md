@@ -10,6 +10,7 @@ A página **Meu Perfil** concentra **seus** dados pessoais e preferências dentr
 *Página Meu Perfil — 4 boxes consolidados*
 
 > 💡 **Por que isso importa**
+>
 > Perfil bem configurado tem dois efeitos práticos: (1) **reembolsos mais rápidos** porque a chave PIX/TED já vem pré-preenchida; (2) **menos ruído no dia a dia** porque você só recebe as notificações que importam para você, nos canais que prefere. 5 minutos de configuração inicial economizam horas ao longo dos meses.
 
 A página tem 4 boxes consolidados.
@@ -25,6 +26,7 @@ A página tem 4 boxes consolidados.
 Botão **Salvar alterações** ao final do box salva tudo de uma vez.
 
 > ⚠️ **Atenção · CPF e RG são dados sensíveis pela LGPD**
+>
 > Você só precisa preencher CPF/RG se a sua OSC vai emitir documento que exija (recibo formal, declaração para imposto de renda, etc.). Se você não tem certeza se precisa, deixe em branco — a Bússola não exige esses dados para operar.
 
 ## Dados para Reembolso
@@ -32,6 +34,7 @@ Botão **Salvar alterações** ao final do box salva tudo de uma vez.
 Configure aqui sua **chave PIX** ou **dados bancários para TED**. Quando você criar um Reembolso, a Bússola preenche automaticamente esses dados — você não precisa redigitar a cada solicitação, e não corre risco de errar a chave.
 
 > ✓ **Dica · Use chave PIX preferencialmente**
+>
 > PIX simplifica a vida do tesoureiro: pagamento imediato, sem custo, sem necessidade de TED programada. Se sua conta tem chave PIX configurada, use-a aqui em vez dos dados bancários completos. A OSC paga mais rápido, você recebe mais rápido.
 
 Se você nunca pede reembolso, pode deixar em branco — só preencha quando for fazer a primeira solicitação.
@@ -68,6 +71,7 @@ A ativação é **por dispositivo**, com um interruptor mestre **"Ativar push ne
 **Múltiplas OSCs:** se você participa de mais de uma OSC, recebe push de eventos de todas. A OSC aparece no corpo do aviso para identificação da origem.
 
 > 🔒 **Privacidade**
+>
 > O endpoint do seu dispositivo é armazenado da mesma forma que outros dados de contato (número de WhatsApp, ID do Telegram). Você pode desativar a qualquer momento no master switch ou pedir exclusão completa pelo fluxo LGPD em **Ações de Conta**.
 
 ### Matriz granular de preferências
@@ -80,9 +84,11 @@ Tabela com **10 eventos × 4 canais** permite controle fino sobre quais notifica
 Para cada par (evento, canal), um switch on/off. **Default é tudo ligado** — você silencia o que não quer receber.
 
 > 📖 **Conceito · Canal desabilitado vs canal não cadastrado**
+>
 > Se a coluna WhatsApp, Telegram ou Push aparece **desabilitada** com tooltip ("Cadastre seu número primeiro" ou "Ative push neste dispositivo"), é porque você ainda não cumpriu o pré-requisito do canal. Cumpra-o e salve — na próxima abertura da página, a coluna fica habilitada para escolher quais eventos receber por esse canal.
 
 > ✓ **Dica · Calibre por papel**
+>
 > Se você é aprovador, mantenha "submetido" ligado para ser avisado quando um reembolso/pedido precisa do seu voto. Se você é solicitante e não aprovador, "submetido" não te interessa — pode desligar e manter só "aprovado", "rejeitado" e "pago". Tesoureiro deve manter "aprovado" e "pago" sempre ligados para acompanhar o ciclo de pagamento.
 
 ## Ações de Conta
@@ -94,6 +100,7 @@ Ações administrativas sobre sua própria conta, cada uma com botão independen
 - **Solicitar exclusão de dados (LGPD)** — abre fluxo para exercer o direito ao esquecimento previsto na Lei Geral de Proteção de Dados. A exclusão tem regras específicas (dados financeiros têm retenção legal mínima); o fluxo orienta o que pode e o que não pode ser excluído.
 
 > ⚠️ **Atenção · Encerrar sessões te desconecta também**
+>
 > "Encerrar todas as sessões" inclui o navegador atual. Você vai precisar fazer login de novo. Útil principalmente em situação de risco (perdeu celular, suspeita de acesso indevido). Em uso normal, não há motivo para usar.
 
 ## Por onde seguir
