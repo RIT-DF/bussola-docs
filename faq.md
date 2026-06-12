@@ -14,7 +14,13 @@ Peça ao administrador da sua organização que reenvie o convite em **Configura
 
 ### Esqueci minha senha. Como redefino?
 
-Na tela de login, clique em **Esqueceu a senha?** e siga as instruções enviadas por e-mail. Se você cadastrou via Google no primeiro acesso, use **Continuar com Google** em vez de senha.
+Na tela de login, clique em **Esqueci a senha**, informe o e-mail da sua conta e clique em **Enviar link de redefinição**.
+
+[![Tela de recuperação de senha](/assets/screenshots/manual-recuperar-senha.png)](/assets/screenshots/manual-recuperar-senha.png)
+
+Você receberá um e-mail com um link para definir uma nova senha. O link **vale por 1 hora e só pode ser usado uma vez**. Ao definir a nova senha, você volta para a tela de login e entra com ela.
+
+Por segurança, a confirmação na tela é sempre a mesma, exista ou não uma conta para aquele e-mail (não revelamos quais e-mails têm cadastro). Se não receber, confira a caixa de spam. Se você cadastrou via Google no primeiro acesso, use **Continuar com Google** em vez de senha — contas só-Google não têm senha para redefinir.
 
 ### Posso usar o mesmo e-mail em mais de uma organização?
 
