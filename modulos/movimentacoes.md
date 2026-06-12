@@ -249,9 +249,7 @@ Em vez de digitar lançamento por lançamento, você pode importar de duas fonte
 >
 > O **[Guia de Migração](/migracao/)** cobre o caminho completo — ponto de corte, ordem de montar a base, formato da planilha coluna a coluna, reconciliação e como virar a chave com segurança.
 
-> ⚠️ **Nota · `conta_destino` e `projeto` no template**
->
-> O template baixável cobre as colunas básicas. As colunas `conta_destino` e `projeto` já são aceitas pelo importador — acrescente-as ao cabeçalho da sua planilha para usá-las. A inclusão no template está prevista para uma próxima atualização.
+O **template baixável** já vem com todas essas colunas e linhas de exemplo — inclusive uma transferência e uma com projeto vinculado. Baixe, apague os exemplos e preencha com os seus lançamentos.
 
 Parcelas, recorrências e comprovantes não entram por CSV — crie pelo formulário (parcelas/recorrências) ou anexe pelo detalhe do lançamento (comprovantes).
 

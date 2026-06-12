@@ -77,7 +77,7 @@ Em **Movimentações → Importar Lançamentos**, baixe o **template CSV** e use
 
 - **Separador:** ponto-e-vírgula (`;`).
 - **Valor:** em reais com **vírgula decimal** — `1500,00`. O ponto pode separar milhar (`1.500,00`). *Não* use ponto como decimal (`1500.00`) — veja o alerta abaixo.
-- **Data:** `DD/MM/AAAA` (ex.: `20/05/2026`).
+- **Data:** `DD/MM/AAAA` (ex.: `20/05/2026`). O formato `AAAA-MM-DD` (`2026-05-20`), usado nos exemplos do template, também é aceito.
 - **Codificação:** UTF-8 (o template já vem assim; acentos funcionam).
 
 > ⚠️ **Atenção · Vírgula é o separador decimal**
@@ -109,9 +109,9 @@ Em **Movimentações → Importar Lançamentos**, baixe o **template CSV** e use
 >
 > Preencha `projeto` com o nome de um projeto **aberto** para amarrar o lançamento a ele. Se o nome não bater com nenhum projeto aberto (projeto fechado, cancelado ou inexistente), o lançamento **é importado mesmo assim, sem o vínculo**, com um aviso na linha — o vínculo é opcional e nunca bloqueia a importação. Se o projeto restringe categorias, a categoria da linha precisa ser uma das permitidas.
 
-> ⚠️ **Nota · Colunas de transferência e projeto no template**
+> 💡 **Dica · O template já traz exemplos prontos**
 >
-> O template oferecido para download cobre as colunas básicas. As colunas **`conta_destino`** e **`projeto`** já são aceitas pelo importador — se for usá-las, acrescente-as ao cabeçalho da planilha (na ordem da tabela acima). A inclusão delas no template baixável está prevista para uma próxima atualização.
+> O template oferecido para download já inclui todas as colunas acima e linhas de exemplo — inclusive uma de **transferência** (com `conta_destino` preenchida e sem categoria) e uma com **`projeto`** vinculado. Use-as como referência: apague os exemplos e preencha com os seus lançamentos.
 
 > 💡 **O que ainda não vai por CSV**
 >
