@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: section
 title: Instalar como aplicativo
 permalink: /instalar-como-app/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: section
 title: Perguntas Frequentes
 permalink: /faq/
 ---

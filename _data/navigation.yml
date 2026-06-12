@@ -2,7 +2,11 @@
   url: /
 
 - title: Primeiros Passos
-  url: /primeiros-passos/
+  children:
+    - title: Do Usuário
+      url: /primeiros-passos/
+    - title: Da Organização
+      url: /primeiros-passos/organizacao/
 
 - title: Instalar como aplicativo
   url: /instalar-como-app/
@@ -61,7 +65,7 @@
 - title: Changelog
   url: /changelog/
 
-- title: Legal
+- title: Termos e Privacidade
   children:
     - title: Privacidade
       url: /privacidade/
