@@ -11,11 +11,11 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
-## [0.26.4] — 2026-06-12
+## [0.26.7] — 2026-06-12
 
 ### Corrigido
 
-- **Atualização do app mais confiável.** Ao aparecer o aviso de nova versão e você clicar em **Atualizar**, o app agora carrega a versão nova de verdade — antes, em alguns casos (sobretudo no aplicativo instalado no celular), ele acabava voltando para a versão anterior. A atualização acontece sem desconectar você nem perder o que estava preenchendo.
+- **Atualização do app mais confiável.** Ao aparecer o aviso de nova versão e você clicar em **Atualizar**, o app agora carrega a versão nova de verdade — antes, em alguns casos (sobretudo no aplicativo instalado no celular), ele acabava voltando para a versão anterior ou ficava preso em "Atualizando…". A atualização acontece sem desconectar você nem perder o que estava preenchendo.
 
 ---
 
