@@ -222,6 +222,39 @@ Em vez de digitar lançamento por lançamento, você pode importar de duas fonte
 
 Útil para migrar histórico de planilhas (a base mais comum quando uma OSC começa a usar a Bússola). Faça download do template, preencha as linhas com seus lançamentos antigos, faça upload. A Bússola mostra um **preview** com erros por linha antes de criar nada; você confirma e os lançamentos são criados em lote.
 
+**Formato:** separador ponto-e-vírgula (`;`); valor em reais com vírgula decimal (`1500,00`); data `DD/MM/AAAA`.
+
+**Colunas aceitas:**
+
+| Coluna | Obrigatória? | Conteúdo |
+|---|---|---|
+| `data` | Sim | Data do lançamento. |
+| `valor` | Sim | Valor em reais, vírgula decimal. Sempre positivo; o tipo define entrada/saída. |
+| `descricao` | Sim | Descrição curta. |
+| `tipo` | Sim | `receita`, `despesa` ou `transferencia`. |
+| `conta` | Sim | Conta de origem (deve existir na OSC). |
+| `categoria` | Sim (exceto transferência) | Categoria compatível com o tipo. Transferência não tem categoria. |
+| `conta_destino` | Só em transferência | Conta que recebe; obrigatória e diferente da origem. |
+| `projeto` | Não | Projeto **aberto** para vincular (qualquer tipo). |
+| `data_pagamento` | Não | Data de efetivação. Em branco = pendente. |
+| `beneficiario` | Não | Quem recebeu/pagou. |
+| `forma_pagamento` | Não | `pix`, `cartão`, `dinheiro`, etc. |
+| `observacoes` | Não | Texto livre. |
+
+- **Transferência** entre contas da OSC é **uma linha** (`tipo=transferencia`, `conta` + `conta_destino`, sem categoria) — preserva o saldo total.
+- **Projeto** não encontrado (fechado/inexistente) → o lançamento entra **sem o vínculo**, com aviso; nunca bloqueia.
+- **Conta ou categoria que ainda não existe** na OSC vira uma **pendência resolvida na própria tela de resumo**: criar a categoria que falta, mapear para uma existente, ou deixar as linhas daquela conta de fora para reimportar depois. O casamento de nomes ignora acentos, maiúsculas/minúsculas e espaços.
+
+> 💡 **Migrando de uma planilha ou de outro sistema?**
+>
+> O **[Guia de Migração](/migracao/)** cobre o caminho completo — ponto de corte, ordem de montar a base, formato da planilha coluna a coluna, reconciliação e como virar a chave com segurança.
+
+> ⚠️ **Nota · `conta_destino` e `projeto` no template**
+>
+> O template baixável cobre as colunas básicas. As colunas `conta_destino` e `projeto` já são aceitas pelo importador — acrescente-as ao cabeçalho da sua planilha para usá-las. A inclusão no template está prevista para uma próxima atualização.
+
+Parcelas, recorrências e comprovantes não entram por CSV — crie pelo formulário (parcelas/recorrências) ou anexe pelo detalhe do lançamento (comprovantes).
+
 ### Importação do WooCommerce
 
 Se sua OSC tem loja online em WooCommerce (venda de produtos, doações online, ingressos), pode conectar a loja à Bússola em **Configurações → Organização → WooCommerce**. Uma vez configurada, pedidos pagos viram receitas automaticamente — diariamente via sincronização programada ou sob demanda pelo botão **Importar agora** desta tela.

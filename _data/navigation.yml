@@ -8,6 +8,9 @@
     - title: Da Organização
       url: /primeiros-passos/organizacao/
 
+- title: Guia de Migração
+  url: /migracao/
+
 - title: Instalar como aplicativo
   url: /instalar-como-app/
 

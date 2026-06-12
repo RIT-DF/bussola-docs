@@ -3,6 +3,9 @@
 - title: Primeiros Passos
   url: /primeiros-passos/
   prefix: /primeiros-passos/
+- title: Migração
+  url: /migracao/
+  prefix: /migracao/
 - title: Instalar como app
   url: /instalar-como-app/
 - title: Módulos
