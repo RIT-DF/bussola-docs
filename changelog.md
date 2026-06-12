@@ -11,6 +11,23 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.26.2] — 2026-06-12
+
+Importar lançamentos de planilha ficou bem mais fácil — e mais seguro.
+
+### Melhorado
+
+- **Reconhece contas e categorias mesmo com diferenças de acento ou maiúsculas.** "alimentaçao" passa a casar com "Alimentação", "banco alfa" com "Banco Alfa" — sem virar erro.
+- **Resolva o que falta na própria tela de importação.** Quando uma categoria do arquivo ainda não existe, você pode **criá-la na hora** (ou apontar para uma já existente), sem precisar cadastrar tudo antes. Uma tela de pendências mostra o que resolver e só libera a importação quando estiver tudo certo.
+- **Conta que ainda não existe não trava a importação.** Você escolhe deixar essas linhas de fora; ao final, a Bússola avisa exatamente quantas ficaram e de qual conta, para você cadastrá-la (com o saldo de abertura) e importar essas linhas depois.
+- **Resumo final claro** ao concluir: quantos lançamentos entraram, quantos ficaram de fora e quantos foram ignorados por erro.
+
+### Corrigido
+
+- **Valores da planilha lidos corretamente.** Importações passam a interpretar o valor em reais no formato brasileiro (vírgula como decimal), evitando casos em que o valor era multiplicado por engano. Valores ambíguos agora apontam erro na linha em vez de importar um número errado.
+
+---
+
 ## [0.26.1] — 2026-06-12
 
 O e-mail de redefinição de senha agora chega em português e com a identidade da Bússola.
