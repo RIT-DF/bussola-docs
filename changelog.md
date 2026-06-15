@@ -11,6 +11,14 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.30.0] — 2026-06-15
+
+### Adicionado
+
+- **Documentos complementares na prestação de contas.** Ao gerar o relatório, agora é possível **anexar documentos adicionais** — como extrato bancário, parecer da comissão fiscal ou notas explicativas —, cada um com **título e descrição**. Os documentos ficam **guardados por período**: ao gerar o mesmo período novamente, reaparecem prontos para usar (e podem ser removidos ou complementados). No PDF, entram **no final, depois dos comprovantes**, cada um precedido de uma folha de identificação.
+
+---
+
 ## [0.29.0] — 2026-06-15
 
 ### Melhorado
