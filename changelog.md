@@ -11,6 +11,17 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.29.0] — 2026-06-15
+
+### Melhorado
+
+- **Prestação de contas mais clara e completa.** No relatório em PDF:
+  - O **Demonstrativo Analítico** passa a separar **Receitas**, **Despesas** e **Transferências** em seções próprias, com os valores coloridos e sinalizados (receitas em positivo, despesas em negativo) — no mesmo padrão do Extrato por Conta, facilitando a leitura.
+  - As **transferências entre contas** agora aparecem no analítico, indicando com clareza a **conta de origem** e a **conta de destino**.
+  - Os **comprovantes** deixam de ser só das despesas: o relatório passa a anexar também os comprovantes de **receitas** e de **transferências**, organizados em seções separadas.
+
+---
+
 ## [0.28.7] — 2026-06-15
 
 ### Corrigido
