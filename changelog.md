@@ -11,6 +11,19 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.28.0] — 2026-06-15
+
+Chegou a **Prestação de Contas** em PDF — o documento completo do período, pronto para apresentar à diretoria, ao conselho ou à assembleia.
+
+### Adicionado
+
+- **Relatório de Prestação de Contas (PDF).** Em **Movimentações → Exportar → Prestação de contas**, escolha um **mês** específico ou o **acumulado do ano** e gere um documento no padrão do Bússola com: termo de abertura, demonstração de receitas e despesas com **gráficos**, demonstrativo analítico (lançamento a lançamento), posição de caixa por conta, extrato por conta e os **comprovantes das despesas anexados** ao final — tudo num único arquivo, em regime de caixa.
+- **Geração em segundo plano, sem espera.** Você clica em "Gerar" e continua trabalhando normalmente; quando o PDF fica pronto, o **link chega no seu e-mail**. Se algo falhar, você é avisado por e-mail e por notificação no app.
+- **Qualquer período já fechado.** Dá para gerar de meses anteriores e de anos anteriores (com dados); o mês corrente, ainda incompleto, fica de fora.
+- **Acesso restrito.** Disponível para a diretoria/tesouraria e a comissão fiscal da organização.
+
+---
+
 ## [0.27.0] — 2026-06-14
 
 Agora dá para editar um projeto depois de criado — com aprovação para o que é sensível e avisos para as pessoas certas.
