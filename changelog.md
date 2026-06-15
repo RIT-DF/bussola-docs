@@ -11,6 +11,23 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.28.4] — 2026-06-15
+
+### Melhorado
+
+- **E-mails da Bússola com a identidade visual da plataforma e mais pessoais.** Os avisos por e-mail — incluindo o de prestação de contas pronta — passam a chegar no visual da Bússola e começam com uma saudação pelo seu nome.
+- **Aviso de prestação de contas pronta mais informativo.** Quando o relatório fica pronto, o e-mail traz um **resumo do período** (receitas, despesas e resultado) e deixa claro, em destaque, que o documento é **gerado automaticamente, apenas para acompanhamento, sem valor contábil ou fiscal**.
+
+---
+
+## [0.28.1] — 2026-06-15
+
+### Corrigido
+
+- **Atualização do app mais direta.** Mudamos a forma como o app carrega novas versões: a tela principal passa a vir sempre da internet (não de uma cópia guardada no dispositivo). Assim, quando aparece o aviso de **nova versão** e você clica em **Atualizar**, o app recarrega já na versão mais recente — sem ficar preso em "Atualizando…".
+
+---
+
 ## [0.28.0] — 2026-06-15
 
 Chegou a **Prestação de Contas** em PDF — o documento completo do período, pronto para apresentar à diretoria, ao conselho ou à assembleia.
