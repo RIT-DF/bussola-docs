@@ -11,7 +11,23 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
-## [0.30.0] — 2026-06-15
+## [0.30.3] — 2026-06-15
+
+### Melhorado
+
+- **Logo oficial nos e-mails.** O cabeçalho dos e-mails da plataforma passa a exibir a **logo oficial da Bússola** (no lugar de um selo de texto), reforçando a identidade visual em todos os avisos e mensagens.
+
+---
+
+## [0.30.2] — 2026-06-15
+
+### Melhorado
+
+- **Edição de projeto em tela própria.** A edição dos dados do projeto (nome, descrição, tipo, datas, categorias) agora abre em **página inteira**, em vez de uma janela sobreposta — mais confortável no computador e no celular. Todo o comportamento continua igual (validações, avisos e o fluxo de reaprovação para projetos já aprovados).
+
+---
+
+## [0.30.1] — 2026-06-15
 
 ### Adicionado
 
