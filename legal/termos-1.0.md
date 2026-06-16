@@ -1,10 +1,12 @@
 ---
 layout: section
-title: Termos de Uso
-permalink: /termos/
+title: Termos de Uso — versão 1.0 (arquivada)
+permalink: /termos/1.0/
 version: "1.0"
 change_summary: "Publicação inicial da versão 1.0."
 requires_reconsent: true
+archived: true
+sitemap: false
 ---
 
 # Termos de Uso — Bússola Financeira

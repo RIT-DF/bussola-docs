@@ -1,10 +1,12 @@
 ---
 layout: section
-title: Política de Privacidade
-permalink: /privacidade/
+title: Política de Privacidade — versão 1.0 (arquivada)
+permalink: /privacidade/1.0/
 version: "1.0"
 change_summary: "Publicação inicial da versão 1.0."
 requires_reconsent: true
+archived: true
+sitemap: false
 ---
 
 # Política de Privacidade — Bússola Financeira
