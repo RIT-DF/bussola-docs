@@ -114,4 +114,4 @@ permalink: /
 <p>Dúvidas, sugestões ou problemas? Use o botão <strong>💬 Feedback</strong> dentro do Bússola — vai direto para a equipe da RIT, com a versão do app e o seu contexto. Para questões de privacidade ou LGPD, escreva para <a href="mailto:dpo@rit.org.br">dpo@rit.org.br</a>.</p>
 
 <hr>
-<p style="font-size:0.8rem; color:#888;">Bússola Financeira v0.31.3 · <a href="https://rit.org.br" target="_blank" rel="noopener noreferrer">RIT — Rede de Inovação e Transformação</a> · <a href="https://github.com/RIT-DF/bussola-docs" target="_blank" rel="noopener noreferrer">repositório público desta documentação</a></p>
+<p style="font-size:0.8rem; color:#888;">Bússola Financeira v0.32.0 · <a href="https://rit.org.br" target="_blank" rel="noopener noreferrer">RIT — Rede de Inovação e Transformação</a> · <a href="https://github.com/RIT-DF/bussola-docs" target="_blank" rel="noopener noreferrer">repositório público desta documentação</a></p>

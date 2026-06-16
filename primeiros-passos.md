@@ -41,7 +41,7 @@ Além do convite, é possível iniciar uma conta por conta própria pelo link **
 
 1. Informe seu **e-mail**.
 2. No passo **"Confirme seu e-mail"**, clique para enviar o **código de 6 dígitos** que chega na sua caixa de entrada e digite-o (há botão para **reenviar**, com uma breve espera entre envios). Confira a caixa de spam se não chegar.
-3. Defina **nome** e **senha**, aceite a Política de Privacidade e conclua.
+3. Defina **nome** e **senha**, aceite a **Política de Privacidade** e os **Termos de Uso** e conclua.
 
 > 🔒 **Por que o código?**
 >
@@ -63,7 +63,12 @@ Acesse em: [bf.rit.org.br](https://bf.rit.org.br){:target="_blank" rel="noopener
 
 ## Aceite da política e dos termos
 
-Na primeira vez que você acessa, ou quando a política ou termos são atualizados, aparece uma tela solicitando o aceite. Este passo é obrigatório e a Bússola não libera o uso até que você aceite.
+Na primeira vez que você acessa, ou quando a Política de Privacidade ou os Termos de Uso são atualizados, aparece uma tela solicitando o aceite dos **dois** documentos. Este passo é obrigatório e a Bússola não libera o uso até que você aceite ambos.
+
+[![Tela de aceite dos documentos legais](/assets/screenshots/manual-aceite-documentos-legais.png)](/assets/screenshots/manual-aceite-documentos-legais.png)
+*Tela de aceite — cada documento tem seu link para leitura, um resumo do "o que mudou" e uma confirmação própria; o botão Continuar só habilita com os dois marcados*
+
+Cada documento é **versionado**: o link abre exatamente a versão vigente (por exemplo, `docs.bf.rit.org.br/privacidade/1.0/`) e o seu aceite fica registrado apontando para a versão que você leu — uma garantia de que dá para saber, no futuro, qual texto cada pessoa aceitou. Quando uma nova versão exige novo consentimento, esta tela reaparece no próximo acesso, com o resumo das mudanças.
 
 Acompanhe atualizações em [Política de Privacidade](/privacidade/) e [Termos de Uso](/termos/).
 

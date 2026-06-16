@@ -11,6 +11,22 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.32.0] — 2026-06-16
+
+### Adicionado
+
+- **Documentos legais versionados, com re-aceite quando necessário.** A Política de Privacidade e os Termos de Uso agora são versionados: cada versão tem um endereço próprio e permanente (por exemplo, `docs.bf.rit.org.br/privacidade/1.0/`), e o aceite de cada pessoa fica registrado apontando exatamente para a versão que ela leu. Quando publicamos uma versão nova que exige novo consentimento, no próximo acesso aparece uma tela pedindo a leitura e o aceite dos documentos atualizados — com um resumo do **"o que mudou"** em cada um. O uso da plataforma só é liberado após o aceite.
+
+### Modificado
+
+- **Aceite de Política e Termos em conjunto.** No cadastro e no primeiro acesso, a aceitação passou a cobrir **os dois** documentos (Política de Privacidade e Termos de Uso), cada um com seu link e sua confirmação — antes a tela destacava apenas a Política.
+
+### Corrigido
+
+- **Entrar numa segunda organização não gera mais erro.** Quem já tinha conta e era convidado para outra OSC podia ver "link inválido" ao concluir o acesso. O registro de consentimento ficou idempotente e o fluxo conclui normalmente.
+
+---
+
 ## [0.31.3] — 2026-06-15
 
 ### Segurança
