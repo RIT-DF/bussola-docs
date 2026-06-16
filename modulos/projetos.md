@@ -182,7 +182,10 @@ Você pode **salvar** simulações no histórico, **adotar uma como taxa oficial
 
 ## A aba Relatório
 
-A aba **Relatório** mostra os números do projeto dentro dos relatórios financeiros da OSC. Os [Relatórios](/modulos/relatorios/) gerais também ganharam um **filtro por projeto**, para você recortar receitas, despesas e gráficos por uma iniciativa específica.
+[![Aba Relatório do projeto](/assets/screenshots/manual-projetos-10-relatorio.png)](/assets/screenshots/manual-projetos-10-relatorio.png)
+*Relatório do projeto — receitas e despesas por categoria, com gráficos e exportação*
+
+A aba **Relatório** mostra os números do projeto dentro dos relatórios financeiros da OSC: **receitas e despesas por categoria**, com gráficos de distribuição, abas de **Atenção** e **Previsão**, escolha de período e **exportação**. Os [Relatórios](/modulos/relatorios/) gerais também ganharam um **filtro por projeto**, para você recortar receitas, despesas e gráficos por uma iniciativa específica.
 
 ## A aba Encerramento
 
@@ -215,7 +218,12 @@ A partir dessa avaliação e de tudo que o projeto registrou, a Bússola monta u
 >
 > A maioria das OSCs nunca **fecha** um projeto de verdade — o evento acaba, todo mundo vai embora cansado, e o aprendizado se perde. O encerramento estruturado obriga a parar 20 minutos e responder "deu certo? por quê? o que faríamos diferente?". As **lições aprendidas** viram patrimônio da OSC: o próximo coordenador de evento começa lendo o que o anterior aprendeu, em vez de repetir os mesmos tropeços. E o PDF resolve, de uma vez, a prestação de contas para o financiador.
 
-## Boas práticas
+### O acervo de Lições Aprendidas
+
+[![Lições aprendidas da OSC](/assets/screenshots/manual-projetos-09-licoes.png)](/assets/screenshots/manual-projetos-09-licoes.png)
+*Lições aprendidas — o acervo consolidado de tudo que os projetos encerrados ensinaram*
+
+Cada encerramento alimenta um **acervo de Lições Aprendidas** da OSC, acessível pelo botão **Lições aprendidas** no topo da lista de projetos. Ali ficam reunidas, de todos os projetos concluídos, as **boas práticas** (o que deu certo e vale repetir), os **pontos a melhorar**, as **lições** mais importantes e as **recomendações** para quem for tocar algo parecido. É a memória institucional da OSC: antes de começar um projeto novo, vale a pena passar os olhos no que os anteriores já ensinaram.
 
 > ✓ **Dica · Comece pequeno: escopo, orçamento total e 3 marcos**
 >
