@@ -54,7 +54,7 @@ OSC pequena geralmente não precisa de centros de custo. OSC com **múltiplas fr
 
 ## Template de categorias
 
-Para começar rapidamente, clique em **Aplicar template**. A Bússola tem modelos prontos por tipo de OSC — por exemplo, o template "Padrão Grupo Escoteiro 2026" traz categorias típicas de grupos escoteiros. Aplicar template importa as categorias do modelo para a sua OSC, sem apagar o que você já tinha.
+Para começar rapidamente, clique em **Aplicar template**. O Bússola tem modelos prontos por tipo de OSC — por exemplo, o template "Padrão Grupo Escoteiro 2026" traz categorias típicas de grupos escoteiros. Aplicar template importa as categorias do modelo para a sua OSC, sem apagar o que você já tinha.
 
 > ✓ **Dica · Comece com template, depois afine**
 >
@@ -66,7 +66,7 @@ Para começar rapidamente, clique em **Aplicar template**. A Bússola tem modelo
 
 ## Hierarquia de categorias
 
-A Bússola suporta **categorias-mãe com sub-categorias** — útil para agrupar afins sem perder granularidade. Exemplo:
+O Bússola suporta **categorias-mãe com sub-categorias** — útil para agrupar afins sem perder granularidade. Exemplo:
 
 - Loja Virtual (categoria-mãe)
   - Camisetas

@@ -27,11 +27,11 @@ Botão **Salvar alterações** ao final do box salva tudo de uma vez.
 
 > ⚠️ **Atenção · CPF e RG são dados sensíveis pela LGPD**
 >
-> Você só precisa preencher CPF/RG se a sua OSC vai emitir documento que exija (recibo formal, declaração para imposto de renda, etc.). Se você não tem certeza se precisa, deixe em branco — a Bússola não exige esses dados para operar.
+> Você só precisa preencher CPF/RG se a sua OSC vai emitir documento que exija (recibo formal, declaração para imposto de renda, etc.). Se você não tem certeza se precisa, deixe em branco — o Bússola não exige esses dados para operar.
 
 ## Dados para Reembolso
 
-Configure aqui sua **chave PIX** ou **dados bancários para TED**. Quando você criar um Reembolso, a Bússola preenche automaticamente esses dados — você não precisa redigitar a cada solicitação, e não corre risco de errar a chave.
+Configure aqui sua **chave PIX** ou **dados bancários para TED**. Quando você criar um Reembolso, o Bússola preenche automaticamente esses dados — você não precisa redigitar a cada solicitação, e não corre risco de errar a chave.
 
 > ✓ **Dica · Use chave PIX preferencialmente**
 >
@@ -52,7 +52,7 @@ E-mail é o canal default — sempre disponível, sem configuração adicional.
 
 ### Push (avisos no celular ou no navegador)
 
-A partir da versão **v0.19.0**, **Push** é o 4º canal de notificações. Funciona como aviso de banco: você recebe um alerta na tela mesmo com a Bússola fechada, toca, e abre direto na tela relevante (reembolso aprovado, pedido pendente de seu voto, etc.).
+A partir da versão **v0.19.0**, **Push** é o 4º canal de notificações. Funciona como aviso de banco: você recebe um alerta na tela mesmo com o Bússola fechado, toca, e abre direto na tela relevante (reembolso aprovado, pedido pendente de seu voto, etc.).
 
 A ativação é **por dispositivo**, com um interruptor mestre **"Ativar push neste dispositivo"** logo acima da matriz. Pode ativar no celular pessoal e desativar no do trabalho sem afetar a configuração da sua conta — cada dispositivo é independente.
 
@@ -65,7 +65,7 @@ A ativação é **por dispositivo**, com um interruptor mestre **"Ativar push ne
 **Requisitos por plataforma:**
 
 - **Android (Chrome / Edge / outro navegador moderno):** funciona direto, sem precisar instalar. Apenas autorize quando perguntar.
-- **iOS (Safari):** push só funciona se a Bússola estiver **instalada como app** na sua tela de início. Sem isso, o iOS não permite push e o interruptor fica desabilitado com instrução. Veja **[Instalar como app](/instalar-como-app/)** se ainda não fez.
+- **iOS (Safari):** push só funciona se o Bússola estiver **instalado como app** na sua tela de início. Sem isso, o iOS não permite push e o interruptor fica desabilitado com instrução. Veja **[Instalar como app](/instalar-como-app/)** se ainda não fez.
 - **Desktop (Chrome / Firefox / Edge):** funciona como no celular. Útil para receber avisos quando você está com outro aplicativo em primeiro plano.
 
 **Múltiplas OSCs:** se você participa de mais de uma OSC, recebe push de eventos de todas. A OSC aparece no corpo do aviso para identificação da origem.

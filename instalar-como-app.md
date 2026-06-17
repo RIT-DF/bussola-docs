@@ -4,9 +4,9 @@ nav_order: 4
 permalink: /instalar-como-app/
 ---
 
-# Instalar a Bússola como aplicativo
+# Instalar o Bússola como aplicativo
 
-A Bússola Financeira pode ser instalada como **aplicativo de verdade** no celular e no computador. Não precisa baixar nada de loja — a instalação acontece direto pelo navegador, com um clique. O app instalado tem ícone próprio na tela inicial / desktop, abre em janela cheia (sem barra de endereços do navegador) e carrega mais rápido em redes lentas.
+O Bússola Financeira pode ser instalado como **aplicativo de verdade** no celular e no computador. Não precisa baixar nada de loja — a instalação acontece direto pelo navegador, com um clique. O app instalado tem ícone próprio na tela inicial / desktop, abre em janela cheia (sem barra de endereços do navegador) e carrega mais rápido em redes lentas.
 
 Essa tecnologia se chama **PWA (Progressive Web App)** — um padrão moderno suportado por todos os navegadores atualizados.
 
@@ -32,9 +32,9 @@ A instalação **não exige cadastro novo**, **não copia seus dados pro celular
 4. Toque em **Instalar aplicativo**.
 5. Confirme tocando em **Instalar** no diálogo que aparece.
 
-Pronto — o ícone da Bússola aparece na sua tela inicial. Tocar nele abre o app em tela cheia.
+Pronto — o ícone do Bússola aparece na sua tela inicial. Tocar nele abre o app em tela cheia.
 
-> 💡 **Dica:** depois de usar o app por alguns segundos, a Bússola também mostra um banner discreto na parte inferior sugerindo a instalação — você pode tocar em **Instalar** ali se preferir.
+> 💡 **Dica:** depois de usar o app por alguns segundos, o Bússola também mostra um banner discreto na parte inferior sugerindo a instalação — você pode tocar em **Instalar** ali se preferir.
 
 ---
 
@@ -49,7 +49,7 @@ Pronto — o ícone da Bússola aparece na sua tela inicial. Tocar nele abre o a
 5. Toque em **Adicionar à Tela de Início**.
 6. Confirme o nome (ou edite se quiser) e toque em **Adicionar**.
 
-O ícone da Bússola aparece na tela inicial do iPhone como qualquer outro app.
+O ícone do Bússola aparece na tela inicial do iPhone como qualquer outro app.
 
 ---
 
@@ -61,19 +61,19 @@ O ícone da Bússola aparece na tela inicial do iPhone como qualquer outro app.
 4. Clique nesse ícone.
 5. Clique em **Instalar** no diálogo que aparece.
 
-A Bússola passa a ter uma janela própria (separada do navegador) e fica disponível no menu Iniciar (Windows), Launchpad (Mac) ou lançador (Linux), como qualquer outro programa.
+O Bússola passa a ter uma janela própria (separada do navegador) e fica disponível no menu Iniciar (Windows), Launchpad (Mac) ou lançador (Linux), como qualquer outro programa.
 
 ---
 
 ## O que muda depois de instalar
 
-- **Aparência:** o app abre sem barra de endereços, sem abas, sem botões de voltar do navegador. Só a interface da Bússola.
+- **Aparência:** o app abre sem barra de endereços, sem abas, sem botões de voltar do navegador. Só a interface do Bússola.
 - **Navegação no celular:** a barra inferior do app (**Painel** / **Movim.** / **Pag./Reemb.** / **Relatórios** / **Mais**) substitui o que seria a navegação do navegador — cinco itens fixos, todos diretos. Tocar em **Mais** abre um painel deslizante com o **seletor de organização** (quando você tem acesso a mais de uma OSC), as rotas que não cabem na barra (**Projetos**, **Configurações da organização**, **Meu perfil**), os links auxiliares (**Manual do Usuário**, **Política de Privacidade**, **Termos de Uso** — todos abrem em nova aba) e o botão **Sair**:
 
 [![Painel "Mais" no celular com seletor de OSC](/assets/screenshots/mobile-more-sheet-org-switcher.png)](/assets/screenshots/mobile-more-sheet-org-switcher.png)
 *Painel "Mais" no celular — bloco da OSC ativa no topo (chevron expande a lista quando há múltiplas OSCs)*
 
-- **Atualizações:** quando uma nova versão da Bússola for publicada, um aviso discreto aparece dentro do app com botões **Atualizar agora** ou **Depois**. Você decide quando aplicar.
+- **Atualizações:** quando uma nova versão do Bússola for publicada, um aviso discreto aparece dentro do app com botões **Atualizar agora** ou **Depois**. Você decide quando aplicar.
 - **Dados:** continuam vindo da internet em tempo real. Sem conexão, o app mostra uma tela "Sem conexão" com botão **Tentar novamente** — não é possível registrar lançamentos sem internet.
 
 ---
@@ -82,11 +82,11 @@ A Bússola passa a ter uma janela própria (separada do navegador) e fica dispon
 
 ### Android
 
-Pressione e segure o ícone da Bússola na tela inicial → arraste para **Desinstalar** (ou toque em **Informações do app** → **Desinstalar**).
+Pressione e segure o ícone do Bússola na tela inicial → arraste para **Desinstalar** (ou toque em **Informações do app** → **Desinstalar**).
 
 ### iPhone / iPad
 
-Pressione e segure o ícone da Bússola → toque em **Remover app** → **Excluir app** (ou apenas **Remover da Tela de Início** se quiser manter os dados de navegador).
+Pressione e segure o ícone do Bússola → toque em **Remover app** → **Excluir app** (ou apenas **Remover da Tela de Início** se quiser manter os dados de navegador).
 
 ### Computador
 
@@ -111,14 +111,14 @@ Procure pela notificação **Nova versão disponível** dentro do app e toque em
 
 ## Notificações push
 
-Desde a v0.19.0, o app instalado pode enviar **notificações push** para o seu celular avisando sobre eventos importantes (reembolso aprovado, pedido aguardando sua aprovação, etc.). Funciona como notificação de banco: você recebe o aviso na tela mesmo com a Bússola fechada, toca, e abre direto na tela relevante.
+Desde a v0.19.0, o app instalado pode enviar **notificações push** para o seu celular avisando sobre eventos importantes (reembolso aprovado, pedido aguardando sua aprovação, etc.). Funciona como notificação de banco: você recebe o aviso na tela mesmo com o Bússola fechado, toca, e abre direto na tela relevante.
 
 A ativação é **por dispositivo**, com um interruptor mestre **"Ativar push neste dispositivo"** em **[Meu Perfil → Notificações](/configuracoes/perfil/)**. Cada celular/computador é independente — pode ativar no celular pessoal e desativar no do trabalho.
 
 **Requisitos por plataforma:**
 
 - **Android (Chrome / Edge / outro navegador moderno):** funciona direto, sem precisar instalar como app. Apenas autorize quando o navegador perguntar.
-- **iOS (Safari):** push só funciona se a Bússola estiver **instalada como app** na tela de início (veja a seção do iPhone/iPad acima). Sem instalar, o interruptor fica desabilitado com instrução. Esse é o motivo principal para instalar como app no iPhone.
+- **iOS (Safari):** push só funciona se o Bússola estiver **instalado como app** na tela de início (veja a seção do iPhone/iPad acima). Sem instalar, o interruptor fica desabilitado com instrução. Esse é o motivo principal para instalar como app no iPhone.
 - **Desktop (Chrome / Firefox / Edge):** funciona como no celular. Útil para receber avisos quando você está com outro aplicativo em primeiro plano.
 
 Configuração granular por evento × canal em **Meu Perfil → Notificações** — a coluna Push é mais uma ao lado de E-mail, WhatsApp e Telegram. Default: tudo ligado; você silencia o que não quer receber.

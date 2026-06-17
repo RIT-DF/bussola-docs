@@ -85,7 +85,7 @@ Se a OSC vende ou recebe doações por uma loja **WooCommerce**, conecte-a para 
 
 Com a base pronta, traga o histórico:
 
-- **Movimentações** — em **Movimentações → Importar Lançamentos**, suba o CSV do seu histórico (a Bússola valida linha a linha antes de criar). Veja [Movimentações](/modulos/movimentacoes/).
+- **Movimentações** — em **Movimentações → Importar Lançamentos**, suba o CSV do seu histórico (o Bússola valida linha a linha antes de criar). Veja [Movimentações](/modulos/movimentacoes/).
 - **Usuários em lote** — se ainda não cadastrou a equipe, **Configurações → Usuários → Importar** aceita uma planilha com pré-visualização classificada por status.
 
 > ✓ **Pronto para operar**

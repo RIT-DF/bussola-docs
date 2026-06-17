@@ -29,7 +29,7 @@ O caixa que se controla é o caixa que está **todo** no sistema. Lançamento qu
 
 > 🧭 **Como o Bússola ajuda · Comprovante na hora, direto do celular**
 >
-> Toda movimentação aceita anexos e, no celular, dá para **fotografar a nota fiscal na hora**, direto pela câmera — quatro toques, sem salvar na galeria nem transferir arquivo depois. A Bússola ainda reduz a foto automaticamente, então funciona bem mesmo na conexão ruim do posto de combustível.
+> Toda movimentação aceita anexos e, no celular, dá para **fotografar a nota fiscal na hora**, direto pela câmera — quatro toques, sem salvar na galeria nem transferir arquivo depois. O Bússola ainda reduz a foto automaticamente, então funciona bem mesmo na conexão ruim do posto de combustível.
 >
 > [![Anexar comprovante pelo celular](/assets/screenshots/manual-mov-anexo-comprovante.png)](/assets/screenshots/manual-mov-anexo-comprovante.png)
 

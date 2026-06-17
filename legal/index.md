@@ -7,7 +7,7 @@ permalink: /legal/
 
 # Termos e Privacidade
 
-Documentos legais da Bússola Financeira, operada pela RIT — Rede de Inovação e Transformação.
+Documentos legais do Bússola Financeira, operada pela RIT — Rede de Inovação e Transformação.
 
 | Documento | Versão vigente |
 |---|---|

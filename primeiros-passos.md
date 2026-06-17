@@ -60,11 +60,11 @@ Acesse em: [bf.rit.org.br](https://bf.rit.org.br){:target="_blank" rel="noopener
 
 > ⚠️ **Atenção · Senha forte, sempre**
 >
-> O Bússola tem dados financeiros da sua OSC — conta bancária, CPFs, comprovantes, valores. **Use senha forte e única** (não reaproveite a do e-mail pessoal). Considere usar gerenciador de senhas. A Bússola usa criptografia em dados sensíveis (CPF, RG são cifrados em repouso), mas a primeira linha de defesa é o controle do seu acesso.
+> O Bússola tem dados financeiros da sua OSC — conta bancária, CPFs, comprovantes, valores. **Use senha forte e única** (não reaproveite a do e-mail pessoal). Considere usar gerenciador de senhas. O Bússola usa criptografia em dados sensíveis (CPF, RG são cifrados em repouso), mas a primeira linha de defesa é o controle do seu acesso.
 
 ## Aceite da política e dos termos
 
-Na primeira vez que você acessa, ou quando a Política de Privacidade ou os Termos de Uso são atualizados, aparece uma tela solicitando o aceite dos **dois** documentos. Este passo é obrigatório e a Bússola não libera o uso até que você aceite ambos.
+Na primeira vez que você acessa, ou quando a Política de Privacidade ou os Termos de Uso são atualizados, aparece uma tela solicitando o aceite dos **dois** documentos. Este passo é obrigatório e o Bússola não libera o uso até que você aceite ambos.
 
 [![Tela de aceite dos documentos legais](/assets/screenshots/manual-aceite-documentos-legais.png)](/assets/screenshots/manual-aceite-documentos-legais.png)
 *Tela de aceite — cada documento tem seu link para leitura, um resumo do "o que mudou" e uma confirmação própria; o botão Continuar só habilita com os dois marcados*

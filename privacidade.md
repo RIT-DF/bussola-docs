@@ -150,4 +150,4 @@ Esta política é regida pela **Lei Geral de Proteção de Dados Pessoais (LGPD 
 
 ---
 
-*RIT — Rede de Inovação e Transformação · CNPJ 59.905.202/0001-25 · dpo@rit.org.br · [rit.org.br](https://rit.org.br){:target="_blank" rel="noopener noreferrer"}*
+*RIT — Rede de Inovação e Transformação · CNPJ 59.905.202/0001-25 · dpo@rit.org.br · [rit.org.br](https://rit.org.br)*

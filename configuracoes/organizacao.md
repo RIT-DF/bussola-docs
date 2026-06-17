@@ -14,7 +14,7 @@ A página **Organização** centraliza os dados da sua OSC e as **integrações*
 
 > 💡 **Por que isso importa**
 >
-> Os dados da OSC aqui aparecem em **todos os documentos gerados pela Bússola** (recibos, declarações, relatórios para financiadores, exportações em PDF). Manter atualizado é o que faz a marca da sua OSC aparecer profissional na prestação de contas. As **integrações** abrem porta para automação: WooCommerce sincroniza vendas, WhatsApp Business envia notificações, Google Drive armazena documentos.
+> Os dados da OSC aqui aparecem em **todos os documentos gerados pelo Bússola** (recibos, declarações, relatórios para financiadores, exportações em PDF). Manter atualizado é o que faz a marca da sua OSC aparecer profissional na prestação de contas. As **integrações** abrem porta para automação: WooCommerce sincroniza vendas, WhatsApp Business envia notificações, Google Drive armazena documentos.
 
 ## Identidade da OSC
 
@@ -31,7 +31,7 @@ Endereço completo (CEP, logradouro, número, complemento, bairro, cidade, UF) e
 
 > ✓ **Dica · Preencha endereço completo para documentos formais**
 >
-> Recibos e declarações geradas pela Bússola usam o endereço daqui. OSC com endereço incompleto no sistema pode acabar com documentos que não passam em conferência de financiador ou contador.
+> Recibos e declarações geradas pelo Bússola usam o endereço daqui. OSC com endereço incompleto no sistema pode acabar com documentos que não passam em conferência de financiador ou contador.
 
 ## Logo da organização
 
@@ -65,13 +65,13 @@ Valores iniciais que o módulo de [Projetos](/modulos/projetos/) usa ao planejar
 
 ## Integrações
 
-Integração permite que sistemas externos conversem com a Bússola — economizando trabalho manual de transferir dados de um sistema para outro.
+Integração permite que sistemas externos conversem com o Bússola — economizando trabalho manual de transferir dados de um sistema para outro.
 
 ### WooCommerce
 
 [Saiba mais no manual de Movimentações → seção Importar lançamentos](/modulos/movimentacoes/#importar-lançamentos)
 
-Sincroniza pedidos pagos da sua loja online (WooCommerce) como receitas na Bússola. Cron diário automático + botão para importar sob demanda. Refunds no WooCommerce viram estornos automáticos na Bússola. Cada pedido importado tem badge "WooCommerce" clicável na lista de movimentações que abre o pedido original no admin do WC.
+Sincroniza pedidos pagos da sua loja online (WooCommerce) como receitas no Bússola. Cron diário automático + botão para importar sob demanda. Refunds no WooCommerce viram estornos automáticos no Bússola. Cada pedido importado tem badge "WooCommerce" clicável na lista de movimentações que abre o pedido original no admin do WC.
 
 Configure URL da loja, Consumer Key e Consumer Secret (com instruções passo a passo de como gerar no admin do WooCommerce), frequência da sincronização, modo de mapeamento de categorias (automático com categoria-mãe ou manual explícito), conta financeira destino, data de corte para backfill.
 

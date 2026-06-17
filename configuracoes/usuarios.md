@@ -20,11 +20,11 @@ Listagem traz todos os membros da OSC com nome, e-mail, papel, status (ativo/pen
 
 ## Adicionar usuário
 
-Clique em **+ Adicionar usuário**. Informe o **e-mail** e o **papel** desejado. A Bússola dispara automaticamente um e-mail de convite com o link de primeiro acesso. O status do usuário fica como "Pendente" até ele aceitar.
+Clique em **+ Adicionar usuário**. Informe o **e-mail** e o **papel** desejado. O Bússola dispara automaticamente um e-mail de convite com o link de primeiro acesso. O status do usuário fica como "Pendente" até ele aceitar.
 
 > 📖 **Conceito · Convite vs acesso direto**
 >
-> A Bússola usa **convite por e-mail** como mecanismo de entrada, não cadastro aberto. Isso protege a OSC de spam, garante que a pessoa convidada confirma o acesso pelo próprio e-mail, e permite mensagem personalizada no convite. O convite tem prazo de validade — se expirar, o admin pode reenviar pelo mesmo fluxo.
+> O Bússola usa **convite por e-mail** como mecanismo de entrada, não cadastro aberto. Isso protege a OSC de spam, garante que a pessoa convidada confirma o acesso pelo próprio e-mail, e permite mensagem personalizada no convite. O convite tem prazo de validade — se expirar, o admin pode reenviar pelo mesmo fluxo.
 
 ## Importar usuários em lote (planilha CSV)
 
@@ -36,16 +36,16 @@ Para OSCs que estão migrando de outro sistema ou que precisam cadastrar muitos 
 1. Clique em **Importar usuários** → abre uma tela dedicada.
 2. **Baixe o template** CSV. O arquivo já vem com o cabeçalho correto e algumas linhas de exemplo.
 3. Preencha sua planilha. Campos **obrigatórios**: nome completo, e-mail e papel. **Opcionais**: telefone, WhatsApp, Telegram, data de nascimento, CPF, RG.
-4. Faça **upload** do arquivo. A Bússola mostra uma **pré-visualização** com cada linha classificada por status:
+4. Faça **upload** do arquivo. O Bússola mostra uma **pré-visualização** com cada linha classificada por status:
    - **Novo** — vai receber convite por e-mail
    - **Já cadastrado** — usuário existente em outra OSC; cria vínculo direto sem convite
    - **Vínculo ativo na OSC** — usuário que já é membro; perfil pode ser atualizado (campos vazios apenas)
    - **Com erro** — linha que será pulada (motivo explícito ao lado)
-5. Clique em **Importar**. A Bússola dispara os convites por e-mail para os novos cadastros e atualiza os perfis dos demais.
+5. Clique em **Importar**. O Bússola dispara os convites por e-mail para os novos cadastros e atualiza os perfis dos demais.
 
 > 📖 **Conceito · Upsert seletivo**
 >
-> Quando o e-mail da planilha já existe na sua OSC, a Bússola **só preenche os campos que estão vazios** no perfil atual. Nenhum dado existente é substituído. Útil para migrações onde você importa dados de uma planilha mestre sem o risco de sobrescrever informações que o membro já cadastrou no próprio perfil.
+> Quando o e-mail da planilha já existe na sua OSC, o Bússola **só preenche os campos que estão vazios** no perfil atual. Nenhum dado existente é substituído. Útil para migrações onde você importa dados de uma planilha mestre sem o risco de sobrescrever informações que o membro já cadastrou no próprio perfil.
 
 > ⚠️ **Atenção · Multi-papel não entra via planilha**
 >
@@ -57,7 +57,7 @@ Para OSCs que estão migrando de outro sistema ou que precisam cadastrar muitos 
 
 > ⚠️ **Atenção · Senha não vem no CSV**
 >
-> O fluxo é igual ao convite individual: para cada e-mail novo, a Bússola envia link de setup por e-mail. O usuário define a própria senha ao clicar no link. Admin nunca digita nem vê a senha de outro membro.
+> O fluxo é igual ao convite individual: para cada e-mail novo, o Bússola envia link de setup por e-mail. O usuário define a própria senha ao clicar no link. Admin nunca digita nem vê a senha de outro membro.
 
 ## Ações por membro
 
@@ -79,7 +79,7 @@ Cada linha tem menu de ações que muda conforme o status:
 
 > ⚠️ **Atenção · Desativar ≠ excluir**
 >
-> Desativar bloqueia entrada mas **preserva todo o histórico** (lançamentos criados, aprovações dadas, comentários escritos). Para auditoria e prestação de contas, isso é essencial — você consegue mostrar quem fez o quê mesmo depois que a pessoa saiu. A Bússola não tem opção de "excluir usuário"; só "desativar" + histórico preservado. Quem deixou a OSC: desative.
+> Desativar bloqueia entrada mas **preserva todo o histórico** (lançamentos criados, aprovações dadas, comentários escritos). Para auditoria e prestação de contas, isso é essencial — você consegue mostrar quem fez o quê mesmo depois que a pessoa saiu. O Bússola não tem opção de "excluir usuário"; só "desativar" + histórico preservado. Quem deixou a OSC: desative.
 
 ## Solicitações pendentes
 

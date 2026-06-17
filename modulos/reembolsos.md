@@ -21,11 +21,11 @@ O módulo de **Reembolsos** é onde voluntários, dirigentes e colaboradores **p
 
 > 📖 **Conceito · Quórum e papéis aprovadores**
 >
-> A OSC configura em **Configurações → Fluxo de Aprovações** quantos votos são necessários para aprovar um reembolso (1 ou 2) e quais papéis podem votar (Presidente, Diretor de Finanças, etc.) — opcionalmente também pessoas específicas além do papel. Com quórum **1**, o primeiro aprovador elegível que vota define a decisão. Com quórum **2**, são necessários dois votos positivos; se um aprova e outro rejeita, prevalece a rejeição. Solicitantes não votam nos próprios reembolsos (a Bússola bloqueia automaticamente quando há outros elegíveis).
+> A OSC configura em **Configurações → Fluxo de Aprovações** quantos votos são necessários para aprovar um reembolso (1 ou 2) e quais papéis podem votar (Presidente, Diretor de Finanças, etc.) — opcionalmente também pessoas específicas além do papel. Com quórum **1**, o primeiro aprovador elegível que vota define a decisão. Com quórum **2**, são necessários dois votos positivos; se um aprova e outro rejeita, prevalece a rejeição. Solicitantes não votam nos próprios reembolsos (o Bússola bloqueia automaticamente quando há outros elegíveis).
 
 > 📖 **Conceito · Auto-aprovação**
 >
-> Em OSCs pequenas, pode acontecer de o único aprovador elegível ser o próprio solicitante (ex: o presidente é também o único diretor financeiro e foi ele quem fez a compra). Nesses casos, a Bússola **permite a auto-aprovação** — caso contrário o fluxo trava — mas **marca explicitamente o evento** no histórico de auditoria como `self_approved`. A diretoria e auditoria conseguem identificar essas situações com filtro e responder se houve abuso. Conforme a OSC cresce, novos papéis aprovadores são cadastrados e auto-aprovações naturalmente diminuem.
+> Em OSCs pequenas, pode acontecer de o único aprovador elegível ser o próprio solicitante (ex: o presidente é também o único diretor financeiro e foi ele quem fez a compra). Nesses casos, o Bússola **permite a auto-aprovação** — caso contrário o fluxo trava — mas **marca explicitamente o evento** no histórico de auditoria como `self_approved`. A diretoria e auditoria conseguem identificar essas situações com filtro e responder se houve abuso. Conforme a OSC cresce, novos papéis aprovadores são cadastrados e auto-aprovações naturalmente diminuem.
 
 > 📖 **Conceito · Status do reembolso**
 >
@@ -120,7 +120,7 @@ Painel de Ações mostra: **"Aprovado — aguardando confirmação de pagamento 
 
 > 📖 **Conceito · Aprovado vira movimentação pendente automaticamente**
 >
-> No momento em que o reembolso é aprovado, a Bússola cria automaticamente uma **movimentação financeira pendente** em Movimentações com origem `reimbursement` (origem reembolso), valor e categoria corretos, ainda sem conta financeira definida. Cabe ao tesoureiro entrar em Movimentações, clicar nessa linha, escolher a conta de onde o dinheiro vai sair e marcar como paga. O ciclo só fecha quando essa confirmação acontece. Na lista de Movimentações, o lançamento traz um link **"Ver pedido de reembolso →"** que volta direto ao detalhe original — útil para conferir comprovante antes de pagar.
+> No momento em que o reembolso é aprovado, o Bússola cria automaticamente uma **movimentação financeira pendente** em Movimentações com origem `reimbursement` (origem reembolso), valor e categoria corretos, ainda sem conta financeira definida. Cabe ao tesoureiro entrar em Movimentações, clicar nessa linha, escolher a conta de onde o dinheiro vai sair e marcar como paga. O ciclo só fecha quando essa confirmação acontece. Na lista de Movimentações, o lançamento traz um link **"Ver pedido de reembolso →"** que volta direto ao detalhe original — útil para conferir comprovante antes de pagar.
 
 ### Pago
 
@@ -146,7 +146,7 @@ Clique em **+ Nova solicitação** para abrir o formulário.
 
 **Campos opcionais:**
 
-- **Categoria** — sempre do tipo despesa (a Bússola só lista despesas aqui, não confunde com receita)
+- **Categoria** — sempre do tipo despesa (o Bússola só lista despesas aqui, não confunde com receita)
 - **Projeto** e **Centro de custo** — para OSCs que separam o financeiro por iniciativa ou área
 - **Observações** — contexto adicional para o aprovador
 
@@ -167,7 +167,7 @@ Clique em **+ Nova solicitação** para abrir o formulário.
 
 > ✓ **Dica · Tire a foto pelo próprio app no celular**
 >
-> Em mobile, o formulário oferece dois botões na seção **DOCUMENTOS**: **Tirar foto** e **Anexar arquivo**. **Tirar foto** abre a câmera traseira do celular direto, sem passar pela galeria; você enquadra o cupom, captura, vê a foto em tamanho grande e decide entre **Refazer** ou **Confirmar**. Útil para registrar a despesa no momento do gasto (no posto, na loja, na hora). A Bússola reduz automaticamente o tamanho da foto antes do envio — fica leve para subir mesmo em conexão móvel ruim, sem perder a legibilidade do cupom. Tipos aceitos pelo botão **Anexar arquivo**: imagens, PDF, XML (NFe) e ZIP.
+> Em mobile, o formulário oferece dois botões na seção **DOCUMENTOS**: **Tirar foto** e **Anexar arquivo**. **Tirar foto** abre a câmera traseira do celular direto, sem passar pela galeria; você enquadra o cupom, captura, vê a foto em tamanho grande e decide entre **Refazer** ou **Confirmar**. Útil para registrar a despesa no momento do gasto (no posto, na loja, na hora). O Bússola reduz automaticamente o tamanho da foto antes do envio — fica leve para subir mesmo em conexão móvel ruim, sem perder a legibilidade do cupom. Tipos aceitos pelo botão **Anexar arquivo**: imagens, PDF, XML (NFe) e ZIP.
 
 > ⚠️ **Atenção · Comprovante é obrigatório, sem exceção**
 >
@@ -179,7 +179,7 @@ Clique em **+ Nova solicitação** para abrir o formulário.
 
 > ✓ **Dica · Aprovador, leia os comprovantes**
 >
-> A Bússola mostra os comprovantes em pré-visualização inline justamente para que o aprovador veja antes de votar — sem precisar baixar ou abrir programa externo. Aprovar sem ver o comprovante anula a função do controle. Reserve os 30 segundos para conferir; depois aprove com tranquilidade.
+> O Bússola mostra os comprovantes em pré-visualização inline justamente para que o aprovador veja antes de votar — sem precisar baixar ou abrir programa externo. Aprovar sem ver o comprovante anula a função do controle. Reserve os 30 segundos para conferir; depois aprove com tranquilidade.
 
 ## Notificações dos eventos de reembolso
 

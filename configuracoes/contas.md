@@ -38,7 +38,7 @@ Clique em **+ Nova conta**. Preencha:
 
 > 📖 **Conceito · Saldo inicial e data de abertura**
 >
-> Quando você cadastra uma conta nova na Bússola, ela precisa saber qual era o saldo no momento em que sua OSC começou a usá-la no sistema. **Não é o saldo de hoje** — é o saldo na data de abertura. A Bússola usa esse valor como ponto de partida para calcular saldos futuros somando receitas e subtraindo despesas pagas. Se você está migrando de planilha para o Bússola, **a data de abertura é o dia que você começa a registrar no Bússola**, e o saldo inicial é o que estava na conta naquele dia.
+> Quando você cadastra uma conta nova no Bússola, ela precisa saber qual era o saldo no momento em que sua OSC começou a usá-la no sistema. **Não é o saldo de hoje** — é o saldo na data de abertura. O Bússola usa esse valor como ponto de partida para calcular saldos futuros somando receitas e subtraindo despesas pagas. Se você está migrando de planilha para o Bússola, **a data de abertura é o dia que você começa a registrar no Bússola**, e o saldo inicial é o que estava na conta naquele dia.
 
 ## Ações por conta
 
@@ -47,7 +47,7 @@ Clique em **+ Nova conta**. Preencha:
 
 > ⚠️ **Atenção · Conta com movimentações não pode ser excluída**
 >
-> A Bússola **não permite excluir conta que tem movimentações registradas** — só desativar. Motivo: excluir destruiria a história contábil dessas movimentações ("essa receita foi para qual conta?"). Para "encerrar" uma conta na prática, **desative**. As movimentações ficam intactas no histórico, e a conta desativada não aparece nos formulários de novo lançamento.
+> O Bússola **não permite excluir conta que tem movimentações registradas** — só desativar. Motivo: excluir destruiria a história contábil dessas movimentações ("essa receita foi para qual conta?"). Para "encerrar" uma conta na prática, **desative**. As movimentações ficam intactas no histórico, e a conta desativada não aparece nos formulários de novo lançamento.
 
 ## Saldo em tempo real
 
@@ -55,7 +55,7 @@ Cada conta na lista mostra o **saldo atual**, calculado em tempo real a partir d
 
 > ✓ **Dica · Concilie mensalmente contra o extrato bancário**
 >
-> No final de cada mês, abra o extrato do banco e o saldo da conta correspondente aqui na Bússola. Eles devem bater **centavos por centavos**. Diferenças apontam para lançamento esquecido, valor digitado errado, ou taxa que não foi registrada. Corrigir mensalmente é fácil; descobrir 6 meses depois é pesadelo.
+> No final de cada mês, abra o extrato do banco e o saldo da conta correspondente aqui no Bússola. Eles devem bater **centavos por centavos**. Diferenças apontam para lançamento esquecido, valor digitado errado, ou taxa que não foi registrada. Corrigir mensalmente é fácil; descobrir 6 meses depois é pesadelo.
 
 ## Por onde seguir
 

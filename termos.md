@@ -48,7 +48,7 @@ Organizações formalmente vinculadas à RIT têm acesso gratuito à plataforma,
 
 ### 4.2 OSCs não integradas à RIT
 
-Organizações sem vínculo formal com a RIT podem acessar a plataforma mediante assinatura mensal, cujo valor vigente está disponível em [rit.org.br](https://rit.org.br){:target="_blank" rel="noopener noreferrer"}. O pagamento deve ser realizado antecipadamente ao período de uso. A inadimplência por mais de 30 (trinta) dias corridos pode resultar na suspensão do acesso.
+Organizações sem vínculo formal com a RIT podem acessar a plataforma mediante assinatura mensal, cujo valor vigente está disponível em [rit.org.br](https://rit.org.br). O pagamento deve ser realizado antecipadamente ao período de uso. A inadimplência por mais de 30 (trinta) dias corridos pode resultar na suspensão do acesso.
 
 ### 4.3 Alterações de preço
 
@@ -156,4 +156,4 @@ Estes Termos são regidos pela legislação brasileira. Fica eleito o **foro da 
 
 ---
 
-*RIT — Rede de Inovação e Transformação · CNPJ 59.905.202/0001-25 · dpo@rit.org.br · [rit.org.br](https://rit.org.br){:target="_blank" rel="noopener noreferrer"}*
+*RIT — Rede de Inovação e Transformação · CNPJ 59.905.202/0001-25 · dpo@rit.org.br · [rit.org.br](https://rit.org.br)*

@@ -1,5 +1,5 @@
 title: Bússola Financeira
-description: "Manual do usuário e documentação oficial da Bússola Financeira — gestão financeira para Organizações da Sociedade Civil, pela RIT."
+description: "Manual do usuário e documentação oficial do Bússola Financeira — gestão financeira para Organizações da Sociedade Civil, pela RIT."
 lang: pt-BR
 url: https://docs.bf.rit.org.br
 permalink: pretty
@@ -51,7 +51,7 @@ callouts:
 
 # Links auxiliares (canto superior direito)
 aux_links:
-  "Acessar a Bússola":
+  "Acessar o Bússola":
     - "https://bf.rit.org.br"
 aux_links_new_tab: true
 

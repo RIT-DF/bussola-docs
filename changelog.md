@@ -72,7 +72,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ### Melhorado
 
-- **Logo oficial nos e-mails.** O cabeçalho dos e-mails da plataforma passa a exibir a **logo oficial da Bússola** (no lugar de um selo de texto), reforçando a identidade visual em todos os avisos e mensagens.
+- **Logo oficial nos e-mails.** O cabeçalho dos e-mails da plataforma passa a exibir a **logo oficial do Bússola** (no lugar de um selo de texto), reforçando a identidade visual em todos os avisos e mensagens.
 
 ---
 
@@ -119,7 +119,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ### Melhorado
 
-- **E-mails da Bússola com a identidade visual da plataforma e mais pessoais.** Os avisos por e-mail — incluindo o de prestação de contas pronta — passam a chegar no visual da Bússola e começam com uma saudação pelo seu nome.
+- **E-mails do Bússola com a identidade visual da plataforma e mais pessoais.** Os avisos por e-mail — incluindo o de prestação de contas pronta — passam a chegar no visual do Bússola e começam com uma saudação pelo seu nome.
 - **Aviso de prestação de contas pronta mais informativo.** Quando o relatório fica pronto, o e-mail traz um **resumo do período** (receitas, despesas e resultado) e deixa claro, em destaque, que o documento é **gerado automaticamente, apenas para acompanhamento, sem valor contábil ou fiscal**.
 
 ---
@@ -190,7 +190,7 @@ Importar lançamentos de planilha ficou bem mais fácil — e mais seguro.
 
 - **Reconhece contas e categorias mesmo com diferenças de acento ou maiúsculas.** "alimentaçao" passa a casar com "Alimentação", "banco alfa" com "Banco Alfa" — sem virar erro.
 - **Resolva o que falta na própria tela de importação.** Quando uma categoria do arquivo ainda não existe, você pode **criá-la na hora** (ou apontar para uma já existente), sem precisar cadastrar tudo antes. Uma tela de pendências mostra o que resolver e só libera a importação quando estiver tudo certo.
-- **Conta que ainda não existe não trava a importação.** Você escolhe deixar essas linhas de fora; ao final, a Bússola avisa exatamente quantas ficaram e de qual conta, para você cadastrá-la (com o saldo de abertura) e importar essas linhas depois.
+- **Conta que ainda não existe não trava a importação.** Você escolhe deixar essas linhas de fora; ao final, o Bússola avisa exatamente quantas ficaram e de qual conta, para você cadastrá-la (com o saldo de abertura) e importar essas linhas depois.
 - **Resumo final claro** ao concluir: quantos lançamentos entraram, quantos ficaram de fora e quantos foram ignorados por erro.
 
 ### Corrigido
@@ -201,11 +201,11 @@ Importar lançamentos de planilha ficou bem mais fácil — e mais seguro.
 
 ## [0.26.1] — 2026-06-12
 
-O e-mail de redefinição de senha agora chega em português e com a identidade da Bússola.
+O e-mail de redefinição de senha agora chega em português e com a identidade do Bússola.
 
 ### Melhorado
 
-- **E-mail de redefinição de senha:** o link de "Esqueci a senha" passa a chegar em **português**, com o visual da Bússola, em vez do modelo padrão em inglês. O fluxo continua o mesmo — você pede o link, define a nova senha e entra com ela.
+- **E-mail de redefinição de senha:** o link de "Esqueci a senha" passa a chegar em **português**, com o visual do Bússola, em vez do modelo padrão em inglês. O fluxo continua o mesmo — você pede o link, define a nova senha e entra com ela.
 
 ---
 
@@ -380,7 +380,7 @@ Lote de correções e reforços após uma auditoria de qualidade: datas corretas
 - **Abertura mais rápida**: o app passou a carregar telas e recursos de exportação sob demanda, deixando a primeira abertura mais leve — especialmente no celular.
 - **Privacidade em dispositivos compartilhados**: ao sair da conta, os comprovantes visualizados deixam de ficar guardados no navegador.
 - **Reforços internos de segurança e controle de acesso**, sem mudança no uso do dia a dia.
-- **Card de compartilhamento próprio**: ao compartilhar o link do app, o card passa a exibir a imagem e a identidade da Bússola.
+- **Card de compartilhamento próprio**: ao compartilhar o link do app, o card passa a exibir a imagem e a identidade do Bússola.
 
 ---
 
@@ -396,7 +396,7 @@ Melhorias de usabilidade nos projetos: ações mais diretas, layout da execuçã
 
 - **Botões de ação diretos nos blocos do projeto**: as ações dos itens (editar, remover e ações específicas como "marcar marco como atingido" ou "marcar risco como materializado") agora aparecem como botões diretos no item, em vez de escondidas atrás de um menu de três pontos — nos blocos de Marcos, Riscos, Stakeholders, Tarefas, Evidências e Mural.
 - **Aba Execução em duas colunas (desktop)**: Tarefas ocupa a coluna principal à esquerda e Comunicação + Evidências ficam à direita, reduzindo a rolagem. No celular, continua em seções recolhíveis.
-- **Logo clicável**: clicar no logo da Bússola no topo leva você de volta ao Painel.
+- **Logo clicável**: clicar no logo do Bússola no topo leva você de volta ao Painel.
 - **Ações de tarefa mais claras**: em tarefas já concluídas ou abandonadas, agora aparece apenas "Reabrir" (além de Editar e Remover), em vez de vários botões redundantes. Mover uma tarefa entre qualquer status continua possível arrastando no quadro ou pela edição.
 
 ---
@@ -424,7 +424,7 @@ Correções de acabamento logo após a estreia do módulo de Projetos, mais um n
 
 ## [0.20.0] — 2026-06-10
 
-Estreia do **módulo de Projetos** — o maior incremento da plataforma até aqui. Agora a OSC planeja, executa, acompanha e encerra seus projetos dentro da Bússola, com financeiro vinculado, indicador de saúde e relatório de encerramento.
+Estreia do **módulo de Projetos** — o maior incremento da plataforma até aqui. Agora a OSC planeja, executa, acompanha e encerra seus projetos dentro do Bússola, com financeiro vinculado, indicador de saúde e relatório de encerramento.
 
 ### Adicionado
 
@@ -489,7 +489,7 @@ Bump consolidado de 8 entregas focadas em **consistência visual em mobile/PWA**
 
 ### Adicionado
 
-- **Superadministradores avisados em tempo real quando você envia um feedback** (BK-217): ao usar o botão **Feedback** no topo do app, todos os superadmins ativos recebem aviso imediato pelos canais que tiverem habilitado em **Meu Perfil → Notificações** (e-mail por padrão; push se a Bússola estiver instalada como app). Resposta administrativa fica muito mais ágil — antes, dependia do superadmin abrir a tela de feedbacks pra ver o que tinha de novo.
+- **Superadministradores avisados em tempo real quando você envia um feedback** (BK-217): ao usar o botão **Feedback** no topo do app, todos os superadmins ativos recebem aviso imediato pelos canais que tiverem habilitado em **Meu Perfil → Notificações** (e-mail por padrão; push se o Bússola estiver instalado como app). Resposta administrativa fica muito mais ágil — antes, dependia do superadmin abrir a tela de feedbacks pra ver o que tinha de novo.
 
 ### Observações de uso
 
@@ -511,7 +511,7 @@ Bump consolidado de 6 entregas pós-piloto: 3 correções de bugs reportados pel
 
 - **Saldos no Painel não atualizavam após transferência entre contas** (BK-210): ao registrar uma transferência marcada como já efetivada (Data de pagamento preenchida no formulário), os cards de saldo do Painel, da página de Contas e do dropdown de seleção continuavam mostrando os valores antigos — só atualizavam após hard refresh (Ctrl+Shift+R) ou nova sessão. Foi corrigido. Agora qualquer transferência marcada como paga reflete imediatamente nos saldos em todas as telas. Transferências antigas que estavam contabilizadas errado também foram corrigidas retroativamente — o saldo total consolidado da OSC foi preservado (transferências não criam nem destroem dinheiro, só redistribuem entre as contas).
 - **Reprovação de pedidos de pagamento dava erro e não era registrada** (BK-214): ao tentar reprovar um pedido aguardando aprovação, o sistema retornava o erro técnico "Edge Function returned a non-2xx status code" e a reprovação não era registrada — o pedido ficava preso em "aguardando" sem possibilidade de avançar. Foi corrigido. Aprovadores agora conseguem reprovar com motivo e o pedido vai pra status "Rejeitado" normalmente, com a entrada visível no histórico de aprovações com a cor e o rótulo certos. Reprovação de reembolsos continuava funcionando — apenas o fluxo de pedidos estava afetado.
-- **Atualizações do app em desktop exigiam hard refresh em cada página** (BK-212): em navegador comum (não-PWA instalado), o aviso "Nova versão disponível" só aparecia depois de o tesoureiro fechar e reabrir a aba — quem deixava a Bússola aberta o dia inteiro nunca via o aviso e continuava na versão antiga. Foi corrigido. Agora o app verifica versão nova a cada minuto, quando você volta o foco pra aba da Bússola, e quando reconecta após perder rede. Quando você toca em **Atualizar**, todas as abas abertas se atualizam juntas.
+- **Atualizações do app em desktop exigiam hard refresh em cada página** (BK-212): em navegador comum (não-PWA instalado), o aviso "Nova versão disponível" só aparecia depois de o tesoureiro fechar e reabrir a aba — quem deixava o Bússola aberto o dia inteiro nunca via o aviso e continuava na versão antiga. Foi corrigido. Agora o app verifica versão nova a cada minuto, quando você volta o foco pra aba do Bússola, e quando reconecta após perder rede. Quando você toca em **Atualizar**, todas as abas abertas se atualizam juntas.
 
 ### Observações de uso
 
@@ -522,7 +522,7 @@ Bump consolidado de 6 entregas pós-piloto: 3 correções de bugs reportados pel
 
 ## [0.19.1] — 2026-05-21
 
-Versão dedicada à **estabilização da experiência no celular** e à correção de um bug crítico que estava impedindo as atualizações do app de chegarem aos usuários. Os 6 ajustes desta versão não trazem funcionalidade nova — refinam o que já existia para deixar a Bússola pronta para uso diário no smartphone.
+Versão dedicada à **estabilização da experiência no celular** e à correção de um bug crítico que estava impedindo as atualizações do app de chegarem aos usuários. Os 6 ajustes desta versão não trazem funcionalidade nova — refinam o que já existia para deixar o Bússola pronto para uso diário no smartphone.
 
 ### Corrigido
 
@@ -546,19 +546,19 @@ Versão dedicada à **estabilização da experiência no celular** e à correç�
 
 ## [0.19.0] — 2026-05-20
 
-Esta versão adiciona um novo canal de notificações: **push direto no celular ou no navegador**. Você passa a receber avisos da Bússola mesmo com o app fechado, como em qualquer aplicativo de banco — ao tocar no aviso, abre direto na tela relevante (reembolso aprovado, pedido pendente de seu voto, etc.). Push é o 4º canal da matriz de preferências, ao lado de E-mail, WhatsApp e Telegram.
+Esta versão adiciona um novo canal de notificações: **push direto no celular ou no navegador**. Você passa a receber avisos do Bússola mesmo com o app fechado, como em qualquer aplicativo de banco — ao tocar no aviso, abre direto na tela relevante (reembolso aprovado, pedido pendente de seu voto, etc.). Push é o 4º canal da matriz de preferências, ao lado de E-mail, WhatsApp e Telegram.
 
 ### Adicionado
 
 - **Push como 4º canal na matriz de notificações** (BK-199): a tabela de preferências em **Meu Perfil → Notificações** ganha uma coluna **Push** ao lado de E-mail, WhatsApp e Telegram. Cada par (evento × canal) continua sendo um toggle independente — você decide por qual caminho quer ser avisado de cada tipo de evento. Default vem com tudo ligado; você silencia o que não quer.
 - **Ativação por dispositivo** (BK-199): um interruptor mestre **"Ativar push neste dispositivo"** acima da matriz controla se este celular/computador específico recebe push. Pode ativar no celular pessoal e desativar no do trabalho sem afetar a configuração da sua conta — cada dispositivo é independente.
-- **Avisos chegam mesmo com o app fechado** (BK-199): a integração com os serviços nativos de notificação dos sistemas (Google no Android, Apple no iOS) faz o aviso chegar como o de WhatsApp ou e-mail — não depende de você estar com a Bússola aberta.
+- **Avisos chegam mesmo com o app fechado** (BK-199): a integração com os serviços nativos de notificação dos sistemas (Google no Android, Apple no iOS) faz o aviso chegar como o de WhatsApp ou e-mail — não depende de você estar com o Bússola aberto.
 - **Toque no aviso abre a tela correspondente** (BK-199): tocar em "Reembolso aprovado" abre direto no detalhe daquele reembolso; tocar em "Pedido pendente de aprovação" abre direto no detalhe do pedido — sem navegar por menu.
 
 ### Observações de uso
 
 - **Android (Chrome / Edge / outro navegador moderno):** funciona direto, sem precisar instalar. Apenas autorize quando o navegador perguntar.
-- **iOS (Safari):** push só funciona se a Bússola estiver **instalada como app** na tela de início (toque em **Compartilhar → Adicionar à Tela de Início**). Sem isso o iOS não permite push, e o interruptor fica desabilitado com instrução. Veja **[Instalar como app](/instalar-como-app/)** se ainda não fez.
+- **iOS (Safari):** push só funciona se o Bússola estiver **instalado como app** na tela de início (toque em **Compartilhar → Adicionar à Tela de Início**). Sem isso o iOS não permite push, e o interruptor fica desabilitado com instrução. Veja **[Instalar como app](/instalar-como-app/)** se ainda não fez.
 - **Desktop (Chrome / Firefox / Edge):** funciona como no celular. Útil para receber avisos quando você está com outro aplicativo em primeiro plano.
 - **Múltiplas OSCs:** quem participa de mais de uma OSC recebe push de eventos de todas elas. A OSC aparece no corpo do aviso para identificação da origem.
 - **Privacidade:** o endpoint do seu dispositivo é armazenado da mesma forma que os outros dados de contato (número de WhatsApp, ID do Telegram). Você pode desativar a qualquer momento no master switch ou pedir exclusão completa pelo fluxo LGPD em **Ações de Conta**.
@@ -615,24 +615,24 @@ Release consolidando duas frentes: a **captura de documentos pela câmera no cel
 - **Menu "Mais" no celular não cai mais em 404** (BK-187): ao tocar em **Mais** na barra inferior do app instalado no celular, agora abre um painel deslizante com **Pagamentos e Reembolsos**, **Projetos**, **Relatórios**, **Configurações da organização**, **Meu perfil** e **Sair** — em vez de mostrar página de erro.
 - **Banner de instalação não bloqueia mais a navegação no celular** (BK-188): o banner "Instale o Bússola como app" subiu para acima da barra de navegação inferior. Tesoureiros agora conseguem usar a navegação livremente mesmo com o banner visível.
 - **Banner de instalação só aparece no celular** (BK-186): em computadores desktop, o banner sumiu — Chrome/Edge já têm o ícone "Instalar" próprio na barra de endereços, então o banner era redundante e ocupava espaço.
-- **Página de erro 404 agora em português** (BK-189): ao acessar uma rota inexistente, a Bússola exibe **"Página não encontrada"** com a identidade visual da marca (logo, paleta teal, fonte Exo 2) em vez do texto genérico "Oops! Page not found" em inglês.
+- **Página de erro 404 agora em português** (BK-189): ao acessar uma rota inexistente, o Bússola exibe **"Página não encontrada"** com a identidade visual da marca (logo, paleta teal, fonte Exo 2) em vez do texto genérico "Oops! Page not found" em inglês.
 - **Atualizações voltam ao modelo de aviso** (BK-185): a v0.17.0 saiu com modo de auto-atualização forçada (necessário para destravar quem ficou com a versão quebrada do dia anterior). A v0.17.1 retoma o comportamento padrão — você vê uma notificação "Nova versão disponível" e decide quando aplicar.
 
 ### Em validação (Android)
-- **Bússola virou app instalável de verdade no Android** (BK-191): instalar a Bússola pelo Chrome Android agora cria um aplicativo standalone com ícone próprio (não mais um simples atalho que abre dentro do Chrome). **Validado em produção em 2026-05-19.** Veja como instalar em [Instalar como aplicativo](/instalar-como-app/).
+- **Bússola virou app instalável de verdade no Android** (BK-191): instalar o Bússola pelo Chrome Android agora cria um aplicativo standalone com ícone próprio (não mais um simples atalho que abre dentro do Chrome). **Validado em produção em 2026-05-19.** Veja como instalar em [Instalar como aplicativo](/instalar-como-app/).
 
 ---
 
 ## [0.17.0] — 2026-05-19
 
 ### Adicionado
-- **Bússola instalável como aplicativo no celular** (BK-179): Android Chrome agora oferece **Instalar aplicativo** no menu de três pontos. No iPhone, **Compartilhar → Adicionar à Tela de Início** instala a Bússola como app de verdade. No desktop (Chrome/Edge), aparece um ícone de **Instalar** na barra de endereços. App instalado abre em janela própria, sem barra do navegador, com splash em Verde Teal e ícone próprio da marca.
+- **Bússola instalável como aplicativo no celular** (BK-179): Android Chrome agora oferece **Instalar aplicativo** no menu de três pontos. No iPhone, **Compartilhar → Adicionar à Tela de Início** instala o Bússola como app de verdade. No desktop (Chrome/Edge), aparece um ícone de **Instalar** na barra de endereços. App instalado abre em janela própria, sem barra do navegador, com splash em Verde Teal e ícone próprio da marca.
 - **Logo oficial em todas as telas** (BK-179): símbolo + nome **BÚSSOLA** lado a lado substituem a pseudo-logo de texto improvisada que aparecia no cabeçalho, na tela de login e no painel de autenticação. Mesmo símbolo é usado como ícone do app quando instalado no celular.
 - **Manual público com logo oficial** (BK-179): cabeçalho da documentação (`bussola-docs`) passa a exibir **RIT** + **Bússola Financeira** lado a lado.
 
 ### Alterado
-- **Fonte Exo 2 self-hostada** (BK-179): tipografia oficial do design system agora é servida pelo próprio domínio da Bússola, sem depender mais do Google Fonts. Resultados: carregamento mais rápido, funciona em redes que bloqueiam CDN externa, e nenhum dado de IP do usuário vai para a infraestrutura do Google (privacy-by-design).
-- **Atualização sob seu controle** (BK-179): quando uma nova versão da Bússola for publicada, você verá uma notificação discreta perguntando se quer atualizar agora ou depois — em vez de o app trocar de versão sem aviso enquanto você usa.
+- **Fonte Exo 2 self-hostada** (BK-179): tipografia oficial do design system agora é servida pelo próprio domínio do Bússola, sem depender mais do Google Fonts. Resultados: carregamento mais rápido, funciona em redes que bloqueiam CDN externa, e nenhum dado de IP do usuário vai para a infraestrutura do Google (privacy-by-design).
+- **Atualização sob seu controle** (BK-179): quando uma nova versão do Bússola for publicada, você verá uma notificação discreta perguntando se quer atualizar agora ou depois — em vez de o app trocar de versão sem aviso enquanto você usa.
 
 ---
 
@@ -648,11 +648,11 @@ Release consolidando duas frentes: a **captura de documentos pela câmera no cel
 ### Adicionado
 - **Importação de usuários em lote por CSV** (BK-178): nova opção **Importar usuários** em **Configurações → Usuários**, ao lado de "Adicionar usuário". Admin pode trazer dezenas ou centenas de membros de uma vez a partir de uma planilha CSV — útil para OSCs migrando de outro sistema ou cadastrando todo o quadro associativo de uma vez.
 - **Template CSV pré-formatado** (BK-178): botão "Baixar template" entrega um arquivo com cabeçalho e exemplos. Campos obrigatórios: nome completo, e-mail e papel. Opcionais: telefone, WhatsApp, Telegram, data de nascimento, CPF e RG.
-- **Pré-visualização com classificação por status** (BK-178): após upload, a Bússola mostra cada linha como **novo** (vai receber convite), **já cadastrado** (cria vínculo direto), **vínculo ativo na OSC** (atualiza só campos vazios do perfil), ou **com erro** (será pulada, com motivo explícito). Botão "Importar" só fica ativo se houver linhas válidas.
+- **Pré-visualização com classificação por status** (BK-178): após upload, o Bússola mostra cada linha como **novo** (vai receber convite), **já cadastrado** (cria vínculo direto), **vínculo ativo na OSC** (atualiza só campos vazios do perfil), ou **com erro** (será pulada, com motivo explícito). Botão "Importar" só fica ativo se houver linhas válidas.
 - **Convite por e-mail mantido para novos cadastros** (BK-178): cada e-mail novo recebe o mesmo template de convite usado quando o admin cadastra individualmente. Senha continua sendo definida pelo próprio usuário no link de setup — admin nunca vê nem digita senha alheia.
-- **Upsert seletivo de perfil** (BK-178): para e-mails já cadastrados, a Bússola preenche apenas os campos do perfil que estão vazios. Nenhum dado existente é substituído. Útil para enriquecer cadastros sem risco de sobrescrever dados que o membro já cadastrou no próprio perfil.
+- **Upsert seletivo de perfil** (BK-178): para e-mails já cadastrados, o Bússola preenche apenas os campos do perfil que estão vazios. Nenhum dado existente é substituído. Útil para enriquecer cadastros sem risco de sobrescrever dados que o membro já cadastrou no próprio perfil.
 - **CPF e RG via Vault** (BK-178): se a planilha incluir CPF/RG, esses dados vão para o cofre seguro (Vault) do Supabase, com a mesma proteção que o cadastro individual recebe. Nunca persistem em coluna clara.
-- **Resumo final por categoria** (BK-178): ao concluir, a Bússola mostra contagens por tipo (convites enviados, convites com e-mail pendente quando o envio falhou, vínculos novos, perfis atualizados, linhas com erro). Linhas com erro ficam disponíveis para download em CSV separado com coluna de motivo, facilitando correção.
+- **Resumo final por categoria** (BK-178): ao concluir, o Bússola mostra contagens por tipo (convites enviados, convites com e-mail pendente quando o envio falhou, vínculos novos, perfis atualizados, linhas com erro). Linhas com erro ficam disponíveis para download em CSV separado com coluna de motivo, facilitando correção.
 
 ### Observações de uso
 - Multi-papel não entra via planilha — cada linha atribui exatamente 1 papel. Para acumular papéis, usar **Editar papéis** no menu de ações do membro após importar.
@@ -705,13 +705,13 @@ Release consolidando duas frentes: a **captura de documentos pela câmera no cel
 ## [0.13.0] — 2026-05-18
 
 ### Adicionado
-- **Integração com WooCommerce** (BK-149): a Bússola agora sincroniza automaticamente os pedidos pagos da loja online da sua OSC como receitas em Movimentações. Cada pedido `completed` vira um lançamento financeiro com data, valor, cliente, método de pagamento e categoria — sem intervenção manual.
+- **Integração com WooCommerce** (BK-149): o Bússola agora sincroniza automaticamente os pedidos pagos da loja online da sua OSC como receitas em Movimentações. Cada pedido `completed` vira um lançamento financeiro com data, valor, cliente, método de pagamento e categoria — sem intervenção manual.
 - **Configuração da integração** (BK-149): nova seção "WooCommerce" em **Configurações → Organização**. Admin informa URL da loja, Consumer Key e Consumer Secret (com instruções passo a passo de como gerar no admin do WooCommerce, sem suposições), escolhe a frequência da sincronização (diária / semanal / mensal / desligada), a conta financeira destino, a data de corte para o backfill inicial e o modo de mapeamento de categorias (automático com categoria-mãe ou manual explícito).
 - **Sincronização automática diária** (BK-149): todas as OSCs com integração ativa têm seus pedidos sincronizados automaticamente todo dia às 06:00 (horário de Brasília). A frequência efetiva por OSC respeita a configuração escolhida — uma OSC em "Semanal" só roda nas segundas; em "Mensal" só no dia 1; em "Desligada" pula completamente.
 - **Importação manual sob demanda** (BK-149): além do cron automático, a página **Movimentações → Importar Lançamentos** (renomeada de "Importar CSV") agora tem duas fontes — CSV (existente) e WooCommerce (nova). Na aba WooCommerce, o admin escolhe o período (Desde a última sincronização / Últimos 7 dias / Últimos 30 dias / Personalizado com 2 datas) e clica "Importar agora".
-- **Estorno automático em refunds** (BK-149): se um pedido importado pela Bússola virar `refunded` ou `cancelled` no WooCommerce depois, a próxima sincronização cria automaticamente um lançamento contrário (padrão de estorno do BK-156) e ambos os lançamentos passam a exibir o badge "Estornado". A OSC não precisa fazer nada manualmente — a reconciliação contábil acontece sozinha.
+- **Estorno automático em refunds** (BK-149): se um pedido importado pelo Bússola virar `refunded` ou `cancelled` no WooCommerce depois, a próxima sincronização cria automaticamente um lançamento contrário (padrão de estorno do BK-156) e ambos os lançamentos passam a exibir o badge "Estornado". A OSC não precisa fazer nada manualmente — a reconciliação contábil acontece sozinha.
 - **Badge "WooCommerce" na lista de movimentações** (BK-149): lançamentos importados da loja online ganham um badge clicável ao lado do título. Clicar abre o pedido original no admin do WooCommerce em nova aba (útil para conferir o pedido completo, falar com o cliente, etc.).
-- **Mapeamento inteligente de categorias** (BK-149): no modo automático, a Bússola lê as categorias dos produtos da loja e cria sub-categorias correspondentes sob a categoria-mãe escolhida (ex: "Loja Online" → "Camisetas", "Livros", "Doações"). Renomeação manual prevalece em sincronizações futuras — a Bússola não sobrescreve o nome que a OSC ajustou. No modo manual, o admin mapeia explicitamente cada categoria do WooCommerce para uma categoria contábil da Bússola.
+- **Mapeamento inteligente de categorias** (BK-149): no modo automático, o Bússola lê as categorias dos produtos da loja e cria sub-categorias correspondentes sob a categoria-mãe escolhida (ex: "Loja Online" → "Camisetas", "Livros", "Doações"). Renomeação manual prevalece em sincronizações futuras — o Bússola não sobrescreve o nome que a OSC ajustou. No modo manual, o admin mapeia explicitamente cada categoria do WooCommerce para uma categoria contábil do Bússola.
 - **Detalhe rico no lançamento** (BK-149): cada movimento importado traz nas observações a lista dos itens comprados, o método de pagamento, o status no WooCommerce, dados do cliente e um link direto para abrir o pedido no admin da loja.
 - **Histórico de sincronizações** (BK-149): nova área dentro da configuração da integração mostra as últimas 20 execuções (data, modo, totais de novos/estornados/erros, status). Útil para diagnosticar problemas e acompanhar a saúde da integração.
 - **Notificação de falha** (BK-149): se uma sincronização falhar por credenciais inválidas, loja fora do ar ou outro erro grave, os administradores da OSC recebem notificação imediatamente (pelos canais habilitados na matriz de notificações do perfil).

@@ -27,9 +27,9 @@ Quem responde a essas perguntas *no fim do projeto* já chegou tarde. Quem respo
 >
 > O financeiro do projeto **não é uma caixinha separada do banco**. O dinheiro continua sendo o da OSC, nas mesmas contas. O que o projeto faz é **rotular** as movimentações: "esta despesa de R$ 300 em material foi do Acampamento". Assim você vê o recorte do projeto sem deixar de ver o todo. Por padrão, um projeto é **custeado pelo caixa geral da OSC** — as despesas dele saem do caixa comum, e o projeto te diz quanto já consumiu do que foi previsto.
 
-## O modelo de gestão de projetos da Bússola
+## O modelo de gestão de projetos do Bússola
 
-A Bússola organiza cada projeto em torno de um **ciclo de vida** e de **três fases de trabalho**. Você não precisa preencher tudo — comece pelo essencial e detalhe conforme o projeto avança.
+O Bússola organiza cada projeto em torno de um **ciclo de vida** e de **três fases de trabalho**. Você não precisa preencher tudo — comece pelo essencial e detalhe conforme o projeto avança.
 
 ### O ciclo de vida
 
@@ -61,7 +61,7 @@ Há ainda uma aba de **Resumo** (a visão de uma página do projeto), uma de **F
 
 ### A saúde do projeto
 
-A cada projeto a Bússola atribui um **indicador de saúde** — um semáforo (🟢 Saudável, 🟡 Atenção, 🔴 Crítico) com uma pontuação de 0 a 100. Ele combina três sinais:
+A cada projeto o Bússola atribui um **indicador de saúde** — um semáforo (🟢 Saudável, 🟡 Atenção, 🔴 Crítico) com uma pontuação de 0 a 100. Ele combina três sinais:
 
 - **Prazo** — o projeto está dentro da janela prevista?
 - **Orçamento** — o gasto está dentro do que foi previsto?
@@ -147,7 +147,7 @@ O Planejamento reúne cinco blocos:
 
 **Comunicação (Mural).** A linha do tempo do projeto. Reúne, no mesmo lugar, os **eventos do sistema** (mudou de status, entrou alguém na equipe, tarefa concluída) e os **comentários** da equipe. Você escreve um comentário, **menciona** alguém com `@` (a pessoa é notificada) e filtra por **Todos / Eventos do sistema / Comentários / Status updates**. O autor ou a coordenação pode remover um comentário — ele fica marcado como "removido", sem apagar o histórico.
 
-**Status update.** Um recado periódico da coordenação sobre o andamento (o que avançou, o que está pendente, próximos passos). Se o projeto fica muitos dias sem um update, a Bússola lembra a coordenação.
+**Status update.** Um recado periódico da coordenação sobre o andamento (o que avançou, o que está pendente, próximos passos). Se o projeto fica muitos dias sem um update, o Bússola lembra a coordenação.
 
 **Evidências.** Anexos que comprovam o que foi feito — fotos do evento, documentos, vídeos. Cada projeto tem um espaço próprio de armazenamento.
 
@@ -213,7 +213,7 @@ A qualidade do encerramento depende do que é escrito nos campos de texto — é
 [![Relatório de encerramento](/assets/screenshots/manual-projetos-08-encerramento-relatorio.png)](/assets/screenshots/manual-projetos-08-encerramento-relatorio.png)
 *Relatório de encerramento — visão consolidada de tudo que o projeto produziu*
 
-A partir dessa avaliação e de tudo que o projeto registrou, a Bússola monta um **relatório de encerramento** consolidado — identificação, resumo financeiro, saúde final, marcos, tarefas, contribuição da equipe, riscos materializados, evidências, status updates, partes interessadas e a avaliação do coordenador. Esse relatório pode ser **exportado em PDF** para a prestação de contas. Antes de finalizar, é possível gerar um **relatório parcial** (marcado como rascunho); ao **finalizar**, a saúde e os números ficam "congelados" como o retrato final do projeto.
+A partir dessa avaliação e de tudo que o projeto registrou, o Bússola monta um **relatório de encerramento** consolidado — identificação, resumo financeiro, saúde final, marcos, tarefas, contribuição da equipe, riscos materializados, evidências, status updates, partes interessadas e a avaliação do coordenador. Esse relatório pode ser **exportado em PDF** para a prestação de contas. Antes de finalizar, é possível gerar um **relatório parcial** (marcado como rascunho); ao **finalizar**, a saúde e os números ficam "congelados" como o retrato final do projeto.
 
 > 💡 **Por que isso importa**
 >

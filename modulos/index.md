@@ -7,7 +7,7 @@ permalink: /modulos/
 
 # Módulos
 
-A Bússola Financeira é organizada em módulos, cada um responsável por uma área da gestão financeira da OSC.
+O Bússola Financeira é organizado em módulos, cada um responsável por uma área da gestão financeira da OSC.
 
 | Módulo | Descrição |
 |---|---|

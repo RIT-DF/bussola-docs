@@ -67,7 +67,7 @@ Duas abas com a mesma estrutura, separadas por tipo:
 - **Gráfico** por categoria (barras horizontais com top 10).
 - **Tabela detalhada** com todas as categorias, valor absoluto e % do total. Mais de 10 categorias? Aparece linha **Outros** agregada — clique para expandir todas.
 - Com **comparativo ligado**: colunas extras com valor do período anterior, variação em R$, variação em % e seta de tendência.
-- **Drilldown** — clique em uma linha de categoria e a Bússola abre `/movimentacoes` já filtrado por essa categoria + o mesmo período. Você passa do agregado para o detalhe em um clique.
+- **Drilldown** — clique em uma linha de categoria e o Bússola abre `/movimentacoes` já filtrado por essa categoria + o mesmo período. Você passa do agregado para o detalhe em um clique.
 
 [![Aba Despesas](/assets/screenshots/manual-relatorios-03-despesas.png)](/assets/screenshots/manual-relatorios-03-despesas.png)
 *Despesas — mesma estrutura aplicada ao outro lado da equação*
@@ -77,7 +77,7 @@ Duas abas com a mesma estrutura, separadas por tipo:
 [![Aba Atenção](/assets/screenshots/manual-relatorios-04-atencao.png)](/assets/screenshots/manual-relatorios-04-atencao.png)
 *Atenção — anomalias detectadas no período, ordenadas por severidade*
 
-A Bússola monitora **cinco regras determinísticas** sobre os seus lançamentos e destaca o que parece fora do padrão da sua OSC:
+O Bússola monitora **cinco regras determinísticas** sobre os seus lançamentos e destaca o que parece fora do padrão da sua OSC:
 
 1. **Despesa única concentrada** — um lançamento representa mais que X% do total do período
 2. **Categoria com pico de despesa** — uma categoria gastou muito mais que sua média histórica
@@ -93,7 +93,7 @@ Cada anomalia tem **severidade** (leve / moderada / alta) com cor semântica e *
 
 > ⚠️ **Atenção · Regras silenciadas não são erro**
 >
-> Se uma OSC nova ainda não tem 6 meses de histórico, várias regras simplesmente não disparam — não dá para detectar "pico de categoria" sem média de 6 meses para comparar. A regra fica **silenciada automaticamente** até o histórico permitir. Não é bug: é a Bússola sendo honesta sobre o que pode ou não afirmar.
+> Se uma OSC nova ainda não tem 6 meses de histórico, várias regras simplesmente não disparam — não dá para detectar "pico de categoria" sem média de 6 meses para comparar. A regra fica **silenciada automaticamente** até o histórico permitir. Não é bug: é o Bússola sendo honesta sobre o que pode ou não afirmar.
 
 Os limites de cada regra são configuráveis em **Configurações → Relatórios** (ver mais abaixo). Quando a OSC tem **6+ meses de histórico**, há ainda a opção **Calibrar pelo histórico** que sugere limites personalizados baseados no padrão real da sua OSC — em vez de você adivinhar valores.
 
@@ -108,9 +108,9 @@ A aba **Previsão** projeta como a OSC tende a se comportar nos próximos meses.
 >
 > Projeção financeira (em inglês, *forecast*) é a tentativa séria de responder "para onde meu saldo vai nos próximos meses, considerando o que já está combinado e o que costumo gastar?" — sem cair em adivinhação. Não é previsão do tempo nem chute. É **modelo matemático** que combina o que está cadastrado no sistema com o histórico real da OSC.
 
-> 📖 **Conceito · Como a Bússola monta a projeção (modelo híbrido)**
+> 📖 **Conceito · Como o Bússola monta a projeção (modelo híbrido)**
 >
-> Para cada mês futuro e cada categoria, a Bússola soma duas fontes:
+> Para cada mês futuro e cada categoria, o Bússola soma duas fontes:
 > - **Agendados** — lançamentos pendentes com data futura, ocorrências futuras de séries recorrentes ativas (ex: aluguel mensal), parcelas futuras de pedidos de pagamento aprovados. Tudo isso já está cadastrado no sistema.
 > - **Estimados** — quando uma categoria não tem agendado no mês mas tem padrão histórico (≥ 3 meses), usa a média dos últimos 6 meses. Categorias com menos de 3 meses de histórico não são projetadas.
 >
@@ -177,7 +177,7 @@ Todos os exports trazem **cabeçalho identificador** padrão: nome da OSC, escop
 
 > 📖 **Sobre gráficos no PDF**
 >
-> A primeira versão da exportação traz **tabelas e blocos textuais** — sem reprodução de gráficos visuais. Para enxergar a curva de saldo ou o gráfico de categorias, use a interface da Bússola. Gráficos no PDF entram em versão futura.
+> A primeira versão da exportação traz **tabelas e blocos textuais** — sem reprodução de gráficos visuais. Para enxergar a curva de saldo ou o gráfico de categorias, use a interface do Bússola. Gráficos no PDF entram em versão futura.
 
 ## Configuração das regras de atenção
 
@@ -194,7 +194,7 @@ No rodapé: **Salvar alterações** (só habilita se houver mudança) e **Restau
 
 ### Calibrar pelo histórico
 
-Quando a OSC tem **6 ou mais meses de movimentação registrada**, o botão **Calibrar pelo histórico** dispara uma análise estatística: para cada regra, a Bússola calcula um limite sugerido baseado no padrão real da sua OSC. Útil porque tesoureiros raramente sabem chutar bons valores ("20% é muito? 30%?") — calibração entrega valores ancorados no histórico real.
+Quando a OSC tem **6 ou mais meses de movimentação registrada**, o botão **Calibrar pelo histórico** dispara uma análise estatística: para cada regra, o Bússola calcula um limite sugerido baseado no padrão real da sua OSC. Útil porque tesoureiros raramente sabem chutar bons valores ("20% é muito? 30%?") — calibração entrega valores ancorados no histórico real.
 
 Cada sugestão vem com **nível de confiança** (alta / média / baixa, dependendo do volume de histórico) e **justificativa em linguagem natural** (ex: *"Sua maior despesa única costuma ser 27% do total — sugerimos alertar a partir de 30%"*).
 

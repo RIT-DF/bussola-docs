@@ -46,7 +46,7 @@ Voluntários não têm acesso a Movimentações (lançamentos detalhados da OSC)
 
 ### O que significa "auto-aprovação"?
 
-Quando você é o único aprovador elegível para o seu próprio reembolso ou pedido (caso comum em OSC pequena onde o presidente é o único aprovador e também é o solicitante), a Bússola **permite a auto-aprovação** para não travar o fluxo, mas marca explicitamente no audit log. Conforme a OSC ganha mais aprovadores cadastrados, auto-aprovações naturalmente diminuem.
+Quando você é o único aprovador elegível para o seu próprio reembolso ou pedido (caso comum em OSC pequena onde o presidente é o único aprovador e também é o solicitante), o Bússola **permite a auto-aprovação** para não travar o fluxo, mas marca explicitamente no audit log. Conforme a OSC ganha mais aprovadores cadastrados, auto-aprovações naturalmente diminuem.
 
 ## Movimentações
 
@@ -56,7 +56,7 @@ Sim, desde que o lançamento ainda esteja com status **Pendente** ou **Atrasado*
 
 ### Qual a diferença entre Cancelar e Excluir uma movimentação?
 
-**Cancelar** mantém o lançamento no histórico com status "Cancelado" — útil para rastreabilidade ("essa despesa estava prevista mas não aconteceu"). **Excluir** apaga o lançamento de vez. A Bússola só permite excluir movimentações que já foram canceladas ou estornadas, justamente para evitar perda acidental. Para auditoria limpa, prefira sempre **cancelar** a excluir.
+**Cancelar** mantém o lançamento no histórico com status "Cancelado" — útil para rastreabilidade ("essa despesa estava prevista mas não aconteceu"). **Excluir** apaga o lançamento de vez. O Bússola só permite excluir movimentações que já foram canceladas ou estornadas, justamente para evitar perda acidental. Para auditoria limpa, prefira sempre **cancelar** a excluir.
 
 ### Posso exportar os lançamentos?
 
@@ -64,7 +64,7 @@ Sim. Na lista de **Movimentações**, clique em **Exportar** e escolha PDF (form
 
 ### Como funcionam as recorrências?
 
-Ao criar uma movimentação, você pode escolher tipo **Recorrente**: define frequência (mensal, trimestral, etc.) e duração (data final, quantidade de ocorrências ou indefinido até cancelar). A Bússola cria as ocorrências automaticamente; cada uma é paga individualmente. Para encerrar uma série em andamento, abra o detalhe e use o cancelamento em 3 escopos (apenas esta / esta e futuras / série inteira).
+Ao criar uma movimentação, você pode escolher tipo **Recorrente**: define frequência (mensal, trimestral, etc.) e duração (data final, quantidade de ocorrências ou indefinido até cancelar). O Bússola cria as ocorrências automaticamente; cada uma é paga individualmente. Para encerrar uma série em andamento, abra o detalhe e use o cancelamento em 3 escopos (apenas esta / esta e futuras / série inteira).
 
 ## Reembolsos e Pedidos de Pagamento
 
@@ -74,7 +74,7 @@ Sim. Abra o detalhe do reembolso rejeitado, clique em **Editar e reenviar**, cor
 
 ### O que acontece quando um reembolso é aprovado?
 
-A Bússola cria automaticamente uma **movimentação financeira pendente** em Movimentações com origem `reimbursement`, vinculada ao reembolso. O tesoureiro entra em Movimentações, escolhe a conta de onde vai sair o dinheiro e marca como paga. O ciclo só fecha quando essa confirmação acontece.
+O Bússola cria automaticamente uma **movimentação financeira pendente** em Movimentações com origem `reimbursement`, vinculada ao reembolso. O tesoureiro entra em Movimentações, escolhe a conta de onde vai sair o dinheiro e marca como paga. O ciclo só fecha quando essa confirmação acontece.
 
 ### Posso anexar mais de um comprovante em um reembolso?
 
@@ -116,7 +116,7 @@ Em **Projetos → Lições aprendidas** — um acervo da OSC com as lições e b
 
 ### Como encerro um projeto?
 
-Na aba **Encerramento** do projeto, um assistente de avaliação conduz por perguntas (objetivos, critérios, engajamento, pontos altos, lições...). A Bússola monta o **relatório de encerramento** consolidado, exportável em PDF para a prestação de contas. Cada campo traz orientação e um exemplo de preenchimento.
+Na aba **Encerramento** do projeto, um assistente de avaliação conduz por perguntas (objetivos, critérios, engajamento, pontos altos, lições...). O Bússola monta o **relatório de encerramento** consolidado, exportável em PDF para a prestação de contas. Cada campo traz orientação e um exemplo de preenchimento.
 
 ### Qual a diferença entre meu papel na OSC e meu papel no projeto?
 
@@ -130,7 +130,7 @@ São independentes. Seu **papel na OSC** (Presidente, Tesoureiro, Voluntário...
 
 ### Estornei um lançamento por engano. Como desfazer?
 
-Estorno não tem "desfazer estorno" automático na Bússola. Para reverter, você precisa **criar manualmente uma movimentação nova** com os mesmos dados do estornado, com data atual. Por isso a operação de estorno tem dialog de confirmação com campo de razão — para evitar engano no clique.
+Estorno não tem "desfazer estorno" automático no Bússola. Para reverter, você precisa **criar manualmente uma movimentação nova** com os mesmos dados do estornado, com data atual. Por isso a operação de estorno tem dialog de confirmação com campo de razão — para evitar engano no clique.
 
 ## Contas, categorias e configuração
 
@@ -146,7 +146,7 @@ Em **Configurações → Categorias**, clique em **Aplicar template** e escolha 
 
 ### Posso conectar minha loja online ao Bússola?
 
-Se sua loja usa **WooCommerce**, sim. Em **Configurações → Organização → seção WooCommerce**, configure URL da loja, Consumer Key e Consumer Secret. A Bússola sincroniza pedidos pagos como receitas automaticamente. A seção tem instruções passo a passo de como gerar as credenciais no admin do WooCommerce.
+Se sua loja usa **WooCommerce**, sim. Em **Configurações → Organização → seção WooCommerce**, configure URL da loja, Consumer Key e Consumer Secret. O Bússola sincroniza pedidos pagos como receitas automaticamente. A seção tem instruções passo a passo de como gerar as credenciais no admin do WooCommerce.
 
 ### Quando a sincronização com WooCommerce acontece?
 
@@ -172,9 +172,9 @@ Envie `/start` para `@BussolaBot` no Telegram. O bot vincula automaticamente seu
 
 ### Como ativo notificações push no celular?
 
-Em **Meu Perfil → Notificações**, toque no interruptor **"Ativar push neste dispositivo"** (acima da matriz). O navegador vai pedir permissão; autorize. A coluna **Push** na matriz fica habilitada para você escolher quais eventos receber por esse canal — funciona como aviso de banco, chega na tela mesmo com a Bússola fechada e abre direto na tela relevante ao tocar.
+Em **Meu Perfil → Notificações**, toque no interruptor **"Ativar push neste dispositivo"** (acima da matriz). O navegador vai pedir permissão; autorize. A coluna **Push** na matriz fica habilitada para você escolher quais eventos receber por esse canal — funciona como aviso de banco, chega na tela mesmo com o Bússola fechado e abre direto na tela relevante ao tocar.
 
-**Importante:** no **iPhone (Safari)**, push só funciona se você **instalou a Bússola como app** na tela de início — sem instalar, o interruptor fica desabilitado com instrução. Veja [Instalar como aplicativo](/instalar-como-app/). No **Android (Chrome / Edge)** e em **desktop (Chrome / Firefox / Edge)**, funciona direto sem precisar instalar como app.
+**Importante:** no **iPhone (Safari)**, push só funciona se você **instalou o Bússola como app** na tela de início — sem instalar, o interruptor fica desabilitado com instrução. Veja [Instalar como aplicativo](/instalar-como-app/). No **Android (Chrome / Edge)** e em **desktop (Chrome / Firefox / Edge)**, funciona direto sem precisar instalar como app.
 
 A ativação é **por dispositivo**: pode ativar no celular pessoal e deixar desativado no celular do trabalho, sem afetar a configuração da sua conta.
 
@@ -205,4 +205,4 @@ Cada módulo deste manual tem uma seção **Conceitos essenciais** que cobre os 
 
 ### Posso usar o Bússola se não sou de OSC?
 
-A Bússola é desenhada para OSCs (Organizações da Sociedade Civil) — terceiro setor. O fluxo de aprovação, os papéis e a linguagem refletem esse contexto. Outros tipos de organização (empresa, autônomo) podem usar tecnicamente, mas vão encontrar funcionalidades que não fazem sentido no contexto deles.
+O Bússola é desenhado para OSCs (Organizações da Sociedade Civil) — terceiro setor. O fluxo de aprovação, os papéis e a linguagem refletem esse contexto. Outros tipos de organização (empresa, autônomo) podem usar tecnicamente, mas vão encontrar funcionalidades que não fazem sentido no contexto deles.

@@ -255,10 +255,10 @@ Esta página mostra **o estado de cada funcionalidade** do Bússola Financeira �
 | Layout responsivo mobile-first | Toda a interface adaptada para uso confortável em celular (375px e acima) | ✓ | | | |
 | Instalação como aplicativo (PWA) | Botão "Instalar aplicativo" em Android Chrome, "Adicionar à Tela de Início" em iOS Safari, ícone na barra de endereços em Chrome/Edge desktop. Veja [como instalar](/instalar-como-app/) | ✓ | | | |
 | Janela standalone quando instalado | App abre em tela cheia, sem barra de endereços nem abas do navegador, com ícone próprio | ✓ | | | |
-| Splash screen com identidade da marca | Tela de carregamento em Verde Teal com símbolo da Bússola ao abrir o app instalado | ✓ | | | |
+| Splash screen com identidade da marca | Tela de carregamento em Verde Teal com símbolo do Bússola ao abrir o app instalado | ✓ | | | |
 | Atualização sob controle do usuário | Toast "Nova versão disponível" com botões **Atualizar agora** / **Depois** — você decide quando aplicar | ✓ | | | |
 | Banner discreto de instalação no celular | Sugestão aparece após uso ativo (apenas mobile, sumindo em desktop e após instalar/dispensar) | ✓ | | | |
-| Tela offline amigável | Quando sem conexão, app exibe tela em pt-BR com logo da Bússola e botão "Tentar novamente" — em vez de erro do navegador | ✓ | | | |
+| Tela offline amigável | Quando sem conexão, app exibe tela em pt-BR com logo do Bússola e botão "Tentar novamente" — em vez de erro do navegador | ✓ | | | |
 | Cards de Movimentações em mobile | Em vez de tabela cortada, lista vertical de cards otimizada para toque (descrição, valor, data, contraparte, ações) | ✓ | | | |
 | Cards de Pedidos e Reembolsos em mobile | Mesmo padrão dos cards de Movimentações aplicado às listas de Pedidos de Pagamento e Reembolsos | ✓ | | | |
 | Cards de resumo no topo das listas em mobile | Em Pedidos e Reembolsos, KPIs filtrados pelo papel do usuário (Aguardando minha aprovação, Aprovados aguardando pagamento, Solicitado/Pago no período) ficam em grade 2×N acima das sub-tabs | ✓ | | | |
