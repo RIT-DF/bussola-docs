@@ -11,6 +11,29 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.33.1] — 2026-06-17
+
+### Modificado
+
+- **Ao vincular sua conta a uma nova organização, você já entra direto nela.** Antes, quem aceitava um convite para uma segunda organização caía na organização anterior e precisava trocar manualmente — agora o acesso abre já na organização recém-vinculada.
+- **E-mail de boas-vindas reescrito.** Ficou mais acolhedor, apresenta o propósito do Bússola e traz um link para o manual do usuário — sem prometer recursos que dependem do seu papel na organização.
+- **Botões dos e-mails mais proporcionais**, com o texto centralizado.
+
+### Corrigido
+
+- **Mensagens mais claras ao vincular uma conta existente.** Em vez de um "erro inesperado" genérico, a tela passa a explicar o que aconteceu (por exemplo, quando o login é de uma conta diferente da convidada).
+- **Correção de texto no aceite:** agora lê "Li e aceito **os** Termos de Uso".
+
+---
+
+## [0.33.0] — 2026-06-17
+
+### Adicionado
+
+- **Quem já tem conta entra mais rápido em uma nova organização.** Ao ser convidado para outra organização, se você já tem cadastro no Bússola, a tela reconhece isso e pede apenas que você **entre** (com sua senha ou pelo Google) para **vincular** a nova organização ao seu acesso — sem refazer o cadastro e sem reaceitar as políticas que você já aceitou. Quem é realmente novo segue com o cadastro completo, como antes.
+
+---
+
 ## [0.32.0] — 2026-06-16
 
 ### Adicionado
