@@ -11,6 +11,24 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.38.0] — 2026-06-21
+
+### Adicionado
+
+- **Conta padrão.** Em **Configurações → Contas** você pode marcar uma conta como padrão da organização. Ela já vem selecionada ao criar um novo lançamento, agilizando o registro.
+- **Cards de conta coloridos.** Os cards de saldo por conta (Painel, Movimentações e Relatórios) passam a exibir a **cor** definida para cada conta, ficando fácil distinguir uma da outra; o card consolidado ganhou destaque próprio.
+
+### Modificado
+
+- **Tela de novo lançamento mais clara.** **Beneficiário/Pagador** e **Tipo de documento fiscal** agora aparecem direto no formulário (antes ficavam escondidos em "Mais opções"); o campo **"Título" passou a se chamar "Descrição"**. Em **transferências**, os campos que não se aplicam ficam ocultos.
+- **Máscaras padronizadas.** Os campos de **CNPJ, CPF e telefone** passaram a seguir a máscara correta em todo o sistema. O **CNPJ** agora aceita o novo formato **alfanumérico** da Receita Federal.
+
+### Corrigido
+
+- **Gestão de membros pelo administrador da plataforma** voltou a funcionar ao adicionar usuários a uma organização pelo painel administrativo.
+
+---
+
 ## [0.37.0] — 2026-06-21
 
 ### Adicionado
