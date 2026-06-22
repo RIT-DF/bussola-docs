@@ -1,11 +1,12 @@
 ---
-title: "Privacidade"
-nav_order: 1
-parent: "Termos e Privacidade"
-permalink: /privacidade/
+layout: section
+title: "Privacidade — versão 1.1 (arquivada)"
+permalink: /privacidade/1.1/
 version: "1.1"
 change_summary: "Agora você pode baixar seus dados e excluir sua conta direto na plataforma. Detalhamos também os prazos de carência (30 dias) e de anonimização ao excluir a conta ou encerrar a organização."
 requires_reconsent: true
+archived: true
+sitemap: false
 ---
 
 # Política de Privacidade — Bússola Financeira

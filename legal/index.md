@@ -11,7 +11,7 @@ Documentos legais do Bússola Financeira, operada pela RIT — Rede de Inovaçã
 
 | Documento | Versão vigente |
 |---|---|
-| [Política de Privacidade](/privacidade/) | 1.0 |
+| [Política de Privacidade](/privacidade/) | 1.1 |
 | [Termos de Uso](/termos/) | 1.0 |
 
 Versões anteriores permanecem acessíveis por URL própria e imutável para fins de auditoria de consentimento.
