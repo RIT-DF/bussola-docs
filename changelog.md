@@ -11,6 +11,30 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.40.0] — 2026-06-30
+
+### Adicionado
+
+- **Escolha das colunas ao exportar.** Ao clicar em **Exportar → PDF** ou **Exportar → Excel**, o Bússola agora abre um seletor para você marcar **quais colunas** quer no relatório. Oito colunas vêm marcadas por padrão (Vencimento, Pagamento, Pagador/Beneficiário, Lançamento, Conta, Categoria, Status e Valor) e você pode acrescentar **Tipo**, **Forma de pagamento**, **Observações** e **Nº de anexos**. A escolha fica **lembrada** para a próxima exportação, separada por organização.
+
+---
+
+## [0.39.5] — 2026-06-30
+
+### Modificado
+
+- **Estorno passa a herdar a data do lançamento original.** Ao estornar um lançamento, o lançamento contrário gerado agora usa as **mesmas datas** (vencimento, pagamento e competência) do lançamento estornado, em vez da data de hoje. Assim o original e o estorno se anulam **no mesmo período**, e os relatórios por mês fecham corretamente. (O registro de *quando* o estorno foi feito continua preservado na linha do tempo.)
+
+---
+
+## [0.39.4] — 2026-06-30
+
+### Corrigido
+
+- **Exportar PDF mostrava a data de hoje na coluna Vencimento.** Em alguns casos — especialmente lançamentos com datas retroativas — o PDF exportado trazia a data de hoje no lugar da data informada. Corrigido: o PDF agora mostra a data correta de cada lançamento, igual à tela.
+
+---
+
 ## [0.39.0] — 2026-06-22
 
 ### Adicionado

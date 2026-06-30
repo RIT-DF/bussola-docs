@@ -108,8 +108,10 @@ Marque o checkbox no início das linhas para selecionar várias movimentações.
 O botão **Exportar** oferece três saídas:
 
 - **PDF** — relatório formatado com cabeçalho, filtros ativos e totais (bom para imprimir / enviar para diretoria)
-- **Excel** — planilha com todas as colunas (bom para análises customizadas)
+- **Excel** — planilha para análises customizadas
 - **Prestação de contas** — o documento contábil completo do período, em regime de caixa, com os comprovantes anexados (ver a seção **Prestação de contas** abaixo)
+
+Ao escolher **PDF** ou **Excel**, antes de gerar o arquivo o Bússola abre um **seletor de colunas**: marque ou desmarque o que deve aparecer no relatório. Vêm marcadas por padrão oito colunas — Vencimento, Pagamento, Pagador/Beneficiário, Lançamento, Conta, Categoria, Status e Valor — e você pode acrescentar **Tipo**, **Forma de pagamento**, **Observações** e **Nº de anexos**. A seleção é **lembrada para a próxima exportação**, separada por organização (cada OSC mantém o formato que prefere). É preciso deixar pelo menos uma coluna marcada.
 
 ## Detalhe de uma movimentação
 
