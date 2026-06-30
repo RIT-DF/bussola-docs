@@ -11,6 +11,14 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.40.1] — 2026-06-30
+
+### Corrigido
+
+- **Lançamento estornado não oferece mais "Excluir".** O botão de excluir deixou de aparecer para lançamentos já estornados (na lista, na ação em lote e no detalhe) — antes ele aparecia, mas a exclusão não acontecia, já que o estorno precisa ser preservado na prestação de contas. Lançamentos pendentes e cancelados continuam podendo ser excluídos normalmente.
+
+---
+
 ## [0.40.0] — 2026-06-30
 
 ### Adicionado

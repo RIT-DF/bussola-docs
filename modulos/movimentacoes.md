@@ -93,11 +93,11 @@ Cada linha tem ícones de ação que mudam conforme o status:
 - 💲 **Marcar como pago** — disponível para pendentes e atrasadas (atalho rápido sem entrar no detalhe)
 - ✕ **Cancelar** — disponível para pendentes e atrasadas
 - ↩ **Estornar** — disponível para pagas
-- 🗑 **Excluir** — disponível apenas para canceladas e estornadas
+- 🗑 **Excluir** — disponível apenas para canceladas (estornos são preservados e **não** podem ser excluídos)
 
 > ⚠️ **Atenção · Cancelar não é a mesma coisa que excluir**
 >
-> **Cancelar** marca o lançamento como anulado mas mantém o histórico — útil quando algo registrado não vai mais acontecer (evento desmarcado, fornecedor desistiu) e você quer rastreabilidade. **Excluir** apaga o lançamento de vez. O Bússola só permite excluir quem já foi cancelada ou estornada justamente para evitar perda acidental. Para auditoria limpa, prefira sempre **cancelar** a excluir.
+> **Cancelar** marca o lançamento como anulado mas mantém o histórico — útil quando algo registrado não vai mais acontecer (evento desmarcado, fornecedor desistiu) e você quer rastreabilidade. **Excluir** apaga o lançamento de vez. O Bússola só permite excluir lançamentos já **cancelados**, justamente para evitar perda acidental; **estornos são preservados** (não podem ser excluídos) para manter a prestação de contas íntegra. Para auditoria limpa, prefira sempre **cancelar** a excluir.
 
 ### Seleção em lote
 
