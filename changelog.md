@@ -11,6 +11,22 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [0.40.4] — 2026-07-01
+
+### Adicionado
+
+- **Lançamentos estornados e cancelados agora aparecem riscados.** Na tela de Movimentações e nas exportações em PDF e Excel, um lançamento estornado (o original e o lançamento contrário que o compensa) ou cancelado passa a aparecer com o texto e o valor riscados, além do rótulo de status já existente — fica mais fácil identificar de relance que aquele valor não representa uma receita ou despesa real do período.
+
+---
+
+## [0.40.2] — 2026-07-01
+
+### Corrigido
+
+- **Saldo consolidado da conta podia ficar incorreto quando havia lançamentos estornados.** Ao estornar um lançamento, o par (o lançamento original e o seu contrário de compensação) não estava se anulando corretamente no cálculo do saldo da conta, do saldo por conta nos relatórios e da evolução de saldo — o valor do estorno ficava sobrando ou faltando no total. Corrigido: agora o par se anula por completo, e o saldo exibido volta a bater com o extrato bancário.
+
+---
+
 ## [0.40.1] — 2026-06-30
 
 ### Corrigido
