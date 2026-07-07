@@ -166,7 +166,11 @@ O Financeiro mostra o dinheiro do projeto sem tirar nada do caixa geral da OSC:
 - **Vincular lançamentos existentes** — atribui a este projeto movimentações que já foram lançadas e ainda não tinham projeto.
 - **Aguardando aprovação** — lista os pedidos e reembolsos do projeto que **ainda não foram aprovados** (com o selo "Aguardando Aprovação" ou "Rascunho"). Clique para abrir o pedido. **Esses pendentes não entram nos totais** — servem só para você saber o que já foi solicitado e **não pedir o mesmo pagamento duas vezes**. Quando aprovados, saem daqui e passam a contar como movimentação vinculada.
 - **Receitas e Despesas / Orçamento previsto / Previsto × Realizado** — o orçamento do projeto (total e, opcionalmente, por categoria) confrontado com o que já foi gasto, com saldo e percentual de consumo.
-- **Lançamentos vinculados** — as movimentações já atribuídas ao projeto, com filtros.
+- **Lançamentos vinculados** — as movimentações já atribuídas ao projeto, com filtros. Cada linha mostra o **valor** e acompanha a **situação do lançamento conforme ele evolui**: aparece quando é vinculado (previsto), muda para **pago** quando o pagamento é registrado e para **estornado** se for revertido — sempre na mesma linha, sem duplicar. Assim toda a equipe do projeto enxerga, em um só lugar, o que já foi previsto, o que foi efetivamente pago e o que foi estornado, com os valores visíveis a todos os membros.
+
+> ✓ **Dica · Todo mundo vê o dinheiro do projeto**
+>
+> Os lançamentos vinculados e seus valores ficam visíveis para **todos os membros do projeto**, não só para a coordenação. Isso mantém a equipe alinhada sobre quanto já foi gasto e evita a sensação de "caixa-preta" que costuma minar a confiança em iniciativas coletivas.
 
 ### Calculadora de taxa de evento (projetos do tipo Evento)
 
