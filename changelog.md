@@ -11,6 +11,24 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [1.0.0] — 2026-07-07
+
+**Marco 1.0.0 — primeira versão estável da Bússola Financeira.** Todos os módulos do MVP estão em produção e validados: acesso e organização, financeiro (movimentações, contas, categorias, conciliação), reembolsos, pedidos de pagamento, projetos e prestação de contas. Esta versão consolida os ajustes feitos ao longo da série 0.43.
+
+### Adicionado
+
+- **Mural do projeto com eventos financeiros.** Um lançamento vinculado a um projeto passa a aparecer no mural do projeto conforme sua vida acontece — vinculado (previsto), pagamento registrado e estornado — de forma que toda a equipe do projeto acompanha as movimentações financeiras ligadas a ele, com o valor visível.
+
+### Corrigido
+
+- **Prestação de contas — 1ª página do comprovante em PDF na folha da descrição.** Quando um lançamento tem um comprovante em PDF, a primeira página do anexo agora aparece **na mesma folha da descrição, em tamanho grande**, aproveitando o espaço logo abaixo do texto; as páginas seguintes do anexo continuam em tamanho cheio. Os códigos de barras e QR dos comprovantes seguem legíveis.
+- **E-mails de notificação.** O logo voltou a aparecer no topo dos e-mails e o botão de ação passou a abrir o endereço correto do sistema.
+- **Uso em celular.** Botões e ações com área de toque maior e mais confortável, e telas ajustadas para não exigir rolagem horizontal em aparelhos pequenos.
+- **Lista de movimentações mais fluida.** A lista de lançamentos ficou mais leve e rápida mesmo com muitos itens.
+- **Validação de CPF em transferências.** Ao informar dados de transferência bancária, um CPF inválido passa a ser bloqueado no momento de salvar, e a edição reabre sem falso alerta de CPF inválido.
+
+---
+
 ## [0.43.0] — 2026-07-07
 
 ### Adicionado
