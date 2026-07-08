@@ -35,7 +35,7 @@ Endereço completo (CEP, logradouro, número, complemento, bairro, cidade, UF) e
 
 ## Logo da organização
 
-Upload da logo da OSC (JPG, PNG ou WebP, até 2 MB). A imagem é redimensionada para 512×512. Aparece em documentos gerados, e em versões futuras vai aparecer na barra superior em vez do nome em texto.
+Upload da logo da OSC (JPG, PNG, WebP ou **SVG**, até 2 MB). A imagem é aceita em **qualquer proporção** e ajustada automaticamente, preservando o formato original — não é mais recortada em quadrado. A logo aparece na **barra superior** (no lugar do nome da OSC), no **cabeçalho dos e-mails** de notificação e nos **relatórios em PDF** (movimentações e prestação de contas). Ao **trocar a logo**, a nova imagem passa a valer na hora.
 
 ## Configurações operacionais
 

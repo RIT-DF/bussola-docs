@@ -61,7 +61,7 @@ No **celular**, os cards de resumo ficam em grade de 2 colunas e a lista de pedi
 
 De acordo com seu papel, você vê cards que viram atalhos para as listas filtradas:
 
-- **Aguardando minha aprovação** — para aprovadores (Presidente, Tesoureiro)
+- **Aguardando aprovação** — para aprovadores (Presidente, Tesoureiro): pedidos na fila de aprovação da OSC (não só os que dependem de você)
 - **Aprovados aguardando pagamento** — para o Tesoureiro
 - **Solicitado por mim** — para todos os papéis
 
@@ -86,7 +86,7 @@ Pedidos únicos aparecem sem badge adicional.
 - **Dados do pedido**: descrição, categoria, projeto, centro de custo
 - **Dados de pagamento do destinatário** (PIX, TED ou Boleto) — visíveis apenas para aprovadores e tesoureiro
 - **Documentos**: orçamento, nota fiscal, contrato ou outros anexos
-- **Histórico de aprovações**: timeline de todos os votos
+- **Histórico de aprovações**: timeline de todos os votos, com o **progresso do quórum** (ex.: "1 de 2 aprovações · falta 1") enquanto o pedido aguarda aprovação
 - **Ações**: ✓ Aprovar / ✕ Reprovar (somente para aprovadores; nunca para o próprio solicitante)
 
 Pedidos recorrentes mostram aqui uma seção **Ocorrências** com a lista de cada ocorrência prevista, seu status individual e ações específicas (marcar como pago, cancelar essa ocorrência, ver movimento gerado).
@@ -128,13 +128,15 @@ Clique em **+ Nova solicitação** para abrir o formulário.
 
 **Campos obrigatórios:**
 
-- **Data da despesa** — data prevista de pagamento ou da nota fiscal
+- **Data da despesa** — a data da despesa em si (por exemplo, a data da nota fiscal)
 - **Valor**
 - **Destinatário** — nome do fornecedor ou prestador de serviços
 - **Descrição** — o que está sendo pago e para qual finalidade
 - **Dados de pagamento do destinatário**: PIX, TED ou Boleto (chave/conta/código de barras)
 
-**Campos opcionais:** Categoria, Projeto, Centro de custo, Observações, Documentos (orçamento, nota fiscal, contrato).
+**Campos opcionais:** Categoria, Projeto, Centro de custo, Observações, Documentos (orçamento, nota fiscal, contrato) e, **apenas no tipo Único**, a **Data de pagamento solicitada**.
+
+> 💡 **Data de pagamento solicitada** (opcional, só no tipo Único): o prazo em que o fornecedor espera receber. Serve de **referência para o tesoureiro** na hora de pagar e aparece no detalhe do pedido. Deixá-la em branco não impede enviar o pedido.
 
 > ⚠️ **Atenção · Dados são do destinatário, não do solicitante**
 >

@@ -39,13 +39,13 @@ Logo abaixo do resumo, **Pedidos de Pagamento** e **Reembolsos** aparecem **lado
 ### Pedidos de Pagamento
 
 - **Solicitado por mim** — seus próprios pedidos pendentes (todos os papéis veem os próprios)
-- **Aguardando minha aprovação** — somente para aprovadores elegíveis
+- **Aguardando aprovação** — somente para aprovadores elegíveis
 - **Aprovados aguardando pagamento** — somente para o tesoureiro (e o presidente)
 
 ### Reembolsos
 
 - **Meus reembolsos pendentes** — rascunhos e rejeitados aguardando reenvio (todos os papéis veem os próprios)
-- **Aguardando minha aprovação** — somente para aprovadores elegíveis (Presidente, Tesoureiro e quem mais a OSC configurar)
+- **Aguardando aprovação** — somente para aprovadores elegíveis (Presidente, Tesoureiro e quem mais a OSC configurar)
 - **Aguardando pagamento** — somente para o tesoureiro
 
 > 📖 **Conceito · O Painel se adapta ao seu papel**

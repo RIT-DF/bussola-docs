@@ -11,6 +11,58 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [1.2.0] — 2026-07-07
+
+### Adicionado
+
+- **Logo da OSC nos e-mails e nos relatórios.** A logo da sua organização passa a aparecer no **cabeçalho dos e-mails** de notificação e nos **PDFs** (movimentações e prestação de contas), reforçando a identidade da OSC; quando não há logo cadastrada, o e-mail usa a marca do Bússola. O upload de logo agora aceita **qualquer proporção** e também arquivos **SVG** (convertidos automaticamente), e a logo aparece inteira (sem corte) no topo do aplicativo.
+
+### Corrigido
+
+- **Troca de logo imediata.** Ao trocar a logo da organização, a nova imagem passa a aparecer na hora — antes, a anterior podia continuar sendo exibida por alguns minutos.
+
+---
+
+## [1.1.3] — 2026-07-07
+
+### Melhorado
+
+- **Aviso de reembolso pago também ao pagar pela lista.** Quando um reembolso é marcado como pago pela lista de Movimentações, o solicitante agora recebe o e-mail de confirmação — antes, só o pagamento pelo detalhe do reembolso avisava. O e-mail traz valor, descrição, data e o **destino do pagamento** (chave PIX ou conta, parcialmente ocultos) para o voluntário conferir onde o valor caiu.
+
+---
+
+## [1.1.2] — 2026-07-07
+
+### Corrigido
+
+- **Pagamento de pedido pela lista de Movimentações.** Ao marcar como pago, pela lista de Movimentações, um lançamento vindo de um pedido de pagamento, o pedido passa a ser atualizado para **pago** automaticamente — como já acontecia com os reembolsos —, evitando que ele ficasse preso em "aguardando pagamento".
+
+---
+
+## [1.1.1] — 2026-07-07
+
+### Melhorado
+
+- **Mais clareza nas aprovações.** O card antes chamado "Aguardando minha aprovação" passou a se chamar **"Aguardando aprovação"** — ele mostra os itens da fila de aprovação, não necessariamente os que dependem só de você. E o detalhe de um reembolso ou pedido agora mostra o **progresso da aprovação** (por exemplo, "1 de 2 aprovações · falta 1"), deixando claro quantas aprovações ainda faltam.
+
+---
+
+## [1.1.0] — 2026-07-07
+
+### Adicionado
+
+- **Data de pagamento solicitada no pedido de pagamento.** Ao criar um pedido de pagamento do tipo único, é possível informar (opcionalmente) uma **data de pagamento solicitada** — o prazo em que o fornecedor espera receber. Ela aparece como referência no detalhe do pedido, ajudando o tesoureiro a se organizar na hora de pagar.
+
+---
+
+## [1.0.1] — 2026-07-07
+
+### Corrigido
+
+- **Envio de feedback.** O envio de feedback pela tela voltou a funcionar para todos os usuários (antes, o envio falhava para quem não era administrador).
+
+---
+
 ## [1.0.0] — 2026-07-07
 
 **Marco 1.0.0 — primeira versão estável da Bússola Financeira.** Todos os módulos do MVP estão em produção e validados: acesso e organização, financeiro (movimentações, contas, categorias, conciliação), reembolsos, pedidos de pagamento, projetos e prestação de contas. Esta versão consolida os ajustes feitos ao longo da série 0.43.

@@ -60,16 +60,14 @@ No **celular**, a lista vira **cards verticais** otimizados para toque, com toda
 
 ### Cards de resumo no topo
 
-Acima das abas de filtro de status, aparecem até quatro cards de resumo, **filtrados pelo seu papel** (diferente da contagem global das abas, que conta todos os reembolsos da OSC). Útil para responder de relance: "o que precisa da minha atenção agora?".
+Acima das abas de filtro de status, aparecem até quatro cards de resumo, exibidos **conforme o seu papel** (você só vê os que fazem sentido para você). Cada card é um **atalho clicável** para a lista filtrada correspondente. Útil para responder de relance: "o que precisa de atenção agora?".
 
-- **Aguardando minha aprovação** — aparece para quem é aprovador elegível (Presidente, Tesoureiro e demais papéis configurados); conta quantos reembolsos esperam **seu** voto.
+- **Aguardando aprovação** — aparece para quem é aprovador elegível (Presidente, Tesoureiro e demais papéis configurados); conta os reembolsos da OSC que estão **na fila de aprovação** (não só os que dependem de você — a aprovação é por quórum e papel).
 - **Aprovados aguardando pagamento** — aparece para o Tesoureiro e Administrador; conta reembolsos com status Aprovado que ainda não viraram movimentação paga.
 - **Solicitado no período** — sempre visível; conta reembolsos submetidos no mês corrente.
 - **Pago no período** — sempre visível; conta reembolsos pagos no mês corrente.
 
-> ✓ **Dica · Diferente da contagem das abas**
->
-> As abas mostram o total da OSC ("Aguardando aprovação (3)" = todos os reembolsos pendentes da organização). Os cards de resumo mostram **a sua fatia** ("Aguardando minha aprovação: 1" = só os que **você** pode votar). Use o card para saber o que tem que fazer; use a aba para saber o que está no fluxo geral.
+> ℹ️ **O card "Aguardando aprovação" mostra o mesmo número da aba de mesmo nome** — os reembolsos da OSC na fila de aprovação. Ele **não** é uma "fatia pessoal": como a aprovação é por **quórum e papel**, qualquer aprovador elegível pode votar. Para saber o que já foi votado e quanto falta, abra o **detalhe** de cada reembolso — lá aparece o progresso ("1 de 2 aprovações · falta 1").
 
 ### Ações inline na lista
 
@@ -93,7 +91,7 @@ Clique em qualquer linha para abrir o detalhe completo. A página tem todas as i
 - **Dados da solicitação**: descrição, categoria (sempre tipo despesa), projeto, centro de custo
 - **Dados de pagamento**: método (PIX ou TED) e chave/conta — **visíveis apenas para aprovadores e tesoureiro** (voluntário não-aprovador vê só os próprios)
 - **Comprovantes**: nota fiscal, recibo ou foto da despesa anexados pelo solicitante, com pré-visualização inline para imagens e PDFs (não precisa baixar)
-- **Histórico de aprovações**: timeline de todos os votos com nome, papel e data
+- **Histórico de aprovações**: timeline de todos os votos com nome, papel e data, além do **progresso do quórum** (ex.: "1 de 2 aprovações · falta 1") enquanto o reembolso aguarda aprovação
 - **Ações**: ✓ Aprovar / ✕ Rejeitar (somente para aprovadores; nunca para o próprio solicitante)
 
 > 💡 **Por que isso importa**
