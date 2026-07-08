@@ -11,6 +11,46 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [1.3.3] — 2026-07-08
+
+### Adicionado
+
+- **Corrigir os dados de pagamento de um lançamento já pago.** Responsáveis financeiros agora podem ajustar a **data de pagamento** e a **conta** de um lançamento pago, direto na tela do lançamento, sem precisar estornar — útil quando o que foi registrado ficou diferente do extrato bancário. Ao salvar, é pedido um breve **motivo** (guardado para controle) e, se você trocar a conta, os **saldos são recalculados** automaticamente.
+
+---
+
+## [1.3.2] — 2026-07-08
+
+### Melhorado
+
+- **Seus dados não se perdem ao sair da tela.** Ao preencher um novo **reembolso**, **lançamento** ou **pedido de pagamento**, o que você digita fica salvo automaticamente no seu dispositivo. Se você sair da tela (por exemplo, para escolher um arquivo para anexar) ou o navegador recarregar a página, ao voltar os campos continuam preenchidos, com um aviso de **"rascunho recuperado"**.
+
+---
+
+## [1.3.1] — 2026-07-08
+
+### Melhorado
+
+- **Gestão de feedbacks mais ágil (equipe RIT).** No painel de feedbacks, as ações de cada item passaram a ficar acessíveis diretamente na linha (responder, editar, mudar status e mais), os filtros ficaram lado a lado, e criar uma tarefa a partir de um feedback deixou de abrir uma aba automaticamente.
+
+---
+
+## [1.3.0] — 2026-07-08
+
+### Adicionado
+
+- **Feedback repaginado.** Ao enviar um feedback, agora você pode **anexar arquivos** (prints, planilhas, documentos), escolher o novo tipo **Depoimento** e autorizar (ou não) que a RIT entre em **contato** com você. Um aviso no topo lembra do **Manual do Usuário** — muitas dúvidas já têm resposta lá. Ao enviar, também coletamos automaticamente algumas informações técnicas **não pessoais** (como a versão do app e o navegador) que ajudam a equipe a resolver mais rápido.
+
+---
+
+## [1.2.1] — 2026-07-07
+
+### Adicionado
+
+- **Código curto por lançamento.** Cada lançamento passa a ter um **código curto e legível** (formato `XXXX-XXXX`, ex.: `4805-DF37`), visível no **detalhe** (com botão de copiar), na **lista de Movimentações** e nas **exportações** (Excel e PDF) — para você identificar e citar uma transação específica com facilidade.
+
+---
+
 ## [1.2.0] — 2026-07-07
 
 ### Adicionado

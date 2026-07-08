@@ -52,7 +52,7 @@ Quando você é o único aprovador elegível para o seu próprio reembolso ou pe
 
 ### O sistema registrou minha despesa com data errada. Posso corrigir?
 
-Sim, desde que o lançamento ainda esteja com status **Pendente** ou **Atrasado**. Clique em **Editar** no detalhe da movimentação. Lançamentos já marcados como **Pago** não podem ter os dados principais alterados — para corrigir, use **Estornar** e crie um novo lançamento correto.
+Depende do status. Se o lançamento está **Pendente** ou **Atrasado**, clique em **Editar** no detalhe da movimentação e ajuste o que precisar. Se já está **Pago**, os responsáveis financeiros podem corrigir a **data de pagamento** e a **conta** em **detalhe do lançamento → Editar dados de pagamento** (é pedido um motivo, que fica no histórico). Para corrigir o **valor** de um lançamento já pago, o caminho continua sendo **Estornar** e criar um novo lançamento correto.
 
 ### Qual a diferença entre Cancelar e Excluir uma movimentação?
 
@@ -73,6 +73,10 @@ Sim. A planilha de importação tem a coluna `centro_de_custo` (opcional). Se o 
 ### Anexei um arquivo ZIP a um lançamento. Os documentos de dentro aparecem na prestação de contas?
 
 Sim. O Bússola **descompacta o ZIP automaticamente** e anexa cada arquivo de dentro como um anexo individual do lançamento — o pacote dá lugar aos arquivos, que passam a aparecer na pré-visualização e a entrar na prestação de contas. Vale também quando o comprovante chega por **link** na importação por CSV. Arquivos que não dá para exibir num PDF (planilhas, textos) ficam anexados, mas não aparecem no corpo do relatório.
+
+### Se eu sair da tela enquanto preencho, perco o que já digitei?
+
+Não. Ao preencher um **novo lançamento**, **reembolso** ou **pedido de pagamento**, o que você digita é salvo automaticamente no seu dispositivo. Se você sair da tela — por exemplo, para escolher um arquivo para anexar — ou o navegador recarregar a página, ao voltar os campos continuam preenchidos e aparece um aviso de **"rascunho recuperado"**. O rascunho é apagado assim que você envia o formulário (ou clica em descartar), e some ao sair da sua conta. Observação: **arquivos ainda não enviados** não são guardados — só os campos digitados.
 
 ## Reembolsos e Pedidos de Pagamento
 

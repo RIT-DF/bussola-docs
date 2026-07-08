@@ -228,6 +228,26 @@ Para estornar: vá no detalhe do lançamento → botão **Estornar** → informe
 >
 > Estornos podem ser feitos por motivos legítimos — devolução bancária, depósito duplicado, doação devolvida. Em todos esses casos, **estornar é o caminho correto, não excluir**. Excluir um lançamento pago não é nem permitido pelo Bússola justamente para preservar a integridade da prestação de contas.
 
+## Corrigir os dados de pagamento de um lançamento pago
+
+Às vezes a data ou a conta registradas no pagamento saem diferentes do que aconteceu no banco — você pagou num dia e lançou no outro, ou marcou a conta errada. Antes era preciso estornar e refazer; agora dá para **corrigir direto**, sem desfazer o lançamento.
+
+[![Diálogo de edição dos dados de pagamento](/assets/screenshots/mov-editar-pagamento-01.png)](/assets/screenshots/mov-editar-pagamento-01.png)
+*Editar dados de pagamento — ajuste data e/ou conta e informe o motivo*
+
+**Quem pode:** os responsáveis financeiros — o mesmo perfil que marca lançamentos como pagos e faz estornos.
+
+Para corrigir:
+
+1. Abra o **detalhe** do lançamento (ele precisa estar com status **Pago**).
+2. Clique em **Editar dados de pagamento**.
+3. Ajuste a **data de pagamento** e/ou a **conta financeira** e escreva um **motivo** — o motivo é obrigatório e fica guardado no histórico da movimentação.
+4. Salve. Se você trocou a conta, os **saldos das contas envolvidas são recalculados** automaticamente.
+
+> ⚠️ **Atenção · Só data e conta**
+>
+> Por aqui você corrige apenas a **data de pagamento** e a **conta**. Valor, categoria e status permanecem intactos. Para corrigir o **valor** de um lançamento pago, o caminho continua sendo o **Estorno**. Transferências não usam essa correção.
+
 ## Importar lançamentos
 
 [![Importar Lançamentos com 2 fontes](/assets/screenshots/manual-04b-importar-lancamentos.png)](/assets/screenshots/manual-04b-importar-lancamentos.png)
