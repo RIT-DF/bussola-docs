@@ -31,7 +31,7 @@ FUNCTIONS_BASE = os.environ.get(
     "FUNCTIONS_BASE",
     "https://jswyzxutdkrbrleotklo.supabase.co/functions/v1",
 ).rstrip("/")
-SITE_BASE = os.environ.get("SITE_BASE", "https://docs.bf.rit.org.br").rstrip("/")
+SITE_BASE = os.environ.get("SITE_BASE", "https://docs.financeiro.rit360.org.br").rstrip("/")
 TOKEN = os.environ.get("POLICY_PUBLISH_TOKEN", "")
 
 
