@@ -65,3 +65,5 @@ back_to_top_text: "Voltar ao topo"
 exclude:
   - "*.sh"
   - README.md
+  - bin
+  - "*.py"
