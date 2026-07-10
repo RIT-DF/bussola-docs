@@ -5,7 +5,7 @@ parent: "Guias por Papel"
 permalink: /guias/presidente/
 ---
 
-Ser presidente de uma OSC significa **responder pela organização** — perante os associados, os financiadores, os órgãos públicos e a própria missão. Legal e moralmente, **tudo o que acontece (ou deixa de acontecer) na OSC passa pela presidência**. Mas isso não quer dizer fazer tudo sozinho — quer dizer **conseguir enxergar tudo** e delegar com confiança. Este guia mostra como assumir essa responsabilidade **com tranquilidade**, usando os boxes **🧭 Como o Bússola ajuda** para ver onde a plataforma vira a sua aliada.
+Ser presidente de uma OSC significa **responder pela organização** — perante os associados, os financiadores, os órgãos públicos e a própria missão. Legal e moralmente, **tudo o que acontece (ou deixa de acontecer) na OSC passa pela presidência**. Mas isso não quer dizer fazer tudo sozinho — quer dizer **conseguir enxergar tudo** e delegar com confiança. Este guia mostra como assumir essa responsabilidade **com tranquilidade**, usando os boxes **🧭 Como o RIT360 Financeiro ajuda** para ver onde a plataforma vira a sua aliada.
 
 > 💡 **A ideia central**
 >
@@ -28,9 +28,9 @@ O instrumento mais poderoso do presidente é a **delegação bem feita**. Dar a 
 - Atribua os papéis com critério: tesouraria opera o financeiro, coordenadores tocam projetos, o conselho fiscal acompanha.
 - Reserve para a presidência o que é estrutural: configurar a OSC, gerenciar usuários, definir quem aprova.
 
-> 🧭 **Como o Bússola ajuda · Papéis e delegação**
+> 🧭 **Como o RIT360 Financeiro ajuda · Papéis e delegação**
 >
-> O Bússola tem papéis bem desenhados (Presidente, Tesoureiro, Diretor, Coordenador, Comissão Fiscal, Voluntário). Você delega a operação **sem perder a visão**, e cada papel só enxerga e faz o que lhe cabe — o voluntário pede o reembolso dele sem ver o caixa, o tesoureiro opera sem configurar a OSC.
+> O RIT360 Financeiro tem papéis bem desenhados (Presidente, Tesoureiro, Diretor, Coordenador, Comissão Fiscal, Voluntário). Você delega a operação **sem perder a visão**, e cada papel só enxerga e faz o que lhe cabe — o voluntário pede o reembolso dele sem ver o caixa, o tesoureiro opera sem configurar a OSC.
 >
 > [![Papéis e permissões](/assets/screenshots/manual-09b-config-usuarios.png)](/assets/screenshots/manual-09b-config-usuarios.png)
 
@@ -38,7 +38,7 @@ O instrumento mais poderoso do presidente é a **delegação bem feita**. Dar a 
 
 A tranquilidade do presidente vem de uma coisa simples: **conseguir abrir o sistema e, em segundos, saber como a OSC está**. Não é preciso mergulhar nos detalhes — é preciso ter o panorama e saber onde olhar mais de perto quando algo pede atenção.
 
-> 🧭 **Como o Bússola ajuda · Painel com as pendências e a saúde**
+> 🧭 **Como o RIT360 Financeiro ajuda · Painel com as pendências e a saúde**
 >
 > O **Painel** reúne o que importa para a presidência: saldos, o que está pendente de aprovação e a saúde dos projetos. É a sua visão de relance — sem abrir um a um, você vê o que vai bem e o que pede atenção.
 >
@@ -48,7 +48,7 @@ A tranquilidade do presidente vem de uma coisa simples: **conseguir abrir o sist
 
 Uma OSC ativa toca vários projetos ao mesmo tempo. O presidente não conduz cada um — mas precisa saber, de relance, **quantos estão saudáveis e quais pedem atenção**.
 
-> 🧭 **Como o Bússola ajuda · Portfólio de projetos com semáforo**
+> 🧭 **Como o RIT360 Financeiro ajuda · Portfólio de projetos com semáforo**
 >
 > Cada projeto tem uma **saúde** (verde/amarelo/vermelho) que considera orçamento, prazo e marcos. No Painel, você vê o portfólio inteiro de uma vez — a diferença entre descobrir um problema *a tempo de agir* e descobri-lo no dia da prestação de contas.
 >
@@ -58,7 +58,7 @@ Uma OSC ativa toca vários projetos ao mesmo tempo. O presidente não conduz cad
 
 O presidente não precisa ser o gargalo de tudo. O fluxo de aprovação existe para que **as decisões certas cheguem às pessoas certas** — e para que você decida o que é da sua alçada sem ter de revisar o resto.
 
-> 🧭 **Como o Bússola ajuda · Fluxo de aprovação configurável**
+> 🧭 **Como o RIT360 Financeiro ajuda · Fluxo de aprovação configurável**
 >
 > A OSC define quem aprova cada coisa (abertura e encerramento de projetos, reembolsos, pedidos de pagamento). Você concentra a sua atenção no que é estratégico e delega o operacional — com o registro de quem aprovou o quê.
 >
@@ -71,7 +71,7 @@ A prestação de contas é, no fim, **responsabilidade da presidência** — nã
 - Acompanhe os relatórios consolidados antes das reuniões de diretoria e assembleia.
 - Garanta que a tesouraria e o conselho fiscal tenham o que precisam.
 
-> 🧭 **Como o Bússola ajuda · Relatórios sempre prontos**
+> 🧭 **Como o RIT360 Financeiro ajuda · Relatórios sempre prontos**
 >
 > Os **Relatórios** consolidados ficam disponíveis a qualquer momento — saldo, receitas, despesas, resultado, pontos de atenção e projeção — exportáveis em PDF e Excel. A prestação de contas deixa de ser uma corrida de fim de ano e vira um retrato sempre atualizado.
 >
@@ -88,4 +88,4 @@ A prestação de contas é, no fim, **responsabilidade da presidência** — nã
 
 > 💡 **No fim das contas**
 >
-> Sim, a OSC é responsabilidade sua — e é exatamente por isso que você merece uma ferramenta que te dê **visão sem exigir que você faça tudo**. O Bússola não te substitui no comando; ele te dá o painel de instrumentos para comandar **com a tranquilidade de quem enxerga o todo**. Responsabilidade, com as ferramentas certas, não precisa dar medo — precisa dar clareza.
+> Sim, a OSC é responsabilidade sua — e é exatamente por isso que você merece uma ferramenta que te dê **visão sem exigir que você faça tudo**. O RIT360 Financeiro não te substitui no comando; ele te dá o painel de instrumentos para comandar **com a tranquilidade de quem enxerga o todo**. Responsabilidade, com as ferramentas certas, não precisa dar medo — precisa dar clareza.

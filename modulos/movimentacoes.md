@@ -13,7 +13,7 @@ O módulo de **Movimentações** é onde sua OSC registra cada entrada e saída 
 
 ## Conceitos essenciais
 
-Antes de entrar nos botões, vale firmar três conceitos que você vai ver em toda o Bússola.
+Antes de entrar nos botões, vale firmar três conceitos que você vai ver em toda o RIT360 Financeiro.
 
 > 📖 **Conceito · Receita, despesa e transferência**
 >
@@ -21,11 +21,11 @@ Antes de entrar nos botões, vale firmar três conceitos que você vai ver em to
 
 > 📖 **Conceito · Regime de caixa**
 >
-> O Bússola opera por **regime de caixa**: o que vale para o seu saldo e seus relatórios é a *data em que o dinheiro entrou ou saiu da conta*, não a data em que você assinou o contrato ou recebeu a fatura. Por isso a movimentação tem dois campos de data: **vencimento** (quando *deveria* acontecer) e **pagamento** (quando *aconteceu de fato*). Enquanto a data de pagamento não estiver preenchida, o dinheiro ainda não mexeu no seu saldo — ele está "previsto", não "realizado". Esse é o jeito mais simples e direto de acompanhar uma OSC e bate com a forma como a maioria das prestações de contas é feita.
+> O RIT360 Financeiro opera por **regime de caixa**: o que vale para o seu saldo e seus relatórios é a *data em que o dinheiro entrou ou saiu da conta*, não a data em que você assinou o contrato ou recebeu a fatura. Por isso a movimentação tem dois campos de data: **vencimento** (quando *deveria* acontecer) e **pagamento** (quando *aconteceu de fato*). Enquanto a data de pagamento não estiver preenchida, o dinheiro ainda não mexeu no seu saldo — ele está "previsto", não "realizado". Esse é o jeito mais simples e direto de acompanhar uma OSC e bate com a forma como a maioria das prestações de contas é feita.
 
 > 📖 **Conceito · Status do lançamento**
 >
-> Cada movimentação tem um status que conta sua história. O ciclo de vida normal é **Pendente → Pago**. Quando o vencimento passa e nada foi pago, vira **Atrasado**. Quando uma movimentação não vai mais acontecer (ex: cancelaram o evento que pagaria o aluguel do salão), você a **Cancela**. Quando ela já estava paga mas precisa ser desfeita (ex: depósito caiu duplicado e o banco devolveu o segundo), você a **Estorna** — o Bússola cria um lançamento contrário automaticamente para preservar a história.
+> Cada movimentação tem um status que conta sua história. O ciclo de vida normal é **Pendente → Pago**. Quando o vencimento passa e nada foi pago, vira **Atrasado**. Quando uma movimentação não vai mais acontecer (ex: cancelaram o evento que pagaria o aluguel do salão), você a **Cancela**. Quando ela já estava paga mas precisa ser desfeita (ex: depósito caiu duplicado e o banco devolveu o segundo), você a **Estorna** — o RIT360 Financeiro cria um lançamento contrário automaticamente para preservar a história.
 
 | Status | Significado | Quando aparece |
 |---|---|---|
@@ -97,7 +97,7 @@ Cada linha tem ícones de ação que mudam conforme o status:
 
 > ⚠️ **Atenção · Cancelar não é a mesma coisa que excluir**
 >
-> **Cancelar** marca o lançamento como anulado mas mantém o histórico — útil quando algo registrado não vai mais acontecer (evento desmarcado, fornecedor desistiu) e você quer rastreabilidade. **Excluir** apaga o lançamento de vez. O Bússola só permite excluir lançamentos já **cancelados**, justamente para evitar perda acidental; **estornos são preservados** (não podem ser excluídos) para manter a prestação de contas íntegra. Para auditoria limpa, prefira sempre **cancelar** a excluir.
+> **Cancelar** marca o lançamento como anulado mas mantém o histórico — útil quando algo registrado não vai mais acontecer (evento desmarcado, fornecedor desistiu) e você quer rastreabilidade. **Excluir** apaga o lançamento de vez. O RIT360 Financeiro só permite excluir lançamentos já **cancelados**, justamente para evitar perda acidental; **estornos são preservados** (não podem ser excluídos) para manter a prestação de contas íntegra. Para auditoria limpa, prefira sempre **cancelar** a excluir.
 
 ### Seleção em lote
 
@@ -111,7 +111,7 @@ O botão **Exportar** oferece três saídas:
 - **Excel** — planilha para análises customizadas
 - **Prestação de contas** — o documento contábil completo do período, em regime de caixa, com os comprovantes anexados (ver a seção **Prestação de contas** abaixo)
 
-Ao escolher **PDF** ou **Excel**, antes de gerar o arquivo o Bússola abre um **seletor de colunas**: marque ou desmarque o que deve aparecer no relatório. Vêm marcadas por padrão oito colunas — Vencimento, Pagamento, Pagador/Beneficiário, Lançamento, Conta, Categoria, Status e Valor — e você pode acrescentar **Tipo**, **Forma de pagamento**, **Observações** e **Nº de anexos**. A seleção é **lembrada para a próxima exportação**, separada por organização (cada OSC mantém o formato que prefere). É preciso deixar pelo menos uma coluna marcada.
+Ao escolher **PDF** ou **Excel**, antes de gerar o arquivo o RIT360 Financeiro abre um **seletor de colunas**: marque ou desmarque o que deve aparecer no relatório. Vêm marcadas por padrão oito colunas — Vencimento, Pagamento, Pagador/Beneficiário, Lançamento, Conta, Categoria, Status e Valor — e você pode acrescentar **Tipo**, **Forma de pagamento**, **Observações** e **Nº de anexos**. A seleção é **lembrada para a próxima exportação**, separada por organização (cada OSC mantém o formato que prefere). É preciso deixar pelo menos uma coluna marcada.
 
 ## Detalhe de uma movimentação
 
@@ -168,7 +168,7 @@ Clique em **+ Novo lançamento** no topo da lista. O formulário abre em **pági
 
 > 📖 **Conceito · O formulário se adapta ao tipo**
 >
-> Ao escolher **Transferência**, o Bússola **oculta os campos que não fazem sentido** para um movimento interno entre contas — Beneficiário, Categoria e os campos de documento fiscal somem, e aparece o campo de **conta de destino**. Você só vê o que precisa preencher para cada tipo de lançamento. Da mesma forma, os campos de destinatário (chave PIX / dados bancários) só aparecem em **Despesa**, conforme a forma de pagamento escolhida.
+> Ao escolher **Transferência**, o RIT360 Financeiro **oculta os campos que não fazem sentido** para um movimento interno entre contas — Beneficiário, Categoria e os campos de documento fiscal somem, e aparece o campo de **conta de destino**. Você só vê o que precisa preencher para cada tipo de lançamento. Da mesma forma, os campos de destinatário (chave PIX / dados bancários) só aparecem em **Despesa**, conforme a forma de pagamento escolhida.
 
 No **celular**, o mesmo formulário se organiza em uma coluna única, na ordem em que você preenche — desenhado para registrar um lançamento de pé, em campo, sem zoom nem rolagem horizontal:
 
@@ -195,11 +195,11 @@ A barra lateral direita também controla a repetição do lançamento:
 
 Você pode anexar arquivos (comprovantes, notas fiscais, contratos) ao lançamento. Anexo é **opcional** — lançamento sem comprovante continua válido — mas é fortemente recomendado para qualquer movimentação que tenha origem em compra, serviço contratado ou pagamento de terceiro. PDFs e imagens ganham pré-visualização inline na página de detalhe.
 
-**Em mobile**, a seção **DOCUMENTOS** exibe dois botões: **Tirar foto** (abre a câmera traseira do celular direto, com preview **Refazer** ou **Confirmar** antes de subir) e **Anexar arquivo** (aceita imagens, PDF, XML de NFe e ZIP). O Bússola reduz a foto automaticamente antes do upload — fica leve mesmo em conexão móvel ruim, sem perder a legibilidade do cupom para auditoria humana ou para extração automática futura via IA.
+**Em mobile**, a seção **DOCUMENTOS** exibe dois botões: **Tirar foto** (abre a câmera traseira do celular direto, com preview **Refazer** ou **Confirmar** antes de subir) e **Anexar arquivo** (aceita imagens, PDF, XML de NFe e ZIP). O RIT360 Financeiro reduz a foto automaticamente antes do upload — fica leve mesmo em conexão móvel ruim, sem perder a legibilidade do cupom para auditoria humana ou para extração automática futura via IA.
 
 **Em desktop**, a seção mostra uma área para arrastar arquivos ou clicar para selecionar — o botão "Tirar foto" não aparece nesse contexto (webcam de laptop não serve para fotografar comprovante apoiado na mesa).
 
-**Anexou um arquivo ZIP?** O Bússola **descompacta o pacote automaticamente** e anexa cada documento de dentro como um anexo individual do lançamento — o ZIP some da lista, dando lugar aos arquivos. Assim, cada comprovante que estava no pacote ganha pré-visualização e **entra na prestação de contas** (um ZIP, por ser um pacote fechado, não poderia ser exibido no relatório). A expansão roda em segundo plano, em segundos, e vale também quando o comprovante chega por **link** na importação por CSV. Arquivos que não dá para exibir num PDF (planilhas, documentos de texto) ficam anexados, mas não aparecem no corpo do relatório.
+**Anexou um arquivo ZIP?** O RIT360 Financeiro **descompacta o pacote automaticamente** e anexa cada documento de dentro como um anexo individual do lançamento — o ZIP some da lista, dando lugar aos arquivos. Assim, cada comprovante que estava no pacote ganha pré-visualização e **entra na prestação de contas** (um ZIP, por ser um pacote fechado, não poderia ser exibido no relatório). A expansão roda em segundo plano, em segundos, e vale também quando o comprovante chega por **link** na importação por CSV. Arquivos que não dá para exibir num PDF (planilhas, documentos de texto) ficam anexados, mas não aparecem no corpo do relatório.
 
 **Em Novo Lançamento nos modos Recorrente e Parcelado**, a seção de anexo é ocultada na criação da série — não há um lançamento único ao qual associar o documento. Uma nota explicativa orienta a anexar individualmente em cada lançamento depois que a série for criada. Em **Editar Lançamento**, a seção funciona normalmente, pois você sempre edita um movimento individual.
 
@@ -209,7 +209,7 @@ Você pode anexar arquivos (comprovantes, notas fiscais, contratos) ao lançamen
 
 > ✓ **Dica · Tesoureiro em campo, câmera direto no app**
 >
-> Tesoureiro voluntário em viagem com o grupo, pagou combustível no posto: abre o Bússola instalado no celular, **Novo Lançamento → Tirar foto**, fotografa o cupom fiscal, confirma. Quatro toques contra os oito tradicionais de tirar foto pelo app de câmera, salvar na galeria, abrir o Bússola, navegar, selecionar.
+> Tesoureiro voluntário em viagem com o grupo, pagou combustível no posto: abre o RIT360 Financeiro instalado no celular, **Novo Lançamento → Tirar foto**, fotografa o cupom fiscal, confirma. Quatro toques contra os oito tradicionais de tirar foto pelo app de câmera, salvar na galeria, abrir o RIT360 Financeiro, navegar, selecionar.
 
 ## Estornar um lançamento
 
@@ -220,13 +220,13 @@ Estornar é diferente de cancelar. Estorno é a forma contábil correta de rever
 
 > 📖 **Conceito · O que acontece quando você estorna**
 >
-> O Bússola não apaga o lançamento original. Em vez disso, cria automaticamente um **lançamento contrário** com a mesma data, o mesmo valor e a categoria/conta espelhadas — uma receita estornada vira uma despesa de igual valor, e vice-versa. Os dois ficam vinculados na timeline e ambos exibem o badge "Estornado". O resultado no saldo é o mesmo que se nada tivesse acontecido, mas **a história fica preservada**: você consegue mostrar, anos depois, que aquele depósito chegou, foi estornado, e por quê.
+> O RIT360 Financeiro não apaga o lançamento original. Em vez disso, cria automaticamente um **lançamento contrário** com a mesma data, o mesmo valor e a categoria/conta espelhadas — uma receita estornada vira uma despesa de igual valor, e vice-versa. Os dois ficam vinculados na timeline e ambos exibem o badge "Estornado". O resultado no saldo é o mesmo que se nada tivesse acontecido, mas **a história fica preservada**: você consegue mostrar, anos depois, que aquele depósito chegou, foi estornado, e por quê.
 
 Para estornar: vá no detalhe do lançamento → botão **Estornar** → informe a razão. O lançamento contrário é criado e ambos ficam marcados na lista.
 
 > ⚠️ **Atenção · Estorno preserva, exclusão apaga**
 >
-> Estornos podem ser feitos por motivos legítimos — devolução bancária, depósito duplicado, doação devolvida. Em todos esses casos, **estornar é o caminho correto, não excluir**. Excluir um lançamento pago não é nem permitido pelo Bússola justamente para preservar a integridade da prestação de contas.
+> Estornos podem ser feitos por motivos legítimos — devolução bancária, depósito duplicado, doação devolvida. Em todos esses casos, **estornar é o caminho correto, não excluir**. Excluir um lançamento pago não é nem permitido pelo RIT360 Financeiro justamente para preservar a integridade da prestação de contas.
 
 ## Corrigir os dados de pagamento de um lançamento pago
 
@@ -259,7 +259,7 @@ Em vez de digitar lançamento por lançamento, você pode importar de duas fonte
 
 ### Importação por CSV
 
-Útil para migrar histórico de planilhas (a base mais comum quando uma OSC começa a usar o Bússola). Faça download do template, preencha as linhas com seus lançamentos antigos, faça upload. O Bússola mostra um **preview** com erros por linha antes de criar nada; você confirma e os lançamentos são criados em lote.
+Útil para migrar histórico de planilhas (a base mais comum quando uma OSC começa a usar o RIT360 Financeiro). Faça download do template, preencha as linhas com seus lançamentos antigos, faça upload. O RIT360 Financeiro mostra um **preview** com erros por linha antes de criar nada; você confirma e os lançamentos são criados em lote.
 
 **Formato:** separador ponto-e-vírgula (`;`); valor em reais com vírgula decimal (`1500,00`); data `DD/MM/AAAA`.
 
@@ -296,20 +296,20 @@ Parcelas e recorrências não entram por CSV — crie pelo formulário. **Compro
 
 ### Importação do WooCommerce
 
-Se sua OSC tem loja online em WooCommerce (venda de produtos, doações online, ingressos), pode conectar a loja ao Bússola em **Configurações → Organização → WooCommerce**. Uma vez configurada, pedidos pagos viram receitas automaticamente — diariamente via sincronização programada ou sob demanda pelo botão **Importar agora** desta tela. A sincronização roda **em segundo plano**: a tela responde na hora, você acompanha o andamento pelo histórico e recebe um aviso ao concluir; importações grandes se completam sozinhas, em um único disparo.
+Se sua OSC tem loja online em WooCommerce (venda de produtos, doações online, ingressos), pode conectar a loja ao RIT360 Financeiro em **Configurações → Organização → WooCommerce**. Uma vez configurada, pedidos pagos viram receitas automaticamente — diariamente via sincronização programada ou sob demanda pelo botão **Importar agora** desta tela. A sincronização roda **em segundo plano**: a tela responde na hora, você acompanha o andamento pelo histórico e recebe um aviso ao concluir; importações grandes se completam sozinhas, em um único disparo.
 
 Mais detalhes na seção de configurações.
 
 ## Conciliação bancária (extrato OFX)
 
-Se você baixa o **extrato do banco em formato OFX** (a maioria dos bancos oferece), pode conciliá-lo com seus lançamentos no Bússola — em vez de marcar conta por conta como paga.
+Se você baixa o **extrato do banco em formato OFX** (a maioria dos bancos oferece), pode conciliá-lo com seus lançamentos no RIT360 Financeiro — em vez de marcar conta por conta como paga.
 
 **Acesso:** tela de **Conciliação**, a partir das movimentações.
 
 **Como funciona:**
 
 1. Escolha a **conta** e suba o arquivo `.ofx`.
-2. O Bússola lê cada transação do extrato e **procura o lançamento correspondente** (por valor e proximidade de data), organizando tudo em quatro grupos:
+2. O RIT360 Financeiro lê cada transação do extrato e **procura o lançamento correspondente** (por valor e proximidade de data), organizando tudo em quatro grupos:
    - **Conciliados** — alta confiança no casamento; já vêm pré-marcados.
    - **Em revisão** — casamento provável, mas com alguns dias de diferença; você confirma ou recusa.
    - **Novos** — transações sem lançamento correspondente; você pode **criar** o lançamento (escolhendo a categoria) ou ignorar.
@@ -319,14 +319,14 @@ Se você baixa o **extrato do banco em formato OFX** (a maioria dos bancos ofere
 **Reimportar o mesmo extrato não duplica nada** — cada transação é reconhecida pelo identificador único do banco.
 
 > 💡 **Por que isso importa**
-> Conciliar pelo extrato substitui a conferência manual lançamento a lançamento, reduz erro e dá confiança de que o que está registrado no Bússola bate com o banco.
+> Conciliar pelo extrato substitui a conferência manual lançamento a lançamento, reduz erro e dá confiança de que o que está registrado no RIT360 Financeiro bate com o banco.
 
 ## Prestação de contas
 
 [![Diálogo de prestação de contas](/assets/screenshots/manual-mov-prestacao-contas.png)](/assets/screenshots/manual-mov-prestacao-contas.png)
 *Em Exportar → Prestação de contas: escolha o período e, opcionalmente, anexe documentos complementares*
 
-A **prestação de contas** é um documento em PDF, no padrão visual do Bússola, que reúne **tudo o que a organização precisa apresentar de um período** — para a diretoria, o conselho fiscal, a assembleia de associados, um financiador ou um órgão público. Diferente do *Exportar PDF* (que é a lista de lançamentos), a prestação de contas é um **relatório contábil completo, em regime de caixa**, pronto para entregar. Está disponível para a **diretoria/tesouraria** e a **comissão fiscal** da organização.
+A **prestação de contas** é um documento em PDF, no padrão visual do RIT360 Financeiro, que reúne **tudo o que a organização precisa apresentar de um período** — para a diretoria, o conselho fiscal, a assembleia de associados, um financiador ou um órgão público. Diferente do *Exportar PDF* (que é a lista de lançamentos), a prestação de contas é um **relatório contábil completo, em regime de caixa**, pronto para entregar. Está disponível para a **diretoria/tesouraria** e a **comissão fiscal** da organização.
 
 ### O que o documento traz
 
@@ -347,7 +347,7 @@ Os documentos ficam **vinculados àquele período**: se você gerar o mesmo per�
 
 Para anexar, na seção **Documentos complementares** do diálogo: escolha o arquivo (PDF ou imagem), preencha o **título** (obrigatório) e uma **descrição** opcional, e clique em **Anexar este documento**. Repita para quantos documentos quiser.
 
-> ⚠️ Escolher o arquivo **não basta** — é o botão **Anexar este documento** que efetiva o anexo. Se você clicar em *Gerar PDF* com um arquivo escolhido mas ainda não anexado, o Bússola anexa automaticamente (quando há título) ou avisa para você concluir antes.
+> ⚠️ Escolher o arquivo **não basta** — é o botão **Anexar este documento** que efetiva o anexo. Se você clicar em *Gerar PDF* com um arquivo escolhido mas ainda não anexado, o RIT360 Financeiro anexa automaticamente (quando há título) ou avisa para você concluir antes.
 
 ### Como gerar
 
@@ -373,7 +373,7 @@ Para anexar, na seção **Documentos complementares** do diálogo: escolha o arq
 
 > ✓ **Dica · Confira a lista contra o extrato bancário todo mês**
 >
-> No final do mês, abra o extrato do banco e a lista de movimentações do Bússola filtrada pelo mês. Cada linha do extrato deve ter um lançamento correspondente. Diferenças vão aparecer (taxa que você esqueceu, transferência que veio sem aviso) — corrigir essas diferenças mensalmente é mil vezes mais fácil do que descobrir 6 meses depois.
+> No final do mês, abra o extrato do banco e a lista de movimentações do RIT360 Financeiro filtrada pelo mês. Cada linha do extrato deve ter um lançamento correspondente. Diferenças vão aparecer (taxa que você esqueceu, transferência que veio sem aviso) — corrigir essas diferenças mensalmente é mil vezes mais fácil do que descobrir 6 meses depois.
 
 > ⚠️ **Atenção · Cuidado com transferências entre contas**
 >

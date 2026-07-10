@@ -62,7 +62,7 @@ A mesma regra vale na atribuição: se você tentar dar a uma pessoa da Comissã
 
 > 💡 **Por que isso importa · Segregação de funções**
 >
-> Quem opera o dinheiro não pode ser quem fiscaliza o dinheiro — é o princípio que dá credibilidade ao conselho fiscal e costuma estar no estatuto da OSC. O Bússola protege isso automaticamente, para que a fiscalização nunca acabe auditando os próprios atos.
+> Quem opera o dinheiro não pode ser quem fiscaliza o dinheiro — é o princípio que dá credibilidade ao conselho fiscal e costuma estar no estatuto da OSC. O RIT360 Financeiro protege isso automaticamente, para que a fiscalização nunca acabe auditando os próprios atos.
 
 ## Criar e clonar cargos
 
@@ -85,7 +85,7 @@ A atribuição é feita em **Configurações → Usuários**: no menu de ações
 
 ## Renomear o rótulo de um cargo
 
-Você também pode trocar **como cada cargo é chamado** na sua OSC (onde o Bússola diz "Tesoureiro", a sua associação pode dizer "Diretor Financeiro") — sem mudar as permissões. O novo rótulo aparece em toda a aplicação.
+Você também pode trocar **como cada cargo é chamado** na sua OSC (onde o RIT360 Financeiro diz "Tesoureiro", a sua associação pode dizer "Diretor Financeiro") — sem mudar as permissões. O novo rótulo aparece em toda a aplicação.
 
 ## Por onde seguir
 

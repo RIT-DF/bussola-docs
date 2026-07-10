@@ -5,7 +5,7 @@ parent: "Guias por Papel"
 permalink: /guias/coordenador-projetos/
 ---
 
-Coordenar um projeto numa OSC é, na prática, **fazer acontecer** — com gente voluntária, orçamento curto e prazo real. Este guia reúne o que se espera de um coordenador de projetos no terceiro setor: as responsabilidades, os pontos de atenção e as boas práticas que separam um projeto que entrega de um que se perde no caminho. Ao longo do texto, os boxes **🧭 Como o Bússola ajuda** mostram onde a plataforma trabalha a seu favor.
+Coordenar um projeto numa OSC é, na prática, **fazer acontecer** — com gente voluntária, orçamento curto e prazo real. Este guia reúne o que se espera de um coordenador de projetos no terceiro setor: as responsabilidades, os pontos de atenção e as boas práticas que separam um projeto que entrega de um que se perde no caminho. Ao longo do texto, os boxes **🧭 Como o RIT360 Financeiro ajuda** mostram onde a plataforma trabalha a seu favor.
 
 > 💡 **A ideia central**
 >
@@ -28,7 +28,7 @@ O erro mais comum em OSC é começar a executar antes de combinar o que, de fato
 - Liste 2 a 4 critérios de sucesso **mensuráveis** ("atender 80 famílias", "arrecadar R$ 10 mil").
 - Diga explicitamente o que **não** faz parte — é o que evita o projeto inchar no meio do caminho.
 
-> 🧭 **Como o Bússola ajuda · Planejamento estruturado**
+> 🧭 **Como o RIT360 Financeiro ajuda · Planejamento estruturado**
 >
 > O bloco de **Planejamento** do projeto guarda objetivo, critérios de sucesso, fora-de-escopo, marcos e riscos num só lugar — e tudo isso volta automaticamente no relatório de encerramento.
 >
@@ -46,7 +46,7 @@ Prazo não se controla com uma única "data de entrega". Controla-se com **marco
 - Acompanhe os marcos toda semana — um marco atrasado é um aviso, não um fracasso.
 - Reaja cedo: remarcar com 3 semanas de antecedência é gestão; remarcar na véspera é apagar incêndio.
 
-> 🧭 **Como o Bússola ajuda · Marcos e saúde do projeto**
+> 🧭 **Como o RIT360 Financeiro ajuda · Marcos e saúde do projeto**
 >
 > Cada tipo de projeto já sugere marcos-modelo, e a **saúde do projeto** (verde/amarelo/vermelho) considera marcos atrasados — a diretoria vê de relance, no Painel, quais projetos pedem atenção, sem abrir um por um.
 >
@@ -60,13 +60,13 @@ O orçamento do projeto não é uma "caixinha à parte": é o dinheiro da OSC, *
 - Vincule cada despesa ao projeto **na hora**, não semanas depois.
 - Guarde os **comprovantes** de cada despesa — são a base da prestação de contas ao financiador. Melhor ainda: anexe a nota **na hora**, antes que o papel se perca.
 
-> 🧭 **Como o Bússola ajuda · Financeiro do projeto incorporado**
+> 🧭 **Como o RIT360 Financeiro ajuda · Financeiro do projeto incorporado**
 >
-> O Bússola tem a **gestão financeira do projeto embutida**: receitas dedicadas, despesas vinculadas, orçamento previsto × realizado por categoria e (em eventos) a calculadora de taxa de participação — tudo no próprio projeto, sem planilha paralela.
+> O RIT360 Financeiro tem a **gestão financeira do projeto embutida**: receitas dedicadas, despesas vinculadas, orçamento previsto × realizado por categoria e (em eventos) a calculadora de taxa de participação — tudo no próprio projeto, sem planilha paralela.
 >
 > [![Financeiro do projeto](/assets/screenshots/manual-projetos-05-financeiro.png)](/assets/screenshots/manual-projetos-05-financeiro.png)
 
-> 🧭 **Como o Bússola ajuda · Comprovante na hora, direto do celular**
+> 🧭 **Como o RIT360 Financeiro ajuda · Comprovante na hora, direto do celular**
 >
 > Toda movimentação financeira aceita **anexos** — e, no celular, dá para **fotografar a nota fiscal na hora**, direto pela câmera, sem precisar escanear ou transferir o arquivo depois. O comprovante já fica vinculado à despesa, pronto para a prestação de contas. É a diferença entre ter a documentação completa no encerramento e caçar papel perdido meses depois.
 >
@@ -80,7 +80,7 @@ A equipe de um projeto de OSC costuma ser voluntária: faz por convicção, no t
 - Reconheça publicamente quem entrega; isso sustenta o engajamento mais que qualquer cobrança.
 - Seja realista com a capacidade de cada um: 30 minutos por semana de um voluntário valem ouro se bem direcionados.
 
-> 🧭 **Como o Bússola ajuda · Tarefas e equipe**
+> 🧭 **Como o RIT360 Financeiro ajuda · Tarefas e equipe**
 >
 > No bloco de **Execução**, cada tarefa tem responsável e prazo, e a contribuição da equipe entra no relatório final — o reconhecimento fica registrado, não só na memória.
 >
@@ -94,7 +94,7 @@ Em OSC a equipe muda: voluntário entra, coordenador sai, a diretoria roda. O qu
 - Registre decisões importantes e o porquê delas.
 - Trate o registro como a **memória do projeto** — vale ouro na prestação de contas e no próximo projeto parecido.
 
-> 🧭 **Como o Bússola ajuda · Comunicação do projeto**
+> 🧭 **Como o RIT360 Financeiro ajuda · Comunicação do projeto**
 >
 > Cada projeto tem uma área de **Comunicação** — a linha do tempo onde a equipe troca mensagens, registra decisões e comentários, menciona pessoas com `@` (que são notificadas) e acompanha os eventos automáticos do projeto (mudou de status, tarefa concluída, alguém entrou na equipe), com filtros por tipo. É a **memória viva** do projeto: quem decidiu o quê, quando e por quê, tudo no mesmo lugar — o que vale ouro quando a equipe muda ou na hora de prestar contas.
 >
@@ -108,9 +108,9 @@ A maioria das OSCs nunca **fecha** um projeto: o evento acaba, todos vão embora
 - Registre lições e boas práticas pensando no **próximo coordenador**, que não viveu o projeto.
 - Gere o relatório/PDF para a prestação de contas ao financiador.
 
-> 🧭 **Como o Bússola ajuda · Encerramento guiado + Lições Aprendidas**
+> 🧭 **Como o RIT360 Financeiro ajuda · Encerramento guiado + Lições Aprendidas**
 >
-> O Bússola conduz a avaliação por um assistente passo a passo, monta o **relatório de encerramento** sozinho (exportável em PDF) e alimenta o acervo de **Lições Aprendidas** da OSC — que o próximo coordenador consulta antes de começar.
+> O RIT360 Financeiro conduz a avaliação por um assistente passo a passo, monta o **relatório de encerramento** sozinho (exportável em PDF) e alimenta o acervo de **Lições Aprendidas** da OSC — que o próximo coordenador consulta antes de começar.
 >
 > [![Assistente de encerramento](/assets/screenshots/manual-projetos-07-encerramento-wizard.png)](/assets/screenshots/manual-projetos-07-encerramento-wizard.png)
 
@@ -126,4 +126,4 @@ A maioria das OSCs nunca **fecha** um projeto: o evento acaba, todos vão embora
 
 > 💡 **No fim das contas**
 >
-> O Bússola existe para tirar de cima de você o peso administrativo — orçamento, prazos, registros, prestação de contas — para que sobre energia para o que só você faz: **conduzir pessoas a entregar algo que importa**.
+> O RIT360 Financeiro existe para tirar de cima de você o peso administrativo — orçamento, prazos, registros, prestação de contas — para que sobre energia para o que só você faz: **conduzir pessoas a entregar algo que importa**.

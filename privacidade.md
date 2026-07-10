@@ -3,23 +3,23 @@ title: "Privacidade"
 nav_order: 1
 parent: "Termos e Privacidade"
 permalink: /privacidade/
-version: "1.1"
-change_summary: "Agora você pode baixar seus dados e excluir sua conta direto na plataforma. Detalhamos também os prazos de carência (30 dias) e de anonimização ao excluir a conta ou encerrar a organização."
+version: "1.2"
+change_summary: "A plataforma passa a se chamar RIT360 Financeiro (antiga Bússola Financeira), operada pela mesma RIT. Também removemos da política os canais de notificação Telegram e WhatsApp, que foram descontinuados."
 requires_reconsent: true
 ---
 
-# Política de Privacidade — Bússola Financeira
+# Política de Privacidade — RIT360 Financeiro
 
-**Vigência:** 21 de junho de 2026
-**Versão:** 1.1
+**Vigência:** 10 de julho de 2026
+**Versão:** 1.2
 
 ---
 
 ## 1. Quem somos
 
-O **Bússola Financeira** é uma plataforma de gestão financeira desenvolvida e operada pela **RIT — Rede de Inovação e Transformação** (CNPJ: 59.905.202/0001-25), com sede em SMPW Qd. 25, Conjunto 4, Lote 10, Unidade C – Park Way – Brasília – DF – CEP 71745-504.
+O **RIT360 Financeiro** é uma plataforma de gestão financeira desenvolvida e operada pela **RIT — Rede de Inovação e Transformação** (CNPJ: 59.905.202/0001-25), com sede em SMPW Qd. 25, Conjunto 4, Lote 10, Unidade C – Park Way – Brasília – DF – CEP 71745-504.
 
-O Bússola é disponibilizado a organizações da sociedade civil (OSCs) mediante cadastro. A **RIT** atua como controladora dos dados de infraestrutura, acesso e operação da plataforma. Cada **OSC** atua como controladora dos dados financeiros e operacionais dos seus próprios membros e atividades. Ambas compartilham responsabilidades conforme detalhado nesta política.
+O RIT360 Financeiro é disponibilizado a organizações da sociedade civil (OSCs) mediante cadastro. A **RIT** atua como controladora dos dados de infraestrutura, acesso e operação da plataforma. Cada **OSC** atua como controladora dos dados financeiros e operacionais dos seus próprios membros e atividades. Ambas compartilham responsabilidades conforme detalhado nesta política.
 
 ---
 
@@ -27,7 +27,7 @@ O Bússola é disponibilizado a organizações da sociedade civil (OSCs) mediant
 
 Esta política se aplica a todas as pessoas físicas cujos dados são tratados pela plataforma, incluindo:
 
-- **Membros das OSCs** que utilizam o Bússola (usuários diretos)
+- **Membros das OSCs** que utilizam o RIT360 Financeiro (usuários diretos)
 - **Destinatários de pagamentos e reembolsos** que sejam pessoas físicas (inseridos pelas OSCs como fornecedores ou prestadores de serviço)
 
 ---

@@ -5,14 +5,14 @@ has_children: true
 permalink: /primeiros-passos/
 ---
 
-Bem-vindo ao **Bússola Financeira**. Esta página te leva do "primeiro e-mail de convite" até "operando o sistema com segurança" em poucos minutos.
+Bem-vindo ao **RIT360 Financeiro**. Esta página te leva do "primeiro e-mail de convite" até "operando o sistema com segurança" em poucos minutos.
 
 > 💡 **Acabou de criar a organização?**
 >
 > Se você é quem **criou ou assumiu a OSC**, há um roteiro próprio para preparar a organização (dados, contas, categorias, fluxo de aprovação e usuários) antes de começar a operar: veja **[Primeiros Passos da Organização](/primeiros-passos/organizacao/)**.
 
 [![Tela de login](/assets/screenshots/manual-00-login.png)](/assets/screenshots/manual-00-login.png)
-*Tela de login do Bússola Financeira*
+*Tela de login do RIT360 Financeiro*
 
 > 💡 **Por que isso importa**
 >
@@ -20,15 +20,15 @@ Bem-vindo ao **Bússola Financeira**. Esta página te leva do "primeiro e-mail d
 
 ## Como funciona o acesso
 
-A entrada no Bússola é por **convite**, não por cadastro aberto. Isso garante que sua OSC mantém controle de quem entra. Quando o administrador (geralmente o presidente da OSC) cadastra você no sistema, você recebe um e-mail com link de configuração da conta.
+A entrada no RIT360 Financeiro é por **convite**, não por cadastro aberto. Isso garante que sua OSC mantém controle de quem entra. Quando o administrador (geralmente o presidente da OSC) cadastra você no sistema, você recebe um e-mail com link de configuração da conta.
 
 > 📖 **Conceito · Múltiplas organizações na mesma conta**
 >
-> Sua conta no Bússola é **única e atrelada ao seu e-mail**, mas você pode ser membro de várias OSCs simultaneamente. Útil para quem é voluntário em mais de um grupo, contador que atende várias OSCs, dirigente que participa de federação e grupo local. Use o **seletor de organização** no topo da tela para alternar — a tela inteira reage à OSC ativa, mostrando os dados dela.
+> Sua conta no RIT360 Financeiro é **única e atrelada ao seu e-mail**, mas você pode ser membro de várias OSCs simultaneamente. Útil para quem é voluntário em mais de um grupo, contador que atende várias OSCs, dirigente que participa de federação e grupo local. Use o **seletor de organização** no topo da tela para alternar — a tela inteira reage à OSC ativa, mostrando os dados dela.
 
 ## Primeiro acesso (via convite)
 
-1. Abra o e-mail de convite enviado pelo administrador da sua organização (assunto começa com "Bússola Financeira").
+1. Abra o e-mail de convite enviado pelo administrador da sua organização (assunto começa com "RIT360 Financeiro").
 2. Clique no link **Configurar minha conta**.
 3. Preencha **nome completo** e defina uma **senha** (mínimo 8 caracteres) — ou clique **Continuar com Google** para usar conta Google.
 4. Leia e aceite a **Política de Privacidade** e os **Termos de Uso** (ambos disponíveis em `docs.bf.rit.org.br`).
@@ -60,11 +60,11 @@ Acesse em: [bf.rit.org.br](https://bf.rit.org.br){:target="_blank" rel="noopener
 
 > ⚠️ **Atenção · Senha forte, sempre**
 >
-> O Bússola tem dados financeiros da sua OSC — conta bancária, CPFs, comprovantes, valores. **Use senha forte e única** (não reaproveite a do e-mail pessoal). Considere usar gerenciador de senhas. O Bússola usa criptografia em dados sensíveis (CPF, RG são cifrados em repouso), mas a primeira linha de defesa é o controle do seu acesso.
+> O RIT360 Financeiro tem dados financeiros da sua OSC — conta bancária, CPFs, comprovantes, valores. **Use senha forte e única** (não reaproveite a do e-mail pessoal). Considere usar gerenciador de senhas. O RIT360 Financeiro usa criptografia em dados sensíveis (CPF, RG são cifrados em repouso), mas a primeira linha de defesa é o controle do seu acesso.
 
 ## Aceite da política e dos termos
 
-Na primeira vez que você acessa, ou quando a Política de Privacidade ou os Termos de Uso são atualizados, aparece uma tela solicitando o aceite dos **dois** documentos. Este passo é obrigatório e o Bússola não libera o uso até que você aceite ambos.
+Na primeira vez que você acessa, ou quando a Política de Privacidade ou os Termos de Uso são atualizados, aparece uma tela solicitando o aceite dos **dois** documentos. Este passo é obrigatório e o RIT360 Financeiro não libera o uso até que você aceite ambos.
 
 [![Tela de aceite dos documentos legais](/assets/screenshots/manual-aceite-documentos-legais.png)](/assets/screenshots/manual-aceite-documentos-legais.png)
 *Tela de aceite — cada documento tem seu link para leitura, um resumo do "o que mudou" e uma confirmação própria; o botão Continuar só habilita com os dois marcados*
@@ -100,7 +100,7 @@ A barra de navegação no topo é o seu mapa:
 ## Seu roteiro recomendado nos primeiros 30 minutos
 
 1. **Acesse o Painel** — entenda saldos e pendências da sua OSC
-2. **Vá em Meu Perfil** (menu do avatar) — confira nome/foto, configure número de WhatsApp e Telegram para receber notificações, configure dados para reembolso (PIX/TED) se você vai pedir reembolsos
+2. **Vá em Meu Perfil** (menu do avatar) — confira nome/foto, ative as notificações por e-mail e push, configure dados para reembolso (PIX/TED) se você vai pedir reembolsos
 3. **Configure preferências de notificação** — escolha quais eventos receber por quais canais na matriz da seção Notificações do Perfil
 4. **Explore Movimentações** — abra a lista, aplique filtros, veja como o sistema mostra a saúde financeira
 5. **Se você é admin** — entre em Configurações da Organização (ícone de engrenagem) e revise dados da OSC, contas bancárias, categorias
@@ -120,7 +120,7 @@ Um usuário pode acumular mais de um papel na mesma OSC (ver [Múltiplos papéis
 
 ## Onde pedir ajuda
 
-- **Botão Feedback** dentro do Bússola — envia mensagem direto para a equipe RIT
+- **Botão Feedback** dentro do RIT360 Financeiro — envia mensagem direto para a equipe RIT
 - **Este manual em `docs.bf.rit.org.br`** — sempre tem a versão mais recente
 - **Novidades** ([novidades](/changelog/)) — para saber o que foi adicionado em cada versão
 - **E-mail dpo@rit.org.br** — para questões de privacidade ou LGPD

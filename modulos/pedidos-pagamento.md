@@ -21,7 +21,7 @@ O módulo de **Pedidos de Pagamento** é onde alguém da OSC **pede autorizaçã
 
 > 📖 **Conceito · Pedido único, recorrente ou parcelado**
 >
-> O Bússola permite três tipos de pedido de pagamento, escolhidos no momento da solicitação:
+> O RIT360 Financeiro permite três tipos de pedido de pagamento, escolhidos no momento da solicitação:
 >
 > - **Único** — pedido avulso, uma vez (o caso mais comum: pagar uma fatura, contratar um serviço pontual)
 > - **Recorrente** — gera uma série que se repete em intervalo regular (mensal, trimestral, anual, etc.). Útil para aluguel, mensalidade de internet, contrato de manutenção. A aprovação cria a série inteira; cada ocorrência é paga individualmente pelo tesoureiro.
@@ -31,7 +31,7 @@ O módulo de **Pedidos de Pagamento** é onde alguém da OSC **pede autorizaçã
 
 > 📖 **Conceito · Quórum e fluxo de aprovação**
 >
-> A OSC configura em **Configurações → Fluxo de Aprovações** quantos votos são necessários (1 ou 2) e quais papéis podem aprovar. O solicitante nunca aprova o próprio pedido quando há outros aprovadores elegíveis — o Bússola bloqueia automaticamente. Quando o solicitante é o único aprovador (caso de OSCs muito pequenas), a auto-aprovação é permitida mas explicitamente registrada no audit log como `self_approved`.
+> A OSC configura em **Configurações → Fluxo de Aprovações** quantos votos são necessários (1 ou 2) e quais papéis podem aprovar. O solicitante nunca aprova o próprio pedido quando há outros aprovadores elegíveis — o RIT360 Financeiro bloqueia automaticamente. Quando o solicitante é o único aprovador (caso de OSCs muito pequenas), a auto-aprovação é permitida mas explicitamente registrada no audit log como `self_approved`.
 
 > 📖 **Conceito · Status do pedido**
 >
@@ -107,7 +107,7 @@ Painel de Ações mostra: **"Aprovado — aguardando confirmação de pagamento 
 
 > 📖 **Conceito · Aprovado vira movimentação automaticamente**
 >
-> No momento da aprovação, o Bússola cria automaticamente a **movimentação financeira pendente** (ou várias, no caso de parcelado e recorrente) com origem `purchase_order` (pedido de pagamento). O tesoureiro entra em Movimentações, escolhe a conta de saída e marca como paga. Cada ocorrência de uma série recorrente gera um movimento individual no momento programado, pago separadamente. O lançamento em Movimentações tem o link **"Ver pedido de pagamento →"** que volta ao detalhe original para conferência.
+> No momento da aprovação, o RIT360 Financeiro cria automaticamente a **movimentação financeira pendente** (ou várias, no caso de parcelado e recorrente) com origem `purchase_order` (pedido de pagamento). O tesoureiro entra em Movimentações, escolhe a conta de saída e marca como paga. Cada ocorrência de uma série recorrente gera um movimento individual no momento programado, pago separadamente. O lançamento em Movimentações tem o link **"Ver pedido de pagamento →"** que volta ao detalhe original para conferência.
 
 ### Cancelar série (recorrente / parcelado)
 
@@ -151,11 +151,11 @@ Toggle no formulário escolhe entre os três tipos. Para **Recorrente** ou **Par
 
 > ⚠️ **Atenção · Anexo é obrigatório no envio**
 >
-> Salvar como rascunho não exige anexo, mas **enviar para aprovação exige pelo menos 1 documento anexado**. O Bússola bloqueia o envio se faltar comprovante. Motivo: aprovação sem documento é aprovação no escuro — vira ponto de risco contábil. Sempre anexe a nota, contrato ou orçamento antes de enviar.
+> Salvar como rascunho não exige anexo, mas **enviar para aprovação exige pelo menos 1 documento anexado**. O RIT360 Financeiro bloqueia o envio se faltar comprovante. Motivo: aprovação sem documento é aprovação no escuro — vira ponto de risco contábil. Sempre anexe a nota, contrato ou orçamento antes de enviar.
 
 > ✓ **Dica · Foto direto pelo celular no momento do pedido**
 >
-> Em mobile, a seção **DOCUMENTOS** do formulário exibe dois botões: **Tirar foto** (abre a câmera traseira do celular direto, com preview **Refazer** ou **Confirmar** antes de subir) e **Anexar arquivo** (PDF, imagem, XML de NFe ou ZIP). O Bússola reduz a foto automaticamente antes do upload — fica leve mesmo em conexão ruim. Combina bem com o caso de uso de coordenador de projeto registrando o pedido de pagamento ainda no fornecedor, com o orçamento na mão.
+> Em mobile, a seção **DOCUMENTOS** do formulário exibe dois botões: **Tirar foto** (abre a câmera traseira do celular direto, com preview **Refazer** ou **Confirmar** antes de subir) e **Anexar arquivo** (PDF, imagem, XML de NFe ou ZIP). O RIT360 Financeiro reduz a foto automaticamente antes do upload — fica leve mesmo em conexão ruim. Combina bem com o caso de uso de coordenador de projeto registrando o pedido de pagamento ainda no fornecedor, com o orçamento na mão.
 
 **Botões de ação:**
 

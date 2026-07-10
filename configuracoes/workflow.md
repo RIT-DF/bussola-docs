@@ -55,7 +55,7 @@ Voluntários não podem criar pedidos de pagamento (só reembolsos), por princí
 
 > 📖 **Conceito · Solicitante nunca aprova o próprio pedido**
 >
-> Independentemente da configuração de papéis aprovadores, o Bússola **bloqueia automaticamente** o solicitante de votar no próprio reembolso ou pedido — a aprovação é gesto de controle externo, faz sentido apenas se alguém **diferente** do solicitante revisa. A exceção é quando o solicitante é o único aprovador elegível (OSC muito pequena); aí o Bússola permite a auto-aprovação mas **marca explicitamente** no audit log como `self_approved` para revisão futura.
+> Independentemente da configuração de papéis aprovadores, o RIT360 Financeiro **bloqueia automaticamente** o solicitante de votar no próprio reembolso ou pedido — a aprovação é gesto de controle externo, faz sentido apenas se alguém **diferente** do solicitante revisa. A exceção é quando o solicitante é o único aprovador elegível (OSC muito pequena); aí o RIT360 Financeiro permite a auto-aprovação mas **marca explicitamente** no audit log como `self_approved` para revisão futura.
 
 ## Aprovação de projetos (aba Projetos)
 

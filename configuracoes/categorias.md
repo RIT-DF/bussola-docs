@@ -14,7 +14,7 @@ A página **Categorias** organiza as categorias contábeis e os centros de custo
 
 > 💡 **Por que isso importa**
 >
-> Categoria é o que **faz o relatório financeiro fazer sentido**. Sem categoria, você tem 200 lançamentos no mês e nenhuma resposta sobre "para onde vai o dinheiro?". Com categoria ruim (inconsistente, duplicada, vaga), o relatório engana mais do que ajuda. Com categoria boa (enxuta, consistente, semântica), o relatório responde sozinho — você vê em 30 segundos quanto a OSC gastou com aluguel, quanto com material, quanto recebeu de doação, quanto de mensalidade. **Tempo investido em organizar categorias é o investimento de melhor retorno** que uma OSC pode fazer no Bússola.
+> Categoria é o que **faz o relatório financeiro fazer sentido**. Sem categoria, você tem 200 lançamentos no mês e nenhuma resposta sobre "para onde vai o dinheiro?". Com categoria ruim (inconsistente, duplicada, vaga), o relatório engana mais do que ajuda. Com categoria boa (enxuta, consistente, semântica), o relatório responde sozinho — você vê em 30 segundos quanto a OSC gastou com aluguel, quanto com material, quanto recebeu de doação, quanto de mensalidade. **Tempo investido em organizar categorias é o investimento de melhor retorno** que uma OSC pode fazer no RIT360 Financeiro.
 
 A página tem 3 abas: **Receitas**, **Despesas** e **Centros de custo**.
 
@@ -54,7 +54,7 @@ OSC pequena geralmente não precisa de centros de custo. OSC com **múltiplas fr
 
 ## Template de categorias
 
-Para começar rapidamente, clique em **Aplicar template**. O Bússola tem modelos prontos por tipo de OSC — há templates para **Grupo Escoteiro, Associação, Instituto, Fundação, ONG, Coletivo e Cooperativa**, cada um com as categorias de receita e despesa típicas daquele perfil. Escolha o modelo mais próximo da sua organização; aplicar o template importa as categorias do modelo para a sua OSC, sem apagar o que você já tinha.
+Para começar rapidamente, clique em **Aplicar template**. O RIT360 Financeiro tem modelos prontos por tipo de OSC — há templates para **Grupo Escoteiro, Associação, Instituto, Fundação, ONG, Coletivo e Cooperativa**, cada um com as categorias de receita e despesa típicas daquele perfil. Escolha o modelo mais próximo da sua organização; aplicar o template importa as categorias do modelo para a sua OSC, sem apagar o que você já tinha.
 
 > ✓ **Dica · Comece com template, depois afine**
 >
@@ -66,7 +66,7 @@ Para começar rapidamente, clique em **Aplicar template**. O Bússola tem modelo
 
 ## Hierarquia de categorias
 
-O Bússola suporta **categorias-mãe com sub-categorias** — útil para agrupar afins sem perder granularidade. Exemplo:
+O RIT360 Financeiro suporta **categorias-mãe com sub-categorias** — útil para agrupar afins sem perder granularidade. Exemplo:
 
 - Loja Virtual (categoria-mãe)
   - Camisetas

@@ -4,13 +4,15 @@ nav_order: 10
 permalink: /faq/
 ---
 
-Respostas para dúvidas comuns. Se a sua pergunta não está aqui, use o botão **💬 Feedback** dentro do Bússola — sua dúvida ajuda este manual a melhorar.
+Respostas para dúvidas comuns. Se a sua pergunta não está aqui, use o botão **💬 Feedback** dentro do RIT360 Financeiro — sua dúvida ajuda este manual a melhorar.
 
 ## Acesso e conta
 
-### Não recebi o e-mail de convite. O que faço?
+### Não recebi o e-mail para acessar. O que faço?
 
-Peça ao administrador da sua organização que reenvie o convite em **Configurações → Usuários → ações da sua linha → Reenviar convite**. Verifique também a caixa de spam/lixo eletrônico antes — convites são enviados a partir de domínio institucional e às vezes caem lá.
+Quando o administrador da sua organização adiciona você, **sua conta já é criada** — não existe uma etapa de "aceitar convite". Você recebe um e-mail para **definir sua senha** (o link vale por 7 dias) e, a partir daí, entra normalmente. Se preferir, pode entrar direto com **Continuar com Google**, desde que use o mesmo e-mail com que foi cadastrado.
+
+Se o e-mail não chegou, confira a caixa de spam/lixo eletrônico primeiro — ele sai de um domínio institucional e às vezes cai lá. O administrador pode reenviá-lo em **Configurações → Usuários → ações da sua linha → Reenviar e-mail**.
 
 ### Esqueci minha senha. Como redefino?
 
@@ -24,7 +26,7 @@ Por segurança, a confirmação na tela é sempre a mesma, exista ou não uma co
 
 ### Posso usar o mesmo e-mail em mais de uma organização?
 
-Sim. Sua conta no Bússola é única, atrelada ao seu e-mail, mas você pode ser membro de várias OSCs simultaneamente. Use o **seletor de organização** no topo da tela para alternar entre elas — toda a interface reage à organização ativa.
+Sim. Sua conta no RIT360 Financeiro é única, atrelada ao seu e-mail, mas você pode ser membro de várias OSCs simultaneamente. Use o **seletor de organização** no topo da tela para alternar entre elas — toda a interface reage à organização ativa.
 
 ### Posso encerrar minhas sessões em outros dispositivos?
 
@@ -46,7 +48,7 @@ Voluntários não têm acesso a Movimentações (lançamentos detalhados da OSC)
 
 ### O que significa "auto-aprovação"?
 
-Quando você é o único aprovador elegível para o seu próprio reembolso ou pedido (caso comum em OSC pequena onde o presidente é o único aprovador e também é o solicitante), o Bússola **permite a auto-aprovação** para não travar o fluxo, mas marca explicitamente no audit log. Conforme a OSC ganha mais aprovadores cadastrados, auto-aprovações naturalmente diminuem.
+Quando você é o único aprovador elegível para o seu próprio reembolso ou pedido (caso comum em OSC pequena onde o presidente é o único aprovador e também é o solicitante), o RIT360 Financeiro **permite a auto-aprovação** para não travar o fluxo, mas marca explicitamente no audit log. Conforme a OSC ganha mais aprovadores cadastrados, auto-aprovações naturalmente diminuem.
 
 ## Movimentações
 
@@ -56,7 +58,7 @@ Depende do status. Se o lançamento está **Pendente** ou **Atrasado**, clique e
 
 ### Qual a diferença entre Cancelar e Excluir uma movimentação?
 
-**Cancelar** mantém o lançamento no histórico com status "Cancelado" — útil para rastreabilidade ("essa despesa estava prevista mas não aconteceu"). **Excluir** apaga o lançamento de vez. O Bússola só permite excluir movimentações que já foram canceladas ou estornadas, justamente para evitar perda acidental. Para auditoria limpa, prefira sempre **cancelar** a excluir.
+**Cancelar** mantém o lançamento no histórico com status "Cancelado" — útil para rastreabilidade ("essa despesa estava prevista mas não aconteceu"). **Excluir** apaga o lançamento de vez. O RIT360 Financeiro só permite excluir movimentações que já foram canceladas ou estornadas, justamente para evitar perda acidental. Para auditoria limpa, prefira sempre **cancelar** a excluir.
 
 ### Posso exportar os lançamentos?
 
@@ -64,7 +66,7 @@ Sim. Na lista de **Movimentações**, clique em **Exportar** e escolha PDF (form
 
 ### Como funcionam as recorrências?
 
-Ao criar uma movimentação, você pode escolher tipo **Recorrente**: define frequência (mensal, trimestral, etc.) e duração (data final, quantidade de ocorrências ou indefinido até cancelar). O Bússola cria as ocorrências automaticamente; cada uma é paga individualmente. Para encerrar uma série em andamento, abra o detalhe e use o cancelamento em 3 escopos (apenas esta / esta e futuras / série inteira).
+Ao criar uma movimentação, você pode escolher tipo **Recorrente**: define frequência (mensal, trimestral, etc.) e duração (data final, quantidade de ocorrências ou indefinido até cancelar). O RIT360 Financeiro cria as ocorrências automaticamente; cada uma é paga individualmente. Para encerrar uma série em andamento, abra o detalhe e use o cancelamento em 3 escopos (apenas esta / esta e futuras / série inteira).
 
 ### Posso informar o centro de custo ao importar lançamentos por planilha?
 
@@ -72,7 +74,7 @@ Sim. A planilha de importação tem a coluna `centro_de_custo` (opcional). Se o 
 
 ### Anexei um arquivo ZIP a um lançamento. Os documentos de dentro aparecem na prestação de contas?
 
-Sim. O Bússola **descompacta o ZIP automaticamente** e anexa cada arquivo de dentro como um anexo individual do lançamento — o pacote dá lugar aos arquivos, que passam a aparecer na pré-visualização e a entrar na prestação de contas. Vale também quando o comprovante chega por **link** na importação por CSV. Arquivos que não dá para exibir num PDF (planilhas, textos) ficam anexados, mas não aparecem no corpo do relatório.
+Sim. O RIT360 Financeiro **descompacta o ZIP automaticamente** e anexa cada arquivo de dentro como um anexo individual do lançamento — o pacote dá lugar aos arquivos, que passam a aparecer na pré-visualização e a entrar na prestação de contas. Vale também quando o comprovante chega por **link** na importação por CSV. Arquivos que não dá para exibir num PDF (planilhas, textos) ficam anexados, mas não aparecem no corpo do relatório.
 
 ### Se eu sair da tela enquanto preencho, perco o que já digitei?
 
@@ -86,7 +88,7 @@ Sim. Abra o detalhe do reembolso rejeitado, clique em **Editar e reenviar**, cor
 
 ### O que acontece quando um reembolso é aprovado?
 
-O Bússola cria automaticamente uma **movimentação financeira pendente** em Movimentações com origem `reimbursement`, vinculada ao reembolso. O tesoureiro entra em Movimentações, escolhe a conta de onde vai sair o dinheiro e marca como paga. O ciclo só fecha quando essa confirmação acontece.
+O RIT360 Financeiro cria automaticamente uma **movimentação financeira pendente** em Movimentações com origem `reimbursement`, vinculada ao reembolso. O tesoureiro entra em Movimentações, escolhe a conta de onde vai sair o dinheiro e marca como paga. O ciclo só fecha quando essa confirmação acontece.
 
 ### Posso anexar mais de um comprovante em um reembolso?
 
@@ -128,7 +130,7 @@ Em **Projetos → Lições aprendidas** — um acervo da OSC com as lições e b
 
 ### Como encerro um projeto?
 
-Na aba **Encerramento** do projeto, um assistente de avaliação conduz por perguntas (objetivos, critérios, engajamento, pontos altos, lições...). O Bússola monta o **relatório de encerramento** consolidado, exportável em PDF para a prestação de contas. Cada campo traz orientação e um exemplo de preenchimento.
+Na aba **Encerramento** do projeto, um assistente de avaliação conduz por perguntas (objetivos, critérios, engajamento, pontos altos, lições...). O RIT360 Financeiro monta o **relatório de encerramento** consolidado, exportável em PDF para a prestação de contas. Cada campo traz orientação e um exemplo de preenchimento.
 
 ### Qual a diferença entre meu papel na OSC e meu papel no projeto?
 
@@ -142,7 +144,7 @@ São independentes. Seu **papel na OSC** (Presidente, Tesoureiro, Voluntário...
 
 ### Estornei um lançamento por engano. Como desfazer?
 
-Estorno não tem "desfazer estorno" automático no Bússola. Para reverter, você precisa **criar manualmente uma movimentação nova** com os mesmos dados do estornado, com data atual. Por isso a operação de estorno tem dialog de confirmação com campo de razão — para evitar engano no clique.
+Estorno não tem "desfazer estorno" automático no RIT360 Financeiro. Para reverter, você precisa **criar manualmente uma movimentação nova** com os mesmos dados do estornado, com data atual. Por isso a operação de estorno tem dialog de confirmação com campo de razão — para evitar engano no clique.
 
 ## Contas, categorias e configuração
 
@@ -156,17 +158,17 @@ Em **Configurações → Categorias**, clique em **Aplicar template** e escolha 
 
 ## Integração com WooCommerce
 
-### Posso conectar minha loja online ao Bússola?
+### Posso conectar minha loja online ao RIT360 Financeiro?
 
-Se sua loja usa **WooCommerce**, sim. Em **Configurações → Organização → seção WooCommerce**, configure URL da loja, Consumer Key e Consumer Secret. O Bússola sincroniza pedidos pagos como receitas automaticamente. A seção tem instruções passo a passo de como gerar as credenciais no admin do WooCommerce.
+Se sua loja usa **WooCommerce**, sim. Em **Configurações → Organização → seção WooCommerce**, configure URL da loja, Consumer Key e Consumer Secret. O RIT360 Financeiro sincroniza pedidos pagos como receitas automaticamente. A seção tem instruções passo a passo de como gerar as credenciais no admin do WooCommerce.
 
 ### Quando a sincronização com WooCommerce acontece?
 
 **Automaticamente todo dia às 6h da manhã** (horário de Brasília), respeitando a frequência configurada por OSC: diária, semanal (segundas), mensal (dia 1) ou desligada. Você também pode disparar manualmente a qualquer momento em **Movimentações → Importar Lançamentos → aba WooCommerce → Importar agora**.
 
-### Um pedido foi reembolsado no WooCommerce. O que acontece no Bússola?
+### Um pedido foi reembolsado no WooCommerce. O que acontece no RIT360 Financeiro?
 
-A próxima sincronização detecta a mudança de status e **estorna automaticamente** a movimentação correspondente no Bússola — cria um lançamento contrário (despesa de igual valor que cancela a receita anterior) e ambos passam a exibir o badge "Estornado". Sem intervenção manual.
+A próxima sincronização detecta a mudança de status e **estorna automaticamente** a movimentação correspondente no RIT360 Financeiro — cria um lançamento contrário (despesa de igual valor que cancela a receita anterior) e ambos passam a exibir o badge "Estornado". Sem intervenção manual.
 
 ## Notificações
 
@@ -174,19 +176,11 @@ A próxima sincronização detecta a mudança de status e **estorna automaticame
 
 Em **Meu Perfil → Notificações → Matriz**, você escolhe **por evento e por canal** quais notificações quer receber. Default é tudo ligado — desligue o que não interessa. Cuidado para não silenciar eventos críticos do seu papel (ex: aprovador deve manter "submetido" ligado para saber quando algo precisa do voto).
 
-### Quero receber notificações por WhatsApp. Como faço?
-
-Em **Meu Perfil → Notificações**, preencha seu número de WhatsApp em formato internacional (`+5511...`). Salve. A coluna WhatsApp na matriz fica habilitada para escolher quais eventos receber por esse canal.
-
-### E Telegram?
-
-Envie `/start` para `@BussolaBot` no Telegram. O bot vincula automaticamente seu Telegram à sua conta Bússola. Depois, a coluna Telegram na matriz de notificações fica habilitada.
-
 ### Como ativo notificações push no celular?
 
-Em **Meu Perfil → Notificações**, toque no interruptor **"Ativar push neste dispositivo"** (acima da matriz). O navegador vai pedir permissão; autorize. A coluna **Push** na matriz fica habilitada para você escolher quais eventos receber por esse canal — funciona como aviso de banco, chega na tela mesmo com o Bússola fechado e abre direto na tela relevante ao tocar.
+Em **Meu Perfil → Notificações**, toque no interruptor **"Ativar push neste dispositivo"** (acima da matriz). O navegador vai pedir permissão; autorize. A coluna **Push** na matriz fica habilitada para você escolher quais eventos receber por esse canal — funciona como aviso de banco, chega na tela mesmo com o RIT360 Financeiro fechado e abre direto na tela relevante ao tocar.
 
-**Importante:** no **iPhone (Safari)**, push só funciona se você **instalou o Bússola como app** na tela de início — sem instalar, o interruptor fica desabilitado com instrução. Veja [Instalar como aplicativo](/instalar-como-app/). No **Android (Chrome / Edge)** e em **desktop (Chrome / Firefox / Edge)**, funciona direto sem precisar instalar como app.
+**Importante:** no **iPhone (Safari)**, push só funciona se você **instalou o RIT360 Financeiro como app** na tela de início — sem instalar, o interruptor fica desabilitado com instrução. Veja [Instalar como aplicativo](/instalar-como-app/). No **Android (Chrome / Edge)** e em **desktop (Chrome / Firefox / Edge)**, funciona direto sem precisar instalar como app.
 
 A ativação é **por dispositivo**: pode ativar no celular pessoal e deixar desativado no celular do trabalho, sem afetar a configuração da sua conta.
 
@@ -194,7 +188,7 @@ A ativação é **por dispositivo**: pode ativar no celular pessoal e deixar des
 
 ### Existe um guia de como atuar no meu papel na OSC?
 
-Sim. Além de explicar as telas, o manual traz **cartilhas de atuação** por papel — o que se espera de você, pontos de atenção e boas práticas, com exemplos de como o Bússola ajuda em cada aspecto:
+Sim. Além de explicar as telas, o manual traz **cartilhas de atuação** por papel — o que se espera de você, pontos de atenção e boas práticas, com exemplos de como o RIT360 Financeiro ajuda em cada aspecto:
 
 - [Guia do Coordenador de Projetos](/guias/coordenador-projetos/) — escopo, prazo, recursos e pessoas.
 - [Guia do Tesoureiro](/guias/tesoureiro/) — registrar, organizar, aprovar e prestar contas.
@@ -207,14 +201,14 @@ Sim. Além de explicar as telas, o manual traz **cartilhas de atuação** por pa
 
 Use o botão **💬 Feedback** no menu superior. Está disponível para todos os usuários e envia sua mensagem direto para a equipe da RIT, com a versão do app e o seu contexto.
 
-### Onde acompanho as novidades do Bússola?
+### Onde acompanho as novidades do RIT360 Financeiro?
 
 Nas [Novidades](/changelog/) deste manual. Toda nova versão lançada é registrada lá com a lista de adições, correções e mudanças. As entregas significativas aparecem em destaque.
 
-### Quero entender melhor um conceito que aparece no Bússola (fluxo de caixa, regime de caixa, estorno...). Onde leio?
+### Quero entender melhor um conceito que aparece no RIT360 Financeiro (fluxo de caixa, regime de caixa, estorno...). Onde leio?
 
 Cada módulo deste manual tem uma seção **Conceitos essenciais** que cobre os termos relevantes em linguagem simples. Movimentações cobre regime de caixa e estorno; Reembolsos cobre quórum e auto-aprovação; Pedidos cobre recorrente vs parcelado.
 
-### Posso usar o Bússola se não sou de OSC?
+### Posso usar o RIT360 Financeiro se não sou de OSC?
 
-O Bússola é desenhado para OSCs (Organizações da Sociedade Civil) — terceiro setor. O fluxo de aprovação, os papéis e a linguagem refletem esse contexto. Outros tipos de organização (empresa, autônomo) podem usar tecnicamente, mas vão encontrar funcionalidades que não fazem sentido no contexto deles.
+O RIT360 Financeiro é desenhado para OSCs (Organizações da Sociedade Civil) — terceiro setor. O fluxo de aprovação, os papéis e a linguagem refletem esse contexto. Outros tipos de organização (empresa, autônomo) podem usar tecnicamente, mas vão encontrar funcionalidades que não fazem sentido no contexto deles.

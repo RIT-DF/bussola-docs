@@ -14,7 +14,7 @@ A página **Contas Bancárias** lista as contas financeiras da sua OSC e permite
 
 > 💡 **Por que isso importa**
 >
-> "Conta financeira" no Bússola não é só **conta bancária**. É qualquer lugar onde a OSC guarda dinheiro: a conta corrente do banco, a poupança, o caixa interno em dinheiro vivo, o cartão de crédito da OSC, a conta no Mercado Pago para recebimentos online, o saldo no PayPal. Cada um desses é uma "conta" diferente, e mantê-los separados no Bússola **faz a contabilidade bater com a realidade** — você sabe quanto tem em cada lugar, e o saldo total consolidado reflete a posição real da OSC.
+> "Conta financeira" no RIT360 Financeiro não é só **conta bancária**. É qualquer lugar onde a OSC guarda dinheiro: a conta corrente do banco, a poupança, o caixa interno em dinheiro vivo, o cartão de crédito da OSC, a conta no Mercado Pago para recebimentos online, o saldo no PayPal. Cada um desses é uma "conta" diferente, e mantê-los separados no RIT360 Financeiro **faz a contabilidade bater com a realidade** — você sabe quanto tem em cada lugar, e o saldo total consolidado reflete a posição real da OSC.
 
 ## Tipos de conta suportados
 
@@ -46,7 +46,7 @@ Clique em **+ Nova conta**. Preencha:
 - **Nome** — descritivo (ex: "Banco do Brasil — CC", "Mercado Pago — Vendas WC")
 - **Tipo** — da lista acima
 - **Saldo inicial** — quanto tem na conta no momento do cadastro
-- **Data de abertura** — quando a conta começou a ser usada pela OSC (não a data de criação no Bússola)
+- **Data de abertura** — quando a conta começou a ser usada pela OSC (não a data de criação no RIT360 Financeiro)
 - **Conta padrão da organização** (opcional) — ver a seção **Conta padrão**, abaixo
 - **Dados bancários** (opcional, recolhível) — banco, agência e demais dados, quando aplicável
 - **Personalização** (opcional, recolhível) — uma **cor** e um **ícone** para a conta; ver a seção **Personalização**, abaixo
@@ -56,7 +56,7 @@ Clique em **+ Nova conta**. Preencha:
 
 > 📖 **Conceito · Saldo inicial e data de abertura**
 >
-> Quando você cadastra uma conta nova no Bússola, ela precisa saber qual era o saldo no momento em que sua OSC começou a usá-la no sistema. **Não é o saldo de hoje** — é o saldo na data de abertura. O Bússola usa esse valor como ponto de partida para calcular saldos futuros somando receitas e subtraindo despesas pagas. Se você está migrando de planilha para o Bússola, **a data de abertura é o dia que você começa a registrar no Bússola**, e o saldo inicial é o que estava na conta naquele dia.
+> Quando você cadastra uma conta nova no RIT360 Financeiro, ela precisa saber qual era o saldo no momento em que sua OSC começou a usá-la no sistema. **Não é o saldo de hoje** — é o saldo na data de abertura. O RIT360 Financeiro usa esse valor como ponto de partida para calcular saldos futuros somando receitas e subtraindo despesas pagas. Se você está migrando de planilha para o RIT360 Financeiro, **a data de abertura é o dia que você começa a registrar no RIT360 Financeiro**, e o saldo inicial é o que estava na conta naquele dia.
 
 ## Ações por conta
 
@@ -66,7 +66,7 @@ Clique em **+ Nova conta**. Preencha:
 
 > ⚠️ **Atenção · Conta com movimentações não pode ser excluída**
 >
-> O Bússola **não permite excluir conta que tem movimentações registradas** — só desativar. Motivo: excluir destruiria a história contábil dessas movimentações ("essa receita foi para qual conta?"). Para "encerrar" uma conta na prática, **desative**. As movimentações ficam intactas no histórico, e a conta desativada não aparece nos formulários de novo lançamento.
+> O RIT360 Financeiro **não permite excluir conta que tem movimentações registradas** — só desativar. Motivo: excluir destruiria a história contábil dessas movimentações ("essa receita foi para qual conta?"). Para "encerrar" uma conta na prática, **desative**. As movimentações ficam intactas no histórico, e a conta desativada não aparece nos formulários de novo lançamento.
 
 ## Conta padrão
 
@@ -95,7 +95,7 @@ Cada conta na lista mostra o **saldo atual**, calculado em tempo real a partir d
 
 > ✓ **Dica · Concilie mensalmente contra o extrato bancário**
 >
-> No final de cada mês, abra o extrato do banco e o saldo da conta correspondente aqui no Bússola. Eles devem bater **centavos por centavos**. Diferenças apontam para lançamento esquecido, valor digitado errado, ou taxa que não foi registrada. Corrigir mensalmente é fácil; descobrir 6 meses depois é pesadelo.
+> No final de cada mês, abra o extrato do banco e o saldo da conta correspondente aqui no RIT360 Financeiro. Eles devem bater **centavos por centavos**. Diferenças apontam para lançamento esquecido, valor digitado errado, ou taxa que não foi registrada. Corrigir mensalmente é fácil; descobrir 6 meses depois é pesadelo.
 
 ## Por onde seguir
 

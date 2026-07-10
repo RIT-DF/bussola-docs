@@ -5,7 +5,7 @@ parent: "Primeiros Passos"
 permalink: /primeiros-passos/organizacao/
 ---
 
-Você acabou de **criar ou assumir uma organização** no Bússola. Antes de sair importando lançamentos e convidando gente, vale preparar a base — uns 20 a 30 minutos que evitam retrabalho e deixam a OSC pronta para operar com segurança. Esta página é o roteiro dessa preparação.
+Você acabou de **criar ou assumir uma organização** no RIT360 Financeiro. Antes de sair importando lançamentos e convidando gente, vale preparar a base — uns 20 a 30 minutos que evitam retrabalho e deixam a OSC pronta para operar com segurança. Esta página é o roteiro dessa preparação.
 
 > 💡 **Por que a ordem importa**
 >
@@ -33,7 +33,7 @@ Comece pela identidade da OSC: nome, CNPJ, endereço, redes sociais e logo. É o
 
 ## 2. Cadastre as contas bancárias
 
-Cadastre cada conta da OSC (corrente, poupança, dinheiro em caixa, cartão) com o **saldo inicial correto** na data em que você começa a usar o Bússola. O saldo de cada conta passa a ser calculado a partir daí.
+Cadastre cada conta da OSC (corrente, poupança, dinheiro em caixa, cartão) com o **saldo inicial correto** na data em que você começa a usar o RIT360 Financeiro. O saldo de cada conta passa a ser calculado a partir daí.
 
 → **Configurações → Contas Bancárias**. Detalhes em [Contas Bancárias](/configuracoes/contas/).
 
@@ -85,7 +85,7 @@ Se a OSC vende ou recebe doações por uma loja **WooCommerce**, conecte-a para 
 
 Com a base pronta, traga o histórico:
 
-- **Movimentações** — em **Movimentações → Importar Lançamentos**, suba o CSV do seu histórico (o Bússola valida linha a linha antes de criar). Veja [Movimentações](/modulos/movimentacoes/).
+- **Movimentações** — em **Movimentações → Importar Lançamentos**, suba o CSV do seu histórico (o RIT360 Financeiro valida linha a linha antes de criar). Veja [Movimentações](/modulos/movimentacoes/).
 - **Usuários em lote** — se ainda não cadastrou a equipe, **Configurações → Usuários → Importar** aceita uma planilha com pré-visualização classificada por status.
 
 > ✓ **Pronto para operar**

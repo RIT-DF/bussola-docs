@@ -5,7 +5,7 @@ parent: "Guias por Papel"
 permalink: /guias/tesoureiro/
 ---
 
-O tesoureiro — ou diretor financeiro, ou quem cuida do caixa — é quem **guarda o dinheiro de gente que confiou**: associados, doadores, financiadores, voluntários. Não é um cargo de "fazer contas": é um cargo de **confiança e zelo**. Este guia reúne o que se espera de quem cuida do financeiro de uma OSC, os pontos de atenção e as boas práticas — com os boxes **🧭 Como o Bússola ajuda** mostrando onde a plataforma trabalha a seu favor.
+O tesoureiro — ou diretor financeiro, ou quem cuida do caixa — é quem **guarda o dinheiro de gente que confiou**: associados, doadores, financiadores, voluntários. Não é um cargo de "fazer contas": é um cargo de **confiança e zelo**. Este guia reúne o que se espera de quem cuida do financeiro de uma OSC, os pontos de atenção e as boas práticas — com os boxes **🧭 Como o RIT360 Financeiro ajuda** mostrando onde a plataforma trabalha a seu favor.
 
 > 💡 **A ideia central**
 >
@@ -27,9 +27,9 @@ O caixa que se controla é o caixa que está **todo** no sistema. Lançamento qu
 - Anexe o **comprovante** de cada despesa relevante; sem ele, a prestação de contas fica frágil.
 - Use as categorias certas — é o que faz o relatório fazer sentido depois.
 
-> 🧭 **Como o Bússola ajuda · Comprovante na hora, direto do celular**
+> 🧭 **Como o RIT360 Financeiro ajuda · Comprovante na hora, direto do celular**
 >
-> Toda movimentação aceita anexos e, no celular, dá para **fotografar a nota fiscal na hora**, direto pela câmera — quatro toques, sem salvar na galeria nem transferir arquivo depois. O Bússola ainda reduz a foto automaticamente, então funciona bem mesmo na conexão ruim do posto de combustível.
+> Toda movimentação aceita anexos e, no celular, dá para **fotografar a nota fiscal na hora**, direto pela câmera — quatro toques, sem salvar na galeria nem transferir arquivo depois. O RIT360 Financeiro ainda reduz a foto automaticamente, então funciona bem mesmo na conexão ruim do posto de combustível.
 >
 > [![Anexar comprovante pelo celular](/assets/screenshots/manual-mov-anexo-comprovante.png)](/assets/screenshots/manual-mov-anexo-comprovante.png)
 
@@ -44,7 +44,7 @@ Relatório bom nasce de **cadastro organizado**. Duas bases sustentam tudo:
 - **Contas bancárias** — cada conta da OSC cadastrada, com saldo inicial correto. (Depois que a conta tem lançamentos, o saldo inicial fica protegido contra alteração acidental.)
 - **Categorias** — receitas e despesas classificadas de forma que a diretoria entenda. Categorias bem pensadas hoje são relatórios legíveis amanhã.
 
-> 🧭 **Como o Bússola ajuda · Contas e categorias sob seu controle**
+> 🧭 **Como o RIT360 Financeiro ajuda · Contas e categorias sob seu controle**
 >
 > Você cadastra e mantém as **contas bancárias** e as **categorias** da OSC diretamente nas Configurações — sem depender de ninguém de TI. É a base que faz os relatórios baterem.
 >
@@ -58,7 +58,7 @@ Reembolsos e pedidos de pagamento são a hora em que o dinheiro **sai**. É onde
 - Siga o fluxo de aprovação configurado — ele existe para proteger você e a OSC.
 - Confirme o pagamento só quando ele de fato aconteceu.
 
-> 🧭 **Como o Bússola ajuda · Fluxo de aprovação configurável**
+> 🧭 **Como o RIT360 Financeiro ajuda · Fluxo de aprovação configurável**
 >
 > A OSC define quem aprova reembolsos e pedidos (por padrão, Presidente e Tesoureiro), e cada solicitação carrega o comprovante e o histórico de quem fez o quê. Você aprova com contexto, não no escuro.
 >
@@ -71,7 +71,7 @@ O tesoureiro precisa responder, a qualquer momento: **estamos no azul? de onde v
 - Olhe os relatórios consolidados antes de cada reunião de diretoria — não chegue com "acho que está ok".
 - Use os **pontos de atenção** como dupla checagem do seu próprio trabalho — um gasto fora do padrão pode ser um erro de lançamento.
 
-> 🧭 **Como o Bússola ajuda · Relatórios consolidados + pontos de atenção**
+> 🧭 **Como o RIT360 Financeiro ajuda · Relatórios consolidados + pontos de atenção**
 >
 > O módulo de **Relatórios** monta dashboards de saldo, receitas e despesas por categoria, resultado do período e comparativos — e sinaliza automaticamente **pontos de atenção** (gastos fora do padrão), com regras calibráveis pela OSC. A planilha mensal montada à mão deixa de existir.
 >
@@ -81,7 +81,7 @@ O tesoureiro precisa responder, a qualquer momento: **estamos no azul? de onde v
 
 Cuidar do caixa não é só saber o passado; é **não ser pego de surpresa**. Saber se o dinheiro chega para os próximos meses é o que evita a conta no vermelho.
 
-> 🧭 **Como o Bússola ajuda · Previsão (forecast)**
+> 🧭 **Como o RIT360 Financeiro ajuda · Previsão (forecast)**
 >
 > A aba de **Previsão** projeta os próximos meses combinando o que está agendado com a média histórica — você antecipa apertos de caixa em vez de descobri-los no dia.
 >
@@ -94,7 +94,7 @@ A prestação de contas é o produto visível do tesoureiro. Boa prestação de 
 - Gere o relatório do período para reuniões mensais/trimestrais.
 - Exporte em PDF ou Excel para distribuir à diretoria, ao conselho fiscal e aos financiadores.
 
-> 🧭 **Como o Bússola ajuda · Exportação pronta para distribuir**
+> 🧭 **Como o RIT360 Financeiro ajuda · Exportação pronta para distribuir**
 >
 > Os relatórios exportam em **PDF** (para leitura/arquivo) e **Excel** (para quem quer recortar os números), com a engine de exportação já usada nas movimentações.
 >
@@ -119,4 +119,4 @@ O maior risco para um tesoureiro honesto é ser **o único que enxerga** o finan
 
 > 💡 **No fim das contas**
 >
-> O Bússola existe para que você cuide do dinheiro da OSC com **rigor sem burocracia** — registrando em segundos, enxergando a saúde a qualquer momento e prestando contas sem montar planilha. O zelo continua sendo seu; o trabalho braçal fica com a ferramenta.
+> O RIT360 Financeiro existe para que você cuide do dinheiro da OSC com **rigor sem burocracia** — registrando em segundos, enxergando a saúde a qualquer momento e prestando contas sem montar planilha. O zelo continua sendo seu; o trabalho braçal fica com a ferramenta.

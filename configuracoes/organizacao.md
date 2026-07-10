@@ -14,7 +14,7 @@ A página **Organização** centraliza os dados da sua OSC e as **integrações*
 
 > 💡 **Por que isso importa**
 >
-> Os dados da OSC aqui aparecem em **todos os documentos gerados pelo Bússola** (recibos, declarações, relatórios para financiadores, exportações em PDF). Manter atualizado é o que faz a marca da sua OSC aparecer profissional na prestação de contas. As **integrações** abrem porta para automação: WooCommerce sincroniza vendas, WhatsApp Business envia notificações, Google Drive armazena documentos.
+> Os dados da OSC aqui aparecem em **todos os documentos gerados pelo RIT360 Financeiro** (recibos, declarações, relatórios para financiadores, exportações em PDF). Manter atualizado é o que faz a marca da sua OSC aparecer profissional na prestação de contas. As **integrações** abrem porta para automação: WooCommerce sincroniza vendas, Google Drive armazena documentos.
 
 ## Identidade da OSC
 
@@ -31,7 +31,7 @@ Endereço completo (CEP, logradouro, número, complemento, bairro, cidade, UF) e
 
 > ✓ **Dica · Preencha endereço completo para documentos formais**
 >
-> Recibos e declarações geradas pelo Bússola usam o endereço daqui. OSC com endereço incompleto no sistema pode acabar com documentos que não passam em conferência de financiador ou contador.
+> Recibos e declarações geradas pelo RIT360 Financeiro usam o endereço daqui. OSC com endereço incompleto no sistema pode acabar com documentos que não passam em conferência de financiador ou contador.
 
 ## Logo da organização
 
@@ -65,27 +65,19 @@ Valores iniciais que o módulo de [Projetos](/modulos/projetos/) usa ao planejar
 
 ## Integrações
 
-Integração permite que sistemas externos conversem com o Bússola — economizando trabalho manual de transferir dados de um sistema para outro.
+Integração permite que sistemas externos conversem com o RIT360 Financeiro — economizando trabalho manual de transferir dados de um sistema para outro.
 
 ### WooCommerce
 
 [Saiba mais no manual de Movimentações → seção Importar lançamentos](/modulos/movimentacoes/#importar-lançamentos)
 
-Sincroniza pedidos pagos da sua loja online (WooCommerce) como receitas no Bússola. Cron diário automático + botão para importar sob demanda. Refunds no WooCommerce viram estornos automáticos no Bússola. Cada pedido importado tem badge "WooCommerce" clicável na lista de movimentações que abre o pedido original no admin do WC.
+Sincroniza pedidos pagos da sua loja online (WooCommerce) como receitas no RIT360 Financeiro. Cron diário automático + botão para importar sob demanda. Refunds no WooCommerce viram estornos automáticos no RIT360 Financeiro. Cada pedido importado tem badge "WooCommerce" clicável na lista de movimentações que abre o pedido original no admin do WC.
 
 Configure URL da loja, Consumer Key e Consumer Secret (com instruções passo a passo de como gerar no admin do WooCommerce), frequência da sincronização, modo de mapeamento de categorias (automático com categoria-mãe ou manual explícito), conta financeira destino, data de corte para backfill.
 
 ### Google Drive *(em implantação)*
 
 Armazenamento de documentos da OSC no Google Drive da organização. Anexos de movimentações, reembolsos e pedidos serão sincronizados automaticamente.
-
-### WhatsApp Business *(em implantação)*
-
-Envio de notificações via número oficial WhatsApp Business da OSC. Habilita o canal "WhatsApp" da matriz de notificações dos usuários.
-
-### Telegram *(em implantação)*
-
-Envio de notificações via bot oficial Telegram da OSC para grupos/canais. Complementa o envio individual para usuários que vincularam Telegram no perfil pessoal.
 
 ## Exportar dados da organização (LGPD)
 
@@ -104,7 +96,7 @@ No fim da página, a seção **Exportação de dados da organização (LGPD)** p
 
 ## Encerrar organização
 
-Ainda no fim da página, a **Zona de perigo · Encerrar organização** inicia o encerramento definitivo da OSC no Bússola. É uma ação séria e foi desenhada com calma para que ninguém perca dados por engano.
+Ainda no fim da página, a **Zona de perigo · Encerrar organização** inicia o encerramento definitivo da OSC no RIT360 Financeiro. É uma ação séria e foi desenhada com calma para que ninguém perca dados por engano.
 
 - O encerramento **bloqueia novas escritas imediatamente** — a partir dali ninguém lança, edita ou aprova nada na OSC.
 - Você tem uma **janela de 30 dias** para exportar tudo o que precisar antes da eliminação (use a exportação acima).
@@ -112,7 +104,7 @@ Ainda no fim da página, a **Zona de perigo · Encerrar organização** inicia o
 
 > ⚠️ **Atenção · Encerrar é irreversível pelo autosserviço**
 >
-> Não há botão para "desfazer" um encerramento pela própria interface. Só recorra a essa opção quando a OSC realmente vai deixar de operar no Bússola. Em dúvida, **exporte os dados primeiro** e procure o suporte/DPO antes de confirmar.
+> Não há botão para "desfazer" um encerramento pela própria interface. Só recorra a essa opção quando a OSC realmente vai deixar de operar no RIT360 Financeiro. Em dúvida, **exporte os dados primeiro** e procure o suporte/DPO antes de confirmar.
 
 ## Por onde seguir
 

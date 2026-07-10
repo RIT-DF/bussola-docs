@@ -4,11 +4,11 @@ nav_order: 3
 permalink: /migracao/
 ---
 
-Trazer a vida financeira da sua OSC de outro lugar — uma planilha, um sistema antigo, ou o caderno — para o Bússola não precisa ser um salto no escuro. Esta página é o **roteiro de migração**: o que decidir antes, em que ordem montar a base, como importar o histórico e como virar a chave com segurança, sem perder nada no caminho.
+Trazer a vida financeira da sua OSC de outro lugar — uma planilha, um sistema antigo, ou o caderno — para o RIT360 Financeiro não precisa ser um salto no escuro. Esta página é o **roteiro de migração**: o que decidir antes, em que ordem montar a base, como importar o histórico e como virar a chave com segurança, sem perder nada no caminho.
 
 > 💡 **Para quem é este guia**
 >
-> Para quem vai colocar a OSC no Bússola pela primeira vez e quer trazer o histórico financeiro. Se você está só conhecendo a ferramenta, comece pelos **[Primeiros Passos](/primeiros-passos/)**. Se já montou a organização e só quer entender a tela de importação, pule para **[Importar lançamentos](/modulos/movimentacoes/#importar-lançamentos)**.
+> Para quem vai colocar a OSC no RIT360 Financeiro pela primeira vez e quer trazer o histórico financeiro. Se você está só conhecendo a ferramenta, comece pelos **[Primeiros Passos](/primeiros-passos/)**. Se já montou a organização e só quer entender a tela de importação, pule para **[Importar lançamentos](/modulos/movimentacoes/#importar-lançamentos)**.
 
 ## De onde você está vindo?
 
@@ -16,21 +16,21 @@ A migração tem um caminho comum (a **espinha**, mais abaixo), mas o ponto de p
 
 ### Vindo do zero (caderno, cabeça, nada digital)
 
-Você não tem histórico para importar — tem um **saldo atual** e daqui pra frente lança no Bússola. É o cenário mais simples: pule a parte de importação e vá direto montar a base.
+Você não tem histórico para importar — tem um **saldo atual** e daqui pra frente lança no RIT360 Financeiro. É o cenário mais simples: pule a parte de importação e vá direto montar a base.
 
 → Siga **[Primeiros Passos da Organização](/primeiros-passos/organizacao/)**: cadastre a OSC, as contas (com o **saldo de abertura** na data em que você começa), as categorias e os usuários. Pronto — a partir daí é só operar.
 
 ### Vindo de uma planilha (o caso mais comum)
 
-Você tem um Excel ou Google Sheets com o histórico de entradas e saídas. Esse é o **núcleo deste guia**: o Bússola importa planilha via CSV, validando linha a linha antes de criar qualquer coisa. Siga a espinha inteira abaixo.
+Você tem um Excel ou Google Sheets com o histórico de entradas e saídas. Esse é o **núcleo deste guia**: o RIT360 Financeiro importa planilha via CSV, validando linha a linha antes de criar qualquer coisa. Siga a espinha inteira abaixo.
 
 ### Vindo de outro sistema (ERP, app financeiro, contabilidade)
 
-Quase todo sistema exporta os lançamentos para **CSV ou Excel**. Exporte de lá, ajuste as colunas para o formato do Bússola (a tabela está em [Importar o histórico](#4-importe-o-historico-csv)) e siga a espinha como quem vem de planilha.
+Quase todo sistema exporta os lançamentos para **CSV ou Excel**. Exporte de lá, ajuste as colunas para o formato do RIT360 Financeiro (a tabela está em [Importar o histórico](#4-importe-o-historico-csv)) e siga a espinha como quem vem de planilha.
 
 > ⚠️ **Atenção · Não cancele o sistema antigo cedo demais**
 >
-> Mantenha o acesso ao sistema anterior até ter **conferido** que tudo entrou certo no Bússola (etapa de reconciliação, mais abaixo). Contrato cancelado às pressas costuma levar junto o acesso ao histórico que você ainda vai precisar conferir. Vire a chave só depois de bater os saldos.
+> Mantenha o acesso ao sistema anterior até ter **conferido** que tudo entrou certo no RIT360 Financeiro (etapa de reconciliação, mais abaixo). Contrato cancelado às pressas costuma levar junto o acesso ao histórico que você ainda vai precisar conferir. Vire a chave só depois de bater os saldos.
 
 ## A espinha da migração
 
@@ -38,7 +38,7 @@ Independentemente de onde você vem, o caminho é este — e a **ordem importa**
 
 1. **Defina o ponto de corte** — até onde trazer histórico.
 2. **Monte a base, na ordem certa** — organização → contas → categorias → usuários.
-3. **Prepare a planilha** — no formato que o Bússola entende.
+3. **Prepare a planilha** — no formato que o RIT360 Financeiro entende.
 4. **Importe o histórico** — CSV com validação linha a linha.
 5. **Anexe comprovantes** (o que precisar) — manualmente, depois.
 6. **Confira e reconcilie** — bata os saldos contra o banco.
@@ -53,7 +53,7 @@ Você raramente precisa trazer **toda** a história da OSC. Decida um corte sens
 
 > 💡 **Por que o saldo inicial é a peça-chave**
 >
-> O Bússola calcula o saldo de cada conta a partir do **saldo de abertura** mais os lançamentos. Se você acerta o saldo de abertura na data de corte e importa os lançamentos seguintes, o saldo atual bate sozinho. Errar o saldo de abertura é a causa nº 1 de "os números não fecham" depois da migração.
+> O RIT360 Financeiro calcula o saldo de cada conta a partir do **saldo de abertura** mais os lançamentos. Se você acerta o saldo de abertura na data de corte e importa os lançamentos seguintes, o saldo atual bate sozinho. Errar o saldo de abertura é a causa nº 1 de "os números não fecham" depois da migração.
 
 ### 2. Monte a base, na ordem certa
 
@@ -82,7 +82,7 @@ Em **Movimentações → Importar Lançamentos**, baixe o **template CSV** e use
 
 > ⚠️ **Atenção · Vírgula é o separador decimal**
 >
-> No Brasil, `1.500,00` é mil e quinhentos. Escreva os valores assim. Evite o formato com ponto decimal (`1500.00`), comum em exportações de sistemas em inglês — converta para vírgula antes de importar. O Bússola avisa quando o valor é ambíguo, mas o certo é já mandar no formato brasileiro.
+> No Brasil, `1.500,00` é mil e quinhentos. Escreva os valores assim. Evite o formato com ponto decimal (`1500.00`), comum em exportações de sistemas em inglês — converta para vírgula antes de importar. O RIT360 Financeiro avisa quando o valor é ambíguo, mas o certo é já mandar no formato brasileiro.
 
 #### As colunas, uma a uma
 
@@ -121,7 +121,7 @@ Em **Movimentações → Importar Lançamentos**, baixe o **template CSV** e use
 
 [![Importar Lançamentos](/assets/screenshots/manual-04b-importar-lancamentos.png)](/assets/screenshots/manual-04b-importar-lancamentos.png)
 
-Em **Movimentações → Importar Lançamentos → CSV**, suba o arquivo. O Bússola não cria nada de imediato — primeiro mostra um **preview** validado:
+Em **Movimentações → Importar Lançamentos → CSV**, suba o arquivo. O RIT360 Financeiro não cria nada de imediato — primeiro mostra um **preview** validado:
 
 - Cada linha aparece com o **valor interpretado em R$**, a conta, a categoria, o projeto e o status.
 - Linhas com **erro** (ex.: transferência sem destino, destino igual à origem, categoria não permitida no projeto) são marcadas e **ignoradas** na importação — o resto entra normalmente.
@@ -131,7 +131,7 @@ Em **Movimentações → Importar Lançamentos → CSV**, suba o arquivo. O Bús
 
 Se a planilha cita uma **conta** ou **categoria** que ainda não existe na OSC, você não precisa cancelar, ir cadastrar e recomeçar. A tela de resumo abre um painel de **Pendências a resolver**:
 
-- **Categoria desconhecida** → você pode **criar a categoria** ali mesmo (o Bússola sugere o tipo) ou **mapear** para uma categoria existente.
+- **Categoria desconhecida** → você pode **criar a categoria** ali mesmo (o RIT360 Financeiro sugere o tipo) ou **mapear** para uma categoria existente.
 - **Conta desconhecida** → **mapear** para uma conta existente, ou **deixar de fora** as linhas daquela conta (você cadastra a conta com o saldo de abertura correto depois e reimporta só essas linhas — sem criar conta meia-boca no meio da importação).
 - O casamento de nomes ignora **acentos, maiúsculas/minúsculas e espaços extras** — "doações", "Doações" e "DOAÇÕES " são a mesma categoria.
 
@@ -155,15 +155,15 @@ Importou? Agora **bata os números** antes de confiar:
 
 > ✓ **Dica · Reconciliar é a etapa que dá segurança**
 >
-> A reconciliação não é burocracia — é o momento em que você prova para si mesmo (e para a diretoria) que os números do Bússola são confiáveis. Cinco minutos conferindo o saldo de cada conta valem mais do que qualquer relatório bonito sobre dados que ninguém checou.
+> A reconciliação não é burocracia — é o momento em que você prova para si mesmo (e para a diretoria) que os números do RIT360 Financeiro são confiáveis. Cinco minutos conferindo o saldo de cada conta valem mais do que qualquer relatório bonito sobre dados que ninguém checou.
 
 ### 7. Rode em paralelo e vire a chave
 
-Por **um ciclo** (uma a quatro semanas, ou um mês de fechamento), mantenha o registro antigo **e** o Bússola lado a lado:
+Por **um ciclo** (uma a quatro semanas, ou um mês de fechamento), mantenha o registro antigo **e** o RIT360 Financeiro lado a lado:
 
 - Lance as novas movimentações nos dois.
-- No fim do ciclo, **reconcilie** os dois: se os saldos batem, o Bússola está fiel e você pode parar de manter o antigo.
-- A partir daí, o Bússola é a **fonte da verdade**. Só então cancele assinaturas ou arquive a planilha antiga (mantendo uma cópia de segurança do histórico).
+- No fim do ciclo, **reconcilie** os dois: se os saldos batem, o RIT360 Financeiro está fiel e você pode parar de manter o antigo.
+- A partir daí, o RIT360 Financeiro é a **fonte da verdade**. Só então cancele assinaturas ou arquive a planilha antiga (mantendo uma cópia de segurança do histórico).
 
 ## Checklist de migração
 
@@ -176,13 +176,13 @@ Copie e marque conforme avança:
 [ ] Categorias revisadas (template aplicado e ajustado)
 [ ] Projetos criados (se for vincular lançamentos)
 [ ] Usuários convidados com os papéis certos
-[ ] Planilha preparada no formato do Bússola (separador ;, valor com vírgula, data DD/MM/AAAA)
+[ ] Planilha preparada no formato do RIT360 Financeiro (separador ;, valor com vírgula, data DD/MM/AAAA)
 [ ] Lote pequeno importado e conferido no preview
 [ ] Histórico completo importado (pendências resolvidas)
 [ ] Comprovantes essenciais anexados
 [ ] Saldos reconciliados contra banco/caixa
 [ ] Ciclo em paralelo concluído e batido
-[ ] Chave virada: Bússola é a fonte da verdade
+[ ] Chave virada: RIT360 Financeiro é a fonte da verdade
 ```
 
 ## Perguntas frequentes da migração
@@ -210,4 +210,4 @@ Não entram por CSV. Crie pelo formulário do app, que gera a série de parcelas
 - **[Primeiros Passos da Organização](/primeiros-passos/organizacao/)** — o roteiro de montar a base, passo a passo.
 - **[Movimentações](/modulos/movimentacoes/)** — a tela de importação e o dia a dia dos lançamentos.
 - **[Configurações → Contas Bancárias](/configuracoes/contas/)** — onde acertar o saldo de abertura.
-- **[FAQ](/faq/)** — dúvidas gerais sobre o Bússola.
+- **[FAQ](/faq/)** — dúvidas gerais sobre o RIT360 Financeiro.

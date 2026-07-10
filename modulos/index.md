@@ -7,7 +7,7 @@ permalink: /modulos/
 
 # Módulos
 
-O Bússola Financeira é organizado em módulos, cada um responsável por uma área da gestão financeira da OSC.
+O RIT360 Financeiro é organizado em módulos, cada um responsável por uma área da gestão financeira da OSC.
 
 | Módulo | Descrição |
 |---|---|

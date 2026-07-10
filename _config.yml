@@ -1,7 +1,7 @@
-title: Bússola Financeira
-description: "Manual do usuário e documentação oficial do Bússola Financeira — gestão financeira para Organizações da Sociedade Civil, pela RIT."
+title: RIT360 Financeiro
+description: "Manual do usuário e documentação oficial do RIT360 Financeiro — gestão financeira para Organizações da Sociedade Civil, pela RIT."
 lang: pt-BR
-url: https://docs.bf.rit.org.br
+url: https://docs.financeiro.rit360.org.br
 permalink: pretty
 
 remote_theme: just-the-docs/just-the-docs
@@ -15,7 +15,7 @@ defaults:
       layout: default
 
 # Tema / cor
-color_scheme: bussola
+color_scheme: rit360
 logo: "/assets/logo.png"
 
 # Busca
@@ -51,8 +51,8 @@ callouts:
 
 # Links auxiliares (canto superior direito)
 aux_links:
-  "Acessar o Bússola":
-    - "https://bf.rit.org.br"
+  "Acessar o RIT360 Financeiro":
+    - "https://financeiro.rit360.org.br"
 aux_links_new_tab: true
 
 # Rodapé

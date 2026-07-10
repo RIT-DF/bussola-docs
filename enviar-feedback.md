@@ -6,7 +6,7 @@ permalink: /enviar-feedback/
 
 # Enviar feedback
 
-Encontrou um problema, teve uma ideia ou quer deixar um elogio? O botão de **feedback** leva sua mensagem direto para a equipe da RIT — e é assim que este manual e o próprio Bússola vão melhorando.
+Encontrou um problema, teve uma ideia ou quer deixar um elogio? O botão de **feedback** leva sua mensagem direto para a equipe da RIT — e é assim que este manual e o próprio RIT360 Financeiro vão melhorando.
 
 [![Janela de envio de feedback](/assets/screenshots/feedback-modal-01.png)](/assets/screenshots/feedback-modal-01.png)
 *Janela de feedback — escolha o tipo, escreva sua mensagem e, se quiser, anexe arquivos*
@@ -18,7 +18,7 @@ Encontrou um problema, teve uma ideia ou quer deixar um elogio? O botão de **fe
    - **Sugestão** — uma ideia ou melhoria.
    - **Problema** — algo que não funcionou como esperado.
    - **Elogio** — o que você gostou.
-   - **Depoimento** — sua experiência com o Bússola (veja abaixo).
+   - **Depoimento** — sua experiência com o RIT360 Financeiro (veja abaixo).
    - **Outro** — qualquer coisa que não se encaixe nas anteriores.
 3. Escreva sua **mensagem**.
 4. Se ajudar a explicar, **anexe arquivos** (prints, planilhas ou documentos) — até 3 arquivos.
@@ -35,4 +35,4 @@ Ao escolher o tipo **Depoimento**, aparece uma opção a mais: autorizar (ou nã
 
 ## O que acontece depois
 
-A equipe da RIT recebe seu feedback e pode respondê-lo. Se você autorizou o contato e tiver e-mail cadastrado, a resposta chega por e-mail. Ao enviar, o Bússola também anexa automaticamente algumas informações **técnicas e não pessoais** (como a versão do aplicativo e o navegador que você usa) — elas ajudam a equipe a entender e resolver mais rápido, e não incluem dados pessoais seus.
+A equipe da RIT recebe seu feedback e pode respondê-lo. Se você autorizou o contato e tiver e-mail cadastrado, a resposta chega por e-mail. Ao enviar, o RIT360 Financeiro também anexa automaticamente algumas informações **técnicas e não pessoais** (como a versão do aplicativo e o navegador que você usa) — elas ajudam a equipe a entender e resolver mais rápido, e não incluem dados pessoais seus.

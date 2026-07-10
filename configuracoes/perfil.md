@@ -4,7 +4,7 @@ nav_order: 6
 permalink: /configuracoes/perfil/
 ---
 
-A página **Meu Perfil** concentra **seus** dados pessoais e preferências dentro do Bússola — não os dados da organização. Disponível para todos os usuários autenticados, acessada pelo menu do avatar (canto superior direito → **Meu perfil**) ou diretamente pela rota `/perfil`.
+A página **Meu Perfil** concentra **seus** dados pessoais e preferências dentro do RIT360 Financeiro — não os dados da organização. Disponível para todos os usuários autenticados, acessada pelo menu do avatar (canto superior direito → **Meu perfil**) ou diretamente pela rota `/perfil`.
 
 [![Página Meu Perfil](/assets/screenshots/config-perfil.png)](/assets/screenshots/config-perfil.png)
 *Página Meu Perfil — boxes consolidados de dados e preferências*
@@ -19,7 +19,7 @@ A página tem cinco boxes consolidados: **Identificação**, **Dados para Reembo
 
 - **Foto de perfil** — JPG, PNG ou WebP, até 2 MB. A imagem é redimensionada para 512×512 antes do envio.
 - **Nome completo** — como aparece em audit logs, aprovações, registros.
-- **Telefone** — digite no formato brasileiro `(11) 99999-9999` (o campo formata sozinho enquanto você digita); o Bússola guarda em formato internacional (com `+55`).
+- **Telefone** — digite no formato brasileiro `(11) 99999-9999` (o campo formata sozinho enquanto você digita); o RIT360 Financeiro guarda em formato internacional (com `+55`).
 - **Data de nascimento** — opcional.
 - **CPF** e **RG** — opcionais; o **CPF** é formatado automaticamente (`000.000.000-00`). Armazenados **cifrados em repouso** (chave de criptografia gerenciada separadamente do banco). Usados apenas para emissão de comprovantes quando exigido por lei.
 
@@ -27,11 +27,11 @@ Botão **Salvar alterações** ao final do box salva tudo de uma vez.
 
 > ⚠️ **Atenção · CPF e RG são dados sensíveis pela LGPD**
 >
-> Você só precisa preencher CPF/RG se a sua OSC vai emitir documento que exija (recibo formal, declaração para imposto de renda, etc.). Se você não tem certeza se precisa, deixe em branco — o Bússola não exige esses dados para operar.
+> Você só precisa preencher CPF/RG se a sua OSC vai emitir documento que exija (recibo formal, declaração para imposto de renda, etc.). Se você não tem certeza se precisa, deixe em branco — o RIT360 Financeiro não exige esses dados para operar.
 
 ## Dados para Reembolso
 
-Configure aqui sua **chave PIX** ou **dados bancários para TED**. Quando você criar um Reembolso, o Bússola preenche automaticamente esses dados — você não precisa redigitar a cada solicitação, e não corre risco de errar a chave.
+Configure aqui sua **chave PIX** ou **dados bancários para TED**. Quando você criar um Reembolso, o RIT360 Financeiro preenche automaticamente esses dados — você não precisa redigitar a cada solicitação, e não corre risco de errar a chave.
 
 > ✓ **Dica · Use chave PIX preferencialmente**
 >
@@ -45,14 +45,11 @@ Três grupos de configuração:
 
 ### Canais de notificação
 
-- **Número de WhatsApp** — para receber alertas. Formato internacional (`+5511999999999`).
-- **Telegram** — vinculação via bot. Envie `/start` para `@BussolaBot` no Telegram para vincular seu Telegram à sua conta Bússola. O campo aqui aparece como "Não vinculado" até você fazer a vinculação pelo bot.
-
-E-mail é o canal default — sempre disponível, sem configuração adicional.
+O RIT360 Financeiro tem dois canais de notificação: **E-mail** e **Push**. E-mail é o canal default — sempre disponível, sem configuração adicional. Push é ativado por dispositivo (veja abaixo).
 
 ### Push (avisos no celular ou no navegador)
 
-A partir da versão **v0.19.0**, **Push** é o 4º canal de notificações. Funciona como aviso de banco: você recebe um alerta na tela mesmo com o Bússola fechado, toca, e abre direto na tela relevante (reembolso aprovado, pedido pendente de seu voto, etc.).
+A partir da versão **v0.19.0**, **Push** é o segundo canal de notificações, ao lado do E-mail. Funciona como aviso de banco: você recebe um alerta na tela mesmo com o RIT360 Financeiro fechado, toca, e abre direto na tela relevante (reembolso aprovado, pedido pendente de seu voto, etc.).
 
 A ativação é **por dispositivo**, com um interruptor mestre **"Ativar push neste dispositivo"** logo acima da matriz. Pode ativar no celular pessoal e desativar no do trabalho sem afetar a configuração da sua conta — cada dispositivo é independente.
 
@@ -65,18 +62,18 @@ A ativação é **por dispositivo**, com um interruptor mestre **"Ativar push ne
 **Requisitos por plataforma:**
 
 - **Android (Chrome / Edge / outro navegador moderno):** funciona direto, sem precisar instalar. Apenas autorize quando perguntar.
-- **iOS (Safari):** push só funciona se o Bússola estiver **instalado como app** na sua tela de início. Sem isso, o iOS não permite push e o interruptor fica desabilitado com instrução. Veja **[Instalar como app](/instalar-como-app/)** se ainda não fez.
+- **iOS (Safari):** push só funciona se o RIT360 Financeiro estiver **instalado como app** na sua tela de início. Sem isso, o iOS não permite push e o interruptor fica desabilitado com instrução. Veja **[Instalar como app](/instalar-como-app/)** se ainda não fez.
 - **Desktop (Chrome / Firefox / Edge):** funciona como no celular. Útil para receber avisos quando você está com outro aplicativo em primeiro plano.
 
 **Múltiplas OSCs:** se você participa de mais de uma OSC, recebe push de eventos de todas. A OSC aparece no corpo do aviso para identificação da origem.
 
 > 🔒 **Privacidade**
 >
-> O endpoint do seu dispositivo é armazenado da mesma forma que outros dados de contato (número de WhatsApp, ID do Telegram). Você pode desativar a qualquer momento no master switch ou pedir exclusão completa pelo fluxo LGPD em **Ações de Conta**.
+> O endpoint do seu dispositivo é armazenado da mesma forma que outros dados de contato. Você pode desativar a qualquer momento no master switch ou pedir exclusão completa pelo fluxo LGPD em **Ações de Conta**.
 
 ### Matriz granular de preferências
 
-Tabela que cruza **eventos × 4 canais** (E-mail, WhatsApp, Telegram, Push) e permite controle fino sobre quais notificações receber e por onde. Os eventos estão agrupados por área:
+Tabela que cruza **eventos × 2 canais** (E-mail e Push) e permite controle fino sobre quais notificações receber e por onde. Os eventos estão agrupados por área:
 
 - **Reembolsos** (5): submetido, aprovação parcial, aprovado, rejeitado, pago.
 - **Pedidos de Pagamento** (5): submetido, aprovação parcial, aprovado, rejeitado, pago.
@@ -87,7 +84,7 @@ Para cada par (evento, canal), um switch on/off. **Default é tudo ligado** — 
 
 > 📖 **Conceito · Canal desabilitado vs canal não cadastrado**
 >
-> Se a coluna WhatsApp, Telegram ou Push aparece **desabilitada** com tooltip ("Cadastre seu número primeiro" ou "Ative push neste dispositivo"), é porque você ainda não cumpriu o pré-requisito do canal. Cumpra-o e salve — na próxima abertura da página, a coluna fica habilitada para escolher quais eventos receber por esse canal.
+> Se a coluna **Push** aparece **desabilitada** com tooltip ("Ative push neste dispositivo"), é porque você ainda não cumpriu o pré-requisito do canal. Cumpra-o e salve — na próxima abertura da página, a coluna fica habilitada para escolher quais eventos receber por esse canal.
 
 > ✓ **Dica · Calibre por papel**
 >
@@ -95,7 +92,7 @@ Para cada par (evento, canal), um switch on/off. **Default é tudo ligado** — 
 
 ## Meus dados (LGPD)
 
-Você pode **baixar uma cópia dos seus dados pessoais** no Bússola a qualquer momento — é o seu direito de acesso e portabilidade previsto na LGPD.
+Você pode **baixar uma cópia dos seus dados pessoais** no RIT360 Financeiro a qualquer momento — é o seu direito de acesso e portabilidade previsto na LGPD.
 
 [![Meus dados (LGPD) e ações de conta](/assets/screenshots/config-perfil-lgpd.png)](/assets/screenshots/config-perfil-lgpd.png)
 *Box "Meus dados (LGPD)" para baixar seus dados, e box "Ações de conta"*

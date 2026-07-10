@@ -5,7 +5,7 @@ parent: "Guias por Papel"
 permalink: /guias/comissao-fiscal/
 ---
 
-A Comissão Fiscal (ou Conselho Fiscal) é o **órgão estatutário de fiscalização** da OSC: existe para dar à organização, aos associados e aos financiadores a **segurança de que o dinheiro está sendo bem cuidado**. Não é um órgão de perseguição nem de operação — é de **verificação independente**. Este guia reúne o que se espera de quem fiscaliza, com os boxes **🧭 Como o Bússola ajuda** mostrando onde a plataforma facilita o seu trabalho.
+A Comissão Fiscal (ou Conselho Fiscal) é o **órgão estatutário de fiscalização** da OSC: existe para dar à organização, aos associados e aos financiadores a **segurança de que o dinheiro está sendo bem cuidado**. Não é um órgão de perseguição nem de operação — é de **verificação independente**. Este guia reúne o que se espera de quem fiscaliza, com os boxes **🧭 Como o RIT360 Financeiro ajuda** mostrando onde a plataforma facilita o seu trabalho.
 
 > 💡 **A ideia central**
 >
@@ -28,7 +28,7 @@ A fiscalização eficaz precisa de **acesso amplo de leitura** — e só de leit
 - Abra os detalhes: valor, categoria, conta, comprovante anexado.
 - Verifique reembolsos e pedidos: foram aprovados por quem devia, têm comprovação?
 
-> 🧭 **Como o Bússola ajuda · Acesso de leitura a tudo**
+> 🧭 **Como o RIT360 Financeiro ajuda · Acesso de leitura a tudo**
 >
 > A Comissão Fiscal lê **todas** as movimentações, reembolsos, pedidos e a trilha de auditoria — em modo somente leitura. Você examina sem poder (e sem o risco de) alterar nada, o que é exatamente o que a função exige.
 >
@@ -52,7 +52,7 @@ A tesouraria apresenta; a Comissão Fiscal **confere e atesta**. Os relatórios 
 - Compare o relatório do período com as movimentações que o sustentam.
 - Observe os **pontos de atenção** sinalizados — eles indicam onde olhar com mais cuidado.
 
-> 🧭 **Como o Bússola ajuda · Relatórios para conferência**
+> 🧭 **Como o RIT360 Financeiro ajuda · Relatórios para conferência**
 >
 > Os mesmos **Relatórios** consolidados que a tesouraria usa ficam disponíveis para a sua leitura — saldo, receitas e despesas por categoria, resultado e pontos de atenção. Você confere a partir da mesma fonte, sem versões paralelas.
 >
@@ -74,4 +74,4 @@ O parecer fiscal é a entrega do conselho — a opinião sobre a regularidade da
 
 > 💡 **No fim das contas**
 >
-> O Bússola dá à Comissão Fiscal o que ela mais precisa: **visão completa, em leitura, a partir de uma fonte única** — para que a fiscalização seja rigorosa, independente e, acima de tudo, tranquila para todos os envolvidos.
+> O RIT360 Financeiro dá à Comissão Fiscal o que ela mais precisa: **visão completa, em leitura, a partir de uma fonte única** — para que a fiscalização seja rigorosa, independente e, acima de tudo, tranquila para todos os envolvidos.
