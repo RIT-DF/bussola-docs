@@ -4,10 +4,18 @@ nav_order: 12
 permalink: /changelog/
 ---
 
-# Novidades — Bússola Financeira
+# Novidades — RIT360 Financeiro
 
 Todas as mudanças relevantes do projeto são documentadas aqui.
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:target="_blank" rel="noopener noreferrer"}.
+
+---
+
+## [1.5.0] — 2026-07-14
+
+### Melhorado
+
+- **Campo de CNPJ aceita o novo formato da Receita Federal.** A partir de julho de 2026, novos CNPJs podem conter **letras e números** (ex.: `12.ABC.345/01DE-35`). O cadastro da organização agora aceita e valida esse novo formato — inclusive conferindo o dígito verificador — e continua aceitando normalmente todos os CNPJs numéricos existentes. O CNPJ passa a aparecer sempre **formatado com a máscara padrão** nas telas e nos relatórios em PDF (prestação de contas), mesmo os que antes apareciam sem pontuação.
 
 ---
 
