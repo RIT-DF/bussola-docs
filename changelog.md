@@ -11,6 +11,15 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/){:
 
 ---
 
+## [1.6.0] — 2026-07-15
+
+### Adicionado
+
+- **Caça-diferenças: encontre a divergência entre o seu saldo e o do banco.** Em **Movimentações**, cada card de saldo por conta ganhou um ícone de **lupa**. Ao abri-lo, você informa o **saldo do extrato do banco** e a **data**, e o app calcula a diferença contra o saldo registrado e sugere **hipóteses ranqueadas** de onde pode estar o furo — lançamento duplicado, um lançamento que explica exatamente a diferença, lançamento na conta errada, combinação de dois, valor quase-igual, ou "faltante" (algo no extrato ainda não registrado). Nos casos seguros há **ações de 1 clique** (excluir a duplicata, mover para a conta certa), e a diferença é recalculada na hora. É o complemento "pelo número" da conciliação por extrato OFX, para quando você só tem o saldo final do banco.
+- **Agora dá para corrigir a conta de um lançamento já registrado.** Ao editar um lançamento, trocar a **conta** passou a ser salvo corretamente (antes a mudança era ignorada).
+
+---
+
 ## [1.5.0] — 2026-07-14
 
 ### Melhorado
